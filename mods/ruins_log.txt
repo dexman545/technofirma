@@ -1,0 +1,10 @@
+
+Loading excluded list from: C:\Users\kev12east\Downloads\MultiMC\instances\TFC b79\minecraft\saves\Copy of New World\DIM-1
+No exclusions found for this world.
+
+Loading options from: C:\Users\kev12east\Downloads\MultiMC\instances\TFC b79\minecraft\saves\Copy of New World\DIM-1
+tries_per_chunk_normal = 6
+chance_to_spawn_normal = 10.0
+templateInstancesMinDistance = 256.0
+anyRuinsMinDistance = 64.0
+Ruins mod loaded successfully for world C:\Users\kev12east\Downloads\MultiMC\instances\TFC b79\minecraft\saves\Copy of New World\DIM-1, template files: 0

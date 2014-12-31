@@ -26,7 +26,7 @@ recipes.remove(<ArchimedesShips:crate_wood>);
 recipes.addShaped(<ArchimedesShips:crate_wood>,
   [[<terrafirmacraft:item.WoolCloth>, <terrafirmacraft:item.TFC Leather>, <terrafirmacraft:item.WoolCloth>],
    [<terrafirmacraft:item.TFC Leather>, <terrafirmacraft:item.Steel Ingot>, <terrafirmacraft:item.TFC Leather>],
-   [<terrafirmacraft:item.SinglePlank>, <terrafirmacraft:item.SinglePlank>, <terrafirmacraft:item.SinglePlank>]]);
+   [<terrafirmacraft:item.SinglePlank:*>, <terrafirmacraft:item.SinglePlank:*>, <terrafirmacraft:item.SinglePlank:*>]]);
 
 recipes.remove(<ArchimedesShips:engine>);
 recipes.addShaped(<ArchimedesShips:engine>,

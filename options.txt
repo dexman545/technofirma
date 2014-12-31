@@ -1,5 +1,5 @@
 invertYMouse:false
-mouseSensitivity:0.5
+mouseSensitivity:0.63380283
 fov:0.0
 gamma:1.0
 saturation:0.0
@@ -39,7 +39,7 @@ chatHeightUnfocused:0.44366196
 chatScale:1.0
 chatWidth:1.0
 showInventoryAchievementHint:false
-mipmapLevels:4
+mipmapLevels:0
 anisotropicFiltering:16
 streamBytesPerPixel:0.5
 streamMicVolume:1.0
@@ -97,7 +97,14 @@ key_key.archimedes.brake:46
 key_key.archimedes.align:13
 key_key.archimedes.decompile:43
 key_key.archimedes.shipinv:37
-key_key.noCubes:24
+key_Toggle Xray:34
+key_Toggle Xray-Gui:33
+key_key.follow.desc:29
+key_key.chest1.desc:49
+key_key.chest2.desc:50
+key_key.ready_guns.desc:25
+key_key.fire_port.desc:26
+key_key.fire_star.desc:27
 key_wecui.keys.toggle:0
 key_wecui.keys.clear:0
 key_key.sneak:42
@@ -122,10 +129,10 @@ key_waila.keybind.liquid:80
 key_waila.keybind.recipe:81
 key_waila.keybind.usage:75
 key_key.betterfoliage.gui:66
-soundCategory_master:0.102649
-soundCategory_music:0.07042254
+soundCategory_master:0.1821192
+soundCategory_music:0.028169014
 soundCategory_record:1.0
-soundCategory_weather:0.08450704
+soundCategory_weather:0.02112676
 soundCategory_block:1.0
 soundCategory_hostile:0.4084507
 soundCategory_neutral:1.0

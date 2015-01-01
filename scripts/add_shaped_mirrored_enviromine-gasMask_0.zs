@@ -1,1 +1,0 @@
-recipes.addShaped(<enviromine:gasMask>, [[<ore:ingotWroughtIron>, <ore:materialLeather>, <ore:ingotWroughtIron>], [<ore:ingotWroughtIron>, <ore:paneGlassColorless>, <ore:ingotWroughtIron>], [<enviromine:airFilter>, <ore:ingotWroughtIron>, <enviromine:airFilter>]]);

@@ -1,7 +1,7 @@
 // Ore Dictionary stuff
 
 val drill = <Eln:Eln.sharedItemStackOne:7752>;
-val fDrill = drill.withTag({ench:[{id:32,lvl:10}]});
+val fDrill = drill.withTag({ench:[{id:32,lvl:5}]});
 
 val sand = <ore:sandBlock>;
 val iron = <ore:ingotIron>;

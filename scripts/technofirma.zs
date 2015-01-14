@@ -7,6 +7,14 @@ val tin = <ore:ingotTin>;
 val silver = <ore:ingotSilver>;
 // val diamond = <minecraft:diamond>;
 
+recipes.removeShaped(<minecraft:iron_ingot>);
+recipes.removeShaped(<minecraft:gold_ingot>);
+recipes.removeShaped(<minecraft:wool:*>);
+recipes.removeShaped(<terrafirmacraft:item.flintAndSteel>);
+recipes.addShaped(<terrafirmacraft:item.flintAndSteel>,
+[[<terrafirmacraft:item.Steel Ingot>, <minecraft:flint>]
+]);
+
 recipes.removeShaped(<yegamolchattels:bannerLarge:15>);
 recipes.addShaped(<yegamolchattels:bannerLarge:15>, 
 [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>], 

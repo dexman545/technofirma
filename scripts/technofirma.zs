@@ -9,7 +9,7 @@ val silver = <ore:ingotSilver>;
 
 recipes.removeShaped(<minecraft:iron_ingot>);
 recipes.removeShaped(<minecraft:gold_ingot>);
-recipes.removeShaped(<minecraft:wool:*>);
+//recipes.removeShaped(<minecraft:wool:*>);
 recipes.removeShaped(<terrafirmacraft:item.flintAndSteel>);
 recipes.addShaped(<terrafirmacraft:item.flintAndSteel>,
 [[<terrafirmacraft:item.Steel Ingot>, <minecraft:flint>]

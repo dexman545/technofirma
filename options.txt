@@ -1,21 +1,21 @@
 invertYMouse:false
 mouseSensitivity:0.63380283
 fov:0.0
-gamma:1.0
+gamma:0.64084506
 saturation:0.0
-renderDistance:16
+renderDistance:12
 guiScale:0
-particles:0
+particles:2
 bobView:false
 anaglyph3d:false
 advancedOpengl:true
 maxFps:260
 fboEnable:true
 difficulty:0
-fancyGraphics:true
-ao:2
+fancyGraphics:false
+ao:1
 clouds:false
-resourcePacks:["PresenceFootstepsOfficial.zip","TerraFirmaCraft Custom Footsteps 1.1.zip","technofirma_music.zip","msi_conversion.zip"]
+resourcePacks:["PresenceFootstepsOfficial.zip","TerraFirmaCraft Custom Footsteps 1.1.zip","technofirma_music.zip"]
 lastServer:
 lang:en_US
 chatVisibility:0
@@ -40,7 +40,7 @@ chatScale:1.0
 chatWidth:1.0
 showInventoryAchievementHint:false
 mipmapLevels:0
-anisotropicFiltering:16
+anisotropicFiltering:1
 streamBytesPerPixel:0.5
 streamMicVolume:1.0
 streamSystemVolume:1.0
@@ -70,11 +70,7 @@ key_key.command:53
 key_key.screenshot:60
 key_key.togglePerspective:63
 key_key.smoothCamera:0
-key_key.climb:29
 key_key.sprint:29
-key_key.config.toggle:67
-key_key.speed.increase:24
-key_key.speed.decrease:23
 key_key.streamStartStop:64
 key_key.streamPauseUnpause:65
 key_key.streamCommercial:0
@@ -97,19 +93,15 @@ key_key.archimedes.brake:46
 key_key.archimedes.align:13
 key_key.archimedes.decompile:43
 key_key.archimedes.shipinv:37
-key_Toggle Xray:34
-key_Toggle Xray-Gui:33
-key_key.follow.desc:29
-key_key.chest1.desc:49
-key_key.chest2.desc:50
-key_key.ready_guns.desc:25
-key_key.fire_port.desc:26
-key_key.fire_star.desc:27
 key_wecui.keys.toggle:0
 key_wecui.keys.clear:0
-key_key.sneak:42
 key_key.materialCosts:56
 key_key.clipboardPaste:210
+key_waila.keybind.wailaconfig:82
+key_waila.keybind.wailadisplay:79
+key_waila.keybind.liquid:207
+key_waila.keybind.recipe:199
+key_waila.keybind.usage:75
 key_Open Wiki:45
 key_Wrench:46
 key_Reload Configs:37
@@ -123,13 +115,26 @@ key_key.mw_teleport:52
 key_key.mw_zoom_in:201
 key_key.mw_zoom_out:209
 key_key.mw_underground_mode:22
-key_waila.keybind.wailaconfig:82
-key_waila.keybind.wailadisplay:79
-key_waila.keybind.liquid:80
-key_waila.keybind.recipe:81
-key_waila.keybind.usage:75
+key_Open inventory:46
+key_Increase the reverse:73
+key_Decrease the reverse:81
+key_Zero the reverse:77
+key_Toggle brakes:80
+key_Open firebox:24
+key_Horn:19
+key_Light:181
+key_Shoot:71
+key_Turn left:203
+key_Turn right:205
+key_Turn up:200
+key_Turn down:208
+key_Baubles Inventory:48
 key_key.betterfoliage.gui:66
-soundCategory_master:0.1821192
+key_railcraft.keybind.loco.faster:52
+key_railcraft.keybind.loco.slower:51
+key_railcraft.keybind.loco.mode:40
+key_railcraft.keybind.loco.whistle:12
+soundCategory_master:0.18874173
 soundCategory_music:0.028169014
 soundCategory_record:1.0
 soundCategory_weather:0.02112676

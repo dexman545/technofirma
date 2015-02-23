@@ -354,6 +354,8 @@ NEI.hide(<ThutTech:item.deviceLinker>);
 //NEI.hide(<ThutWorld:solidLava0>);
 NEI.hide(<ThutWorld:tile.solidLava3>);
 NEI.hide(<ThutWorld:tile.warmCO2>);
+//NEI.hide(<IC2:itemPurifiedCrushedOre:*>);
 //NEI.hide(<>);
+
 
 <CarpentersBlocks:blockCarpentersBlock>.displayName = "Wooden Construction Frame";

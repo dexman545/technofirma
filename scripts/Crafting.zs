@@ -40,34 +40,34 @@ recipes.removeShaped(<minecraft:minecart>, [[<ore:ingotSteel>, null, <ore:ingotS
 
 // ================================================================================
 //#MARKER ADD SHAPELESS
-recipes.addShapeless(<row:item.row.rails:1>, [<row:item.row.rails:5>]);
-recipes.addShapeless(<row:item.row.rails:5>, [<row:item.row.rails:1>]);
-recipes.addShapeless(<row:item.row.rails>, [<row:item.row.rails:4>]);
-recipes.addShapeless(<row:item.row.rails:4>, [<row:item.row.rails>]);
-recipes.addShapeless(<row:item.row.rails:19>, [<row:item.row.rails:1>, <row:item.row.rails:13>]);
-recipes.addShapeless(<row:item.row.rails:17>, [<row:item.row.rails:1>, <row:item.row.rails:11>]);
-recipes.addShapeless(<row:item.row.rails:17>, [<row:item.row.rails:1>, <row:item.row.rails:9>]);
-recipes.addShapeless(<row:item.row.rails:15>, [<row:item.row.rails:1>, <row:item.row.rails:9>]);
+//recipes.addShapeless(<row:item.row.rails:1>, [<row:item.row.rails:5>]);
+//recipes.addShapeless(<row:item.row.rails:5>, [<row:item.row.rails:1>]);
+//recipes.addShapeless(<row:item.row.rails>, [<row:item.row.rails:4>]);
+//recipes.addShapeless(<row:item.row.rails:4>, [<row:item.row.rails>]);
+//recipes.addShapeless(<row:item.row.rails:19>, [<row:item.row.rails:1>, <row:item.row.rails:13>]);
+//recipes.addShapeless(<row:item.row.rails:17>, [<row:item.row.rails:1>, <row:item.row.rails:11>]);
+//recipes.addShapeless(<row:item.row.rails:17>, [<row:item.row.rails:1>, <row:item.row.rails:9>]);
+//recipes.addShapeless(<row:item.row.rails:15>, [<row:item.row.rails:1>, <row:item.row.rails:9>]);
 recipes.addShapeless(<Railcraft:tile.railcraft.machine.alpha:7>, [<terrafirmacraft:FireBrick>]);
 
 // ================================================================================
 //#MARKER ADD SHAPED
-recipes.addShaped(<row:item.row.rails:8>, [[<row:item.row.rails:6>, <Railcraft:part.rail:4>, <row:item.row.rails:6>], [<Railcraft:part.rail:4>, <terrafirmacraft:item.SinglePlank>, <Railcraft:part.rail:4>], [<row:item.row.rails:6>, <Railcraft:part.rail:4>, <row:item.row.rails:6>]]);
-recipes.addShaped(<row:item.row.rails:7>, [[null, <Railcraft:part.rail:4>, null], [<row:item.row.rails:6>, <terrafirmacraft:item.SinglePlank>, <row:item.row.rails:6>], [null, <Railcraft:part.rail:4>, null]]);
-recipes.addShaped(<row:item.row.rails:6>, [[<row:item.row.rails:1>, <Railcraft:part.rail:4>], [<Railcraft:part.rail:4>, <ore:woodLumber>]]);
-recipes.addShaped(<row:item.row.rails:4>, [[<row:item.row.rails>]]);
-recipes.addShaped(<row:item.row.rails:31>, [[<row:item.row.rails:1>, <row:item.row.rails:25>]]);
-recipes.addShaped(<row:item.row.rails:29>, [[<row:item.row.rails:1>, <row:item.row.rails:23>]]);
-recipes.addShaped(<row:item.row.rails:27>, [[<row:item.row.rails:1>, <row:item.row.rails:21>]]);
-recipes.addShaped(<row:item.row.rails:31>, [[<row:item.row.rails:1>, <ore:woodLumber>], [<ore:woodLumber>, <ore:woodLumber>]]);
-recipes.addShaped(<row:item.row.rails:23>, [[<row:item.row.rails:1>, <ore:woodLumber>], [<ore:woodLumber>, null]]);
-recipes.addShaped(<row:item.row.rails:21>, [[<row:item.row.rails:1>, <ore:woodLumber>]]);
-recipes.addShaped(<row:item.row.rails:13>, [[<Railcraft:part.rail:4>, <row:item.row.rails>, <Railcraft:part.rail:4>], [<Railcraft:part.rail:4>, <row:item.row.rails:1>, <Railcraft:part.rail:4>], [<Railcraft:part.rail:4>, <row:item.row.rails:1>, <Railcraft:part.rail:4>]]);
-recipes.addShaped(<row:item.row.rails:11>, [[<Railcraft:part.rail:4>, <row:item.row.rails:1>, <Railcraft:part.rail:4>], [<Railcraft:part.rail:4>, <row:item.row.rails:1>, <Railcraft:part.rail:4>]]);
-recipes.addShaped(<row:item.row.rails:9>, [[<Railcraft:part.rail:4>, <row:item.row.rails:1>, <Railcraft:part.rail:4>]]);
-recipes.addShaped(<row:item.row.rails:2>, [[<ore:woodLumber>, <row:item.row.rails>, <ore:woodLumber>], [<row:item.row.rails>, <Railcraft:part.rail:4>, <row:item.row.rails>], [<ore:woodLumber>, <row:item.row.rails>, <ore:woodLumber>]]);
-recipes.addShaped(<row:item.row.rails:1>, [[<Railcraft:part.rail:4>, <row:item.row.rails>, <Railcraft:part.rail:4>], [<Railcraft:part.rail:4>, <row:item.row.rails>, <Railcraft:part.rail:4>], [<Railcraft:part.rail:4>, <row:item.row.rails>, <Railcraft:part.rail:4>]]);
-recipes.addShaped(<row:item.row.rails>, [[<ore:woodLumber>, <ore:woodLumber>, <ore:woodLumber>], [<Railcraft:part.rail:4>, <ore:woodLumber>, <Railcraft:part.rail:4>], [<ore:woodLumber>, <ore:woodLumber>, <ore:woodLumber>]]);
+//recipes.addShaped(<row:item.row.rails:8>, [[<row:item.row.rails:6>, <Railcraft:part.rail:4>, <row:item.row.rails:6>], [<Railcraft:part.rail:4>, <terrafirmacraft:item.SinglePlank>, <Railcraft:part.rail:4>], [<row:item.row.rails:6>, <Railcraft:part.rail:4>, <row:item.row.rails:6>]]);
+//recipes.addShaped(<row:item.row.rails:7>, [[null, <Railcraft:part.rail:4>, null], [<row:item.row.rails:6>, <terrafirmacraft:item.SinglePlank>, <row:item.row.rails:6>], [null, <Railcraft:part.rail:4>, null]]);
+//recipes.addShaped(<row:item.row.rails:6>, [[<row:item.row.rails:1>, <Railcraft:part.rail:4>], [<Railcraft:part.rail:4>, <ore:woodLumber>]]);
+//recipes.addShaped(<row:item.row.rails:4>, [[<row:item.row.rails>]]);
+//recipes.addShaped(<row:item.row.rails:31>, [[<row:item.row.rails:1>, <row:item.row.rails:25>]]);
+//recipes.addShaped(<row:item.row.rails:29>, [[<row:item.row.rails:1>, <row:item.row.rails:23>]]);
+//recipes.addShaped(<row:item.row.rails:27>, [[<row:item.row.rails:1>, <row:item.row.rails:21>]]);
+//recipes.addShaped(<row:item.row.rails:31>, [[<row:item.row.rails:1>, <ore:woodLumber>], [<ore:woodLumber>, <ore:woodLumber>]]);
+//recipes.addShaped(<row:item.row.rails:23>, [[<row:item.row.rails:1>, <ore:woodLumber>], [<ore:woodLumber>, null]]);
+//recipes.addShaped(<row:item.row.rails:21>, [[<row:item.row.rails:1>, <ore:woodLumber>]]);
+//recipes.addShaped(<row:item.row.rails:13>, [[<Railcraft:part.rail:4>, <row:item.row.rails>, <Railcraft:part.rail:4>], [<Railcraft:part.rail:4>, <row:item.row.rails:1>, <Railcraft:part.rail:4>], [<Railcraft:part.rail:4>, <row:item.row.rails:1>, <Railcraft:part.rail:4>]]);
+//recipes.addShaped(<row:item.row.rails:11>, [[<Railcraft:part.rail:4>, <row:item.row.rails:1>, <Railcraft:part.rail:4>], [<Railcraft:part.rail:4>, <row:item.row.rails:1>, <Railcraft:part.rail:4>]]);
+//recipes.addShaped(<row:item.row.rails:9>, [[<Railcraft:part.rail:4>, <row:item.row.rails:1>, <Railcraft:part.rail:4>]]);
+//recipes.addShaped(<row:item.row.rails:2>, [[<ore:woodLumber>, <row:item.row.rails>, <ore:woodLumber>], [<row:item.row.rails>, <Railcraft:part.rail:4>, <row:item.row.rails>], [<ore:woodLumber>, <row:item.row.rails>, <ore:woodLumber>]]);
+//recipes.addShaped(<row:item.row.rails:1>, [[<Railcraft:part.rail:4>, <row:item.row.rails>, <Railcraft:part.rail:4>], [<Railcraft:part.rail:4>, <row:item.row.rails>, <Railcraft:part.rail:4>], [<Railcraft:part.rail:4>, <row:item.row.rails>, <Railcraft:part.rail:4>]]);
+//recipes.addShaped(<row:item.row.rails>, [[<ore:woodLumber>, <ore:woodLumber>, <ore:woodLumber>], [<Railcraft:part.rail:4>, <ore:woodLumber>, <Railcraft:part.rail:4>], [<ore:woodLumber>, <ore:woodLumber>, <ore:woodLumber>]]);
 recipes.addShaped(<Railcraft:borehead.diamond>, [[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>], [<ore:ingotSteel>, <Eln:Eln.sharedItem:962>, <ore:ingotSteel>], [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]]);
 recipes.addShaped(<Railcraft:borehead.steel>, [[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>], [<ore:ingotSteel>, <Eln:Eln.sharedItem:961>, <ore:ingotSteel>], [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]]);
 recipes.addShaped(<Railcraft:borehead.iron>, [[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>], [<ore:ingotSteel>, <Eln:Eln.sharedItem:961>, <ore:ingotSteel>], [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]]);

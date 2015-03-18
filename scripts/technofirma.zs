@@ -114,7 +114,26 @@ recipes.addShapeless(<Eln:Eln.sharedItem:4096> * 4, [<ore:logWood>,<ore:itemHamm
 recipes.addShapeless(<OpenComputers:item:32>, [<terrafirmacraft:item.Clay>,<ore:itemKnife>,<terrafirmacraft:item.Powder:8>, <minecraft:gold_nugget>, <terrafirmacraft:item.Silver Sheet>, <terrafirmacraft:item.LooseRock:15>]);
 recipes.addShapeless(<minecraft:stone_button>, [<terrafirmacraft:item.LooseRock>, <ore:itemChisel>, <ore:itemHammer>]);
 
-//Blood Magic
+//Ships
+recipes.addShaped(<cuchaz.ships:berth>, [[<ore:materialCloth>, <ore:materialCloth>, <ore:materialCloth>], [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
+recipes.addShaped(<cuchaz.ships:blockHelm>, [[null, <ore:stickWood>, null], [<ore:stickWood>, null, <ore:stickWood>], [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
+recipes.addShaped(<cuchaz.ships:paddle>, [[null, <ore:stickWood>, <ore:stickWood>], [null, <ore:stickWood>, <ore:stickWood>], [<ore:stickWood>, null, null]]);
+recipes.addShaped(<cuchaz.ships:blockShip:6>, [[<minecraft:wool:12>, <minecraft:wool:12>, <minecraft:wool:12>], [<minecraft:wool:12>, <ore:stickWood>, <minecraft:wool:12>], [<minecraft:wool:12>, <ore:stickWood>, <minecraft:wool:12>]]);
+recipes.addShaped(<cuchaz.ships:blockShip:5>, [[<minecraft:wool:12>, <minecraft:wool:12>, <minecraft:wool:12>], [<minecraft:wool:12>, <ore:stickWood>, <minecraft:wool:12>], [<minecraft:wool:12>, <ore:stickWood>, null]]);
+recipes.addShaped(<cuchaz.ships:blockShip:4>, [[<minecraft:wool:12>, <minecraft:wool:12>, <minecraft:wool:12>], [<minecraft:wool:12>, <ore:stickWood>, null], [<minecraft:wool:12>, <ore:stickWood>, null]]);
+recipes.addShaped(<cuchaz.ships:blockShip:3>, [[<minecraft:wool:12>, <minecraft:wool:12>], [<minecraft:wool:12>, <ore:stickWood>], [<minecraft:wool:12>, <ore:stickWood>]]);
+recipes.addShaped(<cuchaz.ships:blockShip:2>, [[<minecraft:wool:12>, null], [<minecraft:wool:12>, <ore:stickWood>], [<minecraft:wool:12>, <ore:stickWood>]]);
+recipes.addShaped(<cuchaz.ships:blockShip:1>, [[<minecraft:wool:12>, <ore:stickWood>], [<minecraft:wool:12>, <ore:stickWood>]]);
+recipes.addShaped(<cuchaz.ships:blockShip>, [[null, <ore:stickWood>], [<minecraft:wool:12>, <ore:stickWood>]]);
+recipes.addShaped(<cuchaz.ships:blockShip:6>, [[<minecraft:wool>, <minecraft:wool>, <minecraft:wool>], [<minecraft:wool>, <ore:stickWood>, <minecraft:wool>], [<minecraft:wool>, <ore:stickWood>, <minecraft:wool>]]);
+recipes.addShaped(<cuchaz.ships:blockShip:5>, [[<minecraft:wool>, <minecraft:wool>, <minecraft:wool>], [<minecraft:wool>, <ore:stickWood>, <minecraft:wool>], [<minecraft:wool>, <ore:stickWood>, null]]);
+recipes.addShaped(<cuchaz.ships:blockShip:4>, [[<minecraft:wool>, <minecraft:wool>, <minecraft:wool>], [<minecraft:wool>, <ore:stickWood>, null], [<minecraft:wool>, <ore:stickWood>, null]]);
+recipes.addShaped(<cuchaz.ships:blockShip:3>, [[<minecraft:wool>, <minecraft:wool>], [<minecraft:wool>, <ore:stickWood>], [<minecraft:wool>, <ore:stickWood>]]);
+recipes.addShaped(<cuchaz.ships:blockShip:2>, [[<minecraft:wool>, null], [<minecraft:wool>, <ore:stickWood>], [<minecraft:wool>, <ore:stickWood>]]);
+recipes.addShaped(<cuchaz.ships:blockShip:1>, [[<minecraft:wool>, <ore:stickWood>], [<minecraft:wool>, <ore:stickWood>]]);
+recipes.addShaped(<cuchaz.ships:blockShip>, [[null, <ore:stickWood>], [<minecraft:wool>, <ore:stickWood>]]);
+recipes.addShaped(<minecraft:wool:12>, [[<terrafirmacraft:item.BurlapCloth>, <terrafirmacraft:item.BurlapCloth>], [<terrafirmacraft:item.BurlapCloth>, <terrafirmacraft:item.BurlapCloth>]]);
+recipes.addShaped(<minecraft:wool>, [[<terrafirmacraft:item.WoolCloth>, <ore:materialCloth>], [<ore:materialCloth>, <ore:materialCloth>]]);
 
 
 recipes.removeShaped(<Eln:Eln.Copper Axe>);

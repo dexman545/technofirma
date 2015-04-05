@@ -1,0 +1,17 @@
+{
+    "name": "Fire Infused Quartz",
+    "default-texture": "TCFire",
+    "texture-info": {
+        "front": "",
+        "back": "",
+        "left": "",
+        "right": "",
+        "top": "",
+        "bottom": ""
+    },
+    "material": "rock",
+    "hardness": 1,
+    "drops": [
+        {"item": "minecraft:cobblestone", "damage": 1, "amount": "1"}
+    ]
+}

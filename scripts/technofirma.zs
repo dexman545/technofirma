@@ -7,6 +7,11 @@ val tin = <ore:ingotTin>;
 val silver = <ore:ingotSilver>;
 // val diamond = <minecraft:diamond>;
 
+mods.railcraft.CokeOven.removeRecipe(<minecraft:coal:1>);
+mods.railcraft.CokeOven.removeRecipe(<minecraft:coal:*>);
+
+furnace.addRecipe(<Tubes:dustPlastic>, <Eln:Eln.sharedItem:4097>);
+
 recipes.removeShaped(<minecraft:iron_ingot>);
 recipes.removeShaped(<minecraft:gold_ingot>);
 //recipes.removeShaped(<minecraft:wool:*>);

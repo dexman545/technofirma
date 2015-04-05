@@ -1,0 +1,197 @@
+CRIMSON:The Crimson Cult
+ASPECTS:Aspects of Magic
+KNOWFRAG:Knowledge Fragments
+DECONSTRUCTOR:Deconstruction table
+PECH:The Pech
+RESEARCHDUPE:Research Duplication
+RESEARCHER1:Research Expertise
+NODETAPPER2:Master Node Tapping
+ENCHANT:Enchantments
+RESEARCHER2:Research Mastery
+NODETAPPER1:Advanced Node Tapping
+NODEJAR:Node in a Jar
+NODES:Auras and Nodes
+WARP:Warp, Flux and all things bad
+RESEARCH:Research
+ORE:Ores
+THAUMONOMICON:Thaumonomicon
+NODEPRESERVE:Node Preserver
+PLANTS:Plants & Trees
+ROD_blaze_staff:Blaze Rod Staff Core
+NODESTABILIZERADV:Advanced Node Stabilizer
+ROD_wood:tc.research_name.ROD_wood
+FOCUSWARDING:Wand Focus: Warding
+FOCUSPOUCH:Focus Pouch
+ROD_blaze:Blaze Rod Wand Core
+WANDPED:Wand Recharge Pedestal
+FOCUSFIRE:Wand Foci
+FOCUSHELLBAT:Wand Focus: Nine Hells
+CAP_silver:Silver Wand Caps
+VISPOWER:Harnessing Vis
+ROD_greatwood:Greatwood Wand Core
+CAP_copper:Copper Wand Caps
+NODESTABILIZER:Node Stabilizer
+ROD_silverwood_staff:Silverwood Staff Core
+BASICTHAUMATURGY:Basic Wand Craft
+FOCUSFROST:Wand Focus: Frost
+ROD_reed:Reed Wand Core
+ROD_quartz:Quartz Wand Core
+ROD_reed_staff:Reed Staff Core
+VISAMULET:Vis Storage
+VAMPBAT:Tier 5 Upgrade: Vampire Bats
+ROD_quartz_staff:Quartz Staff Core
+FOCALMANIPULATION:Focal Manipulation
+ROD_obsidian_staff:Obsidian Staff Core
+ROD_bone_staff:Bone Staff Core
+FOCUSTRADE:Wand Focus: Equal Trade
+ROD_obsidian:Obsidian Wand Core
+FOCUSEXCAVATION:Wand Focus: Excavation
+CAP_thaumium:Thaumium Wand Caps
+ROD_ice:Icy Wand Core
+SCEPTRE:Crafting Scepters
+ROD_ice_staff:Icy Staff Core
+ROD_bone:Bone Wand Core
+ROD_silverwood:Silverwood Wand Core
+VISCHARGERELAY:Vis Charging Relay
+ROD_greatwood_staff:Magic Staves
+CAP_gold:Gold Wand Caps
+CAP_iron:tc.research_name.CAP_iron
+WANDPEDFOC:Compound Recharge Focus
+FOCUSPORTABLEHOLE:Wand Focus: Portable Hole
+FOCUSSHOCK:Wand Focus: Shock
+TRANSSILVER:Silver Transmutation
+THAUMIUM:Magical Metallurgy
+NITOR:Nitor
+TRANSLEAD:Lead Transmutation
+CRUCIBLE:Basic Alchemy
+ALCHEMICALDUPLICATION:Alchemical Duplication
+TRANSGOLD:Gold Transmutation
+LIQUIDDEATH:Liquid Death
+ETHEREALBLOOM:Ethereal Bloom
+THAUMATORIUM:Automated Alchemy
+TRANSTIN:Tin Transmutation
+PUREGOLD:Gold Purification
+JARVOID:Void Jar
+ALCHEMICALMANUFACTURE:Alchemical Manufacture
+SANESOAP:Sanitizing Soap
+TRANSCOPPER:Copper Transmutation
+TRANSIRON:Metal Transmutation
+TUBEFILTER:Advanced Essentia Tubes
+DISTILESSENTIA:Essentia Distillation
+ESSENTIACRYSTAL:Essentia Crystallization
+ENTROPICPROCESSING:Entropic Processing
+TALLOW:Magic Tallow
+BATHSALTS:Purifying Bath Salts
+ARCANESPA:Arcane Spa
+BOTTLETAINT:Bottled Taint
+JARLABEL:Warded Jars and Labels
+CENTRIFUGE:Alchemical Centrifuge
+PHIAL:Glass Phial
+ALUMENTUM:Alumentum
+TUBES:Essentia Tubes
+PUREIRON:Metal Purification
+ARCANELAMP:Arcane Lamp
+LAMPGROWTH:Lamp of Growth
+ARCTABLE:Arcane Worktable
+MASKSIPPINGFIEND:Sipping Fiend Faceplate
+INFUSION:Infusion
+GRATE:Item Grate
+WARDEDARCANA:Warded Arcana
+TABLE:Table
+THAUMOMETER:Thaumometer
+RUNICEMERGENCY:Amulet of Emergency Shielding
+BASICARTIFACE:Basic Artifacing
+ELEMENTALHOE:Hoe of Growth
+MASKGRINNINGDEVIL:Grinning Devil Faceplate
+LEVITATOR:Arcane Levitator
+INFUSIONENCHANTMENT:Infusion Enchantment
+ELEMENTALAXE:Axe of the Stream
+HOVERGIRDLE:Thaumostatic Girdle
+ELEMENTALSHOVEL:Shovel of the Earthmover
+BANNERS:Banners
+PAVETRAVEL:Paving Stone of Travel
+MIRRORHAND:Magical Hand Mirror
+ELEMENTALPICK:Pickaxe of the Core
+BOOTSTRAVELLER:Boots of the Traveler
+SINSTONE:Sinister Lodestone
+RUNICKINETIC:Kinetic Girdle of Shielding
+RUNICARMOR:Runic Shielding
+ARCANEBORE:Arcane Bore
+BELLOWS:Arcane Bellows
+RUNICHEALING:Revitalizing Ring of Shielding
+INFERNALFURNACE:Infernal Furnace
+ARCANESTONE:Arcane Stone
+ARMORFORTRESS:Thaumium Fortress Armor
+ELEMENTALSWORD:Sword of the Zephyr
+MIRRORESSENTIA:Essentia Mirrors
+FLUXSCRUB:Flux Scrubber
+HELMGOGGLES:Helm of Revealing
+GOGGLES:Goggles of Revealing
+PAVEWARD:Paving Stone of Warding
+RUNICAUGMENTATION:Runic Shielding Augmentation
+PRIMALARROW:Primal Arrows
+ENCHFABRIC:Enchanted Fabric
+MASKANGRYGHOST:Angry Ghost Faceplate
+BONEBOW:Bone Bow
+JARBRAIN:Brain in a Jar
+RESTABLE:Research Table
+HOVERHARNESS:Thaumostatic Harness
+MIRROR:Mirror Magic
+ARCANEEAR:Arcane Ear
+LAMPFERTILITY:Lamp of Fertility
+RUNICCHARGED:Charged Ring of Shielding
+GOLEMCLAY:Clay Golems
+TINYHAMMER:Golem Mace
+GOLEMIRON:Iron Golems
+TINYDART:Golem Dart Launcher
+TRAVELTRUNK:Traveling Trunk
+UPGRADEORDER:Golem Upgrade: Order
+GOLEMTHAUMIUM:Thaumium Golems
+CORELIQUID:Golem Core: Decanting
+TINYHAT:Tiny Hats
+GOLEMBELL:Golemancer's Bell
+COREGATHER:Golem Core: Gather
+COREFILL:Golem Core: Fill
+COREFISHING:Golem Core: Fishing
+TINYARMOR:Golem Iron Plating
+TINYVISOR:Golem Visor
+HUNGRYCHEST:Hungry Chest
+UPGRADEENTROPY:Golem Upgrade: Entropy
+GOLEMFETTER:Golem Fetter
+GOLEMSTONE:Stone Golems
+GOLEMWOOD:Wooden Golems
+GOLEMTALLOW:Tallow Golems
+ADVANCEDGOLEM:Advanced Golems
+COREALCHEMY:Golem Core: Alchemy
+CORELUMBER:Golem Core: Chop
+TINYFEZ:Tiny Fezzes
+COREEMPTY:Golem Core: Empty
+COREHARVEST:Golem Core: Harvest
+COREBUTCHER:Golem Core: Butcher
+GOLEMSTRAW:Straw Golems
+UPGRADEWATER:Golem Upgrade: Water
+CORESORTING:Golem Core: Sorting
+GOLEMFLESH:Flesh Golems
+COREUSE:Golem Core: Use
+UPGRADEFIRE:Golem Upgrade: Fire
+UPGRADEEARTH:Golem Upgrade: Earth
+TINYBOWTIE:Tiny Bowties
+TINYGLASSES:Tiny Spectacles
+COREGUARD:Golem Core: Guard
+UPGRADEAIR:Golem Upgrade: Air
+PRIMPEARL:Primordial Pearl
+ROD_primal_staff:Staff Core of the Primal
+FOCUSPRIMAL:Wand Focus: Primal
+OCULUS:Opening the Eye
+VOIDMETAL:Void metal
+OUTERREV:Revelations in the Outer Lands
+ARMORVOIDFORTRESS:Void Thaumaturge Robes
+CAP_void:Void metal Wand Caps
+ELDRITCHMINOR:Eldritch Epiphany
+ESSENTIARESERVOIR:Advanced Essentia Storage
+ELDRITCHMAJOR:Eldritch Revelation
+ADVALCHEMYFURNACE:Advanced Alchemical Furnace
+PRIMNODE:Primordial Node Manipulation
+PRIMALCRUSHER:Primal Crusher
+ENTEROUTER:The Outer Lands
+SANITYCHECK:Sanity Check

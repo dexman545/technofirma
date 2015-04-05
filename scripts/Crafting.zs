@@ -14,19 +14,19 @@
 //#MARKER REMOVE
 recipes.remove(<Railcraft:tool.steel.shovel>);
 recipes.remove(<Railcraft:part.signal.lamp>);
-recipes.remove(<Railcraft:tile.railcraft.anvil>);
-recipes.remove(<Railcraft:tile.railcraft.lantern.metal:5>);
-recipes.remove(<Railcraft:tile.railcraft.lantern.metal:4>);
-recipes.remove(<Railcraft:tile.railcraft.lantern.metal:3>);
-recipes.remove(<Railcraft:tile.railcraft.lantern.metal:1>);
-recipes.remove(<Railcraft:tile.railcraft.lantern.metal>);
+recipes.remove(<Railcraft:anvil>);
+recipes.remove(<Railcraft:lantern.metal:5>);
+recipes.remove(<Railcraft:lantern.metal:4>);
+recipes.remove(<Railcraft:lantern.metal:3>);
+recipes.remove(<Railcraft:lantern.metal:1>);
+recipes.remove(<Railcraft:lantern.metal>);
 recipes.remove(<Railcraft:ingot:3>);
 recipes.remove(<Railcraft:ingot:2>);
 recipes.remove(<Railcraft:ingot:1>);
-recipes.remove(<Railcraft:tile.railcraft.machine.alpha:6>);
-recipes.remove(<Railcraft:tile.railcraft.machine.alpha:13>);
+recipes.remove(<Railcraft:machine.alpha:6>);
+recipes.remove(<Railcraft:machine.alpha:13>);
 recipes.remove(<Railcraft:ingot>);
-recipes.remove(<Railcraft:tile.railcraft.machine.alpha:7>);
+recipes.remove(<Railcraft:machine.alpha:7>);
 
 // ================================================================================
 //#MARKER REMOVE SHAPELESS
@@ -48,7 +48,7 @@ recipes.removeShaped(<minecraft:minecart>, [[<ore:ingotSteel>, null, <ore:ingotS
 //recipes.addShapeless(<row:item.row.rails:17>, [<row:item.row.rails:1>, <row:item.row.rails:11>]);
 //recipes.addShapeless(<row:item.row.rails:17>, [<row:item.row.rails:1>, <row:item.row.rails:9>]);
 //recipes.addShapeless(<row:item.row.rails:15>, [<row:item.row.rails:1>, <row:item.row.rails:9>]);
-recipes.addShapeless(<Railcraft:tile.railcraft.machine.alpha:7>, [<terrafirmacraft:FireBrick>]);
+recipes.addShapeless(<Railcraft:machine.alpha:7>, [<terrafirmacraft:FireBrick>]);
 
 // ================================================================================
 //#MARKER ADD SHAPED
@@ -72,35 +72,35 @@ recipes.addShaped(<Railcraft:borehead.diamond>, [[<ore:ingotSteel>, <ore:ingotSt
 recipes.addShaped(<Railcraft:borehead.steel>, [[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>], [<ore:ingotSteel>, <Eln:Eln.sharedItem:961>, <ore:ingotSteel>], [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]]);
 recipes.addShaped(<Railcraft:borehead.iron>, [[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>], [<ore:ingotSteel>, <Eln:Eln.sharedItem:961>, <ore:ingotSteel>], [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]]);
 recipes.addShaped(<Railcraft:borehead.iron>, [[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>], [<ore:ingotSteel>, <Eln:Eln.sharedItem:960>, <ore:ingotSteel>], [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]]);
-recipes.addShaped(<Railcraft:tile.railcraft.signal>, [[null, <Railcraft:part.circuit>, null], [<ore:ingotIron>, <Railcraft:part.circuit:1>, <terrafirmacraft:item.Wrought Iron Ingot>], [<ore:ingotIron>, <ore:dustRedstone>, <ore:ingotIron>]]);
-recipes.addShaped(<Railcraft:tile.railcraft.signal:6>, [[<ore:ingotIron>, <minecraft:comparator>, <ore:ingotIron>], [<ore:ingotIron>, <minecraft:redstone>, <ore:ingotIron>]]);
-recipes.addShaped(<Railcraft:tile.railcraft.signal:7>, [[<ore:ingotIron>, <minecraft:repeater>, <ore:ingotIron>], [<ore:ingotIron>, <minecraft:redstone>, <ore:ingotIron>]]);
-recipes.addShaped(<Railcraft:tile.railcraft.signal:8>, [[<ore:ingotIron>, <Railcraft:part.circuit:1>, <ore:ingotIron>], [<ore:ingotIron>, <minecraft:redstone>, <ore:ingotIron>]]);
-recipes.addShaped(<Railcraft:tile.railcraft.signal:10>, [[<ore:ingotIron>, <Railcraft:part.circuit>, <ore:ingotIron>], [<ore:ingotIron>, <minecraft:comparator>, <ore:ingotIron>]]);
-recipes.addShaped(<Railcraft:tile.railcraft.machine.gamma:1>, [[<terrafirmacraft:StoneSedCobble:1>, <ore:stoneCobble>, <terrafirmacraft:StoneSedCobble:1>], [<ore:stoneCobble>, <minecraft:hopper>, <ore:stoneCobble>], [<terrafirmacraft:StoneSedCobble:1>, <Railcraft:tile.railcraft.detector>, <terrafirmacraft:StoneSedCobble:1>]]);
-recipes.addShaped(<Railcraft:tile.railcraft.machine.gamma:1>, [[<terrafirmacraft:StoneSedCobble:1>, <ore:stoneCobble>, <terrafirmacraft:StoneSedCobble:1>], [<ore:stoneCobble>, <Railcraft:tile.railcraft.detector>, <ore:stoneCobble>], [<terrafirmacraft:StoneSedCobble:1>, <minecraft:hopper>, <terrafirmacraft:StoneSedCobble:1>]]);
-recipes.addShaped(<Railcraft:tile.railcraft.machine.gamma:2>, [[<ore:ingotSteel>, <ore:dustRedstone>, <ore:ingotSteel>], [<ore:dustRedstone>, <Railcraft:tile.railcraft.machine.gamma>, <ore:dustRedstone>], [<ore:ingotSteel>, <terrafirmacraft:item.Steel Shovel>, <terrafirmacraft:item.Steel Ingot>]]);
-recipes.addShaped(<Railcraft:tile.railcraft.machine.gamma:3>, [[<ore:ingotSteel>, <ore:dustRedstone>, <ore:ingotSteel>], [<ore:dustRedstone>, <Railcraft:tile.railcraft.machine.gamma:1>, <ore:dustRedstone>], [<ore:ingotSteel>, <terrafirmacraft:item.Steel Shovel>, <ore:ingotSteel>]]);
+recipes.addShaped(<Railcraft:signal>, [[null, <Railcraft:part.circuit>, null], [<ore:ingotIron>, <Railcraft:part.circuit:1>, <terrafirmacraft:item.Wrought Iron Ingot>], [<ore:ingotIron>, <ore:dustRedstone>, <ore:ingotIron>]]);
+recipes.addShaped(<Railcraft:signal:6>, [[<ore:ingotIron>, <minecraft:comparator>, <ore:ingotIron>], [<ore:ingotIron>, <minecraft:redstone>, <ore:ingotIron>]]);
+recipes.addShaped(<Railcraft:signal:7>, [[<ore:ingotIron>, <minecraft:repeater>, <ore:ingotIron>], [<ore:ingotIron>, <minecraft:redstone>, <ore:ingotIron>]]);
+recipes.addShaped(<Railcraft:signal:8>, [[<ore:ingotIron>, <Railcraft:part.circuit:1>, <ore:ingotIron>], [<ore:ingotIron>, <minecraft:redstone>, <ore:ingotIron>]]);
+recipes.addShaped(<Railcraft:signal:10>, [[<ore:ingotIron>, <Railcraft:part.circuit>, <ore:ingotIron>], [<ore:ingotIron>, <minecraft:comparator>, <ore:ingotIron>]]);
+recipes.addShaped(<Railcraft:machine.gamma:1>, [[<terrafirmacraft:StoneSedCobble:1>, <ore:stoneCobble>, <terrafirmacraft:StoneSedCobble:1>], [<ore:stoneCobble>, <minecraft:hopper>, <ore:stoneCobble>], [<terrafirmacraft:StoneSedCobble:1>, <Railcraft:detector>, <terrafirmacraft:StoneSedCobble:1>]]);
+recipes.addShaped(<Railcraft:machine.gamma:1>, [[<terrafirmacraft:StoneSedCobble:1>, <ore:stoneCobble>, <terrafirmacraft:StoneSedCobble:1>], [<ore:stoneCobble>, <Railcraft:detector>, <ore:stoneCobble>], [<terrafirmacraft:StoneSedCobble:1>, <minecraft:hopper>, <terrafirmacraft:StoneSedCobble:1>]]);
+recipes.addShaped(<Railcraft:machine.gamma:2>, [[<ore:ingotSteel>, <ore:dustRedstone>, <ore:ingotSteel>], [<ore:dustRedstone>, <Railcraft:machine.gamma>, <ore:dustRedstone>], [<ore:ingotSteel>, <terrafirmacraft:item.Steel Shovel>, <terrafirmacraft:item.Steel Ingot>]]);
+recipes.addShaped(<Railcraft:machine.gamma:3>, [[<ore:ingotSteel>, <ore:dustRedstone>, <ore:ingotSteel>], [<ore:dustRedstone>, <Railcraft:machine.gamma:1>, <ore:dustRedstone>], [<ore:ingotSteel>, <terrafirmacraft:item.Steel Shovel>, <ore:ingotSteel>]]);
 recipes.addShaped(<minecraft:comparator>, [[null, <ore:dustRedstone>, null], [<ore:dustRedstone>, <ore:oc:cpu1>, <ore:dustRedstone>], [<ore:stone>, <ore:stone>, <ore:stone>]]);
-recipes.addShaped(<Railcraft:tile.railcraft.detector:8>, [[<terrafirmacraft:item.ItemStoneBrick>, <terrafirmacraft:item.ItemStoneBrick>, <terrafirmacraft:item.ItemStoneBrick>], [<terrafirmacraft:item.ItemStoneBrick>, <minecraft:stone_pressure_plate>, <terrafirmacraft:item.ItemStoneBrick>], [<terrafirmacraft:item.ItemStoneBrick>, <Eln:Eln.SixNode:6980>, <terrafirmacraft:item.ItemStoneBrick>]]);
+recipes.addShaped(<Railcraft:detector:8>, [[<terrafirmacraft:item.ItemStoneBrick>, <terrafirmacraft:item.ItemStoneBrick>, <terrafirmacraft:item.ItemStoneBrick>], [<terrafirmacraft:item.ItemStoneBrick>, <minecraft:stone_pressure_plate>, <terrafirmacraft:item.ItemStoneBrick>], [<terrafirmacraft:item.ItemStoneBrick>, <Eln:Eln.SixNode:6980>, <terrafirmacraft:item.ItemStoneBrick>]]);
 recipes.addShaped(<Railcraft:part.signal.lamp>, [[<ore:paneGlassColorless>, <minecraft:dye:10>, null], [<ore:paneGlassColorless>, <ore:dustLapis>, <Eln:Eln.sharedItem:260>], [<ore:paneGlassColorless>, <ore:dustIron>, null]]);
 recipes.addShaped(<Railcraft:part.circuit:2>, [[<OpenComputers:item:32>, <OpenComputers:item:24>]]);
 recipes.addShaped(<Railcraft:part.circuit:1>, [[<OpenComputers:item:32>, <OpenComputers:item:11>]]);
 recipes.addShaped(<Railcraft:part.circuit>, [[<OpenComputers:item:32>, <OpenComputers:item:29>]]);
 recipes.addShaped(<Railcraft:tool.whistle.tuner>, [[<terrafirmacraft:item.Steel Chisel>, <terrafirmacraft:item.Steel Chisel>]]);
-recipes.addShaped(<Railcraft:tile.railcraft.signal:9>, [[<terrafirmacraft:item.Wrought Iron Ingot>, <Railcraft:part.circuit>, <ore:ingotIron>], [<ore:ingotIron>, <minecraft:redstone>, <ore:ingotIron>]]);
-recipes.addShaped(<Railcraft:tile.railcraft.signal:13>, [[<terrafirmacraft:item.Wrought Iron Ingot>, <Railcraft:part.circuit:2>, <ore:ingotIron>], [<ore:ingotIron>, <minecraft:redstone>, <ore:ingotIron>]]);
-recipes.addShaped(<Railcraft:tile.railcraft.signal:11>, [[<Railcraft:part.signal.lamp>, <Railcraft:part.circuit:1>, <ore:ingotIron>], [null, <terrafirmacraft:item.dyePowder>, <ore:ingotIron>]]);
-recipes.addShaped(<Railcraft:tile.railcraft.signal:1>, [[<Railcraft:part.signal.lamp>, <Railcraft:part.circuit:2>, <ore:ingotIron>], [null, <terrafirmacraft:item.dyePowder>, <ore:ingotIron>], [<Railcraft:part.signal.lamp>, <Railcraft:part.circuit:1>, <ore:ingotIron>]]);
-recipes.addShaped(<Railcraft:tile.railcraft.signal:12>, [[<Railcraft:part.signal.lamp>, <Railcraft:part.circuit:1>, <ore:ingotIron>], [null, <terrafirmacraft:item.dyePowder>, <ore:ingotIron>], [<Railcraft:part.signal.lamp>, <Railcraft:part.circuit:1>, <ore:ingotIron>]]);
-recipes.addShaped(<Railcraft:tile.railcraft.signal:3>, [[<Railcraft:part.signal.lamp>, <Railcraft:part.circuit:2>, <ore:ingotIron>], [null, <ore:dyeBlack>, <ore:ingotIron>]]);
-recipes.addShaped(<Railcraft:tile.railcraft.detector:16>, [[<ore:stoneSmooth>, <ore:stoneSmooth>, <ore:stoneSmooth>], [<ore:stoneSmooth>, <minecraft:stone_pressure_plate>, <ore:stoneSmooth>], [<ore:stoneSmooth>, <ore:stoneSmooth>, <ore:stoneSmooth>]]);
-recipes.addShaped(<Railcraft:tile.railcraft.signal:2>, [[<ore:dustIron>, <ore:dyeBlack>, <ore:dyeWhite>], [<ore:ingotIron>, <Railcraft:part.circuit:1>, <ore:craftingPiston>]]);
-recipes.addShaped(<Railcraft:tile.railcraft.signal:4>, [[<ore:dustIron>, <ore:dyeBlack>, <ore:dyeWhite>], [<ore:ingotIron>, <minecraft:lever>, <ore:craftingPiston>]]);
+recipes.addShaped(<Railcraft:signal:9>, [[<terrafirmacraft:item.Wrought Iron Ingot>, <Railcraft:part.circuit>, <ore:ingotIron>], [<ore:ingotIron>, <minecraft:redstone>, <ore:ingotIron>]]);
+recipes.addShaped(<Railcraft:signal:13>, [[<terrafirmacraft:item.Wrought Iron Ingot>, <Railcraft:part.circuit:2>, <ore:ingotIron>], [<ore:ingotIron>, <minecraft:redstone>, <ore:ingotIron>]]);
+recipes.addShaped(<Railcraft:signal:11>, [[<Railcraft:part.signal.lamp>, <Railcraft:part.circuit:1>, <ore:ingotIron>], [null, <terrafirmacraft:item.dyePowder>, <ore:ingotIron>]]);
+recipes.addShaped(<Railcraft:signal:1>, [[<Railcraft:part.signal.lamp>, <Railcraft:part.circuit:2>, <ore:ingotIron>], [null, <terrafirmacraft:item.dyePowder>, <ore:ingotIron>], [<Railcraft:part.signal.lamp>, <Railcraft:part.circuit:1>, <ore:ingotIron>]]);
+recipes.addShaped(<Railcraft:signal:12>, [[<Railcraft:part.signal.lamp>, <Railcraft:part.circuit:1>, <ore:ingotIron>], [null, <terrafirmacraft:item.dyePowder>, <ore:ingotIron>], [<Railcraft:part.signal.lamp>, <Railcraft:part.circuit:1>, <ore:ingotIron>]]);
+recipes.addShaped(<Railcraft:signal:3>, [[<Railcraft:part.signal.lamp>, <Railcraft:part.circuit:2>, <ore:ingotIron>], [null, <ore:dyeBlack>, <ore:ingotIron>]]);
+recipes.addShaped(<Railcraft:detector:16>, [[<ore:stoneSmooth>, <ore:stoneSmooth>, <ore:stoneSmooth>], [<ore:stoneSmooth>, <minecraft:stone_pressure_plate>, <ore:stoneSmooth>], [<ore:stoneSmooth>, <ore:stoneSmooth>, <ore:stoneSmooth>]]);
+recipes.addShaped(<Railcraft:signal:2>, [[<ore:dustIron>, <ore:dyeBlack>, <ore:dyeWhite>], [<ore:ingotIron>, <Railcraft:part.circuit:1>, <ore:craftingPiston>]]);
+recipes.addShaped(<Railcraft:signal:4>, [[<ore:dustIron>, <ore:dyeBlack>, <ore:dyeWhite>], [<ore:ingotIron>, <minecraft:lever>, <ore:craftingPiston>]]);
 recipes.addShaped(<Railcraft:part.tie>, [[null, <Railcraft:fluid.creosote.bottle>.giveBack(<terrafirmacraft:item.Glass Bottle>), null], [<ore:woodLumber>, <ore:woodLumber>, <ore:woodLumber>]]);
 recipes.addShaped(<minecraft:minecart>, [[<ore:plateSteel>, null, <ore:plateSteel>], [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
-recipes.addShaped(<Railcraft:tile.railcraft.machine.beta:5>, [[<terrafirmacraft:item.Fire Brick:1>, <terrafirmacraft:item.Fire Brick:1>, <terrafirmacraft:item.Fire Brick:1>], [<terrafirmacraft:item.Fire Brick:1>, <terrafirmacraft:item.flintAndSteel>, <terrafirmacraft:item.Fire Brick:1>], [<terrafirmacraft:item.Fire Brick:1>, <Eln:Eln.TransparentNode:192>, <terrafirmacraft:item.Fire Brick:1>]]);
+recipes.addShaped(<Railcraft:machine.beta:5>, [[<terrafirmacraft:item.Fire Brick:1>, <terrafirmacraft:item.Fire Brick:1>, <terrafirmacraft:item.Fire Brick:1>], [<terrafirmacraft:item.Fire Brick:1>, <terrafirmacraft:item.flintAndSteel>, <terrafirmacraft:item.Fire Brick:1>], [<terrafirmacraft:item.Fire Brick:1>, <Eln:Eln.TransparentNode:192>, <terrafirmacraft:item.Fire Brick:1>]]);
 recipes.addShaped(<minecraft:dispenser>, [[<ore:stoneCobble>, <ore:stoneCobble>, <ore:stoneCobble>], [<ore:stoneCobble>, <terrafirmacraft:item.bow>, <ore:stoneCobble>], [<ore:stoneCobble>, <ore:craftingPiston>, <ore:stoneCobble>]]);
-recipes.addShaped(<Railcraft:tile.railcraft.machine.alpha:13>, [[<Eln:Eln.sharedItem:962>, <Railcraft:part.plate:1>, <terrafirmacraft:item.book>], [<Railcraft:part.plate:1>, <BiblioCraft:BiblioWorkbench:*>, <Railcraft:part.plate:1>], [<ore:craftingPiston>, <Railcraft:part.plate:1>, <ore:craftingPiston>]]);
-recipes.addShaped(<Railcraft:tile.railcraft.machine.alpha:15> * 4, [[<ore:craftingPiston>, <ore:oreDiamond>, <ore:craftingPiston>], [<ore:oreDiamond>, <ore:blockSteel>, <ore:oreDiamond>], [<ore:craftingPiston>, <ore:oreDiamond>, <ore:craftingPiston>]]);
+recipes.addShaped(<Railcraft:machine.alpha:13>, [[<Eln:Eln.sharedItem:962>, <Railcraft:part.plate:1>, <terrafirmacraft:item.book>], [<Railcraft:part.plate:1>, <BiblioCraft:BiblioWorkbench:*>, <Railcraft:part.plate:1>], [<ore:craftingPiston>, <Railcraft:part.plate:1>, <ore:craftingPiston>]]);
+recipes.addShaped(<Railcraft:machine.alpha:15> * 4, [[<ore:craftingPiston>, <ore:oreDiamond>, <ore:craftingPiston>], [<ore:oreDiamond>, <ore:blockSteel>, <ore:oreDiamond>], [<ore:craftingPiston>, <ore:oreDiamond>, <ore:craftingPiston>]]);
 

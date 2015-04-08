@@ -1,7 +1,7 @@
 // Ore Dictionary stuff
 
 val drill = <Eln:Eln.sharedItemStackOne:7752>;
-val fDrill = drill.withTag({ench:[{id:32,lvl:5}]});
+val fDrill = drill;
 
 val sand = <ore:sandBlock>;
 val iron = <ore:ingotIron>;
@@ -135,7 +135,7 @@ recipes.addShaped( <Eln:Eln.sharedItem:272> * 4, [[null, pane, null], [pane, red
 recipes.addShaped( <Eln:Eln.sharedItem:273> * 4, [[null, pane, null], [pane, redstone, pane], [null, lvolt, null]]);
 recipes.addShaped( <Eln:Eln.sharedItem:274> * 4, [[null, pane, null], [pane, redstone, pane], [null, mvolt, null]]);
 recipes.addShaped( <Eln:Eln.sharedItem:960> * 1, [[cchip, <Eln:Eln.sharedItem:640>, cchip], [null, <Eln:Eln.sharedItem:640>, null], [null, <terrafirmacraft:item.Wrought Iron Pick>, null]]);
-recipes.addShaped( <Eln:Eln.sharedItem:961> * 1, [[redstone, cchip, redstone], [null, <Eln:Eln.sharedItem:960>, null], [<ore:gemChipped>, <ore:gemChipped>, <ore:gemChipped>]]);
+recipes.addShaped( <Eln:Eln.sharedItem:961> * 1, [[redstone, cchip, redstone], [null, <Eln:Eln.sharedItem:960>, null], [<ore:gemFlawed>, <ore:gemFlawed>, <ore:gemFlawed>]]);
 recipes.addShaped( <Eln:Eln.sharedItem:962> * 1, [[<Eln:Eln.sharedItem:640>, achip, <Eln:Eln.sharedItem:640>], [null, <Eln:Eln.sharedItem:1088>, null], [null, <terrafirmacraft:item.Steel Pick>, null]]);
 recipes.addShaped( fDrill * 1, [[null, <Eln:Eln.sharedItem:961>, null], [iron, <Eln:Eln.sharedItemStackOne:7808>, iron], [null, iron, null]]);
 recipes.addShaped( <Eln:Eln.sharedItemStackOne:7756> * 1, [[null, <terrafirmacraft:item.Wrought Iron Axe>, null], [iron, <Eln:Eln.sharedItemStackOne:7808>, iron], [iron, <Eln:Eln.sharedItem:640>, iron]]);

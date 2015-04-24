@@ -18,7 +18,8 @@ mods.thaumcraft.Aspects.set(<terrafirmacraft:ClayGrass2:*>, "herba 1, aer 1");
 mods.thaumcraft.Aspects.set(<terrafirmacraft:ClayGrass:*>, "herba 1, aer 1");
 mods.thaumcraft.Aspects.set(<terrafirmacraft:Grass:*>, "herba 1, aer 1");
 mods.thaumcraft.Aspects.set(<terrafirmacraft:Grass2:*>, "herba 1, aer 1");
-
+mods.thaumcraft.Aspects.set(<minecraft:ender_eye>, "spiritus 3");
+mods.thaumcraft.Aspects.set(<terrafirmacraft:item.egg>, "spiritus 4");
 
 //Arcane Workbench Recipes
 //ResearchKey, ResultStack, AspectsList, ShapedRecipe

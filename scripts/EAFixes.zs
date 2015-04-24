@@ -3,7 +3,7 @@
 val drill = <Eln:Eln.sharedItemStackOne:7752>;
 val fDrill = drill;
 
-val sand = <ore:sandBlock>;
+val sand = <ore:blockSand>;
 val iron = <ore:ingotIron>;
 val tin = <ore:ingotTin>;
 val brass = <ore:ingotBrass>;
@@ -52,8 +52,9 @@ rawstone.add(<terrafirmacraft:StoneMM:*>);
 tungsten.add(<terrafirmacraft:item.Platinum Ingot>);
 anycoal.add(<terrafirmacraft:item.coal:*>);
 anycoal.add(<terrafirmacraft:item.Ore:14>);
+val sa = <minecraft:sand>;
 // Fix for TnT (yes I know there are powder keg, but little booms are fun too!)
-recipes.addShaped( <minecraft:tnt> * 1, [[gp, sand, gp], [sand, gp, sand], [gp, sand, gp]]);
+recipes.addShaped( <minecraft:tnt> * 1, [[gp, sa, gp], [sa, gp, sa], [gp, sa, gp]]);
 // Easier paper recipes (because it just makes sense)
 recipes.addShapeless( <minecraft:paper> *1, [<ore:logWood>, <ore:bucketWater>]);
 // Carpenter's Hammer
@@ -79,7 +80,7 @@ recipes.addShaped( <Eln:Eln.SixNode:4160> * 1, [[null, iron, null], [iron, coppe
 recipes.addShaped( <Eln:Eln.SixNode:4224> * 1, [[redstone, iron, redstone], [iron, iron, iron], [redstone, lvolt, redstone]]);
 recipes.addShaped( <Eln:Eln.SixNode:4225> * 1, [[redstone, iron, redstone], [iron, cchip, iron], [redstone, lvolt, redstone]]);
 recipes.addShaped( <Eln:Eln.SixNode:4228> * 1, [[redstone, iron, redstone], [iron, achip, iron], [redstone, mvolt, redstone]]);
-recipes.addShaped( icable * 6, [[iron, iron, iron]]);
+//recipes.addShaped( icable * 6, [[iron, iron, iron]]);
 recipes.addShaped( <Eln:Eln.SixNode:5888> * 1, [[null, <Eln:Eln.sharedItem:7713>, null], [iron, cchip, iron]]);
 recipes.addShaped( <Eln:Eln.SixNode:5896> * 1, [[null, <Eln:Eln.sharedItem:7713>, null], [null, redstone, null], [iron, cchip, iron]]);
 recipes.addShaped( <Eln:Eln.SixNode:5904> * 1, [[<Eln:Eln.sharedItem:7713>, null, <Eln:Eln.sharedItem:7713>], [redstone, null, redstone], [iron, cchip, iron]]);
@@ -135,8 +136,8 @@ recipes.addShaped( <Eln:Eln.sharedItem:272> * 4, [[null, pane, null], [pane, red
 recipes.addShaped( <Eln:Eln.sharedItem:273> * 4, [[null, pane, null], [pane, redstone, pane], [null, lvolt, null]]);
 recipes.addShaped( <Eln:Eln.sharedItem:274> * 4, [[null, pane, null], [pane, redstone, pane], [null, mvolt, null]]);
 recipes.addShaped( <Eln:Eln.sharedItem:960> * 1, [[cchip, <Eln:Eln.sharedItem:640>, cchip], [null, <Eln:Eln.sharedItem:640>, null], [null, <terrafirmacraft:item.Wrought Iron Pick>, null]]);
-recipes.addShaped( <Eln:Eln.sharedItem:961> * 1, [[redstone, cchip, redstone], [null, <Eln:Eln.sharedItem:960>, null], [<ore:gemFlawed>, <ore:gemFlawed>, <ore:gemFlawed>]]);
-recipes.addShaped( <Eln:Eln.sharedItem:962> * 1, [[<Eln:Eln.sharedItem:640>, achip, <Eln:Eln.sharedItem:640>], [null, <Eln:Eln.sharedItem:1088>, null], [null, <terrafirmacraft:item.Steel Pick>, null]]);
+//recipes.addShaped( <Eln:Eln.sharedItem:961> * 1, [[redstone, cchip, redstone], [null, <Eln:Eln.sharedItem:960>, null], [<ore:gemFlawed>, <ore:gemFlawed>, <ore:gemFlawed>]]);
+recipes.addShaped( <Eln:Eln.sharedItem:962> * 1, [[<Eln:Eln.sharedItem:641>, achip, <Eln:Eln.sharedItem:641>], [null, <Eln:Eln.sharedItem:1088>, null], [null, <terrafirmacraft:item.Steel Pick>, null]]);
 recipes.addShaped( fDrill * 1, [[null, <Eln:Eln.sharedItem:961>, null], [iron, <Eln:Eln.sharedItemStackOne:7808>, iron], [null, iron, null]]);
 recipes.addShaped( <Eln:Eln.sharedItemStackOne:7756> * 1, [[null, <terrafirmacraft:item.Wrought Iron Axe>, null], [iron, <Eln:Eln.sharedItemStackOne:7808>, iron], [iron, <Eln:Eln.sharedItem:640>, iron]]);
 recipes.addShaped( <Eln:Eln.sharedItemStackOne:7744> * 1, [[pane, <Eln:Eln.sharedItem:256>, pane], [iron, <Eln:Eln.sharedItemStackOne:7808>, iron], [null, iron, null]]);

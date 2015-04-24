@@ -32,4 +32,4 @@ mods.thaumcraft.Research.orphanResearch("TRANSLEAD");
 mods.thaumcraft.Research.removeResearch("TRANSLEAD");
 
 mods.thaumcraft.Crucible.removeRecipe(<minecraft:dirt>);
-mods.thaumcraft.Crucible.addRecipe("NITOR", <Thaumcraft:ItemResource:1>, <BiblioCraft:BiblioLantern:*>, "ignis 5, aer 5, potentia 5");
+mods.thaumcraft.Crucible.addRecipe("NITOR", <Thaumcraft:ItemResource:1>, <DecorationsTFC:Lantern.Gold>, "ignis 5, aer 5, potentia 5");

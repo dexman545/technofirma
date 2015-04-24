@@ -23,6 +23,11 @@ recipes.remove(<Thaumcraft:ItemEssence> * 8);
 recipes.remove(<Thaumcraft:ItemResource:13> * 4);
 recipes.remove(<minecraft:chest>);
 recipes.remove(<MCP_Cart:wooden_cart>);
+recipes.remove(<minecraft:bucket>);
+recipes.remove(<Thaumcraft:WandCap:1>);
+recipes.remove(<Thaumcraft:WandCap>);
+recipes.remove(<Thaumcraft:WandCap:3>);
+recipes.remove(<Thaumcraft:WandCap:5>);
 
 // ================================================================================
 //#MARKER REMOVE SHAPELESS
@@ -30,6 +35,10 @@ recipes.remove(<MCP_Cart:wooden_cart>);
 // ================================================================================
 //#MARKER REMOVE SHAPED
 recipes.removeShaped(<minecraft:iron_ingot> * 9, [[<ore:blockIron>]]);
+recipes.removeShaped(<Thaumcraft:WandCap:1>);
+recipes.removeShaped(<Thaumcraft:WandCap>);
+recipes.removeShaped(<Thaumcraft:WandCap:3>);
+recipes.removeShaped(<Thaumcraft:WandCap:5>);
 
 // ================================================================================
 //#MARKER ADD

@@ -364,6 +364,9 @@ NEI.hide(<BiblioCraft:BiblioPaneler:4>);
 NEI.hide(<BiblioCraft:BiblioPaneler:5>);
 //NEI.hide(<4921>);
 
+NEI.hide(<terrafirmacraft:StoneSed:5>);
+NEI.addEntry(<terrafirmacraft:StoneSed:5>.withTag({display: {Name: "Dolomite", Lore: ["It ain't right without Dolomite"]}}));
+
 
 <CarpentersBlocks:blockCarpentersBlock>.displayName = "Wooden Construction Frame";
 <minecraft:iron_ingot>.displayName = "Refined Iron";

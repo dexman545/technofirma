@@ -5,11 +5,11 @@ gamma:0.64084506
 saturation:0.0
 renderDistance:8
 guiScale:3
-particles:1
+particles:0
 bobView:false
 anaglyph3d:false
 advancedOpengl:true
-maxFps:260
+maxFps:40
 fboEnable:true
 difficulty:0
 fancyGraphics:true
@@ -25,7 +25,7 @@ chatLinksPrompt:true
 chatOpacity:1.0
 snooperEnabled:false
 fullscreen:false
-enableVsync:true
+enableVsync:false
 hideServerAddress:false
 advancedItemTooltips:true
 pauseOnLostFocus:true
@@ -102,6 +102,8 @@ key_Door Open / Close Key:0
 key_Mode Switch Key:0
 key_Debug Key:68
 key_Reload Models Key:0
+key_Pneumatic Helmet Options:26
+key_Pneumatic Helmet Hack:35
 key_Swap Arrows Forward:51
 key_Swap Arrows Backward:52
 key_Toggle Ropes+ Arrows:40
@@ -129,6 +131,7 @@ key_Dynamic Lights toggle:38
 key_Reload Configs:37
 key_Add/Remove Custom Config:36
 key_Enviromine Menu:157
+key_Convert OreDict Items:42
 key_invtweaks.key.sort:21
 key_key.mw_open_gui:50
 key_key.mw_new_marker:210
@@ -145,10 +148,10 @@ key_railcraft.keybind.loco.slower:0
 key_railcraft.keybind.loco.mode:0
 key_railcraft.keybind.loco.whistle:12
 soundCategory_master:0.38410595
-soundCategory_music:0.2112676
+soundCategory_music:0.04225352
 soundCategory_record:1.0
 soundCategory_weather:1.0
-soundCategory_block:1.0
+soundCategory_block:0.3028169
 soundCategory_hostile:0.4084507
 soundCategory_neutral:1.0
 soundCategory_player:1.0

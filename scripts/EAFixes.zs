@@ -148,6 +148,7 @@ recipes.addShaped( <Eln:Eln.sharedItemStackOne:7808> * 1, [[null, copper, null],
 //recipes.addShaped(<Eln:Eln.sharedItem:7697>,
 
 furnace.addRecipe(<Eln:Eln.sharedItem:7697>, <Eln:Eln.sharedItem:7696>);
+furnace.addRecipe(<minecraft:end_stone>, <terrafirmacraft:StoneMM:*>);
 
 // Open Computer Recipes
 recipes.addShapeless( <minecraft:gold_nugget> * 9, [gold]);

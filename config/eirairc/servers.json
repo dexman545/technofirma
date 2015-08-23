@@ -1,0 +1,18 @@
+[
+  {
+    "address": "irc.darkserver.co.uk",
+    "nick": "DSUK1TF",
+    "bot": {
+      "ident": "DSTF",
+      "description": "EiraIRC Bot for Technofirma"
+    },
+    "settings": {
+      "autoJoin": true
+    },
+    "channels": [
+      {
+        "name": "#mc"
+      }
+    ]
+  }
+]

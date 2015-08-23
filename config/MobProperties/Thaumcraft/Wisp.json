@@ -1,0 +1,18 @@
+{
+  "_name": "Thaumcraft.Wisp",
+  "drops": [],
+  "pre_stats": [],
+  "stats": [    {
+      "function": "modifier",
+      "attribute": "generic.maxHealth",
+      "value": 20,
+      "operator": 1
+    },
+    {
+      "function": "modifier",
+      "attribute": "generic.attackDamage",
+      "value": "100.0",
+      "operator": 1
+    }
+	]
+}

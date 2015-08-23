@@ -1,13 +1,6 @@
-mods.railcraft.CokeOven.removeRecipe(<minecraft:coal:1>);
-mods.railcraft.CokeOven.removeRecipe(<minecraft:coal:*>);
 //Coke oven recipes
 //InputStack, matchDamage, matchNBT, OutputStack, fluidOutput, Cook time
 //mods.railcraft.CokeOven.removeRecipe(<*>);
-mods.railcraft.CokeOven.removeRecipe(<minecraft:coal:1>);
-mods.railcraft.CokeOven.removeRecipe(<minecraft:coal:*>);
-mods.railcraft.CokeOven.addRecipe(<terrafirmacraft:item.coal>, false, false, <minecraft:coal>, <liquid:creosote> * 250, 100);
-mods.railcraft.CokeOven.addRecipe(<terrafirmacraft:item.Log>, false, false, <terrafirmacraft:Charcoal>, <liquid:creosote> * 100, 10000);
-mods.railcraft.CokeOven.removeRecipe(<minecraft:coal:1>);
 
 val steel = <terrafirmacraft:item.Steel Ingot>;
 

@@ -6,11 +6,14 @@ val steel = <ore:ingotSteel>;
 val tin = <ore:ingotTin>;
 val silver = <ore:ingotSilver>;
 // val diamond = <minecraft:diamond>;
+val bauxite = <ore:oreAluminum>;
+bauxite.add(<terrafirmacraft:item.Ore:16>);
 
-mods.railcraft.CokeOven.removeRecipe(<minecraft:coal:1>);
-mods.railcraft.CokeOven.removeRecipe(<minecraft:coal:*>);
+//mods.railcraft.CokeOven.removeRecipe(<minecraft:coal:1>);
+//mods.railcraft.CokeOven.removeRecipe(<minecraft:coal:*>);
 
 furnace.addRecipe(<Tubes:dustPlastic>, <Eln:Eln.sharedItem:4097>);
+furnace.addRecipe(<Thaumcraft:ItemResource:3>, <terrafirmacraft:item.Ore:27>);
 
 recipes.removeShaped(<minecraft:iron_ingot>);
 recipes.removeShaped(<minecraft:gold_ingot>);
@@ -199,21 +202,5 @@ recipes.remove(<minecraft:lit_pumpkin>);
 // .withTag({ench:[{id:32,lvl:10}]});
 // val 
 
-recipes.addShapeless(<ThutWorld:item.dust:4> * 5,
-[<terrafirmacraft:item.Mortar>, <terrafirmacraft:Sand:6>]);
-
 var gravel = <terrafirmacraft:Gravel:*>;
 //var gravel = <terrafirmacraft:Gravel2:*>;
-
-recipes.addShaped(<ThutConcrete:concreteLiquid> * 8,
-[[gravel, <ThutWorld:item.dust:4>, gravel],
-[<ThutWorld:item.dust:4>, <terrafirmacraft:item.Wooden Bucket Water>, <ThutWorld:item.dust:4>],
-[gravel, <ThutWorld:item.dust:4>, gravel]]);
-
-recipes.addShaped(<ThutConcrete:asphaltLiquid>, [
-[<terrafirmacraft:item.coal>, <terrafirmacraft:item.coal>, <terrafirmacraft:item.coal>],
-[<terrafirmacraft:item.coal>, <ThutConcrete:concreteLiquid>, <terrafirmacraft:item.coal>],
-[<terrafirmacraft:item.coal>, <terrafirmacraft:item.coal>, <terrafirmacraft:item.coal>]
-]);
-
-

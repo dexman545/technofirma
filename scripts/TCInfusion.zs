@@ -31,5 +31,6 @@ mods.thaumcraft.Research.removeResearch("TRANSSILVER");
 mods.thaumcraft.Research.orphanResearch("TRANSLEAD");
 mods.thaumcraft.Research.removeResearch("TRANSLEAD");
 
-mods.thaumcraft.Crucible.removeRecipe(<minecraft:dirt>);
-mods.thaumcraft.Crucible.addRecipe("NITOR", <Thaumcraft:ItemResource:1>, <DecorationsTFC:Lantern.Gold>, "ignis 5, aer 5, potentia 5");
+mods.thaumcraft.Crucible.addRecipe("NITOR", <Thaumcraft:ItemResource:1>, <terrafirmacraft:OilLamp>, "ignis 5, aer 5, potentia 5");
+
+mods.thaumcraft.Crucible.addRecipe("ALUMENTUM", <Thaumcraft:blockCustomPlant:1>, <Thaumcraft:blockCustomPlant>, "ordo 2, permutatio 12");

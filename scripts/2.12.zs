@@ -42,11 +42,11 @@ recipes.addShapeless(<minecraft:chest_minecart>, [<minecraft:chest>, <minecraft:
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<terrafirmacraft:Workbench>,[[<terrafirmacraft:planks:*>, <terrafirmacraft:planks:*>], [<terrafirmacraft:planks:*>, <terrafirmacraft:planks:*>]]);
 recipes.addShaped(<Railcraft:machine.beta:15>, [[<ore:plateSteel>, <chisel:iron_bars:1>, <ore:plateSteel>], [<chisel:iron_bars:1>, <minecraft:lever>, <chisel:iron_bars:1>], [<ore:plateSteel>, <chisel:iron_bars:1>, <ore:plateSteel>]]);
 recipes.addShaped(<ImmersiveEngineering:woodenDevice:4>, [[<ImmersiveEngineering:woodenDecoration>, <ImmersiveEngineering:woodenDecoration>, <ImmersiveEngineering:woodenDecoration>], [<ImmersiveEngineering:woodenDecoration>, <ore:blockSteel>, <ImmersiveEngineering:woodenDecoration>], [<ImmersiveEngineering:woodenDecoration>, <ImmersiveEngineering:woodenDecoration>, <ImmersiveEngineering:woodenDecoration>]]);
 recipes.addShaped(<ImmersiveEngineering:metalDevice:11> * 8, [[<ore:materialLeather>, <ore:materialLeather>, <ore:materialLeather>], [<ore:ingotIron>, <Eln:Eln.sharedItem:640>, <ore:ingotIron>]]);
 recipes.addShaped(<minecraft:boat>, [[<terrafirmacraft:planks:*>, null, <terrafirmacraft:planks:*>], [<terrafirmacraft:planks:*>, <terrafirmacraft:planks:*>, <terrafirmacraft:planks:*>]]);
-recipes.addShaped(<minecraft:boat>, [[<terrafirmacraft:planks:4>, null, <ore:plankWood>], [<terrafirmacraft:planks:4>, <terrafirmacraft:planks:4>, <ore:plankWood>]]);
 recipes.addShaped(<ImmersiveEngineering:woodenDevice>, [[<ImmersiveEngineering:woodenDecoration:1>], [<ImmersiveEngineering:woodenDecoration:1>], [<ore:stoneBricks>]]);
 recipes.addShaped(<ImmersiveEngineering:seed>, [[<terrafirmacraft:item.Seeds Jute>, <ore:seedFlax>]]);
 recipes.addShaped(<ImmersiveEngineering:stoneDevice>, [[<ore:lumpClay>, <ore:lumpClay>, <ore:lumpClay>], [<ImmersiveEngineering:material:3>, <ImmersiveEngineering:material:3>, <ImmersiveEngineering:material:3>], [<ore:lumpClay>, <ore:lumpClay>, <ore:lumpClay>]]);

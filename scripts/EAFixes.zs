@@ -60,10 +60,6 @@ recipes.addShapeless( <minecraft:paper> *1, [<ore:logWood>, <ore:bucketWater>]);
 // Carpenter's Hammer
 recipes.addShaped( <CarpentersBlocks:itemCarpentersHammer> * 1, [[iron, iron, null], [null, <CarpentersBlocks:blockCarpentersBlock>, iron], [null, <CarpentersBlocks:blockCarpentersBlock>, null]]);
 // Electrical Age Recipes
-//recipes.remove(<Eln:Eln.SixNode:*>);
-//recipes.remove(<Eln:Eln.sharedItem:*>);
-//recipes.remove(<Eln:Eln.TransparentNode:*>);
-furnace.remove(<Eln:Eln.sharedItem:*>);
 recipes.addShaped( rubber * 8, [[resin, resin, resin], [resin, saltpeter, resin], [resin, resin, resin]]);
 recipes.addShaped( scable * 6, [[rubber, rubber, rubber], [tin, tin, tin], [rubber, rubber, rubber]]);
 recipes.addShaped( <Eln:Eln.SixNode:3073> * 6, [[cobble, cobble, cobble], [copper, copper, copper], [cobble, cobble, cobble]]);

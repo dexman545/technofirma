@@ -1,3 +1,44 @@
+import minetweaker.item.IItemStack;
+
+val drill = <Eln:Eln.sharedItemStackOne:7752>;
+val fDrill = drill;
+
+val sand = <ore:blockSand>;
+val iron = <ore:ingotIron>;
+val tin = <ore:ingotTin>;
+val brass = <ore:ingotBrass>;
+val copper = <ore:ingotCopper>;
+val gold = <ore:ingotGold>;
+val plat = <ore:ingotPlatinum>;
+val lead = <ore:ingotLead>;
+val cobble = <ore:cobbleStone>;
+val rawstone = <ore:rawStone>;
+val redstone = <minecraft:redstone>;
+val pane = <minecraft:glass_pane>;
+val gp = <minecraft:gunpowder>;
+val rubber = <Eln:Eln.sharedItem:4097>;
+val resin = <Eln:Eln.sharedItem:4096>;
+val saltpeter = <terrafirmacraft:item.Powder:4>;
+val lvolt = <Eln:Eln.SixNode:2052>;
+val mvolt = <Eln:Eln.SixNode:2056>;
+val hvolt = <Eln:Eln.SixNode:2060>;
+val vhvolt = <Eln:Eln.SixNode:2064>;
+val thermcable = <Eln:Eln.SixNode:3073>;
+val scable = <Eln:Eln.SixNode:2048>;
+val ccable = <Eln:Eln.sharedItem:4160>;
+val icable = <Eln:Eln.sharedItem:4161>;
+val tcable = <Eln:Eln.sharedItem:4262>;
+val cchip = <Eln:Eln.sharedItem:7680>;
+val achip = <Eln:Eln.sharedItem:7681>;
+val csheet = <terrafirmacraft:item.Copper Sheet>;
+val zsheet = <terrafirmacraft:item.Zinc Sheet>;
+val tsheet = <terrafirmacraft:item.Tin Sheet>;
+val isheet = <terrafirmacraft:item.Wrought Iron Sheet>;
+val tungsten = <ore:ingotElnTungsten>;
+val anycoal = <ore:anyCoal>;
+val sa = <minecraft:sand>;
+
+
 // ================================================================================
 //#MARKER REMOVE
 recipes.remove(<Eln:eln.EnergyConverterElnToOtherHVUBlock>);
@@ -44,6 +85,8 @@ recipes.removeShaped(<Eln:Eln.E-Coal Leggings>);
 //#MARKER ADD SHAPELESS
 recipes.addShapeless(<Eln:Eln.sharedItem:4096> * 4, [<ore:logWood>,<ore:itemHammer>]);
 //recipes.addShapeless(<Eln:Eln.sharedItem:4097>, [<Eln:Eln.sharedItem:4096>, <terrafirmacraft:item.Powder:9>]);
+recipes.addShapeless( <Eln:Eln.SixNode:6656> * 1, [<Eln:Eln.sharedItem:7696>, <Eln:Eln.SixNode:6912>]);
+recipes.addShapeless( <Eln:Eln.SixNode:6657> * 1, [<Eln:Eln.sharedItem:7696>, <Eln:Eln.SixNode:6912>, rubber]);
 
 
 // ================================================================================
@@ -55,65 +98,6 @@ recipes.addShaped(<Eln:Eln.SixNode:6669>, [[null, <ore:plateIron>, null], [<ore:
 recipes.addShaped(<Eln:Eln.SixNode:6669>, [[null, <ore:plateIron>, null], [<ore:plateIron>, <Eln:Eln.SixNode:6668>, <ore:plateIron>], [null, <ore:plateIron>, null]]);
 
 furnace.addRecipe(<Eln:Eln.sharedItem:519>, <Eln:Eln.sharedItem:9>);
-
-
-// Ore Dictionary stuff
-
-val drill = <Eln:Eln.sharedItemStackOne:7752>;
-val fDrill = drill;
-
-val sand = <ore:blockSand>;
-val iron = <ore:ingotIron>;
-val tin = <ore:ingotTin>;
-val brass = <ore:ingotBrass>;
-val copper = <ore:ingotCopper>;
-val gold = <ore:ingotGold>;
-val plat = <ore:ingotPlatinum>;
-val lead = <ore:ingotLead>;
-val cobble = <ore:cobbleStone>;
-val rawstone = <ore:rawStone>;
-val redstone = <minecraft:redstone>;
-val pane = <minecraft:glass_pane>;
-val gp = <minecraft:gunpowder>;
-val rubber = <Eln:Eln.sharedItem:4097>;
-val resin = <Eln:Eln.sharedItem:4096>;
-val saltpeter = <terrafirmacraft:item.Powder:4>;
-val lvolt = <Eln:Eln.SixNode:2052>;
-val mvolt = <Eln:Eln.SixNode:2056>;
-val hvolt = <Eln:Eln.SixNode:2060>;
-val vhvolt = <Eln:Eln.SixNode:2064>;
-val thermcable = <Eln:Eln.SixNode:3073>;
-val scable = <Eln:Eln.SixNode:2048>;
-val ccable = <Eln:Eln.sharedItem:4160>;
-val icable = <Eln:Eln.sharedItem:4161>;
-val tcable = <Eln:Eln.sharedItem:4262>;
-val cchip = <Eln:Eln.sharedItem:7680>;
-val achip = <Eln:Eln.sharedItem:7681>;
-val csheet = <terrafirmacraft:item.Copper Sheet>;
-val zsheet = <terrafirmacraft:item.Zinc Sheet>;
-val tsheet = <terrafirmacraft:item.Tin Sheet>;
-val isheet = <terrafirmacraft:item.Wrought Iron Sheet>;
-val tungsten = <ore:ingotElnTungsten>;
-val anycoal = <ore:anyCoal>;
-tin.add(<terrafirmacraft:item.Tin Ingot>);
-brass.add(<terrafirmacraft:item.Brass Ingot>);
-plat.add(<terrafirmacraft:item.Platinum Ingot>);
-gold.add(<terrafirmacraft:item.Gold Ingot>);
-sand.add(<terrafirmacraft:Sand:*>);
-sand.add(<terrafirmacraft:Sand2:*>);
-cobble.add(<terrafirmacraft:StoneIgInCobble:*>);
-cobble.add(<terrafirmacraft:StoneIgExCobble:*>);
-cobble.add(<terrafirmacraft:StoneSedCobble:*>);
-cobble.add(<terrafirmacraft:StoneMMCobble:*>);
-rawstone.add(<terrafirmacraft:StoneIgIn:*>);
-rawstone.add(<terrafirmacraft:StoneIgEx:*>);
-rawstone.add(<terrafirmacraft:StoneMM:*>);
-tungsten.add(<terrafirmacraft:item.Platinum Ingot>);
-anycoal.add(<terrafirmacraft:item.coal:*>);
-anycoal.add(<terrafirmacraft:item.Ore:14>);
-val sa = <minecraft:sand>;
-
-
 
 // Electrical Age Recipes
 recipes.addShaped( rubber * 8, [[resin, resin, resin], [resin, saltpeter, resin], [resin, resin, resin]]);
@@ -157,8 +141,6 @@ recipes.addShaped( <Eln:Eln.SixNode:7492> * 1, [[icable, redstone, icable], [tin
 recipes.addShaped( <Eln:Eln.TransparentNode:128> *1, [[ccable, null, ccable], [iron, iron, iron]]);
 recipes.addShaped( <Eln:Eln.sharedItem:384> * 1, [[null, rawstone, null], [rawstone, null, rawstone], [null, rawstone, null]]);
 recipes.addShaped( <Eln:Eln.TransparentNode:192> * 1, [[rawstone, rawstone, rawstone], [rawstone, <Eln:Eln.sharedItem:384>, rawstone], [rawstone, thermcable, rawstone]]);
-recipes.addShapeless( <Eln:Eln.SixNode:6656> * 1, [<Eln:Eln.sharedItem:7696>, <Eln:Eln.SixNode:6912>]);
-recipes.addShapeless( <Eln:Eln.SixNode:6657> * 1, [<Eln:Eln.sharedItem:7696>, <Eln:Eln.SixNode:6912>, rubber]);
 recipes.addShaped( <Eln:Eln.SixNode:6664> * 1, [[null, iron, null], [null, redstone, null], [iron, null, iron]]);
 recipes.addShaped( <Eln:Eln.sharedItem:640> * 1, [[null, lvolt, null], [iron, iron, iron], [lvolt, null, lvolt]]);
 recipes.addShaped( <Eln:Eln.sharedItem:7682> * 1, [[iron, iron, iron], [iron, ccable, iron], [iron, iron, iron]]);
@@ -198,16 +180,12 @@ recipes.addShaped( <Eln:Eln.sharedItemStackOne:7808> * 1, [[null, copper, null],
 
 // Silicon
 //recipes.addShaped(<Eln:Eln.sharedItem:7697>,
-
 furnace.addRecipe(<Eln:Eln.sharedItem:7697>, <Eln:Eln.sharedItem:7696>);
 
-
-import minetweaker.item.IItemStack;
 
 furnace.addRecipe(<Eln:Eln.sharedItem:519>, <Eln:Eln.sharedItem:9>);
 furnace.addRecipe(<minecraft:iron_ingot>, <Eln:Eln.sharedItem:578>);
 
-val redstone = <minecraft:redstone>;
 
 val cchip = <Eln:Eln.sharedItem:7680>;
 val cC = <terrafirmacraft:item.Black Steel Ingot>;

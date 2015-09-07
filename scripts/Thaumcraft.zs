@@ -1,31 +1,39 @@
-//Changing Aspects - Additions, Replacements, Removals
-//ItemStack, AspectsList
-//mods.thaumcraft.Aspects.add(<Botania:manaCookie:*>, "aqua 1, terra 3, tempestas 45");
-//ItemStack, AspectsList
-//mods.thaumcraft.Aspects.set(<minecraft:dirt:*>, "ignis 23");
-//ItemStack, AspectsList
-//mods.thaumcraft.Aspects.remove(<minecraft:glowstone_dust>, "lux 2");
+// ================================================================================
+//#MARKER REMOVE
+recipes.remove(<Thaumcraft:ItemHoeThaumium>);
+recipes.remove(<Thaumcraft:ItemSwordThaumium>);
+recipes.remove(<Thaumcraft:ItemAxeThaumium>);
+recipes.remove(<Thaumcraft:ItemPickThaumium>);
+recipes.remove(<Thaumcraft:ItemShovelThaumium>);
+recipes.remove(<Thaumcraft:ItemResource:9>);
+recipes.remove(<Thaumcraft:ItemThaumometer>);
+recipes.remove(<Thaumcraft:ItemEssence> * 8);
+recipes.remove(<Thaumcraft:ItemResource:13> * 4);
+recipes.remove(<Thaumcraft:WandCap:1>);
+recipes.remove(<Thaumcraft:WandCap>);
+recipes.remove(<Thaumcraft:WandCap:3>);
+recipes.remove(<Thaumcraft:WandCap:5>);
 
-recipes.removeShaped(<minecraft:snow>);
+// ================================================================================
+//#MARKER REMOVE SHAPELESS
 
-//Aspect Additions/Changes
-mods.thaumcraft.Aspects.add(<terrafirmacraft:sapling:*>, "herba 2, arbor 1");
-mods.thaumcraft.Aspects.set(<terrafirmacraft:Dirt:*>, "terra 2");
-mods.thaumcraft.Aspects.set(<terrafirmacraft:Dirt2:*>, "terra 2");
-mods.thaumcraft.Aspects.set(<terrafirmacraft:PeatGrass:*>, "herba 1, aer 1");
-mods.thaumcraft.Aspects.set(<terrafirmacraft:TallGrass:*>, "herba 1, aer 1");
-mods.thaumcraft.Aspects.set(<terrafirmacraft:ClayGrass2:*>, "herba 1, aer 1");
-mods.thaumcraft.Aspects.set(<terrafirmacraft:ClayGrass:*>, "herba 1, aer 1");
-mods.thaumcraft.Aspects.set(<terrafirmacraft:Grass:*>, "herba 1, aer 1");
-mods.thaumcraft.Aspects.set(<terrafirmacraft:Grass2:*>, "herba 1, aer 1");
-mods.thaumcraft.Aspects.set(<minecraft:ender_eye>, "spiritus 3");
-mods.thaumcraft.Aspects.set(<terrafirmacraft:item.egg>, "spiritus 4");
+// ================================================================================
+//#MARKER REMOVE SHAPED
+recipes.removeShaped(<Thaumcraft:WandCap:1>);
+recipes.removeShaped(<Thaumcraft:WandCap>);
+recipes.removeShaped(<Thaumcraft:WandCap:3>);
+recipes.removeShaped(<Thaumcraft:WandCap:5>);
 
-//Arcane Workbench Recipes
-//ResearchKey, ResultStack, AspectsList, ShapedRecipe
-//mods.thaumcraft.Arcane.addShaped("ASPECTS", <minecraft:diamond>, "aqua 1, terra 3",
-//[[null, <minecraft:gold_ingot>,null],
-//[<minecraft:gold_ingot>, null, <minecraft:gold_ingot>],
-//[null, <minecraft:gold_ingot>, null]]);
-//ResearchKey, ResultStack, AspectsList, ArrayOfInputStacks
-//mods.thaumcraft.Arcane.addShapeless("ASPECTS", <minecraft:diamond>, "aqua 5, terra 5, perditio 5, ordo 5", [<minecraft:dirt>, <minecraft:feather>, <minecraft:gold_ingot>]);
+// ================================================================================
+//#MARKER ADD
+
+// ================================================================================
+//#MARKER ADD SHAPELESS
+recipes.addShapeless(<Thaumcraft:ItemResource:13> * 4, [<minecraft:paper>, <minecraft:paper>, <Thaumcraft:ItemInkwell>, <minecraft:paper>, <minecraft:paper>]);
+
+// ================================================================================
+//#MARKER ADD SHAPED
+recipes.addShaped(<Thaumcraft:ItemResource:9>, [[<Thaumcraft:ItemResearchNotes>, <Thaumcraft:ItemResearchNotes>, <ore:itemKnife>.transformDamage().reuse()]]);
+recipes.addShaped(<Thaumcraft:ItemThaumometer>, [[null, <ore:shardAir>, null], [<ore:ingotGold>, <ore:paneGlassColorless>, <ore:ingotGold>], [null, <ore:shardAir>, null]]);
+recipes.addShaped(<Thaumcraft:ItemEssence> * 8, [[null, <ore:lumpClay>, null], [<ore:paneGlassColorless>, null, <ore:paneGlassColorless>], [null, <ore:paneGlassColorless>, null]]);
+furnace.addRecipe(<Thaumcraft:ItemResource:3>, <terrafirmacraft:item.Ore:27>);

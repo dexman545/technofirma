@@ -1,5 +1,5 @@
 mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:blockWoodenDevice:5>);
-mods.thaumcraft.Infusion.addRecipe("ARCANEBORE", <minecraft:piston>, [<minecraft:gold_ingot>, <minecraft:gold_ingot>, <Thaumcraft:blockWoodenDevice:6>, <Thaumcraft:blockWoodenDevice:6>, <Thaumcraft:ItemShard:3>, <Thaumcraft:ItemShard>, <terrafirmacraft:item.Blue Steel Pick>, <terrafirmacraft:item.Blue Steel Shovel>], "machina 32, motus 16, perfodio 32, potentia 16, vacuos 16", <Thaumcraft:blockWoodenDevice:5>, 5);
+mods.thaumcraft.Infusion.addRecipe("ARCANEBORE", <minecraft:piston>, [<ore:ingotGold>, <ore:ingotGold>, <Thaumcraft:blockWoodenDevice:6>, <Thaumcraft:blockWoodenDevice:6>, <Thaumcraft:ItemShard:3>, <Thaumcraft:ItemShard>, <terrafirmacraft:item.Blue Steel Pick>, <terrafirmacraft:item.Blue Steel Shovel>], "machina 32, motus 16, perfodio 32, potentia 16, vacuos 16", <Thaumcraft:blockWoodenDevice:5>, 5);
 
 mods.thaumcraft.Crucible.addRecipe("NITOR", <Thaumcraft:ItemResource:1>, <terrafirmacraft:OilLamp>, "ignis 5, aer 5, potentia 5");
 mods.thaumcraft.Crucible.addRecipe("ALUMENTUM", <Thaumcraft:blockCustomPlant:1>, <Thaumcraft:blockCustomPlant>, "ordo 2, permutatio 12");
@@ -31,35 +31,35 @@ mods.thaumcraft.Arcane.addShaped("FOCUSPOUCH", <Thaumcraft:FocusPouch>, "perditi
 [<ore:materialLeather>, <ore:materialLeather>, <ore:materialLeather>]]);
 
 mods.thaumcraft.Arcane.addShaped("FOCUSFIRE", <Thaumcraft:FocusFire>, "perditio 10, ignis 20",
-[[<Thaumcraft:ItemShard:1>, <terrafirmacraft:item.Ore:24>,<Thaumcraft:ItemShard:1>],
-[<terrafirmacraft:item.Ore:24>, <terrafirmacraft:item.flintAndSteel>, <terrafirmacraft:item.Ore:24>],
-[<Thaumcraft:ItemShard:1>, <terrafirmacraft:item.Ore:24>, <Thaumcraft:ItemShard:1>]]);
+[[<Thaumcraft:ItemShard:1>, <ore:oreJet>,<Thaumcraft:ItemShard:1>],
+[<ore:oreJet>, <terrafirmacraft:item.flintAndSteel>, <ore:oreJet>],
+[<Thaumcraft:ItemShard:1>, <ore:oreJet>, <Thaumcraft:ItemShard:1>]]);
 
 
 mods.thaumcraft.Arcane.addShaped("FOCUSEXCAVATION", <Thaumcraft:FocusExcavation>, "perditio 5, terra 20, ordo 5",
-[[<Thaumcraft:ItemShard:3>, <terrafirmacraft:item.Ore:24>,<Thaumcraft:ItemShard:3>],
-[<terrafirmacraft:item.Ore:24>, <ore:gemEmerald>, <terrafirmacraft:item.Ore:24>],
-[<Thaumcraft:ItemShard:3>, <terrafirmacraft:item.Ore:24>, <Thaumcraft:ItemShard:3>]]);
+[[<Thaumcraft:ItemShard:3>, <ore:oreJet>,<Thaumcraft:ItemShard:3>],
+[<ore:oreJet>, <ore:gemEmerald>, <ore:oreJet>],
+[<Thaumcraft:ItemShard:3>, <ore:oreJet>, <Thaumcraft:ItemShard:3>]]);
 
 mods.thaumcraft.Arcane.addShaped("FOCUSFROST", <Thaumcraft:FocusFrost>, "perditio 10, aqua 10, ordo 10",
-[[<Thaumcraft:ItemShard:2>, <terrafirmacraft:item.Ore:24>,<Thaumcraft:ItemShard:2>],
-[<terrafirmacraft:item.Ore:24>, <ore:gemDiamond>, <terrafirmacraft:item.Ore:24>],
-[<Thaumcraft:ItemShard:2>, <terrafirmacraft:item.Ore:24>, <Thaumcraft:ItemShard:2>]]);
+[[<Thaumcraft:ItemShard:2>, <ore:oreJet>,<Thaumcraft:ItemShard:2>],
+[<ore:oreJet>, <ore:gemDiamond>, <ore:oreJet>],
+[<Thaumcraft:ItemShard:2>, <ore:oreJet>, <Thaumcraft:ItemShard:2>]]);
 
 mods.thaumcraft.Arcane.addShaped("FOCUSSHOCK", <Thaumcraft:FocusShock>, "perditio 10, ordo 10, aer 10",
-[[<Thaumcraft:ItemShard>, <terrafirmacraft:item.Ore:24>,<Thaumcraft:ItemShard>],
-[<terrafirmacraft:item.Ore:24>, <Eln:Eln.TransparentNode:4224>, <terrafirmacraft:item.Ore:24>],
-[<Thaumcraft:ItemShard>, <terrafirmacraft:item.Ore:24>, <Thaumcraft:ItemShard>]]);
+[[<Thaumcraft:ItemShard>, <ore:oreJet>,<Thaumcraft:ItemShard>],
+[<ore:oreJet>, <Eln:Eln.TransparentNode:4224>, <ore:oreJet>],
+[<Thaumcraft:ItemShard>, <ore:oreJet>, <Thaumcraft:ItemShard>]]);
 
 mods.thaumcraft.Arcane.addShaped("FOCUSTRADE", <Thaumcraft:FocusTrade>, "perditio 15, ordo 15, terra 10",
-[[<Thaumcraft:ItemShard:6>, <terrafirmacraft:item.Ore:24>,<Thaumcraft:ItemShard:6>],
-[<terrafirmacraft:item.Ore:24>, <Thaumcraft:ItemResource:3>, <terrafirmacraft:item.Ore:24>],
-[<Thaumcraft:ItemShard:6>, <terrafirmacraft:item.Ore:24>, <Thaumcraft:ItemShard:6>]]);
+[[<Thaumcraft:ItemShard:6>, <ore:oreJet>,<Thaumcraft:ItemShard:6>],
+[<ore:oreJet>, <Thaumcraft:ItemResource:3>, <ore:oreJet>],
+[<Thaumcraft:ItemShard:6>, <ore:oreJet>, <Thaumcraft:ItemShard:6>]]);
 
 mods.thaumcraft.Arcane.addShaped("FOCUSPRIMAL", <Thaumcraft:FocusPrimal>, "perditio 25, ignis 25, terra 25, ordo 25, aer 25, aqua 25",
-[[<ore:gemDiamond>, <terrafirmacraft:item.Ore:24>,<ore:gemDiamond>],
-[<terrafirmacraft:item.Ore:24>, <Thaumcraft:ItemResource:15>, <terrafirmacraft:item.Ore:24>],
-[<ore:gemDiamond>, <terrafirmacraft:item.Ore:24>, <ore:gemDiamond>]]);
+[[<ore:gemDiamond>, <ore:oreJet>,<ore:gemDiamond>],
+[<ore:oreJet>, <Thaumcraft:ItemResource:15>, <ore:oreJet>],
+[<ore:gemDiamond>, <ore:oreJet>, <ore:gemDiamond>]]);
 
 mods.thaumcraft.Arcane.addShaped("NODESTABILIZER", <Thaumcraft:blockStoneDevice:9>, "aqua 32, terra 32, ordo 32",
 [[null, <ore:ingotGold>, null],

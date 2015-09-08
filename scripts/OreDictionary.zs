@@ -56,7 +56,7 @@ cobble.add(<terrafirmacraft:StoneMMCobble:*>);
 rawstone.add(<terrafirmacraft:StoneIgIn:*>);
 rawstone.add(<terrafirmacraft:StoneIgEx:*>);
 rawstone.add(<terrafirmacraft:StoneMM:*>);
-quartz.add(<ore:oreJet>);
+quartz.add(<terrafirmacraft:item.Ore:24>);
 bauxite.add(<terrafirmacraft:item.Ore:16>);
 anycoal.add(<terrafirmacraft:item.coal:*>);
 anycoal.add(<terrafirmacraft:item.Ore:14>);

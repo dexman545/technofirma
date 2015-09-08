@@ -113,6 +113,9 @@ recipes.addShaped(<Railcraft:machine.alpha:8>, [[<ore:craftingPiston>, <ore:ingo
 //InputStack, matchDamage, matchNBT, OutputStack, fluidOutput, Cook time
 //mods.railcraft.CokeOven.removeRecipe(<*>);
 
+mods.railcraft.CokeOven.addRecipe(<terrafirmacraft:item.coal>, false, false, <Railcraft:fuel.coke>, <liquid:creosote> * 500, 1800);
+
+
 val steel = <terrafirmacraft:item.Steel Ingot>;
 
 //Rolling machine recipes

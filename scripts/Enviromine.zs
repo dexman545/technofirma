@@ -18,4 +18,4 @@ recipes.addShapeless(<enviromine:gasMask>, [<terrafirmacraft:item.Wrought Iron H
 
 // ================================================================================
 //#MARKER ADD SHAPED
-recipes.addShaped(<enviromine:airFilter>, [[iron, <terrafirmacraft:item.BurlapCloth>, iron], [iron, <ore:anyCoal>, iron], [iron, <ore:materialCloth>, iron]]);
+recipes.addShaped(<enviromine:airFilter>, [[<ore:ingotIron>, <terrafirmacraft:item.BurlapCloth>, <ore:ingotIron>], [<ore:ingotIron>, <ore:anyCoal>, <ore:ingotIron>], [<ore:ingotIron>, <ore:materialCloth>, <ore:ingotIron>]]);

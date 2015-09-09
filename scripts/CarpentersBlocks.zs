@@ -1,5 +1,6 @@
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<CarpentersBlocks:itemCarpentersHammer>);
 
 // ================================================================================
 //#MARKER REMOVE SHAPELESS

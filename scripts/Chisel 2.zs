@@ -1,11 +1,9 @@
+// ================================================================================
 //#MARKER REMOVE
-recipes.remove(<chisel:lapis_block:2>);
 recipes.remove(<chisel:factoryblock> * 11);
+recipes.remove(<chisel:lapis_block:2>);
 
 mods.chisel.Groups.removeGroup("andesite");
-
-mods.chisel.Groups.addVariation("marble", <terrafirmacraft:StoneMM:5>); 
-mods.chisel.Groups.addVariation("limestone", <terrafirmacraft:StoneSed:3>); 
 
 // ================================================================================
 //#MARKER REMOVE SHAPELESS
@@ -15,6 +13,8 @@ mods.chisel.Groups.addVariation("limestone", <terrafirmacraft:StoneSed:3>);
 
 // ================================================================================
 //#MARKER ADD
+mods.chisel.Groups.addVariation("marble", <terrafirmacraft:StoneMM:5>); 
+mods.chisel.Groups.addVariation("limestone", <terrafirmacraft:StoneSed:3>); 
 
 // ================================================================================
 //#MARKER ADD SHAPELESS

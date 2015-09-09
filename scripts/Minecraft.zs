@@ -43,7 +43,8 @@ recipes.addShapeless( <minecraft:paper> *1, [<ore:logWood>, <ore:bucketWater>]);
 
 // ================================================================================
 //#MARKER ADD SHAPED
-recipes.addShaped(<minecraft:boat>, [[<terrafirmacraft:planks:*>, null, <terrafirmacraft:planks:*>], recipes.addShaped(<minecraft:stone_slab:3> * 6, [[<ore:cobbleStone>, <ore:cobbleStone>, <ore:cobbleStone>]]);
+recipes.addShaped(<minecraft:boat>, [[<terrafirmacraft:planks:*>, null, <terrafirmacraft:planks:*>], [<terrafirmacraft:planks:*>, <terrafirmacraft:planks:*>, <terrafirmacraft:planks:*>]]);
+recipes.addShaped(<minecraft:stone_slab:3> * 6, [[<ore:cobbleStone>, <ore:cobbleStone>, <ore:cobbleStone>]]);
 recipes.addShaped(<minecraft:bucket>, [[<ore:plateIron>, null, <ore:plateIron>], [null, <ore:plateIron>, null]]);
 recipes.addShaped(<minecraft:hay_block>, [[<terrafirmacraft:item.Wheat Whole>, <terrafirmacraft:item.Wheat Whole>], [<terrafirmacraft:item.Wheat Whole>, <terrafirmacraft:item.Wheat Whole>]]);
 recipes.addShaped(<minecraft:chest>, [[<ore:woodLumber>, <ore:woodLumber>, <ore:woodLumber>], [<terrafirmacraft:Chest TFC:*>, <ore:ingotWroughtIron>, <terrafirmacraft:Chest TFC:*>], [<ore:woodLumber>, <terrafirmacraft:Barrel:*>, <ore:woodLumber>]]);

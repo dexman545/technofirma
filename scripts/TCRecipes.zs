@@ -3,7 +3,6 @@ mods.thaumcraft.Infusion.addRecipe("ARCANEBORE", <minecraft:piston>, [<minecraft
 
 mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:ItemResource:1>);
 mods.thaumcraft.Crucible.addRecipe("NITOR", <Thaumcraft:ItemResource:1>, <terrafirmacraft:OilLamp>, "ignis 5, aer 5, potentia 5");
-mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:blockCustomPlant:1>);
 mods.thaumcraft.Crucible.addRecipe("ALUMENTUM", <Thaumcraft:blockCustomPlant:1>, <Thaumcraft:blockCustomPlant>, "ordo 2, permutatio 12");
 
 

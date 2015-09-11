@@ -1,2 +1,50 @@
 [
+	{
+		"block": "terrafirmacraft:item.Log",
+		"weight": 0.75
+	},
+	{
+		"block": "terrafirmacraft:item.LooseRock",
+		"weight": 0.25
+	},
+	{
+		"block": "terrafirmacraft:item.Blue Steel Helmet",
+		"weight": 0.75
+	},
+	{
+		"block": "terrafirmacraft:item.Black Steel Helmet",
+		"weight": 0.75
+	},
+	{
+		"block": "terrafirmacraft:item.Red Steel Helmet",
+		"weight": 0.75
+	},
+	{
+		"block": "terrafirmacraft:item.Copper Helmet",
+		"weight": 0.75
+	},
+	{
+		"block": "terrafirmacraft:item.Bizmuth Bronze Helmet",
+		"weight": 0.75
+	},
+	{
+		"block": "terrafirmacraft:item.Bronze Helmet",
+		"weight": 0.75
+	},
+	{
+		"block": "terrafirmacraft:item.Black Bronze Helmet",
+		"weight": 0.75
+	},
+	{
+		"block": "terrafirmacraft:item.Steel Helmet",
+		"weight": 0.75
+	},
+	{
+		"block": "terrafirmacraft:item.Wrought Iron Helmet",
+		"weight": 0.75
+	},
+	{
+		"block": "terrafirmacraft:item.Small Vessel",
+		"weight": 16.0
+	},
 ]

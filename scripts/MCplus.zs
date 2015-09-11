@@ -1,7 +1,8 @@
 //#MARKER REMOVE
 recipes.remove(<MCP_Cart:wooden_cart>);
-recipes.remove(<MCP_Lock:lockpick>);
 recipes.remove(<MCP_Lock:iron_lock>);
+recipes.remove(<MCP_Lock:lockpick>);
+recipes.remove(<MCP_Wheel:wooden_wheel>);
 
 // ================================================================================
 //#MARKER REMOVE SHAPELESS

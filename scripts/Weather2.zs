@@ -1,7 +1,7 @@
 // ================================================================================
 //#MARKER REMOVE
-recipes.remove(<weather2:WeatherMachine>);
 recipes.remove(<weather2:WeatherDeflector>);
+recipes.remove(<weather2:WeatherMachine>);
 
 // ================================================================================
 //#MARKER REMOVE SHAPELESS

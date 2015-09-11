@@ -365,6 +365,9 @@ NEI.hide(<BiblioCraft:BiblioPaneler:5>);
 NEI.hide(<ImmersiveEngineering:stoneDevice:2>);
 NEI.hide(<ImmersiveEngineering:stoneDevice:1>);
 NEI.hide(<minecraft:coal>);
+NEI.hide(<ImmersiveEngineering:stoneDecoration:1>);
+NEI.hide(<ImmersiveEngineering:stoneDecoration:2>);
+NEI.hide(<Railcraft:machine.alpha:12>);
 //NEI.hide(<4921>);
 
 NEI.hide(<terrafirmacraft:StoneSed:5>);

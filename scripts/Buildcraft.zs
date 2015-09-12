@@ -29,6 +29,8 @@ recipes.remove(<BuildCraft|Silicon:requester>);
 recipes.remove(<BuildCraft|Transport:filteredBufferBlock>);
 recipes.remove(<BuildCraft|Transport:pipeWaterproof>);
 
+recipes.remove(<BuildCraft|Core:diamondGearItem>);
+
 // ================================================================================
 //#MARKER REMOVE SHAPELESS
 
@@ -65,3 +67,6 @@ recipes.addShaped(<BuildCraft|Silicon:requester>, [[<ore:ingotSteel>, <ore:craft
 
 recipes.addShaped(<BuildCraft|Transport:filteredBufferBlock>, [[<ore:plankWood>, <BuildCraft|Transport:item.buildcraftPipe.pipeitemsdiamond>, <ore:plankWood>], [<ore:plankWood>, <terrafirmacraft:Chest TFC:*>, <ore:plankWood>], [<ore:plankWood>, <minecraft:piston>, <ore:plankWood>]]);
 recipes.addShaped(<BuildCraft|Transport:pipeWaterproof>, [[<ore:itemRubber>, <ore:dyeGreen>]]);
+
+recipes.addShaped(<BuildCraft|Core:diamondGearItem>, [[null, <ore:plateBlueSteel>, null], [<ore:plateBlueSteel>, <ore:gearGold>, <ore:plateBlueSteel>], [null, <ore:plateBlueSteel>, null]]);
+

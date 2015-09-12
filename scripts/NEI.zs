@@ -370,6 +370,7 @@ NEI.hide(<ImmersiveEngineering:stoneDecoration:2>);
 NEI.hide(<Railcraft:machine.alpha:12>);
 //NEI.hide(<4921>);
 
+
 NEI.hide(<terrafirmacraft:StoneSed:5>);
 NEI.addEntry(<terrafirmacraft:StoneSed:5>.withTag({display: {Name: "Dolomite", Lore: ["It ain't right without Dolomite"]}}));
 
@@ -379,3 +380,6 @@ NEI.addEntry(<terrafirmacraft:StoneSed:5>.withTag({display: {Name: "Dolomite", L
 <minecraft:quartz_block>.displayName = "Albino Block of Jet";
 <Eln:Eln.ghostBlock>.displayName = "EA Block of Generalities in Purpose";
 <minecraft:gold_ingot>.displayName = "Refined Gold";
+<BuildCraft|Core:diamondGearItem>.displayName = "Blue Steel Gear";
+
+NEI.hide(<BuildCraft|Transport:pipeFacade>);

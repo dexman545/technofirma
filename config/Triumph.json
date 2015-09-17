@@ -1,0 +1,65 @@
+{
+  "Achievements To Remove": [],
+  "Achievements": [
+    {
+      "Name": "Undead Slayer",
+      "Description": "Kill 10 of either zombies or skeletons",
+      "XPos": 3,
+      "YPos": 3,
+      "Icon": "minecraft:skull",
+      "Color": "DARK_RED",
+      "Special": false,
+      "Count": 5,
+      "Triggers": [
+        {
+          "Entity Data": [
+            {
+              "Name": "Zombie"
+            }
+          ],
+          "Trigger Type": "KILL_ENTITY",
+          "Name": "kill_zombie",
+          "Usage": "OR",
+          "Count": 1
+        },
+        {
+          "Entity Data": [
+            {
+              "Name": "Skeleton"
+            }
+          ],
+          "Trigger Type": "KILL_ENTITY",
+          "Name": "kill_skeleton",
+          "Usage": "OR",
+          "Count": 1
+        }
+      ]
+    },
+    {
+      "Name": "Triumph!",
+      "Description": "Install the greatest achievement mod",
+      "XPos": 0,
+      "YPos": 0,
+      "Icon": "minecraft:nether_star",
+      "Color": "LIGHT_PURPLE",
+      "Special": true,
+      "Count": 1,
+      "Triggers": [
+        {
+          "Trigger Type": "PLAYER_LOGIN",
+          "Name": "login",
+          "Usage": "AND",
+          "Count": 1
+        }
+      ]
+    }
+  ],
+  "Achievement Pages": [
+    {
+      "Name": "Triumphant Achievements",
+      "Achievement List": [
+        "Triumph!"
+      ]
+    }
+  ]
+}

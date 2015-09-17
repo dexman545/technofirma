@@ -47,4 +47,8 @@
 		"block": "terrafirmacraft:item.Small Vessel",
 		"weight": 16.0
 	},
+		{
+		"block": "terrafirmacraft:item.stick",
+		"weight": 0.0125
+	}
 ]

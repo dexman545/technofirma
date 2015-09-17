@@ -370,9 +370,9 @@ NEI.hide(<ImmersiveEngineering:stoneDecoration:2>);
 NEI.hide(<Railcraft:machine.alpha:12>);
 //NEI.hide(<4921>);
 
-
+NEI.hide(<FloodLights:carbonFloodlight>);
 NEI.hide(<terrafirmacraft:StoneSed:5>);
-NEI.addEntry(<terrafirmacraft:StoneSed:5>.withTag({display: {Name: "Dolomite", Lore: ["It ain't right without Dolomite"]}}));
+NEI.addEntry(<terrafirmacraft:StoneSed:5>.withTag({display: {Name: "Dolomite", Lore: ["It ain't right without Dolomite!"]}}));
 
 
 <CarpentersBlocks:blockCarpentersBlock>.displayName = "Wooden Construction Frame";

@@ -368,7 +368,6 @@ NEI.hide(<minecraft:coal>);
 NEI.hide(<ImmersiveEngineering:stoneDecoration:1>);
 NEI.hide(<ImmersiveEngineering:stoneDecoration:2>);
 NEI.hide(<Railcraft:machine.alpha:12>);
-//NEI.hide(<4921>);
 
 NEI.hide(<FloodLights:carbonFloodlight>);
 NEI.hide(<terrafirmacraft:StoneSed:5>);
@@ -382,4 +381,5 @@ NEI.addEntry(<terrafirmacraft:StoneSed:5>.withTag({display: {Name: "Dolomite", L
 <minecraft:gold_ingot>.displayName = "Refined Gold";
 <BuildCraft|Core:diamondGearItem>.displayName = "Blue Steel Gear";
 
+NEI.hide(<ForgeMicroblock:microblock>);
 NEI.hide(<BuildCraft|Transport:pipeFacade>);

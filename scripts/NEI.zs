@@ -370,6 +370,11 @@ NEI.hide(<ImmersiveEngineering:stoneDecoration:2>);
 NEI.hide(<Railcraft:machine.alpha:12>);
 
 NEI.hide(<FloodLights:carbonFloodlight>);
+NEI.hide(<FloodLights:carbonDissolver>);
+NEI.hide(<FloodLights:carbonLantern>);
+NEI.hide(<FloodLights:mantle>);
+NEI.hide(<FloodLights:rawFilament>);
+NEI.hide(<FloodLights:glowingFilament>);
 NEI.hide(<terrafirmacraft:StoneSed:5>);
 NEI.addEntry(<terrafirmacraft:StoneSed:5>.withTag({display: {Name: "Dolomite", Lore: ["It ain't right without Dolomite!"]}}));
 

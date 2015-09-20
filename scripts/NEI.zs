@@ -368,6 +368,18 @@ NEI.hide(<minecraft:coal>);
 NEI.hide(<ImmersiveEngineering:stoneDecoration:1>);
 NEI.hide(<ImmersiveEngineering:stoneDecoration:2>);
 NEI.hide(<Railcraft:machine.alpha:12>);
+NEI.hide(<malisisdoors:item.forcefieldItem>);
+NEI.hide(<malisisdoors:item.custom_door>);
+NEI.hide(<malisisdoors:null>);
+//NEI.hide(<malisisdoors:iron_trapdoor);
+//NEI.hide(<malisisdoors:player_sensor>);
+NEI.hide(<malisisdoors:item.door_acacia>);
+NEI.hide(<malisisdoors:item.door_birch>);
+NEI.hide(<malisisdoors:item.door_jungle>);
+NEI.hide(<malisisdoors:item.door_dark_oak>);
+NEI.hide(<malisisdoors:item.door_spruce>);
+NEI.hide(<malisisdoors:forcefieldDoor>);
+NEI.hide(<malisisdoors:saloon>);
 
 NEI.hide(<FloodLights:carbonFloodlight>);
 NEI.hide(<FloodLights:carbonDissolver>);

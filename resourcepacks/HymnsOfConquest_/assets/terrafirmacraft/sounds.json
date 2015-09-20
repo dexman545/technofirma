@@ -240,8 +240,7 @@
 	  {"name": "music/m23", "stream": true},
 	  {"name": "music/m24", "stream": true},
 	  {"name": "music/m25", "stream": true},
-	  {"name": "music/m26", "stream": true},
-	  {"name": "music/m27", "stream": true}
+	  {"name": "music/m26", "stream": true}
     ]
   }
 }

@@ -10,6 +10,8 @@ recipes.remove(<ImmersiveEngineering:stoneDevice:1>);
 recipes.remove(<ImmersiveEngineering:woodenDevice>);
 recipes.remove(<ImmersiveEngineering:stoneDevice>);
 recipes.remove(<ImmersiveEngineering:tool>);
+recipes.remove(<ImmersiveEngineering:storage:7>);
+
 
 //Crusher-RR
 //mods.immersiveengineering.Crusher.removeRecipe(<>);
@@ -55,6 +57,8 @@ recipes.addShaped(<ImmersiveEngineering:woodenDevice>, [[<ImmersiveEngineering:w
 recipes.addShaped(<ImmersiveEngineering:seed>, [[<terrafirmacraft:item.Seeds Jute>, <ore:seedFlax>]]);
 recipes.addShaped(<ImmersiveEngineering:stoneDevice>, [[<ore:lumpClay>, <ore:lumpClay>, <ore:lumpClay>], [<ImmersiveEngineering:material:3>, <ImmersiveEngineering:material:3>, <ImmersiveEngineering:material:3>], [<ore:lumpClay>, <ore:lumpClay>, <ore:lumpClay>]]);
 recipes.addShaped(<ImmersiveEngineering:tool>, [[<ore:itemHammer>]]);
+recipes.addShaped(<ImmersiveEngineering:storage:7>, [[<ore:ingotSteel>, <ore:ingotSteel>], [<ore:ingotSteel>, <ore:ingotSteel>]]);
+
 
 //Crusher-RA
 //mods.immersiveengineering.Crusher.addRecipe(<>, <>, 8000, <>, 0.5);

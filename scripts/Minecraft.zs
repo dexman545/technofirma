@@ -68,6 +68,6 @@ recipes.addShaped(<minecraft:minecart>, [[<ore:plateSteel>, null, <ore:plateStee
 recipes.addShaped(<minecraft:quartz_block>, [[<ore:oreJet>,<ore:oreJet>],[<ore:oreJet>,<ore:oreJet>]]);
 recipes.addShaped(<minecraft:stone_slab:3> * 6, [[<ore:cobbleStone>, <ore:cobbleStone>, <ore:cobbleStone>]]);
 recipes.addShaped(<minecraft:tnt> * 1, [[<minecraft:gunpowder>, <ore:blockSand>, <minecraft:gunpowder>], [<ore:blockSand>, <minecraft:gunpowder>, <ore:blockSand>], [<minecraft:gunpowder>, <ore:blockSand>, <minecraft:gunpowder>]]);
-recipes.addShaped(<minecraft:wool>, [[<terrafirmacraft:item.WoolCloth>, <ore:materialCloth>], [<ore:materialCloth>, <ore:materialCloth>]]);
+recipes.addShaped(<minecraft:wool>, [[<terrafirmacraft:item.WoolCloth>, <terrafirmacraft:item.WoolCloth>], [<terrafirmacraft:item.WoolCloth>, <terrafirmacraft:item.WoolCloth>]]);
 recipes.addShaped(<minecraft:wool:12>, [[<terrafirmacraft:item.BurlapCloth>, <terrafirmacraft:item.BurlapCloth>], [<terrafirmacraft:item.BurlapCloth>, <terrafirmacraft:item.BurlapCloth>]]);
 furnace.addRecipe(<minecraft:hardened_clay>, <terrafirmacraft:Vessel>);

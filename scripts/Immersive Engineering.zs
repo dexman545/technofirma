@@ -89,6 +89,8 @@ mods.immersiveengineering.Fermenter.addRecipe(<minecraft:string>, <liquid:ethano
 mods.immersiveengineering.Fermenter.addRecipe(<minecraft:string>, <liquid:ethanol> * 80, <terrafirmacraft:item.Barley Grain>, 80);
 mods.immersiveengineering.Fermenter.addRecipe(<minecraft:string>, <liquid:ethanol> * 80, <terrafirmacraft:item.Wheat Whole>, 80);
 
+furnace.addRecipe(<ImmersiveEngineering:metal:6>, <ImmersiveEngineering:metal:16>);
+
 //Squeezer-RA
 //OutputStack, OutputFluid, InputStack, Time in Ticks
 mods.immersiveengineering.Squeezer.addRecipe(<terrafirmacraft:item.Jute Fibre> * 1, <liquid:plantoil> * 80, <terrafirmacraft:item.Seeds Wheat>, 240);

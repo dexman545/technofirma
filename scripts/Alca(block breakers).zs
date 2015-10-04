@@ -1,0 +1,1 @@
+recipes.addShaped(<alca259_machines:alca259_destructor>, [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], [<ore:stoneBricks>, <ore:dustRedstone>, <terrafirmacraft:item.Wrought Iron Pick>], [<ore:stoneBricks>, <ore:stoneBricks>, <ore:stoneBricks>]]);

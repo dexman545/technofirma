@@ -12,7 +12,7 @@ recipes.remove(<PneumaticCraft:pcbBlueprint>);
 recipes.remove(<PneumaticCraft:stoneBase>);
 recipes.remove(<PneumaticCraft:uvLightBox>);
 
-mods.pneumaticcraft.Pressure.removeRecipe([<PneumaticCraft:etchingAcidBucket>]);
+mods.pneumaticcraft.Pressure.removeRecipe([<PneumaticCraft:etchacidBucket>]);
 
 // ================================================================================
 //#MARKER REMOVE SHAPELESS

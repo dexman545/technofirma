@@ -71,3 +71,5 @@ recipes.addShaped(<minecraft:tnt> * 1, [[<minecraft:gunpowder>, <ore:blockSand>,
 recipes.addShaped(<minecraft:wool>, [[<terrafirmacraft:item.WoolCloth>, <terrafirmacraft:item.WoolCloth>], [<terrafirmacraft:item.WoolCloth>, <terrafirmacraft:item.WoolCloth>]]);
 recipes.addShaped(<minecraft:wool:12>, [[<terrafirmacraft:item.BurlapCloth>, <terrafirmacraft:item.BurlapCloth>], [<terrafirmacraft:item.BurlapCloth>, <terrafirmacraft:item.BurlapCloth>]]);
 furnace.addRecipe(<minecraft:hardened_clay>, <terrafirmacraft:Vessel>);
+recipes.addShaped(<minecraft:iron_block>, [[<ore:ingotWroughtIron>, <ore:ingotWroughtIron>, <ore:ingotWroughtIron>], [<ore:ingotWroughtIron>, <ore:ingotWroughtIron>, <ore:ingotWroughtIron>], [<ore:ingotWroughtIron>, <ore:ingotWroughtIron>, <ore:ingotWroughtIron>]]);
+

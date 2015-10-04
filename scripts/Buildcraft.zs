@@ -57,7 +57,6 @@ recipes.addShaped(<BuildCraft|Core:woodenGearItem>, [[null, <terrafirmacraft:ite
 recipes.addShaped(<BuildCraft|Factory:autoWorkbenchBlock>, [[null, <BuildCraft|Core:stoneGearItem>, null], [<BuildCraft|Core:stoneGearItem>, <BiblioCraft:BiblioWorkbench:6>, <BuildCraft|Core:stoneGearItem>], [null, <BuildCraft|Core:stoneGearItem>, null]]);
 recipes.addShaped(<BuildCraft|Factory:machineBlock>, [[<ore:gearIron>, <minecraft:redstone>, <ore:gearIron>], [<BuildCraft|Core:goldGearItem>, <BuildCraft|Factory:miningWellBlock>, <BuildCraft|Core:goldGearItem>], [<ore:gearDiamond>, <terrafirmacraft:item.Blue Steel Pick>, <ore:gearDiamond>]]);
 recipes.addShaped(<BuildCraft|Factory:miningWellBlock>, [[<terrafirmacraft:item.Steel Ingot>, <ore:dustRedstone>, <ore:ingotSteel>], [<terrafirmacraft:item.Steel Ingot>, <ore:gearIron>, <ore:ingotSteel>], [<ore:ingotSteel>, <terrafirmacraft:item.Black Steel Pick>, <ore:ingotSteel>]]);
-recipes.addShaped(<BuildCraft|Factory:pumpBlock>, [[<Railcraft:machine.beta:14>], [<BuildCraft|Factory:miningWellBlock>]]);
 recipes.addShaped(<BuildCraft|Factory:refineryBlock>, [[<minecraft:redstone_torch>, <Railcraft:machine.beta:14>, <minecraft:redstone_torch>], [<Railcraft:machine.beta:14>, <BuildCraft|Core:diamondGearItem>, <Railcraft:machine.beta:14>]]);
 
 recipes.addShaped(<BuildCraft|Silicon:laserTableBlock:1>, [[<ore:obsidian>, <BiblioCraft:BiblioWorkbench:6>, <ore:obsidian>], [<ore:obsidian>, <terrafirmacraft:Chest TFC:*>, <ore:obsidian>], [<ore:obsidian>, <BuildCraft|Silicon:redstoneChipset>, <ore:obsidian>]]);

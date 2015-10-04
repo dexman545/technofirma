@@ -38,12 +38,12 @@ NEI.hide(<minecraft:red_flower:*>);
 NEI.hide(<minecraft:brown_mushroom>);
 NEI.hide(<minecraft:red_mushroom>);
 NEI.hide(<minecraft:gold_block>);
-NEI.hide(<minecraft:iron_block>);
+//NEI.hide(<minecraft:iron_block>);
 NEI.hide(<minecraft:double_stone_slab>);
 NEI.hide(<minecraft:stone_slab:*>);
 NEI.hide(<minecraft:brick_block>);
 //NEI.hide(<minecraft:tnt>);
-NEI.hide(<minecraft:bookshelf>);
+NEI.hide(<terrafirmacraft:Bookshelf>);
 NEI.hide(<minecraft:mossy_cobblestone>);
 NEI.hide(<minecraft:obsidian>);
 NEI.hide(<minecraft:torch>);
@@ -213,7 +213,7 @@ NEI.hide(<minecraft:painting>);
 NEI.hide(<minecraft:golden_apple:*>);
 //NEI.hide(<minecraft:sign>);
 NEI.hide(<minecraft:wooden_door>);
-NEI.hide(<minecraft:bucket>);
+//NEI.hide(<minecraft:bucket>);
 NEI.hide(<minecraft:water_bucket>);
 NEI.hide(<minecraft:lava_bucket>);
 //NEI.hide(<minecraft:minecart>);
@@ -381,6 +381,17 @@ NEI.hide(<malisisdoors:item.door_spruce>);
 NEI.hide(<malisisdoors:forcefieldDoor>);
 NEI.hide(<malisisdoors:saloon>);
 
+NEI.hide(<ForgeMicroblock:microblock>);
+
+NEI.hide(<Mekanism:CardboardBox>);
+NEI.hide(<Mekanism:PlasticBlock:*>);
+NEI.hide(<Mekanism:SlickPlasticBlock:*>);
+NEI.hide(<Mekanism:GlowPlasticBlock:*>);
+NEI.hide(<Mekanism:ReinforcedPlasticBlock:*>);
+NEI.hide(<Mekanism:RoadPlasticBlock:*>);
+NEI.hide(<JAKJ_RedstoneInMotion:tile.JAKJ_RedstoneInMotion_Spectre:*>);
+
+
 NEI.hide(<FloodLights:carbonFloodlight>);
 NEI.hide(<FloodLights:carbonDissolver>);
 NEI.hide(<FloodLights:carbonLantern>);
@@ -398,5 +409,4 @@ NEI.addEntry(<terrafirmacraft:StoneSed:5>.withTag({display: {Name: "Dolomite", L
 <minecraft:gold_ingot>.displayName = "Refined Gold";
 <BuildCraft|Core:diamondGearItem>.displayName = "Blue Steel Gear";
 
-NEI.hide(<ForgeMicroblock:microblock>);
 NEI.hide(<BuildCraft|Transport:pipeFacade>);

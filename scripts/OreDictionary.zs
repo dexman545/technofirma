@@ -12,6 +12,7 @@ val silver = <ore:ingotSilver>;
 val brass = <ore:ingotBrass>;
 val plat = <ore:ingotPlatinum>;
 val tungsten = <ore:ingotElnTungsten>;
+val axe = <ore:itemAxe>;
 
 //Blocks and gems
 val sand = <ore:sandBlock>;
@@ -61,6 +62,7 @@ bauxite.add(<terrafirmacraft:item.Ore:16>);
 anycoal.add(<terrafirmacraft:item.coal:*>);
 anycoal.add(<terrafirmacraft:item.Ore:14>);
 anyShard.add(<Thaumcraft:ItemShard:*>);
+
 
 // ================================================================================
 //#MARKER ADD SHAPELESS

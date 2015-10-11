@@ -5,6 +5,9 @@ recipes.remove(<Mekanism:BasicBlock>);
 recipes.remove(<Mekanism:BasicBlock:7>);
 recipes.remove(<Mekanism:BasicBlock:5>);
 recipes.remove(<Mekanism:GlowPanel:*>);
+recipes.remove(<Mekanism:MachineBlock:8>);
+
+recipes.addShaped(<Mekanism:MachineBlock:8>, [[<ore:ingotWroughtIron>, <Eln:Eln.TransparentNode:192>, <ore:ingotWroughtIron>], [<ore:dustRedstone>, null, <ore:dustRedstone>], [<ore:ingotWroughtIron>, <Eln:Eln.TransparentNode:192>, <ore:ingotWroughtIron>]]);
 
 mods.mekanism.Infuser.addRecipe("TIN", 20, <terrafirmacraft:item.Tin Ingot>, <Mekanism:Ingot:1>);
 

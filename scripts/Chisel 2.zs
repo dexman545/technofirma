@@ -22,5 +22,6 @@ mods.chisel.Groups.addVariation("limestone", <terrafirmacraft:StoneSed:3>);
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<chisel:concrete> * 15, [[<ore:blockGravel>, <terrafirmacraft:item.Mortar>, <ore:blockGravel>], [<terrafirmacraft:item.Mortar>, <ore:lumpClay>, <terrafirmacraft:item.Mortar>], [<ore:blockGravel>, <terrafirmacraft:item.Mortar>, <ore:blockGravel>]]);
 recipes.addShaped(<chisel:factoryblock> * 11, [[<ore:stone>, <terrafirmacraft:item.Wrought Iron Ingot>, <ore:stone>], [<terrafirmacraft:item.Wrought Iron Ingot>, null, <terrafirmacraft:item.Wrought Iron Ingot>], [<ore:stone>, <terrafirmacraft:item.Wrought Iron Ingot>, <ore:stone>]]);
 recipes.addShaped(<chisel:lapis_block:2>, [[<ore:Tubes$anyDye>, <ore:Tubes$anyDye>, <ore:Tubes$anyDye>], [<ore:Tubes$anyDye>, <ore:Tubes$anyDye>, <ore:Tubes$anyDye>], [<ore:Tubes$anyDye>, <ore:Tubes$anyDye>, <ore:Tubes$anyDye>]]);

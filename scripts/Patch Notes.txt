@@ -14,6 +14,8 @@ Fixed Recipes
 	new faction deed
 	configurator
 	compressed iron
+	radiator blocks using vanilla water bucket
+	concrete recipe using vanilla gravel
 Fixed steel axes not placing
 Fixed pumps not recognizing TFC fluids
 Reenabled quarry chunk loading
@@ -25,3 +27,9 @@ Added Push and Shove
 Updated
 	TFC
 	PC
+Config Tweaks
+	Made ksylight dependent on moonphase
+Fixed IE thermopile not working with TFC fluids
+Enabled Mekanism sawmill
+	better than player crafting with a saw
+	makes lumber and sticks

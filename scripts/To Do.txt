@@ -10,8 +10,15 @@ Update Mods
 rebalnce pack
 tweak settings
 Integrate more of Mekanism into pack
-	ore pentification as ore duplication
+	ore pentification as ore triplication
+	ore triplication as ore duplication
+	other machines
 Physics
 Fix Recipes
 	salis mundis
 disable sapling drops?
+	more trading incentives
+	more choice of startup locations
+	promote travel
+	more expensive charcoal
+Omnidirectional hoppers more expensive

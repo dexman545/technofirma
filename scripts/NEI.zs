@@ -393,6 +393,7 @@ NEI.hide(<Mekanism:RoadPlasticBlock:*>);
 NEI.hide(<JAKJ_RedstoneInMotion:tile.JAKJ_RedstoneInMotion_Spectre:*>);
 
 NEI.addEntry(<Railcraft:machine.alpha:5>);
+NEI.addEntry(<ImmersiveEngineering:stoneDecoration>);
 
 
 NEI.hide(<FloodLights:carbonFloodlight>);

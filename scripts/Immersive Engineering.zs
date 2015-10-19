@@ -11,6 +11,8 @@ recipes.remove(<ImmersiveEngineering:woodenDevice>);
 recipes.remove(<ImmersiveEngineering:stoneDevice>);
 recipes.remove(<ImmersiveEngineering:tool>);
 recipes.remove(<ImmersiveEngineering:storage:7>);
+recipes.remove(<ImmersiveEngineering:metalDecoration:4>);
+recipes.remove(<ImmersiveEngineering:stoneDecoration> * 6);
 
 
 //Crusher-RR
@@ -42,9 +44,12 @@ mods.immersiveengineering.Fermenter.removeItemRecipe(<minecraft:blaze_powder>);
 
 // ================================================================================
 //#MARKER REMOVE SHAPED
+recipes.removeShaped(<ImmersiveEngineering:stoneDecoration> * 6, [[<ore:lumpClay>, <ore:lumpClay>, <ore:lumpClay>], [<ImmersiveEngineering:material:3>, <ImmersiveEngineering:material:3>, <ImmersiveEngineering:material:3>], [<ore:lumpClay>, <ore:lumpClay>, <ore:lumpClay>]]);
 
 // ================================================================================
 //#MARKER ADD
+recipes.addShaped(<ImmersiveEngineering:metalDecoration:4> * 9, [[<ore:ingotSteel>, <ore:ingotCopper>, <ore:ingotSteel>], [<ore:ingotCopper>, <PneumaticCraft:heatSink>, <ore:ingotCopper>], [<ore:ingotSteel>, <ore:ingotCopper>, <ore:ingotSteel>]]);
+recipes.addShaped(<ImmersiveEngineering:stoneDecoration> * 6, [[<ore:lumpClay>, <ore:lumpClay>, <ore:lumpClay>], [<ImmersiveEngineering:material:3>, <ImmersiveEngineering:material:3>, <ImmersiveEngineering:material:3>], [<ore:lumpClay>, <ore:lumpClay>, <ore:lumpClay>]]);
 
 // ================================================================================
 //#MARKER ADD SHAPELESS

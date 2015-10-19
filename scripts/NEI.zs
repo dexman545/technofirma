@@ -25,7 +25,7 @@ NEI.hide(<minecraft:lapis_block>);
 //NEI.hide(<minecraft:dispenser>);
 NEI.hide(<minecraft:sandstone:*>);
 // NEI.hide(<minecraft:noteblock>);
-NEI.hide(<minecraft:golden_rail>);
+//NEI.hide(<minecraft:golden_rail>);
 NEI.hide(<minecraft:detector_rail>);
 // NEI.hide(<minecraft:sticky_piston>);
 NEI.hide(<minecraft:web>);
@@ -367,7 +367,7 @@ NEI.hide(<ImmersiveEngineering:stoneDevice:1>);
 NEI.hide(<minecraft:coal>);
 NEI.hide(<ImmersiveEngineering:stoneDecoration:1>);
 NEI.hide(<ImmersiveEngineering:stoneDecoration:2>);
-NEI.hide(<Railcraft:machine.alpha:12>);
+//NEI.hide(<Railcraft|machine.alpha:12>);
 NEI.hide(<malisisdoors:item.forcefieldItem>);
 NEI.hide(<malisisdoors:item.custom_door>);
 NEI.hide(<malisisdoors:null>);
@@ -380,6 +380,7 @@ NEI.hide(<malisisdoors:item.door_dark_oak>);
 NEI.hide(<malisisdoors:item.door_spruce>);
 NEI.hide(<malisisdoors:forcefieldDoor>);
 NEI.hide(<malisisdoors:saloon>);
+NEI.hide(<BuildCraft|Factory:pumpBlock>);
 
 NEI.hide(<ForgeMicroblock:microblock>);
 
@@ -390,6 +391,8 @@ NEI.hide(<Mekanism:GlowPlasticBlock:*>);
 NEI.hide(<Mekanism:ReinforcedPlasticBlock:*>);
 NEI.hide(<Mekanism:RoadPlasticBlock:*>);
 NEI.hide(<JAKJ_RedstoneInMotion:tile.JAKJ_RedstoneInMotion_Spectre:*>);
+
+NEI.addEntry(<Railcraft:machine.alpha:5>);
 
 
 NEI.hide(<FloodLights:carbonFloodlight>);

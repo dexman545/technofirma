@@ -1,0 +1,17 @@
+Fix TC
+	hide some researches
+	try to fix worldgen
+		amber
+		structures
+RTG
+	mod update/fix for it
+	new ore gen!
+Update Mods
+rebalnce pack
+tweak settings
+Integrate more of Mekanism into pack
+	ore pentification as ore duplication
+Physics
+Fix Recipes
+	salis mundis
+disable sapling drops?

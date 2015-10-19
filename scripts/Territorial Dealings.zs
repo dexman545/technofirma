@@ -2,11 +2,15 @@
 
 recipes.remove(<territorychevsky:territorychevsky_payorder>);
 recipes.remove(<territorychevsky:territorychevsky_playerid>);
+recipes.remove(<territorychevsky:territorychevsky_claimorder>);
 
 //Addition
 
 recipes.addShaped(<territorychevsky:territorychevsky_payorder>, [[<minecraft:paper>, <terrafirmacraft:item.ClayBowl:1>]]);
 recipes.addShaped(<territorychevsky:territorychevsky_playerid>, [[<terrafirmacraft:item.Nametag>, <ore:materialString>], [<minecraft:paper>, null]]);
+recipes.addShaped(<territorychevsky:territorychevsky_claimorder>, [[<minecraft:paper>, <terrafirmacraft:item.arrow>]]);
+recipes.addShaped(<territorychevsky:territorychevsky_startdeed>, [[<minecraft:paper>, <minecraft:book>]]);
+recipes.addShaped(<territorychevsky:territorychevsky_startdeed>, [[<minecraft:paper>, <minecraft:book>]]);
 
 //Silver
 

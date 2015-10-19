@@ -1,0 +1,27 @@
+Dealt with BetterSleeping
+	Disable tired blindness
+	Sleeping tiredness collapse
+	Players can now sprint for long periods of time
+		Made sprint jumping a fast, player forced way of getting tired
+Fixed flickering distances
+	Disabled overcast mode for weather2
+	Probably broke snow, barrels filling in rain, and a few other things
+Changed Horizantal log physics from wood to stonebrick
+Made arc furnace require less power by a factor of 4
+Revealed RC smoker
+Hiden BC pump
+Fixed Recipes
+	new faction deed
+	configurator
+	compressed iron
+Fixed steel axes not placing
+Fixed pumps not recognizing TFC fluids
+Reenabled quarry chunk loading
+Disabled useless retrogen
+Added LaunchGUI
+	notification of changelog, no more ignoring what changes! - kindof
+Added Push and Shove
+	mobs have hitboxes that players collide with
+Updated
+	TFC
+	PC

@@ -40,3 +40,4 @@ recipes.addShaped(<PneumaticCraft:liquidCompressor>, [[<PneumaticCraft:plastic:1
 recipes.addShaped(<PneumaticCraft:pcbBlueprint>, [[<ore:ingotIronCompressed>, <Eln:Eln.sharedItem:962>]]);
 recipes.addShaped(<PneumaticCraft:stoneBase>, [[<terrafirmacraft:StoneIgEx:*>, null, <terrafirmacraft:StoneIgEx:*>], [<terrafirmacraft:StoneIgEx:*>, <PneumaticCraft:pressureTube:*>, <ore:stone>]]);
 recipes.addShaped(<PneumaticCraft:uvLightBox>, [[<Eln:Eln.SixNode:4100>, <Eln:Eln.SixNode:4100>, <Eln:Eln.SixNode:4100>], [<ore:ingotIronCompressed>, <PneumaticCraft:pcbBlueprint>, <PneumaticCraft:pressureTube>], [<ore:ingotIronCompressed>, <ore:ingotIronCompressed>, <ore:ingotIronCompressed>]]);
+recipes.addShaped(<PneumaticCraft:ingotIronCompressed> * 6, [[<ore:ingotWroughtIron>, <ore:ingotWroughtIron>, <ore:ingotWroughtIron>], [<ore:ingotWroughtIron>, <minecraft:tnt>, <ore:ingotWroughtIron>], [<ore:ingotWroughtIron>, <ore:ingotWroughtIron>, <ore:ingotWroughtIron>]]);

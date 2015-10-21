@@ -11,6 +11,7 @@ recipes.remove(<PneumaticCraft:liquidCompressor>);
 recipes.remove(<PneumaticCraft:pcbBlueprint>);
 recipes.remove(<PneumaticCraft:stoneBase>);
 recipes.remove(<PneumaticCraft:uvLightBox>);
+recipes.remove(<PneumaticCraft:omnidirectionalHopper>);
 
 mods.pneumaticcraft.Pressure.removeRecipe([<PneumaticCraft:etchacidBucket>]);
 
@@ -29,6 +30,7 @@ recipes.removeShaped(<PneumaticCraft:pcbBlueprint>, [[null, <terrafirmacraft:ite
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<PneumaticCraft:omnidirectionalHopper>, [[<PneumaticCraft:ingotIronCompressed>, null, <ore:ingotIronCompressed>], [<ore:ingotIronCompressed>, <minecraft:hopper>, <ore:ingotIronCompressed>], [null, <ore:ingotIronCompressed>, null]]);
 recipes.addShaped(<PneumaticCraft:advancedLiquidCompressor>, [[<PneumaticCraft:plastic:1>, <PneumaticCraft:plastic:1>, <PneumaticCraft:plastic:1>], [<PneumaticCraft:plastic:1>, <cuchaz.ships:magicBucket>, <PneumaticCraft:advancedPressureTube>], [<PneumaticCraft:plastic:1>, <PneumaticCraft:liquidCompressor>, <PneumaticCraft:plastic:1>]]);
 recipes.addShaped(<PneumaticCraft:aerialInterface>, [[<PneumaticCraft:pressureChamberWall:*>, <terrafirmacraft:Hopper>, <PneumaticCraft:pressureChamberWall:*>], [<minecraft:ender_eye>, <Eln:Eln.TransparentNode:450>, <minecraft:ender_eye>], [<PneumaticCraft:pressureChamberWall:*>, <PneumaticCraft:advancedPressureTube>, <PneumaticCraft:pressureChamberWall:*>]]);
 recipes.addShaped(<PneumaticCraft:airCompressor>, [[<ore:ingotIronCompressed>, <ore:ingotIronCompressed>, <ore:ingotIronCompressed>], [<ore:ingotIronCompressed>, null, <PneumaticCraft:pressureTube>], [<ore:ingotIronCompressed>, <Eln:Eln.TransparentNode:2048>, <ore:ingotIronCompressed>]]);

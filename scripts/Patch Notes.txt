@@ -8,6 +8,7 @@ Fixed flickering distances
 	Probably broke snow, barrels filling in rain, and a few other things
 Changed Horizantal log physics from wood to stonebrick
 Made arc furnace require less power by a factor of 4
+Made arc furnace buildable
 Revealed RC smoker
 Hiden BC pump
 Fixed Recipes
@@ -16,8 +17,12 @@ Fixed Recipes
 	compressed iron
 	radiator blocks using vanilla water bucket
 	concrete recipe using vanilla gravel
-Fixed steel axes not placing
-Fixed pumps not recognizing TFC fluids
+	exploit of crafting a TFC hopper straight into a vanilla 
+	Removed cardboard box
+	Omnidirectional hoppers more expensive
+Fixed steel axes not choping - TFC update fixes this
+Fixed pumps not recognizing TFC fluids - TFC update fixes this
+Potentially fixed double chest bug - TFC update fixes this
 Reenabled quarry chunk loading
 Disabled useless retrogen
 Added LaunchGUI
@@ -28,8 +33,12 @@ Updated
 	TFC
 	PC
 Config Tweaks
-	Made ksylight dependent on moonphase
-Fixed IE thermopile not working with TFC fluids
+	Made sylight dependent on moonphase
+	Made cows passive
+Fixed IE thermopile not working with TFC fluids - TFC update fixes this
 Enabled Mekanism sawmill
 	better than player crafting with a saw
 	makes lumber and sticks
+	removed vanilla recipes
+Added Chunk Animator
+Added Herdcraft

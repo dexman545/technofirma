@@ -7,7 +7,7 @@ RTG
 	mod update/fix for it
 	new ore gen!
 Update Mods
-rebalnce pack
+rebalance pack
 tweak settings
 Integrate more of Mekanism into pack
 	ore pentification as ore triplication
@@ -21,4 +21,4 @@ disable sapling drops?
 	more choice of startup locations
 	promote travel
 	more expensive charcoal
-Omnidirectional hoppers more expensive
+Add witchery

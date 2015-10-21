@@ -4,6 +4,7 @@ recipes.remove(<ForgeMicroblock:sawDiamond>);
 recipes.remove(<ForgeMicroblock:sawIron>);
 recipes.remove(<ForgeMicroblock:sawStone>);
 
+recipes.removeShaped(<minecraft:hopper>, [[<terrafirmacraft:Hopper>]]);
 recipes.remove(<minecraft:boat>);
 recipes.remove(<minecraft:bucket>);
 recipes.remove(<minecraft:chest>);

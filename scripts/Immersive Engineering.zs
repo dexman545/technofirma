@@ -74,6 +74,7 @@ mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Ore>, <ore:ore
 mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Ore:1>, <ore:oreRichGold>, 8000, <terrafirmacraft:item.Ore:50>, 1.0);
 mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Ore:2>, <ore:oreRichPlatinum>, 8000, <terrafirmacraft:item.Ore:51>, 1.0);
 mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Ore:4>, <ore:oreRichSilver>, 8000, <terrafirmacraft:item.Ore:53>, 1.0);
+mods.immersiveengineering.Crusher.addRecipe(<Mekanism:OtherDust>, <ore:gemDiamond>, 8000, <terrafirmacraft:item.Powder:2>, 1.0);
 
 //Arc Furnace-RA
 //OutputStack, InputStack, SlagOutput, Time in Ticks, Energy per Tick, AdditiveArray

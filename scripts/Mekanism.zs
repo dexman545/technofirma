@@ -1,5 +1,6 @@
 import minetweaker.item.IItemStack;
 
+recipes.remove(<Mekanism:Flamethrower:100>);
 recipes.remove(<Mekanism:CardboardBox>);
 recipes.remove(<Mekanism:BasicBlock:3>);
 recipes.remove(<Mekanism:BasicBlock:2>);
@@ -11,6 +12,7 @@ recipes.remove(<Mekanism:GlowPanel:*>);
 recipes.remove(<Mekanism:MachineBlock:8>);
 recipes.remove(<Mekanism:Configurator:100>);
 
+recipes.addShaped(<Mekanism:Flamethrower:100>, [[<ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>], [<ore:ingotTin>, <Mekanism:GasTank:100>, <ore:toolFlintSteel>], [<ore:ingotAnyBronze>, <ore:circuitAdvanced>, <ore:ingotAnyBronze>]]);
 recipes.addShaped(<Mekanism:MachineBlock:8>, [[<ore:ingotWroughtIron>, <Eln:Eln.TransparentNode:192>, <ore:ingotWroughtIron>], [<ore:dustRedstone>, null, <ore:dustRedstone>], [<ore:ingotWroughtIron>, <Eln:Eln.TransparentNode:192>, <ore:ingotWroughtIron>]]);
 recipes.addShaped(<Mekanism:Configurator:100>, [[null, <ore:dustLapis>, null], [<ore:itemEnrichedAlloy>, <ore:battery>, <ore:itemEnrichedAlloy>], [null, <ore:treatedStick>, null]]);
 

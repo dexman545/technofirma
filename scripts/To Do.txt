@@ -9,6 +9,7 @@ RTG
 Update Mods
 rebalance pack
 tweak settings
+	reenable forge smoke?
 Integrate more of Mekanism into pack
 	ore pentification as ore triplication
 	ore triplication as ore duplication
@@ -16,9 +17,19 @@ Integrate more of Mekanism into pack
 Physics
 Fix Recipes
 	salis mundis
+	use for poor ore
+	more auto processing of ingots in arc furnace
 disable sapling drops?
 	more trading incentives
 	more choice of startup locations
 	promote travel
 	more expensive charcoal
 Add witchery
+	wait for Modtweaker to add support
+Add Ancient Warfare 2?
+	very difficult
+	original dev denied
+		maybe gototlink will
+			must ask
+	machines
+Add electrodynamics?

@@ -144,8 +144,11 @@ recipes.addShaped(<Railcraft:tool.whistle.tuner>, [[<terrafirmacraft:item.Steel 
 
 
 //Coke oven recipes
-//InputStack, matchDamage, matchNBT, OutputStack, fluidOutput, Cook time
-//mods.railcraft.CokeOven.removeRecipe(<*>);
+//OutputStack, OutputFluid, InputStack, Time in Ticks
+mods.railcraft.CokeOven.addRecipe(<terrafirmacraft:item.coal:1>, <liquid:creosote> * 250, <Thaumcraft:blockMagicalLog>, 3600); 
+
+//OutputStack
+mods.railcraft.CokeOven.removeRecipe(<minecraft:coal:1>);
 
 val steel = <terrafirmacraft:item.Steel Ingot>;
 

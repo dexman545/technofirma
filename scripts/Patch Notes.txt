@@ -3,12 +3,15 @@ Dealt with BetterSleeping
 	Sleeping tiredness collapse
 	Players can now sprint for long periods of time
 		Made sprint jumping a fast, player forced way of getting tired
+		Readded Better Sprinting, press U to toggle sprinting on/off
 Fixed flickering distances
 	Disabled overcast mode for weather2
 	Probably broke snow, barrels filling in rain, and a few other things
 Changed Horizantal log physics from wood to stonebrick
+	HLogs can now be used as supports when building
 Made arc furnace require less power by a factor of 4
-Made arc furnace buildable
+Made arc furnace buildable (again)
+	steel blocks now behave as bricks
 Revealed RC smoker
 Hiden BC pump
 Fixed Recipes
@@ -17,12 +20,14 @@ Fixed Recipes
 	compressed iron
 	radiator blocks using vanilla water bucket
 	concrete recipe using vanilla gravel
-	exploit of crafting a TFC hopper straight into a vanilla 
+	exploit of crafting a TFC hopper straight into a vanilla hopper
 	Removed cardboard box
 	Omnidirectional hoppers more expensive
-Fixed steel axes not choping - TFC update fixes this
-Fixed pumps not recognizing TFC fluids - TFC update fixes this
-Potentially fixed double chest bug - TFC update fixes this
+	Fixed flamethrower requiring vanilla flint & steel
+	Fixed greatwood logs in coke oven making vanilla charcoal
+		takes twice as long and produces half as much creosole as regular TFC logs
+	mekanism diamond dust recipe
+		IE crusher
 Reenabled quarry chunk loading
 Disabled useless retrogen
 Added LaunchGUI
@@ -31,9 +36,12 @@ Added Push and Shove
 	mobs have hitboxes that players collide with
 Updated
 	TFC
-	PC
+		TFC changelog: http://terrafirmacraft.com/index.html/_/articles/07925-released-r90
+	Pneumaticraft
+	Opencomputers
+	Railcraft
 Config Tweaks
-	Made sylight dependent on moonphase
+	Made amount of amibent light outside, at night, dependent on moonphase
 	Made cows passive
 Fixed IE thermopile not working with TFC fluids - TFC update fixes this
 Enabled Mekanism sawmill
@@ -42,3 +50,6 @@ Enabled Mekanism sawmill
 	removed vanilla recipes
 Added Chunk Animator
 Added Herdcraft
+Set weather2 storm effects vanilla particles only
+Lowered Weather2's default settings
+Disabled a bunch of useless controls

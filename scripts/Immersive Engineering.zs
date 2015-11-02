@@ -13,7 +13,15 @@ recipes.remove(<ImmersiveEngineering:tool>);
 recipes.remove(<ImmersiveEngineering:storage:7>);
 recipes.remove(<ImmersiveEngineering:metalDecoration:4>);
 recipes.remove(<ImmersiveEngineering:stoneDecoration> * 6);
-
+recipes.remove(<ImmersiveEngineering:metal:2>);
+recipes.remove(<ImmersiveEngineering:metal:1>);
+recipes.remove(<ImmersiveEngineering:metal>);
+recipes.remove(<ImmersiveEngineering:metal>);
+recipes.remove(<ImmersiveEngineering:metal:7>);
+recipes.remove(<ImmersiveEngineering:metal:6>);
+recipes.remove(<ImmersiveEngineering:metal:5>);
+recipes.remove(<ImmersiveEngineering:metal:4>);
+recipes.remove(<ImmersiveEngineering:metal:3>);
 
 //Crusher-RR
 //mods.immersiveengineering.Crusher.removeRecipe(<>);

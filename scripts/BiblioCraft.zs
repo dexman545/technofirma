@@ -6,6 +6,7 @@ recipes.remove(<BiblioCraft:BiblioPaneler:6>);
 recipes.remove(<BiblioCraft:BiblioPotionShelf:6>);
 recipes.remove(<BiblioCraft:BiblioRack:6>);
 recipes.remove(<BiblioCraft:BiblioSeats:6>);
+recipes.remove(<BiblioCraft:tile.BiblioFramedChest>);
 
 recipes.remove(<BiblioCraft:item.FramingSaw>);
 recipes.remove(<BiblioCraft:item.PlumbLine>);

@@ -38,6 +38,8 @@ recipes.remove(<Eln:eln.EnergyConverterElnToOtherHVUBlock>);
 recipes.remove(<Eln:eln.EnergyConverterElnToOtherMVUBlock>);
 recipes.remove(<Eln:eln.EnergyConverterElnToOtherLVUBlock>);
 
+recipes.remove(<Eln:Eln.sharedItem:704>);
+
 recipes.remove(<Eln:Eln.E-Coal Leggings>);
 recipes.remove(<Eln:Eln.E-Coal Chestplate>);
 recipes.remove(<Eln:Eln.E-Coal Helmet>);
@@ -167,6 +169,8 @@ recipes.addShapeless( <Eln:Eln.SixNode:6657> * 1, [<Eln:Eln.sharedItem:7696>, <E
 recipes.addShaped(<Eln:eln.EnergyConverterElnToOtherLVUBlock>, [[<ore:ingotBlueSteel>, <ore:ingotBlueSteel>, <ore:ingotBlueSteel>], [<Eln:Eln.SixNode:2052>, <Eln:Eln.sharedItem:7680>, copper], [<ore:ingotBlueSteel>, <ore:ingotBlueSteel>, <ore:ingotBlueSteel>]]);
 recipes.addShaped(<Eln:eln.EnergyConverterElnToOtherMVUBlock>, [[<ore:ingotBlueSteel>, <ore:ingotBlueSteel>, <ore:ingotBlueSteel>], [<Eln:Eln.SixNode:2056>, <Eln:Eln.sharedItem:7680>, plat], [<ore:ingotBlueSteel>, <ore:ingotBlueSteel>, <ore:ingotBlueSteel>]]);
 recipes.addShaped(<Eln:eln.EnergyConverterElnToOtherHVUBlock>, [[<ore:ingotBlueSteel>, <ore:ingotBlueSteel>, <ore:ingotBlueSteel>], [<Eln:Eln.SixNode:2060>, <Eln:Eln.sharedItem:7681>, gold], [<ore:ingotBlueSteel>, <ore:ingotBlueSteel>, <ore:ingotBlueSteel>]]);
+
+recipes.addShaped(<Eln:Eln.sharedItem:704>, [[<ore:paneGlassColorless>, <ore:paneGlassColorless>, <ore:paneGlassColorless>], [<ore:dustRedstone>, <ore:blockQuartz>, <ore:dustRedstone>], [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]]);
 
 recipes.addShaped(<Eln:Eln.sharedItem:69> * 1, [[iron, null, iron], [iron, iron, iron], [iron, null, iron]]);
 recipes.addShaped(<Eln:Eln.sharedItem:192> * 1, [[redstone, redstone, redstone], [null, iron, null]]);

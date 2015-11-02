@@ -43,7 +43,7 @@ recipes.addShaped(<flansmod:v6Engine>, [[<flansmod:enginePiston>, <terrafirmacra
 recipes.addShaped(<flansmod:v8Engine>, [[<flansmod:enginePiston>, <flansmod:v4Engine>, <flansmod:enginePiston>], [<flansmod:enginePiston>, <terrafirmacraft:item.Red Steel Ingot>, <flansmod:enginePiston>], [<terrafirmacraft:item.Blue Steel Ingot>, <terrafirmacraft:item.Bismuth Ingot>, <terrafirmacraft:item.Blue Steel Ingot>]]);
 recipes.addShaped(<flansmod:vehicleSeat>, [[null, <terrafirmacraft:item.TFC Leather>, <terrafirmacraft:item.Wrought Iron Ingot>], [<terrafirmacraft:item.TFC Leather>, <terrafirmacraft:item.Wool>, <terrafirmacraft:item.Wrought Iron Ingot>], [<terrafirmacraft:item.Wrought Iron Ingot>, <terrafirmacraft:item.Wrought Iron Ingot>, <terrafirmacraft:item.Wrought Iron Ingot>]]);
 
-recipes.addShaped(<flansmod:wheel>, [[<ore:itemRubber>, <lwstfc:item.SheepBladder>, <ore:itemRubber>], [<ore:itemRubber>, <ore:ingotWroughtIron>, <ore:itemRubber>], [<ore:itemRubber>, <ore:itemRubber>, <ore:itemRubber>]]);
+recipes.addShaped(<flansmod:wheel>, [[<ore:itemRubber>, <lwstfc:item.Bladder:*>, <ore:itemRubber>], [<ore:itemRubber>, <ore:ingotWroughtIron>, <ore:itemRubber>], [<ore:itemRubber>, <ore:itemRubber>, <ore:itemRubber>]]);
 recipes.addShaped(<flansmod:woodenCockpit>, [[<flansmod:vehicleSeat>, <minecraft:boat>]]);
 recipes.addShaped(<flansmod:woodenPropeller>, [[null, <ore:woodLumber>, null], [null, <terrafirmacraft:item.Steel Ingot>, null], [<ore:woodLumber>, null, <ore:woodLumber>]]);
 recipes.addShaped(<flansmod:woodenTail>, [[null, <ore:woodLumber>, <ore:plankWood>], [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], [null, null, <ore:woodLumber>]]);

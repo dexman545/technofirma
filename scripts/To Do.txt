@@ -2,7 +2,12 @@ Fix TC
 	hide some researches
 	try to fix worldgen
 		amber
-		structures
+	Dimension
+	Nerf it
+	thaumic steel
+	Fix alumentum
+	fix essentia tubes
+	leather boots infusion for traveler boots
 RTG
 	mod update/fix for it
 	new ore gen!
@@ -19,6 +24,8 @@ Fix Recipes
 	salis mundis
 	use for poor ore
 	more auto processing of ingots in arc furnace
+	Robit
+		electrical chest
 disable sapling drops?
 	more trading incentives
 	more choice of startup locations
@@ -29,7 +36,25 @@ Add witchery
 Add Ancient Warfare 2?
 	very difficult
 	original dev denied
-		maybe gototlink will
+		maybe gotolink will
 			must ask
 	machines
+Add Lore Expansion
+	written material
+Disable potions
+Fix nanomachines
 Add electrodynamics?
+Add more tech mods
+Technofirma oil lamps
+	localization
+	recipe
+Magic Mod Paths
+	Lock with Progression
+	Bloodmagic
+		wither
+			soul sand in infused altar
+			same with skull
+				drying?
+	Thaumcraft
+	Witchery
+	

@@ -1,55 +1,45 @@
-Dealt with BetterSleeping
-	Disable tired blindness
-	Sleeping tiredness collapse
-	Players can now sprint for long periods of time
-		Made sprint jumping a fast, player forced way of getting tired
-		Readded Better Sprinting, press U to toggle sprinting on/off
-Fixed flickering distances
-	Disabled overcast mode for weather2
-	Probably broke snow, barrels filling in rain, and a few other things
-Changed Horizantal log physics from wood to stonebrick
-	HLogs can now be used as supports when building
-Made arc furnace require less power by a factor of 4
-Made arc furnace buildable (again)
-	steel blocks now behave as bricks
-Revealed RC smoker
-Hiden BC pump
-Fixed Recipes
-	new faction deed
-	configurator
-	compressed iron
-	radiator blocks using vanilla water bucket
-	concrete recipe using vanilla gravel
-	exploit of crafting a TFC hopper straight into a vanilla hopper
-	Removed cardboard box
-	Omnidirectional hoppers more expensive
-	Fixed flamethrower requiring vanilla flint & steel
-	Fixed greatwood logs in coke oven making vanilla charcoal
-		takes twice as long and produces half as much creosole as regular TFC logs
-	mekanism diamond dust recipe
-		IE crusher
-Reenabled quarry chunk loading
-Disabled useless retrogen
-Added LaunchGUI
-	notification of changelog, no more ignoring what changes! - kindof
-Added Push and Shove
-	mobs have hitboxes that players collide with
-Updated
-	TFC
-		TFC changelog: http://terrafirmacraft.com/index.html/_/articles/07925-released-r90
-	Pneumaticraft
-	Opencomputers
-	Railcraft
-Config Tweaks
-	Made amount of amibent light outside, at night, dependent on moonphase
-	Made cows passive
-Fixed IE thermopile not working with TFC fluids - TFC update fixes this
-Enabled Mekanism sawmill
-	better than player crafting with a saw
-	makes lumber and sticks
-	removed vanilla recipes
-Added Chunk Animator
-Added Herdcraft
-Set weather2 storm effects vanilla particles only
-Lowered Weather2's default settings
-Disabled a bunch of useless controls
+Fix recipes
+	EA solar tracker
+		Required vanilla quartz
+	Disabled nugget exploit
+	Vanilla crafting bench recipe
+	Industrial hemp to string
+Fixed Thaumcraft
+	Removed hungry chest
+	Made greatwood logs harder
+Updated mods
+	Ye Gamol Chattels
+	Better Foliage
+		Enabled better lilypads, reeds, and coral
+	IVToolKit
+	TFC Leather Water Sac
+Added Mods
+	Recurrent Complex
+		Structures built by:
+			Beavelguy
+			Big_Bear91
+	Progression
+	Blood Magic TFC
+		sacrificial knife does damage equal to 1/3 the player's maximum health
+			Will never kill the player
+			Will divide the amount of damage done by a random number between 1 and 10 (inclusive), and will add that amount
+			of LP to the altar
+			Example: player has 900 maximum health
+				knife takes off 300 health
+				adds at most 300 LP, or at least 30 LP to the altar
+			Player is always left with no less than 10 HP
+			Player cannot use fill altar while soul frayed
+		regiestered Bound axe as itemAxe, it can chop down TFC trees
+	Glen's Gases
+		Gasses Framework
+Fixed NEI
+	rolling machine is now shown
+	coke oven is now shown
+Disabled gems from decorationsTFC
+	should fix a few recipes that required gems
+Fixed not being able to place enchanted fabric on pedastals
+Removed TC recipe for vanilla diamond
+Made chunks fall up
+Disabled the use of vanilla seeds
+Nerfed Thaumcraft
+Fixed pumpkins not obeying gravity

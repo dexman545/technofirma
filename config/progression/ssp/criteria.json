@@ -1,0 +1,74 @@
+{
+  "tabs": [
+    {
+      "uniqueName": "DEFAULT",
+      "displayName": "Paths of Magic",
+      "sortIndex": 0,
+      "isVisible": true,
+      "stack": "minecraft:book",
+      "criteria": [
+        {
+          "uniqueName": "1446342551231",
+          "displayName": "Paths of Magic: Thaumcraft",
+          "displayStack": "minecraft:stone",
+          "triggers": [
+            {
+              "type": "crafting",
+              "data": {
+                "item": "Thaumcraft:ItemInkwell 0"
+              }
+            }
+          ],
+          "conflicts": [
+            "1446342732036"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 72,
+          "y": 35,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1446342732036",
+          "displayName": "Paths of Magic: Sacrificial Magic",
+          "displayStack": "minecraft:stone",
+          "triggers": [
+            {
+              "conditions": [
+                {
+                  "type": "ininventory",
+                  "data": {
+                    "item": "minecraft:crafting_table"
+                  }
+                }
+              ],
+              "type": "crafting",
+              "data": {
+                "item": "AWWayofTime:Altar"
+              }
+            }
+          ],
+          "conflicts": [
+            "1446342551231"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 75,
+          "y": 87,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        }
+      ]
+    }
+  ],
+  "defaultTabID": "DEFAULT",
+  "disableCraftingUntilRewardAdded": false,
+  "disableUsageUntilRewardAdded": false,
+  "unclaimedTileCanCraftAnything": false,
+  "unclaimedTileCanUseAnythingForCrafting": false,
+  "interfaceItem": "minecraft:book",
+  "displayRequirementsOnNEIClick": true
+}

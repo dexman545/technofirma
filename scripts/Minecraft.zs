@@ -3,6 +3,9 @@
 recipes.remove(<ForgeMicroblock:sawDiamond>);
 recipes.remove(<ForgeMicroblock:sawIron>);
 recipes.remove(<ForgeMicroblock:sawStone>);
+recipes.remove(<minecraft:lapis_block>);
+recipes.remove(<minecraft:glowstone>);
+recipes.remove(<minecraft:crafting_table>);
 
 recipes.removeShaped(<minecraft:hopper>, [[<terrafirmacraft:Hopper>]]);
 recipes.remove(<minecraft:boat>);
@@ -23,6 +26,7 @@ recipes.remove(<minecraft:stone_slab:*>);
 // ================================================================================
 //#MARKER REMOVE SHAPELESS
 recipes.removeShapeless(<minecraft:dye:15>, [<PneumaticCraft:plasticPlant:15>]);
+recipes.removeShapeless(<minecraft:string>, [<ImmersiveEngineering:material:3>]);
 
 // ================================================================================
 //#MARKER REMOVE SHAPED
@@ -49,10 +53,17 @@ recipes.addShapeless(<minecraft:netherbrick>, [<terrafirmacraft:item.Fire Brick:
 recipes.addShapeless(<minecraft:paper> *1, [<ore:logWood>, <ore:bucketWater>]);
 recipes.addShapeless(<minecraft:stone_button>, [<terrafirmacraft:item.LooseRock>, <ore:itemChisel>, <ore:itemHammer>]);
 recipes.addShapeless(<minecraft:wheat_seeds>, [<terrafirmacraft:item.Seeds Wheat>]);
+recipes.addShapeless(<minecraft:ghast_tear>, [<Eln:Eln.TransparentNode:3136>]);
+recipes.addShapeless(<minecraft:glowstone_dust>, [<Thaumcraft:ItemResource:1>]);
 
 // ================================================================================
 //#MARKER ADD SHAPED
 recipes.addShaped(<ForgeMicroblock:sawIron>, [[<ore:stickWood>, <ore:stickWood>], [<terrafirmacraft:item.Wrought Iron Saw Blade>, <ore:stickWood>]]);
+recipes.addShaped(<minecraft:crafting_table>, [[null, <ore:plankWood>, null], [<ore:plankWood>, null, <ore:plankWood>], [null, <ore:plankWood>, null]]);
+
+recipes.addShaped(<minecraft:lapis_block>, [[<ore:dustLapis>, <ore:dustLapis>, <ore:dustLapis>], [<ore:dustLapis>, <ore:dustLapis>, <ore:dustLapis>], [<ore:dustLapis>, <ore:dustLapis>, <ore:dustLapis>]]);
+recipes.addShaped(<minecraft:string>, [[<ImmersiveEngineering:material:3>, <ImmersiveEngineering:material:3>, <ImmersiveEngineering:material:3>], [<ImmersiveEngineering:material:3>, <ImmersiveEngineering:material:3>, <ImmersiveEngineering:material:3>], [<ImmersiveEngineering:material:3>, <ImmersiveEngineering:material:3>, <ImmersiveEngineering:material:3>]]);
+recipes.addShaped(<minecraft:gold_block>, [[<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>], [<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>], [<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>]]);
 
 recipes.addShaped(<minecraft:boat>, [[<terrafirmacraft:planks:*>, null, <terrafirmacraft:planks:*>], [<terrafirmacraft:planks:*>, <terrafirmacraft:planks:*>, <terrafirmacraft:planks:*>]]);
 recipes.addShaped(<minecraft:bucket>, [[<ore:plateIron>, null, <ore:plateIron>], [null, <ore:plateIron>, null]]);

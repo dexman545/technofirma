@@ -5,6 +5,44 @@ mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:ItemResource:1>);
 mods.thaumcraft.Crucible.addRecipe("NITOR", <Thaumcraft:ItemResource:1>, <terrafirmacraft:OilLamp>, "ignis 5, aer 5, potentia 5");
 mods.thaumcraft.Crucible.addRecipe("ALUMENTUM", <Thaumcraft:blockCustomPlant:1>, <Thaumcraft:blockCustomPlant>, "ordo 2, permutatio 12");
 
+mods.thaumcraft.Loot.removeCommonLoot(<Thaumcraft:ItemBaubleBlanks:*>);
+mods.thaumcraft.Loot.removeCommonLoot(<minecraft:potion:*>);
+mods.thaumcraft.Loot.removeCommonLoot(<Thaumcraft:ItemResource:*>);
+mods.thaumcraft.Loot.removeCommonLoot(<minecraft:experience_bottle>);
+mods.thaumcraft.Loot.removeCommonLoot(<minecraft:gold_ingot>);
+mods.thaumcraft.Loot.removeCommonLoot(<minecraft:emerald>);
+mods.thaumcraft.Loot.removeCommonLoot(<minecraft:ender_pearl>);
+mods.thaumcraft.Loot.removeCommonLoot(<minecraft:diamond>);
+mods.thaumcraft.Loot.removeCommonLoot(<minecraft:golden_apple:*>);
+mods.thaumcraft.Loot.removeUncommonLoot(<Thaumcraft:ItemRingRunic>);
+mods.thaumcraft.Loot.removeUncommonLoot(<Thaumcraft:ItemResource:*>);
+mods.thaumcraft.Loot.removeUncommonLoot(<Thaumcraft:ItemBaubleBlanks:*>);
+mods.thaumcraft.Loot.removeUncommonLoot(<minecraft:potion:*>);
+mods.thaumcraft.Loot.removeUncommonLoot(<minecraft:ender_pearl>);
+mods.thaumcraft.Loot.removeUncommonLoot(<minecraft:diamond>);
+mods.thaumcraft.Loot.removeUncommonLoot(<minecraft:emerald>);
+mods.thaumcraft.Loot.removeUncommonLoot(<Thaumcraft:ItemAmuletVis>);
+mods.thaumcraft.Loot.removeUncommonLoot(<minecraft:gold_ingot>);
+mods.thaumcraft.Loot.removeUncommonLoot(<minecraft:golden_apple:*>);
+mods.thaumcraft.Loot.removeUncommonLoot(<minecraft:experience_bottle>);
+
+mods.thaumcraft.Loot.removeRareLoot(<minecraft:golden_apple:*>);
+mods.thaumcraft.Loot.removeRareLoot(<Thaumcraft:ItemResource:*>);
+mods.thaumcraft.Loot.removeRareLoot(<minecraft:potion:*>);
+mods.thaumcraft.Loot.removeRareLoot(<minecraft:diamond>);
+mods.thaumcraft.Loot.removeRareLoot(<minecraft:emerald>);
+mods.thaumcraft.Loot.removeRareLoot(<minecraft:ender_pearl>);
+mods.thaumcraft.Loot.removeRareLoot(<minecraft:experience_bottle>);
+mods.thaumcraft.Loot.removeRareLoot(<Thaumcraft:ItemBaubleBlanks:*>);
+mods.thaumcraft.Loot.removeRareLoot(<Thaumcraft:ItemRingRunic>);
+mods.thaumcraft.Loot.removeRareLoot(<minecraft:gold_ingot>);
+mods.thaumcraft.Loot.removeRareLoot(<Thaumcraft:ItemAmuletVis>);
+mods.thaumcraft.Loot.removeRareLoot(<Thaumcraft:ItemEldritchObject:*>);
+mods.thaumcraft.Loot.removeRareLoot(<minecraft:nether_star>);
+
+mods.thaumcraft.Loot.addCommonLoot(<terrafirmacraft:item.stick>, 40);
+mods.thaumcraft.Loot.addUncommonLoot(<terrafirmacraft:item.stick>, 40);
+mods.thaumcraft.Loot.addRareLoot(<terrafirmacraft:item.stick>, 40);
 
 //Arcane Workbench Recipes
 //ResearchKey, ResultStack, AspectsList, ShapedRecipe
@@ -15,10 +53,10 @@ mods.thaumcraft.Crucible.addRecipe("ALUMENTUM", <Thaumcraft:blockCustomPlant:1>,
 //ResearchKey, ResultStack, AspectsList, ArrayOfInputStacks
 //mods.thaumcraft.Arcane.addShapeless("ASPECTS", <minecraft:diamond>, "aqua 5, terra 5, perditio 5, ordo 5", [<minecraft:dirt>, <minecraft:feather>, <minecraft:gold_ingot>]);
 
-mods.thaumcraft.Arcane.addShaped("ASPECTS", <minecraft:diamond>, "aqua 1, terra 3",
-[[null, <ore:ingotGold>,null],
-[<ore:ingotGold>, null, <ore:ingotGold>],
-[null, <ore:ingotGold>, null]]);
+//mods.thaumcraft.Arcane.addShaped("ASPECTS", <minecraft:diamond>, "aqua 1, terra 3",
+//[[null, <ore:ingotGold>,null],
+//[<ore:ingotGold>, null, <ore:ingotGold>],
+//[null, <ore:ingotGold>, null]]);
 
 mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockTable:14>);
 mods.thaumcraft.Arcane.addShaped("DECONSTRUCTOR", <Thaumcraft:blockTable:14>, "perditio 20",

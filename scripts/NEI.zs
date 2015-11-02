@@ -391,6 +391,26 @@ NEI.hide(<Mekanism:GlowPlasticBlock:*>);
 NEI.hide(<Mekanism:ReinforcedPlasticBlock:*>);
 NEI.hide(<Mekanism:RoadPlasticBlock:*>);
 NEI.hide(<JAKJ_RedstoneInMotion:tile.JAKJ_RedstoneInMotion_Spectre:*>);
+//NEI.hide(<gasesFramework:lantern_gas_4>);
+//NEI.hide(<gasesFramework:lantern_gas_5>);
+//NEI.hide(<gasesFramework:gasFurnaceActive>);
+//NEI.hide(<gasesFramework:lantern_gas_2>);
+//NEI.hide(<gasesFramework:lantern_gas_3>);
+//NEI.hide(<gasesFramework:infiniteGasPump>);
+//NEI.hide(<gasesFramework:infiniteGasDrain>);
+//NEI.hide(<gasesFramework:lantern_empty>);
+//NEI.hide(<gasesFramework:gasPump>);
+//NEI.hide(<gasesFramework:gasPipe_air:*>);
+//NEI.hide(<gasesFramework:gasFurnaceIdle>);
+//NEI.hide(<gasesFramework:gasTank>);
+//NEI.hide(<gasesFramework:gasTransposer>);
+//NEI.hide(<gasesFramework:gasPipe_smoke:*>);
+//NEI.hide(<gasesFramework:gasCollector>);
+//NEI.hide(<gasesFramework:lantern_gas_1>);
+//NEI.hide(<gasesFramework:lantern_gas_empty>);
+//NEI.hide(<gasesFramework:gasBottle>);
+//NEI.hide(<gasesFramework:gasSamplerExcluder:*>);
+//NEI.hide(<gasesFramework:gasSamplerIncluder:*>);
 
 NEI.addEntry(<Railcraft:machine.alpha:5>);
 NEI.addEntry(<ImmersiveEngineering:stoneDecoration>);
@@ -405,6 +425,8 @@ NEI.hide(<FloodLights:glowingFilament>);
 NEI.hide(<terrafirmacraft:StoneSed:5>);
 NEI.addEntry(<terrafirmacraft:StoneSed:5>.withTag({display: {Name: "Dolomite", Lore: ["It ain't right without Dolomite!"]}}));
 
+NEI.addEntry(<Railcraft:machine.alpha:7>);
+NEI.addEntry(<Railcraft:machine.alpha:8>);
 
 <CarpentersBlocks:blockCarpentersBlock>.displayName = "Wooden Construction Frame";
 <minecraft:iron_ingot>.displayName = "Refined Iron";

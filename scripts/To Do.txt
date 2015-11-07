@@ -2,17 +2,27 @@ Fix TC
 	hide some researches
 	try to fix worldgen
 		amber
-	Dimension
 	Nerf it
 	thaumic steel
-	Fix alumentum
-	fix essentia tubes
-	leather boots infusion for traveler boots
-RTG
-	mod update/fix for it
-	new ore gen!
 Update Mods
-rebalance pack
+Rebalance pack
+	From user podank:
+			Limit each mod to only needing things from itself, and TFC,
+		instead of making players slog through many different mods for certain items
+		"don't make me figure out how to make a Defense Turret in whatever MOD that is 
+		before i can even shock a zombie with my wand.
+		I think for instance that either Refined Iron needs to be toned down to Wrought Iron, 
+		or converted to Steel, in the thaumcraft recipies. 
+		not sure what to do for refined gold but same complaint."
+			In P.S.: "the thermostatic harness. it had a bunch of stuff from other 
+		mods in it--they weren't a problem in themselves, they were a nice multi step process. 
+		the problem was needing refined iron to make the nuggets to make the transistor...
+		so i am not suggesting we eliminate other mods stuff from every recipe, 
+		but just dont make me have to go deep into some other mod to do stuff in another...
+		except for TFC as the root of all mods..."
+	From user Simmareth:
+		"[disable sapling drops] for managing tree farming. Making the saplings an acquired item during the iron age by way of a recipe involving leaves or cuttings. Good way to reflect on the advances of agriculture during the iron age, in this case Arboriculture and the related forestry-based industries."
+		Aggrees with mod separation suggestion
 tweak settings
 	reenable forge smoke?
 Integrate more of Mekanism into pack
@@ -26,11 +36,15 @@ Fix Recipes
 	more auto processing of ingots in arc furnace
 	Robit
 		electrical chest
-disable sapling drops?
-	more trading incentives
-	more choice of startup locations
-	promote travel
-	more expensive charcoal
+	Fix alumentum
+	fix essentia tubes
+	leather boots infusion for traveler 
+	mundane belt recipe
+	iron nugget recipe
+	smelting rubber
+recipe to convert logs/wood/lumber to saplings
+		boost reduce growth time of saplings
+		tree farming only available after iron
 Add witchery
 	wait for Modtweaker to add support
 Add Ancient Warfare 2?
@@ -42,8 +56,8 @@ Add Ancient Warfare 2?
 Add Lore Expansion
 	written material
 Disable potions
+	not currently possible
 Fix nanomachines
-Add electrodynamics?
 Add more tech mods
 Technofirma oil lamps
 	localization
@@ -55,6 +69,9 @@ Magic Mod Paths
 			soul sand in infused altar
 			same with skull
 				drying?
+			boost wither health/damage
+		finish recipes
 	Thaumcraft
 	Witchery
-	
+Bug Fixes
+	evil chickens

@@ -7,17 +7,29 @@ Fix recipes
 Fixed Thaumcraft
 	Removed hungry chest
 	Made greatwood logs harder
+	Made the Eldritch dungeon accessible
+	Nerfed loot bags
+	Nerfed greatwood tree loot
 Updated mods
 	Ye Gamol Chattels
 	Better Foliage
 		Enabled better lilypads, reeds, and coral
 	IVToolKit
 	TFC Leather Water Sac
+	Immersive Engineering
+	Decocraft
 Added Mods
 	Recurrent Complex
 		Structures built by:
 			Beavelguy
 			Big_Bear91
+		Structures:
+			TCTower1
+			TCTower2
+			Totem1
+			Obelisk
+			Road1
+			Maidan of Purity
 	Progression
 	Blood Magic TFC
 		sacrificial knife does damage equal to 1/3 the player's maximum health
@@ -28,10 +40,12 @@ Added Mods
 				knife takes off 300 health
 				adds at most 300 LP, or at least 30 LP to the altar
 			Player is always left with no less than 10 HP
-			Player cannot use fill altar while soul frayed
-		regiestered Bound axe as itemAxe, it can chop down TFC trees
+			Player cannot fill altar while soul frayed
+		regiestered Bound axe as itemAxe, it can now chop down TFC trees
 	Glen's Gases
 		Gasses Framework
+	TFC Additions
+	TFC Scales
 Fixed NEI
 	rolling machine is now shown
 	coke oven is now shown
@@ -42,4 +56,8 @@ Removed TC recipe for vanilla diamond
 Made chunks fall up
 Disabled the use of vanilla seeds
 Nerfed Thaumcraft
-Fixed pumpkins not obeying gravity
+Fixed pumpkins not having physics
+New tree mechanic:
+	reset sapling growth time from 4.5 to 1.0
+	disabled sapling drops
+	trees naturally regrow in forests

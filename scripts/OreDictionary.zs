@@ -22,6 +22,7 @@ val bauxite = <ore:oreAluminum>;
 val quartz = <ore:gemQuartz>;
 val anycoal = <ore:anyCoal>;
 val anyShard = <ore:anyShard>;
+val sapling = <ore:treeSapling>;
 
 // ================================================================================
 //#MARKER REMOVE
@@ -62,6 +63,7 @@ bauxite.add(<terrafirmacraft:item.Ore:16>);
 anycoal.add(<terrafirmacraft:item.coal:*>);
 anycoal.add(<terrafirmacraft:item.Ore:14>);
 anyShard.add(<Thaumcraft:ItemShard:*>);
+sapling.add(<terrafirmacraft:item.FruitSapling:*>);
 
 
 // ================================================================================

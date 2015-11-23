@@ -428,6 +428,8 @@ NEI.addEntry(<terrafirmacraft:StoneSed:5>.withTag({display: {Name: "Dolomite", L
 NEI.addEntry(<Railcraft:machine.alpha:7>);
 NEI.addEntry(<Railcraft:machine.alpha:8>);
 
+NEI.addEntry(<minecraft:chest>.withTag({display: {Name: "Chest", Lore: ["Storage without Storage"]}}));
+
 <CarpentersBlocks:blockCarpentersBlock>.displayName = "Wooden Construction Frame";
 <minecraft:iron_ingot>.displayName = "Refined Iron";
 <minecraft:quartz_block>.displayName = "Albino Block of Jet";

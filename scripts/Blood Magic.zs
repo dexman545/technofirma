@@ -103,7 +103,7 @@ mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:dawnScribeTool>);
 mods.bloodmagic.Altar.addRecipe(<AWWayofTime:weakBloodOrb>, <minecraft:ender_pearl>, 1, 2000);
 mods.bloodmagic.Altar.addRecipe(<minecraft:soul_sand>, <props:props:176>,3, 5000);
 mods.bloodmagic.Altar.addRecipe(<AWWayofTime:apprenticeBloodOrb>, <terrafirmacraft:item.Emerald:2>, 3, 5000);
-mods.bloodmagic.Altar.addRecipe(<AWWayofTime:blankSlate>, <Thaumcraft:blockCosmeticSolid:6>, 3, 5000);
+mods.bloodmagic.Altar.addRecipe(<AWWayofTime:blankSlate>, <Thaumcraft:blockCosmeticSolid:6>, 1, 5000);
 mods.bloodmagic.Altar.addRecipe(<AWWayofTime:daggerOfSacrifice>, <terrafirmacraft:item.Wrought Iron Sword>, 2, 3000);
 mods.bloodmagic.Altar.addRecipe(<AWWayofTime:alchemyFlask>, <terrafirmacraft:item.Glass Bottle>, 2, 2000);
 mods.bloodmagic.Altar.addRecipe(<AWWayofTime:fireScribeTool>, <terrafirmacraft:item.Powder:3>, 3, 1000);
@@ -116,7 +116,7 @@ recipes.remove(<AWWayofTime:lavaCrystal>);
 mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:lavaCrystal>,
 [[<ore:blockGlass>, <terrafirmacraft:item.flintAndSteel>, <ore:blockGlass>],
 [<terrafirmacraft:item.flintAndSteel>, <AWWayofTime:weakBloodOrb>, <terrafirmacraft:item.flintAndSteel>],
-[<ore:blockObsidian>, <ore:gemDiamond>,<ore:blockObsidian>]]);
+[<minecraft:obsidian>, <ore:gemDiamond>,<minecraft:obsidian>]]);
  
 //Blood Rune
 recipes.remove(<AWWayofTime:AlchemicalWizardrybloodRune>);
@@ -135,23 +135,23 @@ mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:AlchemicalWizardrybloodRune:3>,
 //Imperfect Ritual Stone
 recipes.remove(<AWWayofTime:imperfectRitualStone>);
 mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:imperfectRitualStone>,
-[[<ore:blockObsidian>, <ore:stone>, <ore:blockObsidian>],
+[[<minecraft:obsidian>, <ore:stone>, <minecraft:obsidian>],
 [<AWWayofTime:demonicSlate>, <AWWayofTime:weakBloodOrb>, <AWWayofTime:demonicSlate>],
-[<ore:blockObsidian>, <ore:stone>,<ore:blockObsidian>]]);
+[<minecraft:obsidian>, <ore:stone>,<minecraft:obsidian>]]);
  
 //Alchemic Chemistry Set
 recipes.remove(<AWWayofTime:blockWritingTable>);
 mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:blockWritingTable>,
 [[null, <AWWayofTime:Altar>, null],
-[<ore:blockObsidian>, <AWWayofTime:weakBloodOrb>, <ore:blockObsidian>],
+[<minecraft:obsidian>, <AWWayofTime:weakBloodOrb>, <minecraft:obsidian>],
 [null, null, null]]);
  
 //Void Sigil
 recipes.remove(<AWWayofTime:voidSigil>);
 mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:voidSigil>,
-[[<ore:blockObsidian>, <ore:materialString>, <ore:blockObsidian>],
+[[<minecraft:obsidian>, <ore:materialString>, <minecraft:obsidian>],
 [<ore:pearlEnder>, <AWWayofTime:reinforcedSlate>, <ore:pearlEnder>],
-[<ore:blockObsidian>, <AWWayofTime:apprenticeBloodOrb>,<ore:blockObsidian>]]);
+[<minecraft:obsidian>, <AWWayofTime:apprenticeBloodOrb>,<minecraft:obsidian>]]);
  
 //Air Sigil
 recipes.remove(<AWWayofTime:airSigil>);
@@ -191,9 +191,9 @@ mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:seerSigil>,
 //Ritual Stone
 recipes.remove(<AWWayofTime:ritualStone>);
 mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:ritualStone>,
-[[<ore:blockObsidian>, <AWWayofTime:reinforcedSlate>, <ore:blockObsidian>],
+[[<minecraft:obsidian>, <AWWayofTime:reinforcedSlate>, <minecraft:obsidian>],
 [<AWWayofTime:reinforcedSlate>, <AWWayofTime:apprenticeBloodOrb>, <AWWayofTime:reinforcedSlate>],
-[<ore:blockObsidian>, <AWWayofTime:reinforcedSlate>,<ore:blockObsidian>]]);
+[<minecraft:obsidian>, <AWWayofTime:reinforcedSlate>,<minecraft:obsidian>]]);
  
 //Sigil of the Green Grove
 recipes.remove(<AWWayofTime:growthSigil>);
@@ -233,16 +233,16 @@ mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:AlchemicalWizardrybloodRune:2>,
 //Master Ritual Stone
 recipes.remove(<AWWayofTime:masterStone>);
 mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:masterStone>,
-[[<ore:blockObsidian>, <AWWayofTime:ritualStone>, <ore:blockObsidian>],
+[[<minecraft:obsidian>, <AWWayofTime:ritualStone>, <minecraft:obsidian>],
 [<AWWayofTime:ritualStone>, <AWWayofTime:magicianBloodOrb>, <AWWayofTime:ritualStone>],
-[<ore:blockObsidian>, <AWWayofTime:ritualStone>,<ore:blockObsidian>]]);
+[<minecraft:obsidian>, <AWWayofTime:ritualStone>,<minecraft:obsidian>]]);
  
 //Sigil of Elemental Affinity
 recipes.remove(<AWWayofTime:sigilOfElementalAffinity>);
 mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:sigilOfElementalAffinity>,
-[[<ore:blockObsidian>, <AWWayofTime:airSigil>, <ore:blockObsidian>],
+[[<minecraft:obsidian>, <AWWayofTime:airSigil>, <minecraft:obsidian>],
 [<terrafirmacraft:item.Red Steel Bucket Water>, <AWWayofTime:imbuedSlate>, <terrafirmacraft:item.Blue Steel Bucket Lava>],
-[<ore:blockObsidian>, <AWWayofTime:magicianBloodOrb>,<ore:blockObsidian>]]);
+[<minecraft:obsidian>, <AWWayofTime:magicianBloodOrb>,<minecraft:obsidian>]]);
  
 //Sigil of Holding
 recipes.remove(<AWWayofTime:sigilOfHolding>);
@@ -366,16 +366,16 @@ mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:bloodMagicIncenseItem:2>,
 //Rune of Superior Capacity
 recipes.remove(<AWWayofTime:AlchemicalWizardrybloodRune:4>);
 mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:AlchemicalWizardrybloodRune:4>,
-[[<ore:blockObsidian>, <AWWayofTime:demonicSlate>, <ore:blockObsidian>],
+[[<minecraft:obsidian>, <AWWayofTime:demonicSlate>, <minecraft:obsidian>],
 [<terrafirmacraft:item.Wooden Bucket Empty>, <AWWayofTime:AlchemicalWizardrybloodRune:1>, <terrafirmacraft:item.Wooden Bucket Empty>],
-[<ore:blockObsidian>, <AWWayofTime:masterBloodOrb>,<ore:blockObsidian>]]);
+[<minecraft:obsidian>, <AWWayofTime:masterBloodOrb>,<minecraft:obsidian>]]);
  
 //Sigil of Haste -- Does this work in survival?
 recipes.remove(<AWWayofTime:sigilOfHaste>);
 mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:sigilOfHaste>,
 [[<Eln:Eln.sharedItem:7702>, <terrafirmacraft:item.Sugar>, <Eln:Eln.sharedItem:7702>],
 [<terrafirmacraft:item.Sugar>, <AWWayofTime:demonicSlate>, <terrafirmacraft:item.Sugar>],
-[<ore:blockObsidian>, <AWWayofTime:masterBloodOrb>,<ore:blockObsidian>]]);
+[<minecraft:obsidian>, <AWWayofTime:masterBloodOrb>,<minecraft:obsidian>]]);
  
 //Sigil of the Whirlwind
 recipes.remove(<AWWayofTime:sigilOfWind>);
@@ -412,9 +412,9 @@ mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:bloodMagicBaseItems:24>,
  
 recipes.remove(<AWWayofTime:itemCompressionSigil>);
 mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:itemCompressionSigil>,
-[[<minecraft:piston>, <ore:blockObsidian>, <minecraft:piston>],
+[[<minecraft:piston>, <minecraft:obsidian>, <minecraft:piston>],
 [<terrafirmacraft:Workbench>, <AWWayofTime:demonicSlate>, <terrafirmacraft:Workbench>],
-[<ore:blockObsidian>, <AWWayofTime:masterBloodOrb>,<ore:blockObsidian>]]);
+[<minecraft:obsidian>, <AWWayofTime:masterBloodOrb>,<minecraft:obsidian>]]);
  
 //Sigil of Suppression
 recipes.remove(<AWWayofTime:sigilOfSupression>);

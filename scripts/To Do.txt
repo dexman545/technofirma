@@ -6,23 +6,7 @@ Fix TC
 	thaumic steel
 Update Mods
 Rebalance pack
-	From user podank:
-			Limit each mod to only needing things from itself, and TFC,
-		instead of making players slog through many different mods for certain items
-		"don't make me figure out how to make a Defense Turret in whatever MOD that is 
-		before i can even shock a zombie with my wand.
-		I think for instance that either Refined Iron needs to be toned down to Wrought Iron, 
-		or converted to Steel, in the thaumcraft recipies. 
-		not sure what to do for refined gold but same complaint."
-			In P.S.: "the thermostatic harness. it had a bunch of stuff from other 
-		mods in it--they weren't a problem in themselves, they were a nice multi step process. 
-		the problem was needing refined iron to make the nuggets to make the transistor...
-		so i am not suggesting we eliminate other mods stuff from every recipe, 
-		but just dont make me have to go deep into some other mod to do stuff in another...
-		except for TFC as the root of all mods..."
-	From user Simmareth:
-		"[disable sapling drops] for managing tree farming. Making the saplings an acquired item during the iron age by way of a recipe involving leaves or cuttings. Good way to reflect on the advances of agriculture during the iron age, in this case Arboriculture and the related forestry-based industries."
-		Aggrees with mod separation suggestion
+	see rebalance pack.txt
 tweak settings
 	reenable forge smoke?
 Integrate more of Mekanism into pack
@@ -30,6 +14,9 @@ Integrate more of Mekanism into pack
 	ore triplication as ore duplication
 	other machines
 Physics
+	clay not falling
+	mud bricks
+	TFC additions
 Fix Recipes
 	salis mundis
 	use for poor ore
@@ -40,13 +27,19 @@ Fix Recipes
 	fix essentia tubes
 	leather boots infusion for traveler 
 	mundane belt recipe
-	iron nugget recipe
+	iron nugget recipe?
 	smelting rubber
-recipe to convert logs/wood/lumber to saplings
-		boost reduce growth time of saplings
+	stitching recipe for large hide
+		medium+small = large
+	add a way to obtain dyes from flowers
+		barrel recipe
+	add barrel concrete recipe
+	lavacrystal/weak activation crystal
+	recipe to convert logs/wood/lumber to saplings
 		tree farming only available after iron
 Add witchery
 	wait for Modtweaker to add support
+Add forestry?
 Add Ancient Warfare 2?
 	very difficult
 	original dev denied
@@ -55,23 +48,35 @@ Add Ancient Warfare 2?
 	machines
 Add Lore Expansion
 	written material
+Add logistics pipes
+	recipes
+make torches catch things on fire
 Disable potions
 	not currently possible
 Fix nanomachines
 Add more tech mods
+remove trapped chests
+make IE cheaper
+	needs too much steel
+quests requiring saplings
+add rusticam melius
 Technofirma oil lamps
 	localization
-	recipe
 Magic Mod Paths
 	Lock with Progression
 	Bloodmagic
 		wither
 			soul sand in infused altar
 			same with skull
-				drying?
+				drying
+					headcrumbs code can be used
 			boost wither health/damage
 		finish recipes
 	Thaumcraft
 	Witchery
 Bug Fixes
 	evil chickens
+	fix snow not placing
+	RC coke oven being hidden
+	sedemntery rocks hidden in NEI
+	gas spawns

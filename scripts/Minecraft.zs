@@ -6,6 +6,8 @@ recipes.remove(<ForgeMicroblock:sawStone>);
 recipes.remove(<minecraft:lapis_block>);
 recipes.remove(<minecraft:glowstone>);
 recipes.remove(<minecraft:crafting_table>);
+recipes.remove(<minecraft:stone_button>);
+recipes.remove(<minecraft:ender_chest>);
 
 recipes.removeShaped(<minecraft:hopper>, [[<terrafirmacraft:Hopper>]]);
 recipes.remove(<minecraft:boat>);
@@ -27,6 +29,7 @@ recipes.remove(<minecraft:stone_slab:*>);
 //#MARKER REMOVE SHAPELESS
 recipes.removeShapeless(<minecraft:dye:15>, [<PneumaticCraft:plasticPlant:15>]);
 recipes.removeShapeless(<minecraft:string>, [<ImmersiveEngineering:material:3>]);
+recipes.addShapeless(<minecraft:stone_button>, [<ore:itemRock>]);
 
 // ================================================================================
 //#MARKER REMOVE SHAPED
@@ -48,11 +51,11 @@ recipes.removeShaped(<minecraft:wool>, [[<ore:fiberFlax>, <yegamolchattels:flax_
 recipes.addShapeless(<minecraft:chest_minecart>, [<minecraft:chest>, <minecraft:minecart>]);
 recipes.addShapeless(<minecraft:fermented_spider_eye>, [<props:props:98>, <props:props:187>]);
 recipes.addShapeless(<minecraft:gold_nugget> * 9, [<ore:ingotGold>]);
-recipes.addShapeless(<minecraft:hopper>, [<terrafirmacraft:Hopper>]);
+//recipes.addShapeless(<minecraft:hopper>, [<terrafirmacraft:Hopper>]);
 recipes.addShapeless(<minecraft:netherbrick>, [<terrafirmacraft:item.Fire Brick:1>, <ore:dustRedstone>]);
 recipes.addShapeless(<minecraft:paper> *1, [<ore:logWood>, <ore:bucketWater>]);
 recipes.addShapeless(<minecraft:stone_button>, [<terrafirmacraft:item.LooseRock>, <ore:itemChisel>, <ore:itemHammer>]);
-recipes.addShapeless(<minecraft:wheat_seeds>, [<terrafirmacraft:item.Seeds Wheat>]);
+//recipes.addShapeless(<minecraft:wheat_seeds>, [<terrafirmacraft:item.Seeds Wheat>]);
 recipes.addShapeless(<minecraft:ghast_tear>, [<Eln:Eln.TransparentNode:3136>]);
 recipes.addShapeless(<minecraft:glowstone_dust>, [<Thaumcraft:ItemResource:1>]);
 
@@ -75,7 +78,7 @@ furnace.addRecipe(<minecraft:end_stone>, <terrafirmacraft:StoneMM:*>);
 recipes.addShaped(<minecraft:ender_eye>, [[<minecraft:ender_pearl>, <Thaumcraft:ItemShard:1>]]);
 recipes.addShaped(<minecraft:golden_carrot>, [[null, <ore:ingotGold>, null], [<ore:ingotGold>, <terrafirmacraft:item.Seeds Carrot>, <ore:ingotGold>], [null, <ore:ingotGold>, null]]);
 recipes.addShaped(<minecraft:hay_block>, [[<terrafirmacraft:item.Wheat Whole>, <terrafirmacraft:item.Wheat Whole>], [<terrafirmacraft:item.Wheat Whole>, <terrafirmacraft:item.Wheat Whole>]]);
-recipes.addShaped(<minecraft:hopper>,  [[<terrafirmacraft:item.Steel Sheet>, null, <terrafirmacraft:item.Steel Sheet>],   [<terrafirmacraft:item.Steel Sheet>, <terrafirmacraft:Chest TFC>, <terrafirmacraft:item.Steel Sheet>],   [null, <terrafirmacraft:item.Steel Sheet>, null]]);
+recipes.addShaped(<minecraft:hopper>,  [[<terrafirmacraft:item.Steel Sheet>, null, <terrafirmacraft:item.Steel Sheet>],   [<terrafirmacraft:item.Steel Sheet>, <terrafirmacraft:Chest TFC:*>, <terrafirmacraft:item.Steel Sheet>],   [null, <terrafirmacraft:item.Steel Sheet>, null]]);
 recipes.addShaped(<minecraft:minecart>, [[<ore:plateSteel>, null, <ore:plateSteel>], [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
 recipes.addShaped(<minecraft:quartz_block>, [[<ore:oreJet>,<ore:oreJet>],[<ore:oreJet>,<ore:oreJet>]]);
 recipes.addShaped(<minecraft:stone_slab:3> * 6, [[<ore:cobbleStone>, <ore:cobbleStone>, <ore:cobbleStone>]]);

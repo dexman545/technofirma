@@ -19,12 +19,18 @@ Rebalance pack
 		
 		
 	Ramblings from Elexorien:
-		Place Greatwood and Silverwood farther into TFC by requiring higher tier metal axes to harvest? (ie. 				Greatwood needs wrought iron or better, Silverwood needs Black Steel...)
+		Place Greatwood and Silverwood farther into TFC by requiring higher tier metal axes to harvest? (ie.
+		Greatwood needs wrought iron or better, Silverwood needs Black Steel...)
 		
-		Create Thaumcraft research node for making Thaumium Anvil? (required to be made in either the Arcane 				Workbench or the Infusion Alter)
+		Create Thaumcraft research node for making Thaumium Anvil? (required to be made in either the Arcane
+		Workbench or the Infusion Alter)
 		
-		If so, push back thaumic steel tools into TC research nodes? (ie. Must research the tools to be able to smith 		them on the Anvil)
+		If so, push back thaumic steel tools into TC research nodes? (ie. Must research the tools to be able to smith
+		them on the Anvil)
 		
-		Prospecting Focus:  Now that latest version of TFC's ProPick can detect mod ores (Thaumcraft shards), this 			can either be removed or reimplimented to do other things.
-			Thoughts:  Some interface to "select" a stone type.  Using the focus will tell you the general 					direction to go when looking for a particular type of rock (Gabbro/Salt/Quartz/GRAPHITE etc...)
-			Equivalent Exchange 2 style "buff" that increases the range at cost of accuracy (ie. can scan 100 				blocks away but higher chance of false negitive)
+		Prospecting Focus:  Now that latest version of TFC's ProPick can detect mod ores (Thaumcraft shards), this
+		can either be removed or reimplimented to do other things.
+			Thoughts:  Some interface to "select" a stone type.  Using the focus will tell you the general
+			direction to go when looking for a particular type of rock (Gabbro/Salt/Quartz/GRAPHITE etc...)
+			Equivalent Exchange 2 style "buff" that increases the range at cost of accuracy (ie. can scan 100
+			blocks away but higher chance of false negitive)

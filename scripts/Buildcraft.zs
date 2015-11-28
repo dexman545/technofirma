@@ -29,6 +29,8 @@ recipes.remove(<BuildCraft|Silicon:requester>);
 recipes.remove(<BuildCraft|Transport:filteredBufferBlock>);
 recipes.remove(<BuildCraft|Transport:pipeWaterproof>);
 
+recipes.remove(<BuildCraft|Core:diamondGearItem>);
+
 // ================================================================================
 //#MARKER REMOVE SHAPELESS
 
@@ -55,7 +57,6 @@ recipes.addShaped(<BuildCraft|Core:woodenGearItem>, [[null, <terrafirmacraft:ite
 recipes.addShaped(<BuildCraft|Factory:autoWorkbenchBlock>, [[null, <BuildCraft|Core:stoneGearItem>, null], [<BuildCraft|Core:stoneGearItem>, <BiblioCraft:BiblioWorkbench:6>, <BuildCraft|Core:stoneGearItem>], [null, <BuildCraft|Core:stoneGearItem>, null]]);
 recipes.addShaped(<BuildCraft|Factory:machineBlock>, [[<ore:gearIron>, <minecraft:redstone>, <ore:gearIron>], [<BuildCraft|Core:goldGearItem>, <BuildCraft|Factory:miningWellBlock>, <BuildCraft|Core:goldGearItem>], [<ore:gearDiamond>, <terrafirmacraft:item.Blue Steel Pick>, <ore:gearDiamond>]]);
 recipes.addShaped(<BuildCraft|Factory:miningWellBlock>, [[<terrafirmacraft:item.Steel Ingot>, <ore:dustRedstone>, <ore:ingotSteel>], [<terrafirmacraft:item.Steel Ingot>, <ore:gearIron>, <ore:ingotSteel>], [<ore:ingotSteel>, <terrafirmacraft:item.Black Steel Pick>, <ore:ingotSteel>]]);
-recipes.addShaped(<BuildCraft|Factory:pumpBlock>, [[<Railcraft:machine.beta:14>], [<BuildCraft|Factory:miningWellBlock>]]);
 recipes.addShaped(<BuildCraft|Factory:refineryBlock>, [[<minecraft:redstone_torch>, <Railcraft:machine.beta:14>, <minecraft:redstone_torch>], [<Railcraft:machine.beta:14>, <BuildCraft|Core:diamondGearItem>, <Railcraft:machine.beta:14>]]);
 
 recipes.addShaped(<BuildCraft|Silicon:laserTableBlock:1>, [[<ore:obsidian>, <BiblioCraft:BiblioWorkbench:6>, <ore:obsidian>], [<ore:obsidian>, <terrafirmacraft:Chest TFC:*>, <ore:obsidian>], [<ore:obsidian>, <BuildCraft|Silicon:redstoneChipset>, <ore:obsidian>]]);
@@ -65,3 +66,6 @@ recipes.addShaped(<BuildCraft|Silicon:requester>, [[<ore:ingotSteel>, <ore:craft
 
 recipes.addShaped(<BuildCraft|Transport:filteredBufferBlock>, [[<ore:plankWood>, <BuildCraft|Transport:item.buildcraftPipe.pipeitemsdiamond>, <ore:plankWood>], [<ore:plankWood>, <terrafirmacraft:Chest TFC:*>, <ore:plankWood>], [<ore:plankWood>, <minecraft:piston>, <ore:plankWood>]]);
 recipes.addShaped(<BuildCraft|Transport:pipeWaterproof>, [[<ore:itemRubber>, <ore:dyeGreen>]]);
+
+recipes.addShaped(<BuildCraft|Core:diamondGearItem>, [[null, <ore:plateBlueSteel>, null], [<ore:plateBlueSteel>, <ore:gearGold>, <ore:plateBlueSteel>], [null, <ore:plateBlueSteel>, null]]);
+

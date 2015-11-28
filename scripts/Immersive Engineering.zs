@@ -10,6 +10,18 @@ recipes.remove(<ImmersiveEngineering:stoneDevice:1>);
 recipes.remove(<ImmersiveEngineering:woodenDevice>);
 recipes.remove(<ImmersiveEngineering:stoneDevice>);
 recipes.remove(<ImmersiveEngineering:tool>);
+recipes.remove(<ImmersiveEngineering:storage:7>);
+recipes.remove(<ImmersiveEngineering:metalDecoration:4>);
+recipes.remove(<ImmersiveEngineering:stoneDecoration> * 6);
+recipes.remove(<ImmersiveEngineering:metal:2>);
+recipes.remove(<ImmersiveEngineering:metal:1>);
+recipes.remove(<ImmersiveEngineering:metal>);
+recipes.remove(<ImmersiveEngineering:metal>);
+recipes.remove(<ImmersiveEngineering:metal:7>);
+recipes.remove(<ImmersiveEngineering:metal:6>);
+recipes.remove(<ImmersiveEngineering:metal:5>);
+recipes.remove(<ImmersiveEngineering:metal:4>);
+recipes.remove(<ImmersiveEngineering:metal:3>);
 
 //Crusher-RR
 //mods.immersiveengineering.Crusher.removeRecipe(<>);
@@ -40,9 +52,12 @@ mods.immersiveengineering.Fermenter.removeItemRecipe(<minecraft:blaze_powder>);
 
 // ================================================================================
 //#MARKER REMOVE SHAPED
+recipes.removeShaped(<ImmersiveEngineering:stoneDecoration> * 6, [[<ore:lumpClay>, <ore:lumpClay>, <ore:lumpClay>], [<ImmersiveEngineering:material:3>, <ImmersiveEngineering:material:3>, <ImmersiveEngineering:material:3>], [<ore:lumpClay>, <ore:lumpClay>, <ore:lumpClay>]]);
 
 // ================================================================================
 //#MARKER ADD
+recipes.addShaped(<ImmersiveEngineering:metalDecoration:4> * 9, [[<ore:ingotSteel>, <ore:ingotCopper>, <ore:ingotSteel>], [<ore:ingotCopper>, <PneumaticCraft:heatSink>, <ore:ingotCopper>], [<ore:ingotSteel>, <ore:ingotCopper>, <ore:ingotSteel>]]);
+recipes.addShaped(<ImmersiveEngineering:stoneDecoration> * 6, [[<ore:lumpClay>, <ore:lumpClay>, <ore:lumpClay>], [<ImmersiveEngineering:material:3>, <ImmersiveEngineering:material:3>, <ImmersiveEngineering:material:3>], [<ore:lumpClay>, <ore:lumpClay>, <ore:lumpClay>]]);
 
 // ================================================================================
 //#MARKER ADD SHAPELESS
@@ -55,6 +70,8 @@ recipes.addShaped(<ImmersiveEngineering:woodenDevice>, [[<ImmersiveEngineering:w
 recipes.addShaped(<ImmersiveEngineering:seed>, [[<terrafirmacraft:item.Seeds Jute>, <ore:seedFlax>]]);
 recipes.addShaped(<ImmersiveEngineering:stoneDevice>, [[<ore:lumpClay>, <ore:lumpClay>, <ore:lumpClay>], [<ImmersiveEngineering:material:3>, <ImmersiveEngineering:material:3>, <ImmersiveEngineering:material:3>], [<ore:lumpClay>, <ore:lumpClay>, <ore:lumpClay>]]);
 recipes.addShaped(<ImmersiveEngineering:tool>, [[<ore:itemHammer>]]);
+recipes.addShaped(<ImmersiveEngineering:storage:7>, [[<ore:ingotSteel>, <ore:ingotSteel>], [<ore:ingotSteel>, <ore:ingotSteel>]]);
+
 
 //Crusher-RA
 //mods.immersiveengineering.Crusher.addRecipe(<>, <>, 8000, <>, 0.5);
@@ -64,18 +81,20 @@ mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Ore:3>, <ore:o
 mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Ore>, <ore:oreRichCopper>, 8000, <terrafirmacraft:item.Ore:49>, 1.0);
 mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Ore:1>, <ore:oreRichGold>, 8000, <terrafirmacraft:item.Ore:50>, 1.0);
 mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Ore:2>, <ore:oreRichPlatinum>, 8000, <terrafirmacraft:item.Ore:51>, 1.0);
-mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Ore:3>, <ore:oreRichSilver>, 8000, <terrafirmacraft:item.Ore:52>, 1.0);
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Ore:4>, <ore:oreRichSilver>, 8000, <terrafirmacraft:item.Ore:53>, 1.0);
+mods.immersiveengineering.Crusher.addRecipe(<Mekanism:OtherDust>, <ore:gemDiamond>, 8000, <terrafirmacraft:item.Powder:2>, 1.0);
 
 //Arc Furnace-RA
 //OutputStack, InputStack, SlagOutput, Time in Ticks, Energy per Tick, AdditiveArray
-//mods.immersiveengineering.ArcFurnace.addRecipe(<>, <>, <>, 4600,  3600, [<>]);
-mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Wrought Iron Ingot>, <ore:oreNormalIron>, <ImmersiveEngineering:material:13>, 4600,  3600, [<ore:oreNormalIron>, <ore:oreNormalIron>, <ore:oreNormalIron>, <ore:gemCharcoal>]);
-mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Copper Ingot>, <ore:oreNormalCopper>, <ImmersiveEngineering:material:13>, 4600,  3600, [<ore:oreNormalCopper>, <ore:oreNormalCopper>, <ore:oreNormalCopper>]);
-mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Steel Ingot>, <minecraft:iron_ingot>, <ImmersiveEngineering:material:13>, 4600,  3600, [<ore:dustCoke>]);
-mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Steel Ingot>, <ore:dustIron>, <ImmersiveEngineering:material:13>, 4600,  3600, [<ore:dustCoke>]);
-mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Gold Ingot>, <ore:oreNormalGold>, <ImmersiveEngineering:material:13>, 4600,  3600, [<ore:oreNormalGold>, <ore:oreNormalGold>, <ore:oreNormalGold>]);
-mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Platinum Ingot>, <ore:oreNormalPlatinum>, <ImmersiveEngineering:material:13>, 4600,  3600, [<ore:oreNormalPlatinum>, <ore:oreNormalPlatinum>, <ore:oreNormalPlatinum>]);
-mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Silver Ingot>, <ore:oreNormalSilver>, <ImmersiveEngineering:material:13>, 4600,  3600, [<ore:oreNormalSilver>, <ore:oreNormalSilver>, <ore:oreNormalSilver>]);
+//mods.immersiveengineering.ArcFurnace.addRecipe(<>, <>, <>, 2800,  128, [<>]);
+mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Wrought Iron Ingot>, <ore:oreNormalIron>, <ImmersiveEngineering:material:13>, 2800,  128, [<ore:oreNormalIron>, <ore:oreNormalIron>, <ore:oreNormalIron>, <ore:gemCharcoal>]);
+mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Copper Ingot>, <ore:oreNormalCopper>, <ImmersiveEngineering:material:13>, 2800,  128, [<ore:oreNormalCopper>, <ore:oreNormalCopper>, <ore:oreNormalCopper>]);
+mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Steel Ingot>, <minecraft:iron_ingot>, <ImmersiveEngineering:material:13>, 2800,  128, [<ore:dustCoke>]);
+mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Steel Ingot>, <ore:dustIron>, <ImmersiveEngineering:material:13>, 2800,  128, [<ore:dustCoke>]);
+mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Gold Ingot>, <ore:oreNormalGold>, <ImmersiveEngineering:material:13>, 2800,  128, [<ore:oreNormalGold>, <ore:oreNormalGold>, <ore:oreNormalGold>]);
+mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Platinum Ingot>, <ore:oreNormalPlatinum>, <ImmersiveEngineering:material:13>, 2800,  128, [<ore:oreNormalPlatinum>, <ore:oreNormalPlatinum>, <ore:oreNormalPlatinum>]);
+mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Silver Ingot>, <ore:oreNormalSilver>, <ImmersiveEngineering:material:13>, 2800,  128, [<ore:oreNormalSilver>, <ore:oreNormalSilver>, <ore:oreNormalSilver>]);
+mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Steel Ingot>, <ore:oreNormalIron>, <ImmersiveEngineering:material:13>, 2800,  128, [<ore:dustCoke>, <ore:oreNormalIron>, <ore:oreNormalIron>, <ore:oreNormalIron>]);
 
 //Fermenter-RA
 //OutputStack, OutputFluid, InputStack, Time in Ticks
@@ -84,6 +103,9 @@ mods.immersiveengineering.Fermenter.addRecipe(<minecraft:string>, <liquid:ethano
 mods.immersiveengineering.Fermenter.addRecipe(<minecraft:string>, <liquid:ethanol> * 80, <terrafirmacraft:item.Sugar>, 80);
 mods.immersiveengineering.Fermenter.addRecipe(<minecraft:string>, <liquid:ethanol> * 80, <terrafirmacraft:item.Barley Grain>, 80);
 mods.immersiveengineering.Fermenter.addRecipe(<minecraft:string>, <liquid:ethanol> * 80, <terrafirmacraft:item.Wheat Whole>, 80);
+
+furnace.addRecipe(<ImmersiveEngineering:metal:6>, <ImmersiveEngineering:metal:16>);
+furnace.addRecipe(<ImmersiveEngineering:metal:20>, <terrafirmacraft:item.Powder:2>);
 
 //Squeezer-RA
 //OutputStack, OutputFluid, InputStack, Time in Ticks
@@ -105,3 +127,8 @@ mods.immersiveengineering.Squeezer.addRecipe(<terrafirmacraft:item.Jute Fibre> *
 mods.immersiveengineering.Squeezer.addRecipe(<terrafirmacraft:item.Jute Fibre> * 1, <liquid:plantoil> * 80, <terrafirmacraft:item.Seeds Greenbean>, 240);
 mods.immersiveengineering.Squeezer.addRecipe(<terrafirmacraft:item.Jute Fibre> * 1, <liquid:plantoil> * 80, <terrafirmacraft:item.Seeds Squash>, 240);
 mods.immersiveengineering.Squeezer.addRecipe(<terrafirmacraft:item.Jute Fibre> * 1, <liquid:plantoil> * 80, <terrafirmacraft:item.Seeds Jute>, 240);
+
+
+//Refinery-RA
+//OutputFluid, InputFluid1, InputFluid2
+mods.immersiveengineering.Refinery.addRecipe(<liquid:fuel>, <liquid:oil>, null);

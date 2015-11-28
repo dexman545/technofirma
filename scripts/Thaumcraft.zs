@@ -35,6 +35,6 @@ recipes.addShapeless(<Thaumcraft:ItemResource:13> * 4, [<minecraft:paper>, <mine
 //#MARKER ADD SHAPED
 recipes.addShaped(<Thaumcraft:ItemEssence> * 8, [[null, <ore:lumpClay>, null], [<ore:paneGlassColorless>, null, <ore:paneGlassColorless>], [null, <ore:paneGlassColorless>, null]]);
 recipes.addShaped(<Thaumcraft:ItemThaumometer>, [[null, <ore:anyShard>, null], [<ore:ingotGold>, <ore:paneGlassColorless>, <ore:ingotGold>], [null, <ore:anyShard>, null]]);
-recipes.addShaped(<Thaumcraft:ItemResource:9>, [[<Thaumcraft:ItemResearchNotes>, <Thaumcraft:ItemResearchNotes>, <ore:itemKnife>.transformDamage().reuse()]]);
+recipes.addShaped(<Thaumcraft:ItemResource:9>, [[<Thaumcraft:ItemResearchNotes>, <Thaumcraft:ItemResearchNotes>, <ore:itemKnife>]]);
 
 furnace.addRecipe(<Thaumcraft:ItemResource:3>, <terrafirmacraft:item.Ore:27>);

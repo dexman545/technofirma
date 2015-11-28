@@ -14,6 +14,7 @@ recipes.remove(<props:props:318>);
 recipes.remove(<props:props:319>);
 recipes.remove(<props:props:326>);
 recipes.remove(<props:props:327>);
+recipes.remove(<props:props:508>);
 
 // ================================================================================
 //#MARKER REMOVE SHAPELESS
@@ -33,3 +34,5 @@ recipes.addShapeless(<props:clay:1>, [<ore:lumpClay>, <ore:dyeBlue>]);
 // ================================================================================
 //#MARKER ADD SHAPED
 recipes.addShaped(<props:clay:2>, [[<ore:lumpClay>, <ore:dyeGreen>]]);
+
+recipes.addShaped(<props:props:508>, [[null, <props:clay>, null], [<props:clay:1>, <ore:craftingTableWood>, <props:clay:2>], [null, null, null]]);

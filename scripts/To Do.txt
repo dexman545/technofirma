@@ -1,0 +1,82 @@
+Fix TC
+	hide some researches
+	try to fix worldgen
+		amber
+	Nerf it
+	thaumic steel
+Update Mods
+Rebalance pack
+	see rebalance pack.txt
+tweak settings
+	reenable forge smoke?
+Integrate more of Mekanism into pack
+	ore pentification as ore triplication
+	ore triplication as ore duplication
+	other machines
+Physics
+	clay not falling
+	mud bricks
+	TFC additions
+Fix Recipes
+	salis mundis
+	use for poor ore
+	more auto processing of ingots in arc furnace
+	Robit
+		electrical chest
+	Fix alumentum
+	fix essentia tubes
+	leather boots infusion for traveler 
+	mundane belt recipe
+	iron nugget recipe?
+	smelting rubber
+	stitching recipe for large hide
+		medium+small = large
+	add a way to obtain dyes from flowers
+		barrel recipe
+	add barrel concrete recipe
+	lavacrystal/weak activation crystal
+	recipe to convert logs/wood/lumber to saplings
+		tree farming only available after iron
+Add witchery
+	wait for Modtweaker to add support
+Add forestry?
+Add Ancient Warfare 2?
+	very difficult
+	original dev denied
+		maybe gotolink will
+			must ask
+	machines
+Add Lore Expansion
+	written material
+Add logistics pipes
+	recipes
+make torches catch things on fire
+Disable potions
+	not currently possible
+Fix nanomachines
+Add more tech mods
+remove trapped chests
+make IE cheaper
+	needs too much steel
+quests requiring saplings
+add rusticam melius
+Technofirma oil lamps
+	localization
+Magic Mod Paths
+	Lock with Progression
+	Bloodmagic
+		wither
+			soul sand in infused altar
+			same with skull
+				drying
+					headcrumbs code can be used
+			boost wither health/damage
+		finish recipes
+	Thaumcraft
+	Witchery
+Bug Fixes
+	evil chickens
+	fix snow not placing
+	RC coke oven being hidden
+	sedemntery rocks hidden in NEI
+	gas spawns

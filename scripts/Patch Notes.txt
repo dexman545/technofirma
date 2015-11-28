@@ -1,0 +1,26 @@
+Fixed recipes
+	blank slate requiring T3 altar
+	TFC to vanilla hopper exploit
+		fixed recipe requiring only oak chest, can now use any chest
+	Added recipes for Technofirma oil lanterns
+		can be filled with olive oil, oil, or fuel
+	Fixed ritual stones recipes
+	Removed wheat seed conversion recipe
+	Changed stone button from requiring raw stone to requiring rock
+	Fixed being able to make crafting tables from greatwood
+	Added "Leaf Biters," crafted from TFC shears as a means of aquiring leaves
+Tier 3 altar now requires TFC oil lamps in place of glowstone
+Removed chisel presents
+Increased hostile mobs' hatred for light sources
+Added TFC fruit tree saplings to the ore dictionary registry of treeSapling
+Disabled placement of trapped chest
+Added mods
+	TerraFirmaTweaker
+	ContentTweaker
+	FluxedCore
+	LogisticsPipes
+Updated mods
+	TFC
+	WAWLA
+	Forge
+		v.10.13.4.1558

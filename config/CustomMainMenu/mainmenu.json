@@ -3,7 +3,7 @@
     {
         "title":
         {
-            "image" : "test:textures/TECHNOFIRMA1.png",
+            "image" : "technofirma:textures/TECHNOFIRMA1.png",
             "posX" : -165,
             "posY" : 30,
             "width" : 329,

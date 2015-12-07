@@ -9,18 +9,67 @@ Fixed recipes
 	Changed stone button from requiring raw stone to requiring rock
 	Fixed being able to make crafting tables from greatwood
 	Added "Leaf Biters," crafted from TFC shears as a means of aquiring leaves
+	Added primitive stiching recipe for large hide
+		Note: only a full stone knife will work, and will beconsumed upon crafting
+	Added better pipe sealent recipe
+	Made RC tanks more expensive than IE tanks
+	Fixed detector recipe
+		required only granite bricks
+	Made the berth more expensive
+	Rebalanced track recipes
+	Removed vanilla stick recipe from sawmill
+	Changed aprentice blood orb to require amber, which is now minable, instead of an emerald
+	MC fish is now crafted with a piece of lumber next to TFC fish
 Tier 3 altar now requires TFC oil lamps in place of glowstone
+Fixed quests
+Tweaked Carpenters Blocks settings. Slopes are more fluid, upped durability on tools, removed the safe
+Fixed physics:
+	Physics
+	clay not falling
+	mud bricks
+	TFC additions
+	log piles
+		logs are round, and now log pile behave as such
+	rock dust
+	concrete
 Removed chisel presents
 Increased hostile mobs' hatred for light sources
 Added TFC fruit tree saplings to the ore dictionary registry of treeSapling
-Disabled placement of trapped chest
+Disabled placement of trapped chests
+Fixed soul sand not showing in NEI
+Fixed TFC fish randomly becoming MC fish
+Disabled placement of the vanilla crafting table
+Removed chisel cobblestone
+Removed trapped chest
+Fixed boat desync
+Day/night length is now dependent on the season
 Added mods
 	TerraFirmaTweaker
 	ContentTweaker
 	FluxedCore
 	LogisticsPipes
+	TooMuchTime-TFC
+	BetterBoat
+	SAPManPack
+	Open Printer
 Updated mods
 	TFC
 	WAWLA
 	Forge
 		v.10.13.4.1558
+	Better Sleeping
+		caps out sleep meter, and won't go above it anymore. Should fix sleeping once and never again issue. (takes effect only after your meter drops below max again)
+	Immersive Engineering
+	TFC cellars Addon
+	Open Computers
+	PlanetGuyLib
+	RemainInMotion
+	Technofirma
+		Fixed Thaumic Steel ingot pile
+		Added Amber ore
+		Added ores to prospector pick list
+		Added Technofirma oil lamps
+Removed Mods
+	asielib
+	computronics
+		crashed with forestry

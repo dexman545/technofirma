@@ -12,7 +12,8 @@ recipes.removeShaped(<terrafirmacraft:Workbench>, [[<Thaumcraft:blockWoodenDevic
 
 // ================================================================================
 //#MARKER ADD
-
+recipes.addShapeless(<terrafirmacraft:item.Hide:2>, [<contenttweaker:needleOfBone>, <terrafirmacraft:item.Hide>, <terrafirmacraft:item.Hide:1>, <minecraft:string>, <minecraft:string>]);
+recipes.addShapeless(<terrafirmacraft:item.Hide:1>, [<contenttweaker:needleOfBone>, <terrafirmacraft:item.Hide>, <terrafirmacraft:item.Hide>, <minecraft:string>, <minecraft:string>]);
 // ================================================================================
 //#MARKER ADD SHAPELESS
 

@@ -32,8 +32,8 @@ var Planks = [<terrafirmacraft:item.SinglePlank>, <terrafirmacraft:item.SinglePl
 mods.mekanism.Sawmill.removeRecipe(<minecraft:bed>, <minecraft:planks>, <minecraft:wool>);
 mods.mekanism.Sawmill.removeRecipe(<minecraft:wooden_door>, <minecraft:planks>, null);
 mods.mekanism.Sawmill.removeRecipe(<minecraft:fence_gate>, <minecraft:planks>, <minecraft:stick>);
-//mods.mekanism.Sawmill.removeRecipe(<minecraft:planks>, <minecraft:stick>, <Mekanism:Sawdust>);
-//mods.mekanism.Sawmill.removeRecipe(<terrafirmacraft:planks>, <minecraft:stick>, <Mekanism:Sawdust>);
+mods.mekanism.Sawmill.removeRecipe(<minecraft:planks>, <minecraft:stick>, <Mekanism:Sawdust>);
+mods.mekanism.Sawmill.removeRecipe(<terrafirmacraft:planks>, <minecraft:stick>, <Mekanism:Sawdust>);
 mods.mekanism.Sawmill.removeRecipe(<minecraft:ladder>, <minecraft:stick>, null);
 mods.mekanism.Sawmill.removeRecipe(<minecraft:torch>, <minecraft:stick>, <minecraft:coal>);
 mods.mekanism.Sawmill.removeRecipe(<minecraft:jukebox>, <minecraft:planks>, <minecraft:diamond>);
@@ -41,7 +41,7 @@ mods.mekanism.Sawmill.removeRecipe(<minecraft:redstone_torch>, <minecraft:stick>
 mods.mekanism.Sawmill.removeRecipe(<minecraft:noteblock>, <minecraft:planks>, <minecraft:redstone>);
 mods.mekanism.Sawmill.removeRecipe(<minecraft:chest>, <minecraft:planks>, null);
 mods.mekanism.Sawmill.removeRecipe(<minecraft:boat>, <minecraft:planks>, null);
-//mods.mekanism.Sawmill.removeRecipe(<terrafirmacraft:planks2>, <minecraft:stick>, <Mekanism:Sawdust>);
+mods.mekanism.Sawmill.removeRecipe(<terrafirmacraft:planks2>, <minecraft:stick>, <Mekanism:Sawdust>);
 //mods.mekanism.Sawmill.removeRecipe(<Thaumcraft:blockWoodenDevice>, <minecraft:stick>, <Mekanism:Sawdust>);
 mods.mekanism.Sawmill.removeRecipe(<minecraft:bookshelf>, <minecraft:planks>, <minecraft:book>);
 mods.mekanism.Sawmill.removeRecipe(<minecraft:crafting_table>, <minecraft:planks>, null);

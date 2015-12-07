@@ -8,6 +8,8 @@ recipes.remove(<minecraft:glowstone>);
 recipes.remove(<minecraft:crafting_table>);
 recipes.remove(<minecraft:stone_button>);
 recipes.remove(<minecraft:ender_chest>);
+recipes.remove(<minecraft:rail>);
+recipes.remove(<minecraft:trapped_chest>);
 
 recipes.removeShaped(<minecraft:hopper>, [[<terrafirmacraft:Hopper>]]);
 recipes.remove(<minecraft:boat>);
@@ -63,6 +65,11 @@ recipes.addShapeless(<minecraft:glowstone_dust>, [<Thaumcraft:ItemResource:1>]);
 //#MARKER ADD SHAPED
 recipes.addShaped(<ForgeMicroblock:sawIron>, [[<ore:stickWood>, <ore:stickWood>], [<terrafirmacraft:item.Wrought Iron Saw Blade>, <ore:stickWood>]]);
 recipes.addShaped(<minecraft:crafting_table>, [[null, <ore:plankWood>, null], [<ore:plankWood>, null, <ore:plankWood>], [null, <ore:plankWood>, null]]);
+
+recipes.addShaped(<minecraft:fish>, [[<terrafirmacraft:item.Fish>, <ore:woodLumber>]]);
+recipes.addShaped(<terrafirmacraft:Workbench>, [[<terrafirmacraft:planks:*>, <terrafirmacraft:planks:*>], [<terrafirmacraft:planks:*>, <terrafirmacraft:planks:*>]]);
+recipes.addShaped(<minecraft:rail> * 256, [[<Railcraft:part.rail>, null, <Railcraft:part.rail>], [<Railcraft:part.rail>, <Railcraft:part.railbed>, <Railcraft:part.rail>], [<Railcraft:part.rail>, null, <Railcraft:part.rail>]]);
+recipes.addShaped(<minecraft:rail> * 64, [[<terrafirmacraft:item.Wrought Iron Ingot>, <ore:stickWood>, <terrafirmacraft:item.Wrought Iron Ingot>], [<terrafirmacraft:item.Wrought Iron Ingot>, <terrafirmacraft:item.stick>, <terrafirmacraft:item.Wrought Iron Ingot>]]);
 
 recipes.addShaped(<minecraft:lapis_block>, [[<ore:dustLapis>, <ore:dustLapis>, <ore:dustLapis>], [<ore:dustLapis>, <ore:dustLapis>, <ore:dustLapis>], [<ore:dustLapis>, <ore:dustLapis>, <ore:dustLapis>]]);
 recipes.addShaped(<minecraft:string>, [[<ImmersiveEngineering:material:3>, <ImmersiveEngineering:material:3>, <ImmersiveEngineering:material:3>], [<ImmersiveEngineering:material:3>, <ImmersiveEngineering:material:3>, <ImmersiveEngineering:material:3>], [<ImmersiveEngineering:material:3>, <ImmersiveEngineering:material:3>, <ImmersiveEngineering:material:3>]]);

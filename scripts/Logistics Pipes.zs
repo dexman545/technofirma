@@ -7,6 +7,13 @@ recipes.remove(<LogisticsPipes:logisticsSolidBlock:2>);
 recipes.remove(<LogisticsPipes:logisticsSolidBlock:3>);
 recipes.remove(<LogisticsPipes:item.PipeItemsBasicTransport>);
 
+recipes.remove(<LogisticsPipes:item.PipeLogisticsChassiMk2>);
+recipes.remove(<LogisticsPipes:logisticsSolidBlock:11>);
+recipes.remove(<LogisticsPipes:logisticsSolidBlock:5>);
+recipes.remove(<LogisticsPipes:logisticsSolidBlock:4>);
+
+recipes.removeShaped(<LogisticsPipes:item.PipeLogisticsChassiMk3>, [[<terrafirmacraft:item.Wrought Iron Ingot>, <terrafirmacraft:item.Wrought Iron Ingot>, <terrafirmacraft:item.Wrought Iron Ingot>], [<ore:ingotWroughtIron>, <LogisticsPipes:item.PipeItemsBasicTransport>, <ore:ingotWroughtIron>], [<terrafirmacraft:item.Rose Gold Ingot>, <terrafirmacraft:item.Rose Gold Ingot>, <terrafirmacraft:item.Rose Gold Ingot>]]);
+
 recipes.removeShaped(<LogisticsPipes:item.itemUpgrade:21>, [[<minecraft:redstone>, <terrafirmacraft:item.Glass Bottle>, <minecraft:redstone>], [<terrafirmacraft:item.Glass Bottle>, <BuildCraft|Silicon:redstoneChipset:2>, <terrafirmacraft:item.Glass Bottle>], [<minecraft:redstone>, <terrafirmacraft:item.Glass Bottle>, <minecraft:redstone>]]);
 
 recipes.addShaped(<LogisticsPipes:item.itemUpgrade:25>, [[<terrafirmacraft:item.Ore:24>, <minecraft:paper>, <ore:gemQuartz>], [<minecraft:paper>, <BuildCraft|Silicon:redstoneChipset:2>, <minecraft:paper>], [<ore:gemQuartz>, <minecraft:paper>, <terrafirmacraft:item.Ore:24>]]);
@@ -24,3 +31,14 @@ recipes.addShaped(<LogisticsPipes:logisticsSolidBlock:2>, [[<ore:ingotWroughtIro
 recipes.addShaped(<LogisticsPipes:logisticsSolidBlock:2>, [[<ore:ingotWroughtIron>, <BuildCraft|Silicon:redstoneChipset:3>, <ore:ingotWroughtIron>], [<ore:dustRedstone>, <LogisticsPipes:item.PipeItemsBasicTransport>, <ore:dustRedstone>], [<ore:ingotWroughtIron>, <ore:dustRedstone>, <ore:ingotWroughtIron>]]);
 recipes.addShaped(<LogisticsPipes:logisticsSolidBlock:3>, [[<ore:plankWood>, <ore:craftingTableWood>, <ore:plankWood>], [null, <ore:gearStone>, null], [<ore:plankWood>, <ore:chestWood>, <ore:plankWood>]]);
 recipes.addShaped(<LogisticsPipes:item.PipeItemsBasicTransport> * 8, [[<ore:ingotWroughtIron>, <ore:paneGlassColorless>, <ore:ingotWroughtIron>], [null, <ore:dustRedstone>, null]]);
+
+recipes.addShaped(<LogisticsPipes:item.PipeLogisticsChassiMk4>, [[<terrafirmacraft:item.Wrought Iron Ingot>, <terrafirmacraft:item.Wrought Iron Ingot>, <terrafirmacraft:item.Wrought Iron Ingot>], [<ore:ingotWroughtIron>, <LogisticsPipes:item.PipeItemsBasicTransport>, <ore:ingotWroughtIron>], [<terrafirmacraft:item.Rose Gold Ingot>, <terrafirmacraft:item.Rose Gold Ingot>, <terrafirmacraft:item.Rose Gold Ingot>]]);
+recipes.addShaped(<LogisticsPipes:item.PipeLogisticsChassiMk3>, [[<terrafirmacraft:item.Wrought Iron Ingot>, <terrafirmacraft:item.Wrought Iron Ingot>, <terrafirmacraft:item.Wrought Iron Ingot>], [<ore:ingotWroughtIron>, <LogisticsPipes:item.PipeItemsBasicTransport>, <ore:ingotWroughtIron>], [<terrafirmacraft:item.Rose Gold Ingot>, <terrafirmacraft:item.Rose Gold Ingot>, <terrafirmacraft:item.Rose Gold Ingot>]]);
+recipes.addShaped(<LogisticsPipes:item.PipeLogisticsChassiMk3>, [[null, <BuildCraft|Silicon:redstoneChipset:1>, null], [<ore:ingotWroughtIron>, <LogisticsPipes:item.PipeItemsBasicTransport>, <ore:ingotWroughtIron>], [null, <BuildCraft|Silicon:redstoneChipset:1>, null]]);
+recipes.addShaped(<LogisticsPipes:item.PipeLogisticsChassiMk3>, [[<terrafirmacraft:item.Wrought Iron Ingot>, <terrafirmacraft:item.Wrought Iron Ingot>, <terrafirmacraft:item.Wrought Iron Ingot>], [<ore:ingotWroughtIron>, <LogisticsPipes:item.PipeItemsBasicTransport>, <ore:ingotWroughtIron>], [<ore:ingotWroughtIron>, <ore:ingotWroughtIron>, <ore:ingotWroughtIron>]]);
+recipes.addShaped(<LogisticsPipes:item.PipeLogisticsChassiMk2>, [[null, <BuildCraft|Silicon:redstoneChipset:1>, null], [<ore:ingotWroughtIron>, <LogisticsPipes:item.PipeItemsBasicTransport>, <ore:ingotWroughtIron>]]);
+recipes.addShaped(<LogisticsPipes:item.PipeLogisticsChassiMk2>, [[<ore:ingotWroughtIron>, <ore:ingotWroughtIron>, <ore:ingotWroughtIron>], [<ore:ingotWroughtIron>, <LogisticsPipes:item.PipeItemsBasicTransport>, <ore:ingotWroughtIron>]]);
+recipes.addShaped(<LogisticsPipes:logisticsSolidBlock:11>, [[<minecraft:paper>, <ImmersiveEngineering:metalDevice:3>, <minecraft:paper>], [<BuildCraft|Core:goldGearItem>, <ore:blockRedstone>, <BuildCraft|Core:goldGearItem>], [<minecraft:paper>, <BuildCraft|Core:ironGearItem>, <minecraft:paper>]]);
+recipes.addShaped(<LogisticsPipes:logisticsSolidBlock:5>, [[<ore:ingotWroughtIron>, <BuildCraft|Silicon:redstoneChipset:2>, <ore:ingotWroughtIron>], [<ore:dustRedstone>, <LogisticsPipes:item.PipeItemsBasicTransport>, <ore:dustRedstone>], [<ore:ingotWroughtIron>, <ore:ingotWroughtIron>, <ore:ingotWroughtIron>]]);
+recipes.addShaped(<LogisticsPipes:logisticsSolidBlock:5>, [[<ore:ingotWroughtIron>, <ore:gearGold>, <ore:ingotWroughtIron>], [<ore:dustRedstone>, <LogisticsPipes:item.PipeItemsBasicTransport>, <ore:dustRedstone>], [<ore:ingotWroughtIron>, <ore:ingotWroughtIron>, <ore:ingotWroughtIron>]]);
+recipes.addShaped(<LogisticsPipes:logisticsSolidBlock:4>, [[<ore:gemQuartz>], [<LogisticsPipes:logisticsSolidBlock:3>]]);

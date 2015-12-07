@@ -102,7 +102,7 @@ mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:dawnScribeTool>);
 //Outputstack, InputStack, TierRequired, LPRequired
 mods.bloodmagic.Altar.addRecipe(<AWWayofTime:weakBloodOrb>, <minecraft:ender_pearl>, 1, 2000);
 mods.bloodmagic.Altar.addRecipe(<minecraft:soul_sand>, <props:props:176>,3, 5000);
-mods.bloodmagic.Altar.addRecipe(<AWWayofTime:apprenticeBloodOrb>, <terrafirmacraft:item.Emerald:2>, 3, 5000);
+mods.bloodmagic.Altar.addRecipe(<AWWayofTime:apprenticeBloodOrb>, <Thaumcraft:ItemResource:6>, 3, 5000);
 mods.bloodmagic.Altar.addRecipe(<AWWayofTime:blankSlate>, <Thaumcraft:blockCosmeticSolid:6>, 1, 5000);
 mods.bloodmagic.Altar.addRecipe(<AWWayofTime:daggerOfSacrifice>, <terrafirmacraft:item.Wrought Iron Sword>, 2, 3000);
 mods.bloodmagic.Altar.addRecipe(<AWWayofTime:alchemyFlask>, <terrafirmacraft:item.Glass Bottle>, 2, 2000);

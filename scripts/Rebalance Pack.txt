@@ -1,0 +1,36 @@
+Rebalance pack
+	From user podank:
+			Limit each mod to only needing things from itself, and TFC,
+		instead of making players slog through many different mods for certain items
+		"don't make me figure out how to make a Defense Turret in whatever MOD that is 
+		before i can even shock a zombie with my wand.
+		I think for instance that either Refined Iron needs to be toned down to Wrought Iron, 
+		or converted to Steel, in the thaumcraft recipies. 
+		not sure what to do for refined gold but same complaint."
+			In P.S.: "the thermostatic harness. it had a bunch of stuff from other 
+		mods in it--they weren't a problem in themselves, they were a nice multi step process. 
+		the problem was needing refined iron to make the nuggets to make the transistor...
+		so i am not suggesting we eliminate other mods stuff from every recipe, 
+		but just dont make me have to go deep into some other mod to do stuff in another...
+		except for TFC as the root of all mods..."
+	From user Simmareth:
+		"[disable sapling drops] for managing tree farming. Making the saplings an acquired item during the iron age by way of a recipe involving leaves or cuttings. Good way to reflect on the advances of agriculture during the iron age, in this case Arboriculture and the related forestry-based industries."
+		Aggrees with mod separation suggestion
+		
+		
+	Ramblings from Elexorien:
+		Place Greatwood and Silverwood farther into TFC by requiring higher tier metal axes to harvest? (ie.
+		Greatwood needs wrought iron or better, Silverwood needs Black Steel...)
+		
+		Create Thaumcraft research node for making Thaumium Anvil? (required to be made in either the Arcane
+		Workbench or the Infusion Alter)
+		
+		If so, push back thaumic steel tools into TC research nodes? (ie. Must research the tools to be able to smith
+		them on the Anvil)
+		
+		Prospecting Focus:  Now that latest version of TFC's ProPick can detect mod ores (Thaumcraft shards), this
+		can either be removed or reimplimented to do other things.
+			Thoughts:  Some interface to "select" a stone type.  Using the focus will tell you the general
+			direction to go when looking for a particular type of rock (Gabbro/Salt/Quartz/GRAPHITE etc...)
+			Equivalent Exchange 2 style "buff" that increases the range at cost of accuracy (ie. can scan 100
+			blocks away but higher chance of false negitive)

@@ -1,0 +1,1 @@
+recipes.addShapeless(<contenttweaker:needleOfBone>, [<terrafirmacraft:item.Stone Knife>, <minecraft:bone>]);

@@ -6,6 +6,8 @@ recipes.remove(<Railcraft:borehead.diamond>);
 recipes.remove(<Railcraft:borehead.steel>);
 recipes.remove(<Railcraft:borehead.iron>);
 
+recipes.remove(<Railcraft:machine.beta>);
+
 recipes.remove(<Railcraft:detector:8>);
 recipes.remove(<Railcraft:detector:16>);
 
@@ -100,12 +102,14 @@ recipes.addShapeless(<Railcraft:machine.alpha:7>, [<terrafirmacraft:FireBrick>])
 //recipes.addShaped(<row:item.row.rails:1>, [[<Railcraft:part.rail:4>, <row:item.row.rails>, <Railcraft:part.rail:4>], [<Railcraft:part.rail:4>, <row:item.row.rails>, <Railcraft:part.rail:4>], [<Railcraft:part.rail:4>, <row:item.row.rails>, <Railcraft:part.rail:4>]]);
 //recipes.addShaped(<row:item.row.rails>, [[<ore:woodLumber>, <ore:woodLumber>, <ore:woodLumber>], [<Railcraft:part.rail:4>, <ore:woodLumber>, <Railcraft:part.rail:4>], [<ore:woodLumber>, <ore:woodLumber>, <ore:woodLumber>]]);
 
+recipes.addShaped(<Railcraft:machine.beta>, [[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>], [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>], [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
+
 recipes.addShaped(<Railcraft:borehead.diamond>, [[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>], [<ore:ingotSteel>, <Eln:Eln.sharedItem:962>, <ore:ingotSteel>], [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]]);
 recipes.addShaped(<Railcraft:borehead.steel>, [[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>], [<ore:ingotSteel>, <Eln:Eln.sharedItem:961>, <ore:ingotSteel>], [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]]);
 recipes.addShaped(<Railcraft:borehead.iron>, [[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>], [<ore:ingotSteel>, <Eln:Eln.sharedItem:961>, <ore:ingotSteel>], [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]]);
 recipes.addShaped(<Railcraft:borehead.iron>, [[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>], [<ore:ingotSteel>, <Eln:Eln.sharedItem:960>, <ore:ingotSteel>], [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]]);
 
-recipes.addShaped(<Railcraft:detector:8>, [[<terrafirmacraft:item.ItemStoneBrick>, <terrafirmacraft:item.ItemStoneBrick>, <terrafirmacraft:item.ItemStoneBrick>], [<terrafirmacraft:item.ItemStoneBrick>, <minecraft:stone_pressure_plate>, <terrafirmacraft:item.ItemStoneBrick>], [<terrafirmacraft:item.ItemStoneBrick>, <Eln:Eln.SixNode:6980>, <terrafirmacraft:item.ItemStoneBrick>]]);
+recipes.addShaped(<Railcraft:detector:8>, [[<terrafirmacraft:item.ItemStoneBrick:*>, <terrafirmacraft:item.ItemStoneBrick:*>, <terrafirmacraft:item.ItemStoneBrick:*>], [<terrafirmacraft:item.ItemStoneBrick:*>, <minecraft:stone_pressure_plate>, <terrafirmacraft:item.ItemStoneBrick:*>], [<terrafirmacraft:item.ItemStoneBrick:*>, <Eln:Eln.SixNode:6980>, <terrafirmacraft:item.ItemStoneBrick:*>]]);
 recipes.addShaped(<Railcraft:detector:16>, [[<ore:stoneSmooth>, <ore:stoneSmooth>, <ore:stoneSmooth>], [<ore:stoneSmooth>, <minecraft:stone_pressure_plate>, <ore:stoneSmooth>], [<ore:stoneSmooth>, <ore:stoneSmooth>, <ore:stoneSmooth>]]);
 
 recipes.addShaped(<Railcraft:machine.alpha:5>, [[null, <minecraft:nether_brick>, null], [<ore:dustRedstone>, <minecraft:cauldron>, <ore:dustRedstone>]]);

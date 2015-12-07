@@ -16,6 +16,9 @@ mods.thaumcraft.Research.removeResearch("TRANSIRON");
 mods.thaumcraft.Research.orphanResearch("TRANSGOLD");
 mods.thaumcraft.Research.removeResearch("TRANSGOLD");
 
+mods.thaumcraft.Research.orphanResearch("ALUMENTUM");
+mods.thaumcraft.Research.removeResearch("ALUMENTUM");
+
 mods.thaumcraft.Research.orphanResearch("TRANSCOPPER");
 mods.thaumcraft.Research.removeResearch("TRANSCOPPER");
 

@@ -75,7 +75,7 @@ NEI.hide(<minecraft:jukebox>);
 NEI.hide(<minecraft:fence>);
 NEI.hide(<minecraft:pumpkin>);
 NEI.hide(<minecraft:netherrack>);
-NEI.hide(<minecraft:soul_sand>);
+//NEI.hide(<minecraft:soul_sand>);
 NEI.hide(<minecraft:glowstone>);
 NEI.hide(<minecraft:portal>);
 NEI.hide(<minecraft:lit_pumpkin>);
@@ -416,17 +416,14 @@ NEI.addEntry(<Railcraft:machine.alpha:5>);
 NEI.addEntry(<ImmersiveEngineering:stoneDecoration>);
 
 
-NEI.hide(<FloodLights:carbonFloodlight>);
-NEI.hide(<FloodLights:carbonDissolver>);
-NEI.hide(<FloodLights:carbonLantern>);
-NEI.hide(<FloodLights:mantle>);
-NEI.hide(<FloodLights:rawFilament>);
-NEI.hide(<FloodLights:glowingFilament>);
-NEI.hide(<terrafirmacraft:StoneSed:5>);
+//NEI.hide(<terrafirmacraft:StoneSed:5>);
 NEI.addEntry(<terrafirmacraft:StoneSed:5>.withTag({display: {Name: "Dolomite", Lore: ["It ain't right without Dolomite!"]}}));
+NEI.addEntry(<terrafirmacraft:StoneSed:*>);
 
 NEI.addEntry(<Railcraft:machine.alpha:7>);
 NEI.addEntry(<Railcraft:machine.alpha:8>);
+
+NEI.addEntry(<minecraft:chest>.withTag({display: {Name: "Chest", Lore: ["Storage without Storage"]}}));
 
 <CarpentersBlocks:blockCarpentersBlock>.displayName = "Wooden Construction Frame";
 <minecraft:iron_ingot>.displayName = "Refined Iron";

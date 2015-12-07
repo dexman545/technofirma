@@ -39,7 +39,7 @@ recipes.remove(<BuildCraft|Core:diamondGearItem>);
 
 // ================================================================================
 //#MARKER ADD
-
+recipes.addShaped(<BuildCraft|Transport:pipeWaterproof> * 2, [[<ore:itemRubber>, <terrafirmacraft:item.Mortar>, <ore:itemRubber>], [<terrafirmacraft:item.Mortar>, <ore:itemRubber>, <terrafirmacraft:item.Mortar>], [<ore:itemRubber>, <terrafirmacraft:item.Mortar>, <ore:itemRubber>]]);
 // ================================================================================
 //#MARKER ADD SHAPELESS
 

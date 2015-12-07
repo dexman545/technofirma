@@ -1,6 +1,11 @@
 mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:blockWoodenDevice:5>);
 mods.thaumcraft.Infusion.addRecipe("ARCANEBORE", <minecraft:piston>, [<minecraft:gold_ingot>, <minecraft:gold_ingot>, <Thaumcraft:blockWoodenDevice:6>, <Thaumcraft:blockWoodenDevice:6>, <Thaumcraft:ItemShard:3>, <Thaumcraft:ItemShard>, <terrafirmacraft:item.Blue Steel Pick>, <terrafirmacraft:item.Blue Steel Shovel>], "machina 32, motus 16, perfodio 32, potentia 16, vacuos 16", <Thaumcraft:blockWoodenDevice:5>, 5);
 
+mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:ItemResource>);
+
+mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:ItemResource:2>);
+mods.thaumcraft.Crucible.addRecipe("THAUMIUM", <Thaumcraft:ItemResource:2>, <terrafirmacraft:item.Wrought Iron Ingot>, "praecantatio 8");
+
 mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:ItemResource:1>);
 mods.thaumcraft.Crucible.addRecipe("NITOR", <Thaumcraft:ItemResource:1>, <terrafirmacraft:OilLamp>, "ignis 5, aer 5, potentia 5");
 mods.thaumcraft.Crucible.addRecipe("ALUMENTUM", <Thaumcraft:blockCustomPlant:1>, <Thaumcraft:blockCustomPlant>, "ordo 2, permutatio 12");

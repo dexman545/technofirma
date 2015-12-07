@@ -25,7 +25,8 @@ recipes.remove(<cuchaz.ships:paddle>);
 
 // ================================================================================
 //#MARKER ADD SHAPED
-recipes.addShaped(<cuchaz.ships:berth>, [[<ore:materialCloth>, <ore:materialCloth>, <ore:materialCloth>], [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
+recipes.addShaped(<cuchaz.ships:berth>, [[<chisel:woolen_clay:11>, <chisel:woolen_clay:11>, <chisel:woolen_clay>], [<ore:woodLumber>, <ore:woodLumber>, <ore:woodLumber>]]);
+
 recipes.addShaped(<cuchaz.ships:blockHelm>, [[null, <ore:stickWood>, null], [<ore:stickWood>, null, <ore:stickWood>], [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
 
 recipes.addShaped(<cuchaz.ships:blockShip>, [[null, <ore:stickWood>], [<minecraft:wool>, <ore:stickWood>]]);

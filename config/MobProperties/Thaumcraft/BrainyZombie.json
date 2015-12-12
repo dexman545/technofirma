@@ -2,5 +2,17 @@
   "_name": "Thaumcraft.BrainyZombie",
   "drops": [],
   "pre_stats": [],
-  "stats": []
+  "stats": [    {
+      "function": "modifier",
+      "attribute": "generic.maxHealth",
+      "value": 1010,
+      "operator": 0
+    },
+    {
+      "function": "modifier",
+      "attribute": "generic.attackDamage",
+      "value": "460.0",
+      "operator": 1
+    }
+	]
 }

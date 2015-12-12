@@ -2,5 +2,17 @@
   "_name": "Thaumcraft.GiantBrainyZombie",
   "drops": [],
   "pre_stats": [],
-  "stats": []
+  "stats": [    {
+      "function": "modifier",
+      "attribute": "generic.maxHealth",
+      "value": 1300,
+      "operator": 0
+    },
+    {
+      "function": "modifier",
+      "attribute": "generic.attackDamage",
+      "value": "650.0",
+      "operator": 1
+    }
+	]
 }

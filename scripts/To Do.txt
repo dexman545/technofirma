@@ -32,12 +32,21 @@ Fix Recipes
 			forestry machines for tree farming
 				reenable sapling drops and disable their placement?
 	smelting recipes for pottery
+	carpenter's blocks made only from treated wood?
+	glass in arcfurnace
+	IE lamps/spotlights
 Add witchery
 	wait for Modtweaker to add support
 Add WAILA blood magic addon
 charcoal as graphite replacement?
+IE lamps/lights
 Add forestry
 increase bound tool speed
+physics
+	alabastor
+	glass
+	foundations
+	fruit trees
 Add Lore Expansion
 	written material
 make foundations neccary
@@ -68,3 +77,5 @@ Bug Fixes
 	hurricane can't pick up ships
 	stone bricks and creepers
 	sawmill planks to sticks
+	tornado block damage
+	make tool racks flamnable

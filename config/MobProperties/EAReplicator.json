@@ -2,5 +2,17 @@
   "_name": "EAReplicator",
   "drops": [],
   "pre_stats": [],
-  "stats": []
+  "stats": [    {
+      "function": "modifier",
+      "attribute": "generic.maxHealth",
+      "value": 2000,
+      "operator": 0
+    },
+    {
+      "function": "modifier",
+      "attribute": "generic.attackDamage",
+      "value": "500.0",
+      "operator": 1
+    }
+	]
 }

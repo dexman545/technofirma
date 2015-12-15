@@ -1,9 +1,4 @@
-Fixed recipes
-	
-Fixed physics:
-	
-Added mods
-	
+Note: remove content tweaker and fluxed core in order to log into old worlds. Then re-enable them for their content.
 Updated mods
 	Immersive Engineering
 	Fluxed Core

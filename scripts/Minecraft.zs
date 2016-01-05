@@ -11,6 +11,7 @@ recipes.remove(<minecraft:ender_chest>);
 recipes.remove(<minecraft:rail>);
 recipes.remove(<minecraft:trapped_chest>);
 
+
 recipes.removeShaped(<minecraft:hopper>, [[<terrafirmacraft:Hopper>]]);
 recipes.remove(<minecraft:boat>);
 recipes.remove(<minecraft:bucket>);

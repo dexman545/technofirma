@@ -21,6 +21,8 @@ mods.pneumaticcraft.Pressure.removeRecipe([<PneumaticCraft:etchacidBucket>]);
 // ================================================================================
 //#MARKER REMOVE SHAPED
 recipes.removeShaped(<PneumaticCraft:pcbBlueprint>, [[null, <terrafirmacraft:item.Emerald:*>, null], [<terrafirmacraft:item.Emerald:*>, <ore:ingotIronCompressed>, <terrafirmacraft:item.Emerald:*>], [null, <terrafirmacraft:item.Emerald:*>, null]]);
+recipes.remove(<PneumaticCraft:amadronTablet:30000>);
+recipes.remove(<PneumaticCraft:amadronTablet>);
 
 // ================================================================================
 //#MARKER ADD

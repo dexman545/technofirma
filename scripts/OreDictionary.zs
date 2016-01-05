@@ -24,6 +24,11 @@ val anycoal = <ore:anyCoal>;
 val anyShard = <ore:anyShard>;
 val sapling = <ore:treeSapling>;
 
+val resin = <ore:itemRawRubber>;
+val resin1 = <ore:materialResin>;
+
+val bulb = <ore:glowstone>;
+
 // ================================================================================
 //#MARKER REMOVE
 
@@ -65,7 +70,10 @@ anycoal.add(<terrafirmacraft:item.Ore:14>);
 anyShard.add(<Thaumcraft:ItemShard:*>);
 sapling.add(<terrafirmacraft:item.FruitSapling:*>);
 
+resin.add(<Eln:Eln.SixNode:4096>);
+resin1.add(<IC2:item.itemHarz>);
 
+bulb.add(<Eln:Eln.sharedItem:260>);
 // ================================================================================
 //#MARKER ADD SHAPELESS
 

@@ -7,8 +7,11 @@ mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:ItemResource:2>);
 mods.thaumcraft.Crucible.addRecipe("THAUMIUM", <Thaumcraft:ItemResource:2>, <terrafirmacraft:item.Wrought Iron Ingot>, "praecantatio 8");
 
 mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:ItemResource:1>);
-mods.thaumcraft.Crucible.addRecipe("NITOR", <Thaumcraft:ItemResource:1>, <terrafirmacraft:OilLamp>, "ignis 5, aer 5, potentia 5");
+mods.thaumcraft.Crucible.addRecipe("NITOR", <Thaumcraft:ItemResource:1>, <terrafirmacraft:OilLamp:*>, "ignis 5, aer 5, potentia 5");
 mods.thaumcraft.Crucible.addRecipe("ALUMENTUM", <Thaumcraft:blockCustomPlant:1>, <Thaumcraft:blockCustomPlant>, "ordo 2, permutatio 12");
+
+mods.thaumcraft.Crucible.addRecipe("CRUCIBLE", <Thaumcraft:ItemResource:14>, <Thaumcraft:ItemShard:6>, "ignis 5");
+
 
 mods.thaumcraft.Loot.removeCommonLoot(<Thaumcraft:ItemBaubleBlanks:*>);
 mods.thaumcraft.Loot.removeCommonLoot(<minecraft:potion:*>);
@@ -62,6 +65,11 @@ mods.thaumcraft.Loot.addRareLoot(<terrafirmacraft:item.stick>, 40);
 //[[null, <ore:ingotGold>,null],
 //[<ore:ingotGold>, null, <ore:ingotGold>],
 //[null, <ore:ingotGold>, null]]);
+
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandCap:1>);
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandCap:3>);
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandCap:5>);
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandCap:6>);
 
 mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockTable:14>);
 mods.thaumcraft.Arcane.addShaped("DECONSTRUCTOR", <Thaumcraft:blockTable:14>, "perditio 20",
@@ -154,7 +162,7 @@ mods.thaumcraft.Arcane.addShaped("DISTILESSENTIA", <Thaumcraft:blockMetalDevice:
 [<Thaumcraft:ItemResource:8>, <Thaumcraft:blockTube>, <Thaumcraft:blockTube:1>]]);
 
 mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockTube>);
-mods.thaumcraft.Arcane.addShaped("TUBES", <Thaumcraft:blockTube> * 4, "aqua 5 ordo 5",
+mods.thaumcraft.Arcane.addShaped("TUBES", <Thaumcraft:blockTube> * 4, "aqua 5, ordo 5",
 [[null, <Thaumcraft:ItemNugget:5>, null],
 [<ore:ingotIron>, <minecraft:glass>, <ore:ingotIron>],
 [null, <minecraft:gold_nugget>,null]]);

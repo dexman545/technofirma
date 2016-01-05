@@ -22,6 +22,8 @@ mods.thaumcraft.Loot.removeCommonLoot(<minecraft:emerald>);
 mods.thaumcraft.Loot.removeCommonLoot(<minecraft:ender_pearl>);
 mods.thaumcraft.Loot.removeCommonLoot(<minecraft:diamond>);
 mods.thaumcraft.Loot.removeCommonLoot(<minecraft:golden_apple:*>);
+mods.thaumcraft.Loot.removeCommonLoot(<minecraft:enchanted_book:*>);
+
 mods.thaumcraft.Loot.removeUncommonLoot(<Thaumcraft:ItemRingRunic>);
 mods.thaumcraft.Loot.removeUncommonLoot(<Thaumcraft:ItemResource:*>);
 mods.thaumcraft.Loot.removeUncommonLoot(<Thaumcraft:ItemBaubleBlanks:*>);
@@ -33,6 +35,7 @@ mods.thaumcraft.Loot.removeUncommonLoot(<Thaumcraft:ItemAmuletVis>);
 mods.thaumcraft.Loot.removeUncommonLoot(<minecraft:gold_ingot>);
 mods.thaumcraft.Loot.removeUncommonLoot(<minecraft:golden_apple:*>);
 mods.thaumcraft.Loot.removeUncommonLoot(<minecraft:experience_bottle>);
+mods.thaumcraft.Loot.removeUncommonLoot(<minecraft:enchanted_book:*>);
 
 mods.thaumcraft.Loot.removeRareLoot(<minecraft:golden_apple:*>);
 mods.thaumcraft.Loot.removeRareLoot(<Thaumcraft:ItemResource:*>);
@@ -49,8 +52,19 @@ mods.thaumcraft.Loot.removeRareLoot(<Thaumcraft:ItemEldritchObject:*>);
 mods.thaumcraft.Loot.removeRareLoot(<minecraft:nether_star>);
 
 mods.thaumcraft.Loot.addCommonLoot(<terrafirmacraft:item.stick>, 40);
+mods.thaumcraft.Loot.addCommonLoot(<terrafirmacraft:item.coal>, 20);
+mods.thaumcraft.Loot.addCommonLoot(<terrafirmacraft:item.dyePowder:0>, 10); // Ink
+
 mods.thaumcraft.Loot.addUncommonLoot(<terrafirmacraft:item.stick>, 40);
+mods.thaumcraft.Loot.addUncommonLoot(<terrafirmacraft:item.dyePowder:0>, 20); // Ink
+mods.thaumcraft.Loot.addUncommonLoot(<terrafirmacraft:item.Powder:1>, 5);
+mods.thaumcraft.Loot.addUncommonLoot(<terrafirmacraft:item.Powder:2>, 5);
+mods.thaumcraft.Loot.addUncommonLoot(<Railcraft:fluid.creosote.bottle>, 5);
+mods.thaumcraft.Loot.addRareLoot(<minecraft:map>, 10);
+
 mods.thaumcraft.Loot.addRareLoot(<terrafirmacraft:item.stick>, 40);
+mods.thaumcraft.Loot.addRareLoot(<minecraft:map>, 20);
+mods.thaumcraft.Loot.addRareLoot(<minecraft:skull>, 20);
 
 //Arcane Workbench Recipes
 //ResearchKey, ResultStack, AspectsList, ShapedRecipe

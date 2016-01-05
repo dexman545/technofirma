@@ -1,3 +1,9 @@
+import minetweaker.item.IItemStack;
+
+// 1: Granite Diorite Gabbro Shale Claystone RockSalt Limestone Conglomerate Dolomite Chert Chalk Rhyolite Basalt Andesite Dacite Quartzite
+// 2: Slate Phyllite Schist Gneiss Marble
+var sandList = [<terrafirmacraft:Sand:0>, <terrafirmacraft:Sand:1>, <terrafirmacraft:Sand:2>, <terrafirmacraft:Sand:3>, <terrafirmacraft:Sand:4>, <terrafirmacraft:Sand:5>, <terrafirmacraft:Sand:6>, <terrafirmacraft:Sand:7>, <terrafirmacraft:Sand:8>, <terrafirmacraft:Sand:9>, <terrafirmacraft:Sand:10>, <terrafirmacraft:Sand:11>, <terrafirmacraft:Sand:12>, <terrafirmacraft:Sand:13>, <terrafirmacraft:Sand:14>, <terrafirmacraft:Sand:15>, <terrafirmacraft:Sand2:0>, <terrafirmacraft:Sand2:1>, <terrafirmacraft:Sand2:2>, <terrafirmacraft:Sand2:3>, <terrafirmacraft:Sand2:4>] as IItemStack[];
+
 recipes.removeShaped(<AWWayofTime:itemAttunedCrystal>, [[<ore:oreCopper>, <AWWayofTime:bloodMagicBaseItems>, null], [null, <AWWayofTime:bloodMagicBaseAlchemyItems:3>, <AWWayofTime:bloodMagicBaseItems>], [<terrafirmacraft:item.stick>, null, <ore:oreCopper>]]);
 recipes.removeShaped(<AWWayofTime:AlchemicalWizardrytile.blockSpellEffect>, [[<AWWayofTime:bloodMagicBaseItems:4>, <ore:ingotSteel>, <AWWayofTime:bloodMagicBaseItems:4>], [<AWWayofTime:bloodMagicBaseItems:9>, <AWWayofTime:bloodMagicBaseItems:21>, <AWWayofTime:bloodMagicBaseItems:14>], [<AWWayofTime:bloodMagicBaseItems:4>, <ore:ingotSteel>, <AWWayofTime:bloodMagicBaseItems:4>]]);
 recipes.remove(<AWWayofTime:speedRune>);
@@ -101,7 +107,14 @@ mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:dawnScribeTool>);
 
 //Outputstack, InputStack, TierRequired, LPRequired
 mods.bloodmagic.Altar.addRecipe(<AWWayofTime:weakBloodOrb>, <minecraft:ender_pearl>, 1, 2000);
-mods.bloodmagic.Altar.addRecipe(<minecraft:soul_sand>, <props:props:176>,3, 5000);
+
+var souls = <minecraft:soul_sand>;
+for i, sand in sandList {
+    mods.bloodmagic.Altar.addRecipe(souls, sand, 3, 5000);
+}
+// Leave the legacy recipe for now
+mods.bloodmagic.Altar.addRecipe(<minecraft:soul_sand>, <props:props:176>, 3, 5000);
+
 mods.bloodmagic.Altar.addRecipe(<AWWayofTime:apprenticeBloodOrb>, <Thaumcraft:ItemResource:6>, 3, 5000);
 mods.bloodmagic.Altar.addRecipe(<AWWayofTime:blankSlate>, <Thaumcraft:blockCosmeticSolid:6>, 1, 5000);
 mods.bloodmagic.Altar.addRecipe(<AWWayofTime:daggerOfSacrifice>, <terrafirmacraft:item.Wrought Iron Sword>, 2, 3000);

@@ -1,6 +1,3 @@
-Fix TC
-	hide some researches
-	thaumic steel
 Update Mods
 Rebalance pack
 	see rebalance pack.txt
@@ -10,19 +7,17 @@ Integrate more of Mekanism into pack
 	ore pentification as ore triplication
 	ore triplication as ore duplication
 	other machines
+uranium (cells) do damage in inventories when not in radiation suits
 Fix Recipes
-	salis mundis
 	use for poor ore
 	more auto processing of ingots in arc furnace
 	Robit
 		electrical chest
 	Fix alumentum
 		attempt to craft thaumium and alumentum is produced
-	fix essentia tubes
 	leather boots infusion for traveler 
 	mundane belt recipe
 	iron nugget recipe?
-	smelting rubber
 	add a way to obtain dyes from flowers
 		barrel recipe
 	add barrel concrete recipe
@@ -32,34 +27,35 @@ Fix Recipes
 			forestry machines for tree farming
 				reenable sapling drops and disable their placement?
 	smelting recipes for pottery
-	carpenter's blocks made only from treated wood?
-	glass in arcfurnace
-	IE lamps/spotlights
+	IC2 Classic recipes
+		wait for IC2 TFC support for some time
 Add witchery
 	wait for Modtweaker to add support
-Add WAILA blood magic addon
+Fire particles from torches light things on fire
+weather2 rain puts out torches/forges/fires
+Item wieghts
+	armor
+Add sideways logs (felled trees) to world gen
+Add WAILA blood magic addon?
 charcoal as graphite replacement?
-IE lamps/lights
 Add forestry
 increase bound tool speed
 physics
-	alabastor
-	glass
 	foundations
-	fruit trees
+Add IC2 Classic mod
+	Gregtech?
 Add Lore Expansion
 	written material
 make foundations neccary
 make torches catch things on fire
 Add more tech mods
-make IE cheaper
-	needs too much steel
 chunkloaders
 add rusticam melius
 make ice indestructable except with ice saw
 bound chisel
 bound shovel AoE
 	needs fixing
+		make it work only on snow?
 Bloodmagic
 	wither
 		soul sand in infused altar
@@ -68,14 +64,14 @@ Bloodmagic
 			headcrumbs code can be used
 		boost wither health/damage
 	finish recipes
+Skeletor boss mob
+	normal javeling skele, with buffed health/damage
+	drops wither skulls/skele skulls
 Bug Fixes
 	evil chickens
-	fix snow not placing
 	RC coke oven being hidden
 	sedemntery rocks hidden in NEI
 	gas spawns
 	hurricane can't pick up ships
 	stone bricks and creepers
-	sawmill planks to sticks
-	tornado block damage
 	make tool racks flamnable

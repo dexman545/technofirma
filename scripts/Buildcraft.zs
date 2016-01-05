@@ -12,6 +12,8 @@ recipes.remove(<BuildCraft|Energy:engineBlock>);
 recipes.remove(<BuildCraft|Energy:engineBlock:1>);
 recipes.remove(<BuildCraft|Energy:engineBlock:2>);
 
+recipes.remove(<BuildCraft|Transport:item.buildcraftPipe.pipeitemsobsidian>);
+
 recipes.remove(<BuildCraft|Factory:autoWorkbenchBlock>);
 recipes.remove(<BuildCraft|Factory:blockHopper>);
 recipes.remove(<BuildCraft|Factory:floodGateBlock>);
@@ -50,6 +52,8 @@ recipes.addShaped(<BuildCraft|Builders:blueprintItem>, [[<minecraft:paper>, <min
 recipes.addShaped(<BuildCraft|Builders:builderBlock>, [[<terrafirmacraft:item.dyePowder>, <BuildCraft|Builders:markerBlock>, <terrafirmacraft:item.dyePowder>], [<terrafirmacraft:item.Powder:7>, <BiblioCraft:BiblioWorkbench:6>, <terrafirmacraft:item.Powder:7>], [<BuildCraft|Core:diamondGearItem>, <terrafirmacraft:Chest TFC:*>, <BuildCraft|Core:diamondGearItem>]]);
 recipes.addShaped(<BuildCraft|Builders:fillerBlock>, [[<terrafirmacraft:item.dyePowder>, <BuildCraft|Builders:markerBlock>, <terrafirmacraft:item.dyePowder>], [<terrafirmacraft:item.Powder:7>, <BiblioCraft:BiblioWorkbench:6>, <terrafirmacraft:item.Powder:7>], [<BuildCraft|Core:goldGearItem>, <terrafirmacraft:Chest TFC:*>, <BuildCraft|Core:goldGearItem>]]);
 recipes.addShaped(<BuildCraft|Builders:markerBlock>, [[<ore:Tubes$anyDye>], [<ore:torchRedstoneActive>]]);
+
+recipes.addShapeless(<BuildCraft|Transport:item.buildcraftPipe.pipeitemsdiamond>, [<Mekanism:PartTransmitter:12>]);
 
 recipes.addShaped(<BuildCraft|Core:woodenGearItem>, [[null, <ore:stickWood>, null], [<ore:stickWood>, null, <ore:stickWood>], [null, <ore:stickWood>, null]]);
 recipes.addShaped(<BuildCraft|Core:woodenGearItem>, [[null, <terrafirmacraft:item.SinglePlank>, null], [<terrafirmacraft:item.SinglePlank>, <terrafirmacraft:planks:6>, <terrafirmacraft:item.SinglePlank>], [null, <terrafirmacraft:item.SinglePlank>, null]]);

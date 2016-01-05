@@ -5,13 +5,13 @@
   "stats": [    {
       "function": "modifier",
       "attribute": "generic.maxHealth",
-      "value": 1200,
+      "value": 2200,
       "operator": 0
     },
     {
       "function": "modifier",
       "attribute": "generic.attackDamage",
-      "value": "550.0",
+      "value": "250.0",
       "operator": 1
     }
 	]

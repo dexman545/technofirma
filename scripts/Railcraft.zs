@@ -2,6 +2,8 @@
 //#MARKER REMOVE
 recipes.remove(<Railcraft:anvil>);
 
+recipes.remove(<Railcraft:part.rail>);
+
 recipes.remove(<Railcraft:borehead.diamond>);
 recipes.remove(<Railcraft:borehead.steel>);
 recipes.remove(<Railcraft:borehead.iron>);

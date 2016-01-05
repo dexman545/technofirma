@@ -1,54 +1,882 @@
 [
 	{
+		"block": "ImmersiveEngineering:seed",
+		"weight": 0.0125
+	},
+	{
+		"block": "minecraft:string",
+		"weight": 0.0125
+	},
+	{
+		"block": "terrafirmacraft:item.Jute Fibre",
+		"weight": 0.0125
+	},
+	{
+		"block": "terrafirmacraft:item.Seeds Barley",
+		"weight": 0.0125
+	},
+	{
+		"block": "terrafirmacraft:item.Seeds Cabbage",
+		"weight": 0.0125
+	},
+	{
+		"block": "terrafirmacraft:item.Seeds Carrot",
+		"weight": 0.0125
+	},
+	{
+		"block": "terrafirmacraft:item.Seeds Garlic",
+		"weight": 0.0125
+	},
+	{
+		"block": "terrafirmacraft:item.Seeds Greenbean",
+		"weight": 0.0125
+	},
+	{
+		"block": "terrafirmacraft:item.Seeds Jute",
+		"weight": 0.0125
+	},
+	{
+		"block": "terrafirmacraft:item.Seeds Maize",
+		"weight": 0.0125
+	},
+	{
+		"block": "terrafirmacraft:item.Seeds Oat",
+		"weight": 0.0125
+	},
+	{
+		"block": "terrafirmacraft:item.Seeds Onion",
+		"weight": 0.0125
+	},
+	{
+		"block": "terrafirmacraft:item.Seeds Potato",
+		"weight": 0.0125
+	},
+	{
+		"block": "terrafirmacraft:item.Seeds Red Bell Pepper",
+		"weight": 0.0125
+	},
+	{
+		"block": "terrafirmacraft:item.Seeds Rice",
+		"weight": 0.0125
+	},
+	{
+		"block": "terrafirmacraft:item.Seeds Rye",
+		"weight": 0.0125
+	},
+	{
+		"block": "terrafirmacraft:item.Seeds Soybean",
+		"weight": 0.0125
+	},
+	{
+		"block": "terrafirmacraft:item.Seeds Squash",
+		"weight": 0.0125
+	},
+	{
+		"block": "terrafirmacraft:item.Seeds Sugarcane",
+		"weight": 0.0125
+	},
+	{
+		"block": "terrafirmacraft:item.Seeds Tomato",
+		"weight": 0.0125
+	},
+	{
+		"block": "terrafirmacraft:item.Seeds Wheat",
+		"weight": 0.0125
+	},
+	{
+		"block": "terrafirmacraft:item.Seeds Yellow Bell Pepper",
+		"weight": 0.0125
+	},
+	{
+		"block": "terrafirmacraft:item.Straw",
+		"weight": 0.0125
+	},
+	{
+		"block": "terrafirmacraft:item.WoolYarn",
+		"weight": 0.0125
+	},
+	{
+		"block": "terrafirmacraft:item.stick",
+		"weight": 0.0125
+	},
+	{
+		"block": "yegamolchattels:flax_seeds",
+		"weight": 0.0125
+	},
+	{
+		"block": "terrafirmacraft:Thatch",
+		"weight": 0.05
+	},
+	{
+		"block": "terrafirmacraft:item.SinglePlank",
+		"weight": 0.1
+	},
+	{
+		"block": "terrafirmacraft:item.Wool",
+		"weight": 0.1
+	},
+	{
+		"block": "terrafirmacraft:item.TFC Leather",
+		"weight": 0.125
+	},
+	{
+		"block": "terrafirmacraft:item.bootsCloth",
+		"weight": 0.125
+	},
+	{
+		"block": "terrafirmacraft:item.chestplateCloth",
+		"weight": 0.125
+	},
+	{
+		"block": "terrafirmacraft:item.helmetCloth",
+		"weight": 0.125
+	},
+	{
+		"block": "terrafirmacraft:item.leggingsCloth",
+		"weight": 0.125
+	},
+	{
+		"block": "terrafirmacraft:item.BurlapCloth",
+		"weight": 0.15
+	},
+	{
+		"block": "terrafirmacraft:item.WoolCloth",
+		"weight": 0.2
+	},
+	{
+		"block": "terrafirmacraft:item.Bismuth Bronze Ingot",
+		"weight": 0.25
+	},
+	{
+		"block": "terrafirmacraft:item.Bismuth Ingot",
+		"weight": 0.25
+	},
+	{
+		"block": "terrafirmacraft:item.Black Bronze Ingot",
+		"weight": 0.25
+	},
+	{
+		"block": "terrafirmacraft:item.Black Steel Ingot",
+		"weight": 0.25
+	},
+	{
+		"block": "terrafirmacraft:item.Blue Steel Ingot",
+		"weight": 0.25
+	},
+	{
+		"block": "terrafirmacraft:item.Brass Ingot",
+		"weight": 0.25
+	},
+	{
+		"block": "terrafirmacraft:item.Bronze Ingot",
+		"weight": 0.25
+	},
+	{
+		"block": "terrafirmacraft:item.Copper Ingot",
+		"weight": 0.25
+	},
+	{
+		"block": "terrafirmacraft:item.Gold Ingot",
+		"weight": 0.25
+	},
+	{
+		"block": "terrafirmacraft:item.HC Black Steel Ingot",
+		"weight": 0.25
+	},
+	{
+		"block": "terrafirmacraft:item.HC Blue Steel Ingot",
+		"weight": 0.25
+	},
+	{
+		"block": "terrafirmacraft:item.HC Red Steel Ingot",
+		"weight": 0.25
+	},
+	{
+		"block": "terrafirmacraft:item.HC Steel Ingot",
+		"weight": 0.25
+	},
+	{
+		"block": "terrafirmacraft:item.Jute",
+		"weight": 0.25
+	},
+	{
+		"block": "terrafirmacraft:item.Lead Ingot",
+		"weight": 16.0
+	},
+	{
+		"block": "terrafirmacraft:item.Nickel Ingot",
+		"weight": 0.25
+	},
+	{
+		"block": "terrafirmacraft:item.Pig Iron Ingot",
+		"weight": 0.25
+	},
+	{
+		"block": "terrafirmacraft:item.Platinum Ingot",
+		"weight": 0.25
+	},
+	{
+		"block": "terrafirmacraft:item.Red Steel Ingot",
+		"weight": 0.25
+	},
+	{
+		"block": "terrafirmacraft:item.Rose Gold Ingot",
+		"weight": 0.25
+	},
+	{
+		"block": "terrafirmacraft:item.Silver Ingot",
+		"weight": 0.25
+	},
+	{
+		"block": "terrafirmacraft:item.Steel Ingot",
+		"weight": 0.25
+	},
+	{
+		"block": "terrafirmacraft:item.Sterling Silver Ingot",
+		"weight": 0.25
+	},
+	{
+		"block": "terrafirmacraft:item.Tin Ingot",
+		"weight": 0.25
+	},
+	{
+		"block": "terrafirmacraft:item.Unknown Ingot",
+		"weight": 0.25
+	},
+	{
+		"block": "terrafirmacraft:item.Weak Blue Steel Ingot",
+		"weight": 0.25
+	},
+	{
+		"block": "terrafirmacraft:item.Weak Red Steel Ingot",
+		"weight": 0.25
+	},
+	{
+		"block": "terrafirmacraft:item.Weak Steel Ingot",
+		"weight": 0.25
+	},
+	{
+		"block": "terrafirmacraft:item.Wrought Iron Ingot",
+		"weight": 0.25
+	},
+	{
+		"block": "terrafirmacraft:item.Zinc Ingot",
+		"weight": 0.25
+	},
+	{
+		"block": "terrafirmacraft:item.SilkCloth",
+		"weight": 0.3
+	},
+	{
+		"block": "terrafirmacraft:planks",
+		"weight": 0.4
+	},
+	{
+		"block": "terrafirmacraft:planks2",
+		"weight": 0.4
+	},
+	{
+		"block": "terrafirmacraft:item.Bismuth Bronze Double Ingot",
+		"weight": 0.5
+	},
+	{
+		"block": "terrafirmacraft:item.Bismuth Bronze Sheet",
+		"weight": 0.5
+	},
+	{
+		"block": "terrafirmacraft:item.Bismuth Bronze Unfinished Boots",
+		"weight": 0.5
+	},
+	{
+		"block": "terrafirmacraft:item.Bismuth Bronze Unfinished Helmet",
+		"weight": 0.5
+	},
+	{
+		"block": "terrafirmacraft:item.Bismuth Double Ingot",
+		"weight": 0.5
+	},
+	{
+		"block": "terrafirmacraft:item.Bismuth Sheet",
+		"weight": 0.5
+	},
+	{
+		"block": "terrafirmacraft:item.Black Bronze Double Ingot",
+		"weight": 0.5
+	},
+	{
+		"block": "terrafirmacraft:item.Black Bronze Sheet",
+		"weight": 0.5
+	},
+	{
+		"block": "terrafirmacraft:item.Black Bronze Unfinished Boots",
+		"weight": 0.5
+	},
+	{
+		"block": "terrafirmacraft:item.Black Bronze Unfinished Helmet",
+		"weight": 0.5
+	},
+	{
+		"block": "terrafirmacraft:item.Black Steel Double Ingot",
+		"weight": 0.5
+	},
+	{
+		"block": "terrafirmacraft:item.Black Steel Sheet",
+		"weight": 0.5
+	},
+	{
+		"block": "terrafirmacraft:item.Black Steel Unfinished Boots",
+		"weight": 0.5
+	},
+	{
+		"block": "terrafirmacraft:item.Black Steel Unfinished Helmet",
+		"weight": 0.5
+	},
+	{
+		"block": "terrafirmacraft:item.Blue Steel Double Ingot",
+		"weight": 0.5
+	},
+	{
+		"block": "terrafirmacraft:item.Blue Steel Sheet",
+		"weight": 0.5
+	},
+	{
+		"block": "terrafirmacraft:item.Blue Steel Unfinished Boots",
+		"weight": 0.5
+	},
+	{
+		"block": "terrafirmacraft:item.Blue Steel Unfinished Helmet",
+		"weight": 0.5
+	},
+	{
+		"block": "terrafirmacraft:item.Brass Double Ingot",
+		"weight": 0.5
+	},
+	{
+		"block": "terrafirmacraft:item.Brass Sheet",
+		"weight": 0.5
+	},
+	{
+		"block": "terrafirmacraft:item.Bronze Double Ingot",
+		"weight": 0.5
+	},
+	{
+		"block": "terrafirmacraft:item.Bronze Sheet",
+		"weight": 0.5
+	},
+	{
+		"block": "terrafirmacraft:item.Bronze Unfinished Boots",
+		"weight": 0.5
+	},
+	{
+		"block": "terrafirmacraft:item.Bronze Unfinished Helmet",
+		"weight": 0.5
+	},
+	{
+		"block": "terrafirmacraft:item.Copper Double Ingot",
+		"weight": 0.5
+	},
+	{
+		"block": "terrafirmacraft:item.Copper Sheet",
+		"weight": 0.5
+	},
+	{
+		"block": "terrafirmacraft:item.Copper Unfinished Boots",
+		"weight": 0.5
+	},
+	{
+		"block": "terrafirmacraft:item.Copper Unfinished Helmet",
+		"weight": 0.5
+	},
+	{
+		"block": "terrafirmacraft:item.Gold Double Ingot",
+		"weight": 0.5
+	},
+	{
+		"block": "terrafirmacraft:item.Gold Sheet",
+		"weight": 0.5
+	},
+	{
+		"block": "terrafirmacraft:item.Jug",
+		"weight": 0.5
+	},
+	{
+		"block": "terrafirmacraft:item.Lead Double Ingot",
+		"weight": 32.0
+	},
+	{
+		"block": "terrafirmacraft:item.Lead Sheet",
+		"weight": 32.0
+	},
+	{
+		"block": "terrafirmacraft:item.Nickel Double Ingot",
+		"weight": 0.5
+	},
+	{
+		"block": "terrafirmacraft:item.Nickel Sheet",
+		"weight": 0.5
+	},
+	{
+		"block": "terrafirmacraft:item.Pig Iron Double Ingot",
+		"weight": 0.5
+	},
+	{
+		"block": "terrafirmacraft:item.Pig Iron Sheet",
+		"weight": 0.5
+	},
+	{
+		"block": "terrafirmacraft:item.Platinum Double Ingot",
+		"weight": 0.5
+	},
+	{
+		"block": "terrafirmacraft:item.Platinum Sheet",
+		"weight": 0.5
+	},
+	{
+		"block": "terrafirmacraft:item.Red Steel Double Ingot",
+		"weight": 0.5
+	},
+	{
+		"block": "terrafirmacraft:item.Red Steel Sheet",
+		"weight": 0.5
+	},
+	{
+		"block": "terrafirmacraft:item.Red Steel Unfinished Boots",
+		"weight": 0.5
+	},
+	{
+		"block": "terrafirmacraft:item.Red Steel Unfinished Helmet",
+		"weight": 0.5
+	},
+	{
+		"block": "terrafirmacraft:item.Rose Gold Double Ingot",
+		"weight": 0.5
+	},
+	{
+		"block": "terrafirmacraft:item.Rose Gold Sheet",
+		"weight": 0.5
+	},
+	{
+		"block": "terrafirmacraft:item.Silver Double Ingot",
+		"weight": 0.5
+	},
+	{
+		"block": "terrafirmacraft:item.Silver Sheet",
+		"weight": 0.5
+	},
+	{
+		"block": "terrafirmacraft:item.Steel Double Ingot",
+		"weight": 0.5
+	},
+	{
+		"block": "terrafirmacraft:item.Steel Sheet",
+		"weight": 0.5
+	},
+	{
+		"block": "terrafirmacraft:item.Steel Unfinished Boots",
+		"weight": 0.5
+	},
+	{
+		"block": "terrafirmacraft:item.Steel Unfinished Helmet",
+		"weight": 0.5
+	},
+	{
+		"block": "terrafirmacraft:item.Sterling Silver Double Ingot",
+		"weight": 0.5
+	},
+	{
+		"block": "terrafirmacraft:item.Sterling Silver Sheet",
+		"weight": 0.5
+	},
+	{
+		"block": "terrafirmacraft:item.Tin Double Ingot",
+		"weight": 0.5
+	},
+	{
+		"block": "terrafirmacraft:item.Tin Sheet",
+		"weight": 0.5
+	},
+	{
+		"block": "terrafirmacraft:item.Wrought Iron Double Ingot",
+		"weight": 0.5
+	},
+	{
+		"block": "terrafirmacraft:item.Wrought Iron Sheet",
+		"weight": 0.5
+	},
+	{
+		"block": "terrafirmacraft:item.Wrought Iron Unfinished Boots",
+		"weight": 0.5
+	},
+	{
+		"block": "terrafirmacraft:item.Wrought Iron Unfinished Helmet",
+		"weight": 0.5
+	},
+	{
+		"block": "terrafirmacraft:item.Zinc Double Ingot",
+		"weight": 0.5
+	},
+	{
+		"block": "terrafirmacraft:item.Zinc Sheet",
+		"weight": 0.5
+	},
+	{
 		"block": "terrafirmacraft:item.Log",
 		"weight": 0.75
 	},
 	{
-		"block": "terrafirmacraft:item.LooseRock",
-		"weight": 0.25
-	},
-	{
-		"block": "terrafirmacraft:item.Blue Steel Helmet",
+		"block": "terrafirmacraft:item.Log2",
 		"weight": 0.75
 	},
 	{
-		"block": "terrafirmacraft:item.Black Steel Helmet",
-		"weight": 0.75
+		"block": "terrafirmacraft:item.Bismuth Bronze Boots",
+		"weight": 1.0
 	},
 	{
-		"block": "terrafirmacraft:item.Red Steel Helmet",
-		"weight": 0.75
+		"block": "terrafirmacraft:item.Bismuth Bronze Double Sheet",
+		"weight": 1.0
 	},
 	{
-		"block": "terrafirmacraft:item.Copper Helmet",
-		"weight": 0.75
+		"block": "terrafirmacraft:item.Bismuth Bronze Helmet",
+		"weight": 1.0
 	},
 	{
-		"block": "terrafirmacraft:item.Bizmuth Bronze Helmet",
-		"weight": 0.75
+		"block": "terrafirmacraft:item.Bismuth Bronze Tuyere",
+		"weight": 1.0
 	},
 	{
-		"block": "terrafirmacraft:item.Bronze Helmet",
-		"weight": 0.75
+		"block": "terrafirmacraft:item.Bismuth Bronze Unfinished Chestplate",
+		"weight": 1.0
+	},
+	{
+		"block": "terrafirmacraft:item.Bismuth Bronze Unfinished Greaves",
+		"weight": 1.0
+	},
+	{
+		"block": "terrafirmacraft:item.Bismuth Double Sheet",
+		"weight": 1.0
+	},
+	{
+		"block": "terrafirmacraft:item.Black Bronze Boots",
+		"weight": 1.0
+	},
+	{
+		"block": "terrafirmacraft:item.Black Bronze Double Sheet",
+		"weight": 1.0
 	},
 	{
 		"block": "terrafirmacraft:item.Black Bronze Helmet",
-		"weight": 0.75
+		"weight": 1.0
+	},
+	{
+		"block": "terrafirmacraft:item.Black Bronze Tuyere",
+		"weight": 1.0
+	},
+	{
+		"block": "terrafirmacraft:item.Black Bronze Unfinished Chestplate",
+		"weight": 1.0
+	},
+	{
+		"block": "terrafirmacraft:item.Black Bronze Unfinished Greaves",
+		"weight": 1.0
+	},
+	{
+		"block": "terrafirmacraft:item.Black Steel Boots",
+		"weight": 1.0
+	},
+	{
+		"block": "terrafirmacraft:item.Black Steel Double Sheet",
+		"weight": 1.0
+	},
+	{
+		"block": "terrafirmacraft:item.Black Steel Helmet",
+		"weight": 1.0
+	},
+	{
+		"block": "terrafirmacraft:item.Black Steel Tuyere",
+		"weight": 1.0
+	},
+	{
+		"block": "terrafirmacraft:item.Black Steel Unfinished Chestplate",
+		"weight": 1.0
+	},
+	{
+		"block": "terrafirmacraft:item.Black Steel Unfinished Greaves",
+		"weight": 1.0
+	},
+	{
+		"block": "terrafirmacraft:item.Blue Steel Boots",
+		"weight": 1.0
+	},
+	{
+		"block": "terrafirmacraft:item.Blue Steel Double Sheet",
+		"weight": 1.0
+	},
+	{
+		"block": "terrafirmacraft:item.Blue Steel Helmet",
+		"weight": 1.0
+	},
+	{
+		"block": "terrafirmacraft:item.Blue Steel Tuyere",
+		"weight": 1.0
+	},
+	{
+		"block": "terrafirmacraft:item.Blue Steel Unfinished Chestplate",
+		"weight": 1.0
+	},
+	{
+		"block": "terrafirmacraft:item.Blue Steel Unfinished Greaves",
+		"weight": 1.0
+	},
+	{
+		"block": "terrafirmacraft:item.Brass Double Sheet",
+		"weight": 1.0
+	},
+	{
+		"block": "terrafirmacraft:item.Bronze Boots",
+		"weight": 1.0
+	},
+	{
+		"block": "terrafirmacraft:item.Bronze Double Sheet",
+		"weight": 1.0
+	},
+	{
+		"block": "terrafirmacraft:item.Bronze Helmet",
+		"weight": 1.0
+	},
+	{
+		"block": "terrafirmacraft:item.Bronze Tuyere",
+		"weight": 1.0
+	},
+	{
+		"block": "terrafirmacraft:item.Bronze Unfinished Chestplate",
+		"weight": 1.0
+	},
+	{
+		"block": "terrafirmacraft:item.Bronze Unfinished Greaves",
+		"weight": 1.0
+	},
+	{
+		"block": "terrafirmacraft:item.Copper Boots",
+		"weight": 1.0
+	},
+	{
+		"block": "terrafirmacraft:item.Copper Double Sheet",
+		"weight": 1.0
+	},
+	{
+		"block": "terrafirmacraft:item.Copper Helmet",
+		"weight": 1.0
+	},
+	{
+		"block": "terrafirmacraft:item.Copper Tuyere",
+		"weight": 1.0
+	},
+	{
+		"block": "terrafirmacraft:item.Copper Unfinished Chestplate",
+		"weight": 1.0
+	},
+	{
+		"block": "terrafirmacraft:item.Copper Unfinished Greaves",
+		"weight": 1.0
+	},
+	{
+		"block": "terrafirmacraft:item.Gold Double Sheet",
+		"weight": 1.0
+	},
+	{
+		"block": "terrafirmacraft:item.Lead Double Sheet",
+		"weight": 64.0
+	},
+	{
+		"block": "terrafirmacraft:item.Nickel Double Sheet",
+		"weight": 1.0
+	},
+	{
+		"block": "terrafirmacraft:item.Pig Iron Double Sheet",
+		"weight": 1.0
+	},
+	{
+		"block": "terrafirmacraft:item.Platinum Double Sheet",
+		"weight": 1.0
+	},
+	{
+		"block": "terrafirmacraft:item.Red Steel Boots",
+		"weight": 1.0
+	},
+	{
+		"block": "terrafirmacraft:item.Red Steel Double Sheet",
+		"weight": 1.0
+	},
+	{
+		"block": "terrafirmacraft:item.Red Steel Helmet",
+		"weight": 1.0
+	},
+	{
+		"block": "terrafirmacraft:item.Red Steel Tuyere",
+		"weight": 1.0
+	},
+	{
+		"block": "terrafirmacraft:item.Red Steel Unfinished Chestplate",
+		"weight": 1.0
+	},
+	{
+		"block": "terrafirmacraft:item.Red Steel Unfinished Greaves",
+		"weight": 1.0
+	},
+	{
+		"block": "terrafirmacraft:item.Rose Gold Double Sheet",
+		"weight": 1.0
+	},
+	{
+		"block": "terrafirmacraft:item.Silver Double Sheet",
+		"weight": 1.0
+	},
+	{
+		"block": "terrafirmacraft:item.Steel Boots",
+		"weight": 1.0
+	},
+	{
+		"block": "terrafirmacraft:item.Steel Double Sheet",
+		"weight": 1.0
 	},
 	{
 		"block": "terrafirmacraft:item.Steel Helmet",
-		"weight": 0.75
+		"weight": 1.0
+	},
+	{
+		"block": "terrafirmacraft:item.Steel Tuyere",
+		"weight": 1.0
+	},
+	{
+		"block": "terrafirmacraft:item.Steel Unfinished Chestplate",
+		"weight": 1.0
+	},
+	{
+		"block": "terrafirmacraft:item.Steel Unfinished Greaves",
+		"weight": 1.0
+	},
+	{
+		"block": "terrafirmacraft:item.Sterling Silver Double Sheet",
+		"weight": 1.0
+	},
+	{
+		"block": "terrafirmacraft:item.Tin Double Sheet",
+		"weight": 1.0
+	},
+	{
+		"block": "terrafirmacraft:item.Wrought Iron Boots",
+		"weight": 1.0
+	},
+	{
+		"block": "terrafirmacraft:item.Wrought Iron Double Sheet",
+		"weight": 1.0
 	},
 	{
 		"block": "terrafirmacraft:item.Wrought Iron Helmet",
-		"weight": 0.75
+		"weight": 1.0
+	},
+	{
+		"block": "terrafirmacraft:item.Wrought Iron Tuyere",
+		"weight": 1.0
+	},
+	{
+		"block": "terrafirmacraft:item.Wrought Iron Unfinished Chestplate",
+		"weight": 1.0
+	},
+	{
+		"block": "terrafirmacraft:item.Wrought Iron Unfinished Greaves",
+		"weight": 1.0
+	},
+	{
+		"block": "terrafirmacraft:item.Zinc Double Sheet",
+		"weight": 1.0
+	},
+	{
+		"block": "terrafirmacraft:item.Bismuth Bronze Greaves",
+		"weight": 1.5
+	},
+	{
+		"block": "terrafirmacraft:item.Black Bronze Greaves",
+		"weight": 1.5
+	},
+	{
+		"block": "terrafirmacraft:item.Black Steel Greaves",
+		"weight": 1.5
+	},
+	{
+		"block": "terrafirmacraft:item.Blue Steel Greaves",
+		"weight": 1.5
+	},
+	{
+		"block": "terrafirmacraft:item.Bronze Greaves",
+		"weight": 1.5
+	},
+	{
+		"block": "terrafirmacraft:item.Copper Greaves",
+		"weight": 1.5
+	},
+	{
+		"block": "terrafirmacraft:item.Red Steel Greaves",
+		"weight": 1.5
+	},
+	{
+		"block": "terrafirmacraft:item.Steel Greaves",
+		"weight": 1.5
+	},
+	{
+		"block": "terrafirmacraft:item.Wrought Iron Greaves",
+		"weight": 1.5
+	},
+	{
+		"block": "terrafirmacraft:item.Bismuth Bronze Chestplate",
+		"weight": 2.0
+	},
+	{
+		"block": "terrafirmacraft:item.Black Bronze Chestplate",
+		"weight": 2.0
+	},
+	{
+		"block": "terrafirmacraft:item.Black Steel Chestplate",
+		"weight": 2.0
+	},
+	{
+		"block": "terrafirmacraft:item.Blue Steel Chestplate",
+		"weight": 2.0
+	},
+	{
+		"block": "terrafirmacraft:item.Bronze Chestplate",
+		"weight": 2.0
+	},
+	{
+		"block": "terrafirmacraft:item.Copper Chestplate",
+		"weight": 2.0
+	},
+	{
+		"block": "terrafirmacraft:item.Red Steel Chestplate",
+		"weight": 2.0
+	},
+	{
+		"block": "terrafirmacraft:item.Steel Chestplate",
+		"weight": 2.0
+	},
+	{
+		"block": "terrafirmacraft:item.Wrought Iron Chestplate",
+		"weight": 2.0
+	},
+	{
+		"block": "technofirma:Magic Anvil",
+		"weight": 6.75
+	},
+	{
+		"block": "terrafirmacraft:Anvil",
+		"weight": 7.0
+	},
+	{
+		"block": "terrafirmacraft:Anvil2",
+		"weight": 7.0
 	},
 	{
 		"block": "terrafirmacraft:item.Small Vessel",
 		"weight": 48.0
-	},
-		{
-		"block": "terrafirmacraft:item.stick",
-		"weight": 0.0125
 	}
 ]

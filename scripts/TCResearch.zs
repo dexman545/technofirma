@@ -46,6 +46,20 @@ mods.thaumcraft.Research.removeResearch("ARCANELAMP");
 mods.thaumcraft.Research.orphanResearch("PRIMALARROW");
 mods.thaumcraft.Research.removeResearch("PRIMALARROW");
 
+mods.thaumcraft.Research.orphanResearch("ARMORFORTRESS");
+mods.thaumcraft.Research.removeResearch("ARMORFORTRESS");
+
+mods.thaumcraft.Research.orphanResearch("HELMGOGGLES");
+mods.thaumcraft.Research.removeResearch("HELMGOGGLES");
+
+mods.thaumcraft.Research.orphanResearch("MASKANGRYGHOST");
+mods.thaumcraft.Research.removeResearch("MASKANGRYGHOST");
+
+mods.thaumcraft.Research.orphanResearch("MASKGRINNINGDEVIL");
+mods.thaumcraft.Research.removeResearch("MASKGRINNINGDEVIL");
+
+mods.thaumcraft.Research.orphanResearch("MASKSIPPINGFIEND");
+mods.thaumcraft.Research.removeResearch("MASKSIPPINGFIEND");
 
 //Changing Aspects - Additions, Replacements, Removals
 //ItemStack, AspectsList

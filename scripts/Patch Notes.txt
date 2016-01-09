@@ -29,6 +29,9 @@ Fixed Recipes / Recipes Additions/Removals
 	Nitor should now allow use of any TFC oil lamp to craft it
 	Added recipe for Salis Mundis
 	Removed 5 TC researchs
+	Added use for unknown ingots
+	Added preliminary IC2 recipe conversions
+	Allows for production of soul sand from any TFC sand
 Fixed physics
 	Merchants dupe bug
 	Glass blocks
@@ -47,9 +50,17 @@ Updated mods
 	Schematica
 	Terrafirmacraft
 	Mekanism
+	Item Physics
+	Creative Core
+	Immersive Engineering
+	Stellar Sky
+	Sci API
+	BetterFoliage
+	Project: Red
 Removed Mods
 	Glens Gases
 	Gases Framework
+	Better Sprinting
 Config Tweaks
 	Rebalanced standard mobs
 	Carpenter block illumination is now disabled
@@ -64,6 +75,13 @@ Config Tweaks
 	Reenabled placement of gems 
 	Added more item wieghts
 		Many thanks to plaer lashtear
+	Added update checker for those not using Curse/FTB launchers directly
+	Buffed vanilla spiders
+	Reenabled Better Lilypads
+	Disabled a bucnh of Railcraft blocks
+	Removed Road1 structure
+	Enabled round logs for player placed logs
 Bug Fixes
 	Ability to place vanilla crafting tables
 	MT error message
+	Fixed horses not spawning

@@ -2,5 +2,11 @@
   "_name": "pigTFC",
   "drops": [],
   "pre_stats": [],
-  "stats": []
+  "stats": [    {
+      "function": "modifier",
+      "attribute": "generic.attackDamage",
+      "value": "1000.0",
+      "operator": 1
+    }
+	]
 }

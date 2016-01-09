@@ -61,6 +61,7 @@ recipes.addShapeless(<minecraft:stone_button>, [<terrafirmacraft:item.LooseRock>
 //recipes.addShapeless(<minecraft:wheat_seeds>, [<terrafirmacraft:item.Seeds Wheat>]);
 recipes.addShapeless(<minecraft:ghast_tear>, [<Eln:Eln.TransparentNode:3136>]);
 recipes.addShapeless(<minecraft:glowstone_dust>, [<Thaumcraft:ItemResource:1>]);
+recipes.addShapeless(<minecraft:glowstone_dust>, [<ore:glowstone>]);
 
 // ================================================================================
 //#MARKER ADD SHAPED

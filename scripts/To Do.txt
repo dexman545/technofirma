@@ -74,4 +74,5 @@ Bug Fixes
 	gas spawns
 	hurricane can't pick up ships
 	stone bricks and creepers
+	can work/weld tooltip on thaumic steel not working
 	make tool racks flamnable

@@ -40,3 +40,14 @@ mods.tfcraft.Anvil.add(<terrafirmacraft:item.Blue Steel Ingot>, null, "grill", 7
 mods.tfcraft.Barrel.addSealed(<terrafirmacraft:planks>, <liquid:creosote> * 125, <ImmersiveEngineering:treatedWood>, <liquid:creosote>*125, 1, 1, true, false);
 
 mods.tfcraft.Barrel.addSealed(<DecorationsTFC:item.Powders.Gypsum>, <liquid:liquid_dye.black> * 200, <terrafirmacraft:item.dyePowder>, <liquid:liquid_dye.black>*200, 4, 1, true, false);
+
+// Let acacia make workbenches, so at least people can escape the
+// jungle, but still disallow greatwood etc.
+val planks = <ore:TFCplanks>;
+planks.add(<terrafirmacraft:planks:*>);
+planks.add(<terrafirmacraft:planks2:*>);
+
+recipes.removeShaped(<terrafirmacraft:Workbench>);
+recipes.addShaped(<terrafirmacraft:Workbench>, [[planks, planks], [planks, planks]]);
+recipes.removeShaped(<minecraft:boat>);
+recipes.addShaped(<minecraft:boat>, [[planks, null, planks], [planks, planks, planks]]);

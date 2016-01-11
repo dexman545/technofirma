@@ -428,7 +428,8 @@ NEI.addEntry(<minecraft:chest>.withTag({display: {Name: "Chest", Lore: ["Storage
 <CarpentersBlocks:blockCarpentersBlock>.displayName = "Wooden Construction Frame";
 <minecraft:iron_ingot>.displayName = "Refined Iron";
 <minecraft:quartz_block>.displayName = "Albino Block of Jet";
-<Eln:Eln.ghostBlock>.displayName = "EA Block of Generalities in Purpose";
+// disabled this because the name contaminates other ghost blocks
+//<Eln:Eln.ghostBlock>.displayName = "EA Block of Generalities in Purpose";
 <minecraft:gold_ingot>.displayName = "Refined Gold";
 <BuildCraft|Core:diamondGearItem>.displayName = "Blue Steel Gear";
 

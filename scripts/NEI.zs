@@ -416,9 +416,40 @@ NEI.addEntry(<Railcraft:machine.alpha:5>);
 NEI.addEntry(<ImmersiveEngineering:stoneDecoration>);
 
 
-//NEI.hide(<terrafirmacraft:StoneSed:5>);
-NEI.addEntry(<terrafirmacraft:StoneSed:5>.withTag({display: {Name: "Dolomite", Lore: ["It ain't right without Dolomite!"]}}));
-NEI.addEntry(<terrafirmacraft:StoneSed:*>);
+NEI.hide(<terrafirmacraft:StoneSed:*>);
+//public static final String[] STONE_SED  = {"Shale", "Claystone", "Rock Salt", "Limestone", "Conglomerate", "Dolomite", "Chert", "Chalk"};
+NEI.addEntry(<terrafirmacraft:StoneSed:0>.withTag({display: {Name: "Shale", Lore: ["Sedimentary", "Metals: Bismuth, Iron", "Minerals: Cinnabar, Coal, Kaolinite, Saltpeter"]}}));
+NEI.addEntry(<terrafirmacraft:StoneSed:1>.withTag({display: {Name: "Claystone", Lore: ["Sedimentary", "Metals: Bismuth, Iron", "Minerals: Coal, Kaolinite, Saltpeter"]}}));
+NEI.addEntry(<terrafirmacraft:StoneSed:2>.withTag({display: {Name: "Rock Salt", Lore: ["A-salt a castle of rock salt?  Water you waiting for?", "Sedimentary", "Metals: Bismuth, Iron", "Minerals: Borax, Coal, Kaolinite, Saltpeter, Sylvite", "Can preserve food"]}}));
+NEI.addEntry(<terrafirmacraft:StoneSed:3>.withTag({display: {Name: "Limestone", Lore: ["A twist of limestone, on the rocks.", "Sedimentary", "Metals: Bismuth, Iron", "Minerals: Coal, Kaolinite, Saltpeter", "Works as flux."]}}));
+NEI.addEntry(<terrafirmacraft:StoneSed:4>.withTag({display: {Name: "Conglomerate", Lore: ["Sedimentary", "Metals: Bismuth, Iron", "Minerals: Coal, Kaolinite, Saltpeter"]}}));
+NEI.addEntry(<terrafirmacraft:StoneSed:5>.withTag({display: {Name: "Dolomite", Lore: ["It ain't right without Dolomite!", "Sedimentary", "Metals: Bismuth, Iron", "Minerals: Coal, Kaolinite, Saltpeter", "Works as flux."]}}));
+NEI.addEntry(<terrafirmacraft:StoneSed:6>.withTag({display: {Name: "Chert", Lore: ["Put a chert on!", "Sedimentary", "Metals: Bismuth, Iron", "Minerals: Coal, Kaolinite, Saltpeter"]}}));
+NEI.addEntry(<terrafirmacraft:StoneSed:7>.withTag({display: {Name: "Chalk", Lore: ["A foundation you can draw on.", "Sedimentary", "Metals: Bismuth, Iron", "Minerals: Coal, Kaolinite, Saltpeter", "Works as flux."]}}));
+
+//NEI.addEntry(<terrafirmacraft:StoneSed:*>);
+
+NEI.hide(<terrafirmacraft:StoneIgIn:*>);
+//public static final String[] STONE_IGIN = {"Granite", "Diorite", "Gabbro"};
+NEI.addEntry(<terrafirmacraft:StoneIgIn:0>.withTag({display: {Name: "Granite", Lore: ["Don't take it for granite!", "Igneous intrusive", "Metals: Tin, Gold, Silver", "Minerals: Cryolite"]}}));
+NEI.addEntry(<terrafirmacraft:StoneIgIn:1>.withTag({display: {Name: "Diorite", Lore: ["You might die, alright.", "Igneous intrusive", "Metals: Tin, Gold"]}}));
+NEI.addEntry(<terrafirmacraft:StoneIgIn:2>.withTag({display: {Name: "Gabbro", Lore: ["Igneous intrusive", "Metals: Tin, Nickel, Gold", "Minerals: Kimberlite"]}}));
+
+NEI.hide(<terrafirmacraft:StoneIgEx:*>);
+//public static final String[] STONE_IGEX = {"Rhyolite", "Basalt", "Andesite", "Dacite"};
+NEI.addEntry(<terrafirmacraft:StoneIgEx:0>.withTag({display: {Name: "Rhyolite", Lore: ["Igneous extrusive", "Metals: Bismuth, Iron, Copper, Gold", "Minerals: Cinnabar"]}}));
+NEI.addEntry(<terrafirmacraft:StoneIgEx:1>.withTag({display: {Name: "Basalt", Lore: ["Head like a hole, black as this rock...", "Igneous extrusive", "Metals: Bismuth, Iron, Copper, Gold", "Minerals: Cinnabar"]}}));
+NEI.addEntry(<terrafirmacraft:StoneIgEx:2>.withTag({display: {Name: "Andesite", Lore: ["Igneous extrusive", "Metals: Bismuth, Iron, Copper, Gold", "Minerals: Cinnabar"]}}));
+NEI.addEntry(<terrafirmacraft:StoneIgEx:3>.withTag({display: {Name: "Dacite", Lore: ["Igneous extrusive", "Metals: Bismuth, Iron, Copper, Gold", "Minerals: Cinnabar"]}}));
+
+NEI.hide(<terrafirmacraft:StoneMM:*>);
+//public static final String[] STONE_MM   = {"Quartzite", "Slate", "Phyllite", "Schist", "Gneiss", "Marble"};
+NEI.addEntry(<terrafirmacraft:StoneMM:0>.withTag({display: {Name: "Quartzite", Lore: ["Metamorphic", "Metals: Copper, Zinc", "Minerals: Cinnabar, Graphite", "Also used for OpenComputers circuitry!"]}}));
+NEI.addEntry(<terrafirmacraft:StoneMM:1>.withTag({display: {Name: "Slate", Lore: ["Metamorphic", "Metals: Copper, Zinc"]}}));
+NEI.addEntry(<terrafirmacraft:StoneMM:2>.withTag({display: {Name: "Phyllite", Lore: ["Metamorphic", "Metals: Copper, Zinc"]}}));
+NEI.addEntry(<terrafirmacraft:StoneMM:3>.withTag({display: {Name: "Schist", Lore: ["Oh schist!", "Metamorphic", "Metals: Copper, Zinc", "Minerals: Graphite"]}}));
+NEI.addEntry(<terrafirmacraft:StoneMM:4>.withTag({display: {Name: "Gneiss", Lore: ["That's a gneiss rock.", "Metamorphic", "Metals: Copper, Silver, Zinc", "Minerals: Graphite"]}}));
+NEI.addEntry(<terrafirmacraft:StoneMM:5>.withTag({display: {Name: "Marble", Lore: ["Don't lose your marbles.", "Metamorphic", "Metals: Copper, Zinc", "Minerals: Graphite, Lapis lazuli", "Works as flux."]}}));
 
 NEI.addEntry(<Railcraft:machine.alpha:7>);
 NEI.addEntry(<Railcraft:machine.alpha:8>);

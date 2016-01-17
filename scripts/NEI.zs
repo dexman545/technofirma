@@ -414,18 +414,19 @@ NEI.hide(<JAKJ_RedstoneInMotion:tile.JAKJ_RedstoneInMotion_Spectre:*>);
 
 NEI.addEntry(<Railcraft:machine.alpha:5>.withTag({display: {Name: "Smoker"}}));
 NEI.addEntry(<ImmersiveEngineering:stoneDecoration>);
+NEI.addEntry(<ImmersiveEngineering:stoneDecoration:6>);
 
 
 NEI.hide(<terrafirmacraft:StoneSed:*>);
 //public static final String[] STONE_SED  = {"Shale", "Claystone", "Rock Salt", "Limestone", "Conglomerate", "Dolomite", "Chert", "Chalk"};
-NEI.addEntry(<terrafirmacraft:StoneSed:0>.withTag({display: {Name: "Shale", Lore: ["Sedimentary", "Metals: Bismuth, Iron, Platinum", "Minerals: Cinnabar (redstone), Coal, Gypsum, Jet, Kaolinite, Saltpeter", "Shards: Amber, Earth"]}}));
-NEI.addEntry(<terrafirmacraft:StoneSed:1>.withTag({display: {Name: "Claystone", Lore: ["Sedimentary", "Metals: Bismuth, Iron, Platinum", "Minerals: Coal, Gypsum, Jet, Kaolinite, Saltpeter", "Shards: Amber, Earth"]}}));
-NEI.addEntry(<terrafirmacraft:StoneSed:2>.withTag({display: {Name: "Rock Salt", Lore: ["A-salt a castle of rock salt?  Water you waiting for?", "Sedimentary", "Metals: Bismuth, Iron, Platinum", "Minerals: Borax, Coal, Gypsum, Jet, Kaolinite, Saltpeter, Sylvite", "Shards: Amber, Earth, Water", "Can preserve food"]}}));
-NEI.addEntry(<terrafirmacraft:StoneSed:3>.withTag({display: {Name: "Limestone", Lore: ["A twist of limestone, on the rocks.", "Sedimentary", "Metals: Bismuth, Iron, Lead, Platinum", "Minerals: Coal, Gypsum, Jet, Kaolinite, Saltpeter", "Shards: Amber, Earth", "Works as flux."]}}));
-NEI.addEntry(<terrafirmacraft:StoneSed:4>.withTag({display: {Name: "Conglomerate", Lore: ["Sedimentary", "Metals: Bismuth, Iron, Platinum", "Minerals: Coal, Gypsum, Jet, Kaolinite, Saltpeter", "Shards: Amber"]}}));
-NEI.addEntry(<terrafirmacraft:StoneSed:5>.withTag({display: {Name: "Dolomite", Lore: ["It ain't right without Dolomite!", "Sedimentary", "Metals: Bismuth, Iron, Platinum", "Minerals: Coal, Gypsum, Jet, Kaolinite, Saltpeter", "Shards: Amber, Earth", "Works as flux."]}}));
-NEI.addEntry(<terrafirmacraft:StoneSed:6>.withTag({display: {Name: "Chert", Lore: ["Put a chert on!", "Sedimentary", "Metals: Bismuth, Iron, Platinum", "Minerals: Coal, Gypsum, Jet, Kaolinite, Saltpeter", "Shards: Amber, Earth"]}}));
-NEI.addEntry(<terrafirmacraft:StoneSed:7>.withTag({display: {Name: "Chalk", Lore: ["A foundation you can draw on.", "Sedimentary", "Metals: Bismuth, Iron, Platinum", "Minerals: Coal, Gypsum, Jet, Kaolinite, Saltpeter", "Shards: Amber, Earth", "Works as flux."]}}));
+NEI.addEntry(<terrafirmacraft:StoneSed:0>.withTag({display: {Name: "Shale", Lore: ["Sedimentary", "Metals: Bismuth, Iron, Platinum", "Minerals: Cinnabar (redstone), Coal, Gypsum, Jet, Kaolinite, Saltpeter, Amber", "Shards: Earth"]}}));
+NEI.addEntry(<terrafirmacraft:StoneSed:1>.withTag({display: {Name: "Claystone", Lore: ["Sedimentary", "Metals: Bismuth, Iron, Platinum", "Minerals: Coal, Gypsum, Jet, Kaolinite, Saltpeter, Amber", "Shards: Earth"]}}));
+NEI.addEntry(<terrafirmacraft:StoneSed:2>.withTag({display: {Name: "Rock Salt", Lore: ["A-salt a castle of rock salt?  Water you waiting for?", "Sedimentary", "Metals: Bismuth, Iron, Platinum", "Minerals: Borax, Coal, Gypsum, Jet, Kaolinite, Saltpeter, Sylvite, Amber", "Shards: Earth, Water", "Can preserve food"]}}));
+NEI.addEntry(<terrafirmacraft:StoneSed:3>.withTag({display: {Name: "Limestone", Lore: ["A twist of limestone, on the rocks.", "Sedimentary", "Metals: Bismuth, Iron, Lead, Platinum", "Minerals: Coal, Gypsum, Jet, Kaolinite, Saltpeter, Amber", "Shards: Earth", "Works as flux."]}}));
+NEI.addEntry(<terrafirmacraft:StoneSed:4>.withTag({display: {Name: "Conglomerate", Lore: ["Sedimentary", "Metals: Bismuth, Iron, Platinum", "Minerals: Coal, Gypsum, Jet, Kaolinite, Saltpeter, Amber"]}}));
+NEI.addEntry(<terrafirmacraft:StoneSed:5>.withTag({display: {Name: "Dolomite", Lore: ["It ain't right without Dolomite!", "Sedimentary", "Metals: Bismuth, Iron, Platinum", "Minerals: Coal, Gypsum, Jet, Kaolinite, Saltpeter, Amber", "Shards: Earth", "Works as flux."]}}));
+NEI.addEntry(<terrafirmacraft:StoneSed:6>.withTag({display: {Name: "Chert", Lore: ["Put a chert on!", "Sedimentary", "Metals: Bismuth, Iron, Platinum", "Minerals: Coal, Gypsum, Jet, Kaolinite, Saltpeter, Amber", "Shards: Earth"]}}));
+NEI.addEntry(<terrafirmacraft:StoneSed:7>.withTag({display: {Name: "Chalk", Lore: ["A foundation you can draw on.", "Sedimentary", "Metals: Bismuth, Iron, Platinum", "Minerals: Coal, Gypsum, Jet, Kaolinite, Saltpeter, Amber", "Shards: Earth", "Works as flux."]}}));
 
 //NEI.addEntry(<terrafirmacraft:StoneSed:*>);
 

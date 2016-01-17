@@ -1,6 +1,7 @@
 // ================================================================================
 //#MARKER REMOVE
 recipes.remove(<terrafirmacraft:LitPumpkin>);
+recipes.removeShaped(<terrafirmacraft:item.flintAndSteel>, [[<minecraft:flint>, <ore:ingotIron>]]);
 
 // ================================================================================
 //#MARKER REMOVE SHAPELESS
@@ -37,7 +38,7 @@ mods.tfcraft.Anvil.add(<terrafirmacraft:item.Silver Ingot>, null, "grill", 75, f
 mods.tfcraft.Anvil.add(<terrafirmacraft:item.Sterling Silver Ingot>, null, "grill", 75, false, 2, <technofirma:TFOilLamp:4>);
 mods.tfcraft.Anvil.add(<terrafirmacraft:item.Blue Steel Ingot>, null, "grill", 75, false, 2, <technofirma:TFOilLamp:5>);
 
-mods.tfcraft.Barrel.addSealed(<terrafirmacraft:planks>, <liquid:creosote> * 125, <ImmersiveEngineering:treatedWood>, <liquid:creosote>*125, 1, 1, true, false);
+mods.tfcraft.Barrel.addSealed(<terrafirmacraft:planks:*>, <liquid:creosote> * 125, <ImmersiveEngineering:treatedWood>, <liquid:creosote>*125, 1, 1, true, false);
 
 mods.tfcraft.Barrel.addSealed(<DecorationsTFC:item.Powders.Gypsum>, <liquid:liquid_dye.black> * 200, <terrafirmacraft:item.dyePowder>, <liquid:liquid_dye.black>*200, 4, 1, true, false);
 

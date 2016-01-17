@@ -9,7 +9,6 @@ Integrate more of Mekanism into pack
 	other machines
 uranium (cells) do damage in inventories when not in radiation suits
 Fix Recipes
-	use for poor ore
 	more auto processing of ingots in arc furnace
 	Robit
 		electrical chest
@@ -17,7 +16,6 @@ Fix Recipes
 		attempt to craft thaumium and alumentum is produced
 	leather boots infusion for traveler 
 	mundane belt recipe
-	iron nugget recipe?
 	add a way to obtain dyes from flowers
 		barrel recipe
 	add barrel concrete recipe
@@ -29,12 +27,16 @@ Fix Recipes
 	smelting recipes for pottery
 	IC2 Classic recipes
 		wait for IC2 TFC support for some time
+	Thaumic steel tool recipes
+	nerf charcoal, boost coal
 Add witchery
 	wait for Modtweaker to add support
 Fire particles from torches light things on fire
 weather2 rain puts out torches/forges/fires
+Add botania and botania TFC
 Item wieghts
-	armor
+	gold
+	lead ore
 Add sideways logs (felled trees) to world gen
 Add WAILA blood magic addon?
 charcoal as graphite replacement?
@@ -42,8 +44,6 @@ Add forestry
 increase bound tool speed
 physics
 	foundations
-Add IC2 Classic mod
-	Gregtech?
 Add Lore Expansion
 	written material
 make foundations neccary
@@ -69,10 +69,8 @@ Skeletor boss mob
 	drops wither skulls/skele skulls
 Bug Fixes
 	evil chickens
-	RC coke oven being hidden
-	sedemntery rocks hidden in NEI
-	gas spawns
 	hurricane can't pick up ships
 	stone bricks and creepers
 	can work/weld tooltip on thaumic steel not working
 	make tool racks flamnable
+	fix flickering on technofirma lanterns only showing when lantern is off

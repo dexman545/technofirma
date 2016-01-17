@@ -60,7 +60,7 @@ cobble.add(<terrafirmacraft:StoneSedCobble:*>);
 <ore:cobblestone>.mirror(cobble);
 <ore:stoneCobble>.mirror(cobble);
 
-val rawstone = <ore:stone>;
+val stone = <ore:stone>;
 stone.remove(<minecraft:stone>);
 stone.add(<terrafirmacraft:StoneIgEx:*>);
 stone.add(<terrafirmacraft:StoneIgIn:*>);
@@ -82,7 +82,9 @@ sapling.add(<terrafirmacraft:item.FruitSapling:*>);
 
 <ore:glowstone>.add(<Eln:Eln.sharedItem:260>);
 
-val resin = <ore:itemRawRubber>;
-resin.add(<Eln:Eln.SixNode:4096>);
-resin.add(<IC2:item.itemHarz>);
-<ore:materialResin>.mirror(resin);
+//val resin = <ore:materialResin>;
+//resin.add(<IC2:item.itemHarz>);
+//<ore:materialResin>.mirror(resin);
+
+val plateIron = <ore:plateIron>;
+plateIron.remove(<IC2:item.itemIngotAdvIron:*>);

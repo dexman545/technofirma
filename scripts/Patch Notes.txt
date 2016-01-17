@@ -1,87 +1,52 @@
 Fixed Recipes / Recipes Additions/Removals
-	Fixed essentia tubes being uncraftable
-		Fixed required essentia not showing
-	Removed arcane workbench recipes for wand caps
-	IE lights
-	Added conversion of Basic Logistical Pipe to Diamond Pipe
-		Fixes inability to make logistics pipes without diamond
-	Buffed IE crusher redstone recipe by a bunch
-	Made Carriage Engine/motor cheaper
-	Removed amadron tablet recipe
-	Removed nitor to glowstone dust recipe
-	Made IE cheaper
-		buffed steel block recipe
-	Rail recipe loop
-	Changed carpenters block recipe
-		can be made with either sticks or lumber
-		only accepts treated wood planks
-	Added barrel recipe for treated wood planks
-	Began adding dye recipes for barrels
-		ink sacs are the only ones done so far
-	Changed arc furnace recipe for wrought iron to no longer require charcoal
-	Added arc furnace recipe for glass
-		arc furnace makes Ornate Steel Glass from Chisel 2, which can be converted to normal glass with 
-		a Chisel 2 chisel
-	Decreased arc furnace processing times by a factor of 3
-	Decreased arc furnace power consumption by a factor of 10
-	Removed obsidian pipe recipe
-	Tweaked some Blood Magic recipes to allow for other stones
-	Nitor should now allow use of any TFC oil lamp to craft it
-	Added recipe for Salis Mundis
-	Removed 5 TC researchs
-	Added use for unknown ingots
-	Added preliminary IC2 recipe conversions
-	Allows for production of soul sand from any TFC sand
+	Added use for poor ore
+	Fixed treated wood barrel recipe using only oak planks
+	Buffed rusty ladders
+	Added new map recipe
+	Added new ladder game
+	Removed cheaty flint and steel recipe
+	Removed refined iron from plateIron ore dict
+	Fixed cheaty steel tank walls
+	Added new carpenters slopes/gate recipes using lumber in place of sticks
+	Fixed obsidian pipe exploit
+	Fixed not being able to make silverwood saplings
 Fixed physics
-	Merchants dupe bug
-	Glass blocks
-	Alabastor
-	Snow
+	
 Added mods
-	COFHLib
-	IC2 Classic
-	MDECore
-	Auto Ore Dictionary Converter
-		Began work on item unification
+	Presence Footsteps
 Updated mods
-	TFC SCales
-		Fixes recipe bugs
-	Open Computers
-	Schematica
-	Terrafirmacraft
 	Mekanism
-	Item Physics
-	Creative Core
+	Better Foliage
 	Immersive Engineering
-	Stellar Sky
-	Sci API
-	BetterFoliage
-	Project: Red
 Removed Mods
-	Glens Gases
-	Gases Framework
-	Better Sprinting
+	Better Sleeping
 Config Tweaks
-	Rebalanced standard mobs
-	Carpenter block illumination is now disabled
-	Hopefully fixed replicators spawning
-	Tweaked pitcblende spawn
-		Increased max hieght by 10
-		Decreased rarity
-			As rare as bistmuth, but only spawns in granite
-	Increased iron spawns
-	Buffed wither boss
-	Disabled placement of cellars ice
-	Reenabled placement of gems 
-	Added more item wieghts
-		Many thanks to plaer lashtear
-	Added update checker for those not using Curse/FTB launchers directly
-	Buffed vanilla spiders
-	Reenabled Better Lilypads
-	Disabled a bucnh of Railcraft blocks
-	Removed Road1 structure
-	Enabled round logs for player placed logs
+	Depacified cows
+	Better moon
+	Removed "EA Block of Generalities in Purpose"
+	Renamed vanilla iron to "Processed Iron"
+	Added stone info
+		Some punny puns, info on what type of rock it is,  what metals and minerals spawn in that rock, 
+			and whether or not the rock works as flux, or as a preservative
+		Players can now search for the stone where they are, and find out what ores there are. This can also
+			be seen by searching for the metal/minneral name e.g. "copper"
+		From player lashtear
+	Changed shard spawning mechanics
+		Water is now only in rock salt
+		Order is now in metamorphic
+		Fire is no longer in sedimentry rocks
+		Entropy is now in igneus intrusive rocks
+		Earth is no longer in igneus intrusive
+		Air is now only in igneus intrusive
+	Disabled Carpenter Blocks ownership
+	Made snow harder
+	Disabled sleeping
+		spawn can still be set by right clicking the bed
+	Disabled bunch of chisel stuff
+	Blast furnace should no longer be destroyed by falling blocks
+	Disabled placement of TFC workbench to make it clear that it cannot be used
+	Made gold heavier
 Bug Fixes
-	Ability to place vanilla crafting tables
-	MT error message
-	Fixed horses not spawning
+	Coke Oven not showing in NEI
+	Smoker not showing in NEI
+	Rolling Machine not showing in NEI

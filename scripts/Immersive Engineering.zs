@@ -24,6 +24,9 @@ recipes.remove(<ImmersiveEngineering:metal:4>);
 recipes.remove(<ImmersiveEngineering:metal:3>);
 recipes.remove(<ImmersiveEngineering:metalDecoration:2>);
 
+recipes.addShaped(<ImmersiveEngineering:stoneDecoration:6> * 8, [[<terrafirmacraft:FireBrick>, <terrafirmacraft:FireBrick>, <terrafirmacraft:FireBrick>], [<terrafirmacraft:FireBrick>, <ore:plateSteel>, <terrafirmacraft:FireBrick>], [<terrafirmacraft:FireBrick>, <terrafirmacraft:FireBrick>, <terrafirmacraft:FireBrick>]]);
+
+
 //Crusher-RR
 //mods.immersiveengineering.Crusher.removeRecipe(<>);
 mods.immersiveengineering.Crusher.removeRecipe(<minecraft:sand>);

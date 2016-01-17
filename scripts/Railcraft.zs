@@ -2,6 +2,8 @@
 //#MARKER REMOVE
 recipes.remove(<Railcraft:anvil>);
 
+recipes.remove(<Railcraft:machine.beta:13> * 8);
+
 recipes.remove(<Railcraft:part.rail>);
 
 recipes.remove(<Railcraft:borehead.diamond>);
@@ -67,6 +69,7 @@ recipes.removeShapeless(<Railcraft:machine.alpha:7>, [<terrafirmacraft:FireBrick
 
 // ================================================================================
 //#MARKER REMOVE SHAPED
+recipes.addShaped(<Railcraft:machine.beta:13> * 8, [[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>], [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>], [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
 
 
 // ================================================================================

@@ -23,6 +23,6 @@ recipes.addShaped(<malisisdoors:item.iron_sliding_door>, [[<terrafirmacraft:item
 recipes.addShaped(<malisisdoors:item.wood_sliding_door>, [[<ore:plankWood>, <minecraft:glass>], [<ore:plankWood>, <minecraft:glass>], [<ore:plankWood>, <minecraft:glass>]]);
 recipes.addShaped(<malisisdoors:carriage_door>, [[<minecraft:quartz_block>, <minecraft:quartz_block>, <minecraft:quartz_block>], [<minecraft:quartz_block>, <CarpentersBlocks:itemCarpentersDoor>, <ore:blockQuartz>], [<minecraft:quartz_block>, <CarpentersBlocks:itemCarpentersDoor>, <minecraft:quartz_block>]]);
 recipes.addShaped(<malisisdoors:item.saloon>, [[<ore:plankWood>, <ore:plankWood>], [<terrafirmacraft:item.stick>, <terrafirmacraft:item.stick>], [<ore:plankWood>, <ore:plankWood>]]);
-recipes.addShaped(<malisisdoors:rustyLadder>, [[<terrafirmacraft:item.Wrought Iron Ingot>, <terrafirmacraft:item.Wrought Iron Ingot>, <terrafirmacraft:item.Wrought Iron Ingot>]]);
+recipes.addShaped(<malisisdoors:rustyLadder>*5, [[<terrafirmacraft:item.Wrought Iron Ingot>, <terrafirmacraft:item.Wrought Iron Ingot>, <terrafirmacraft:item.Wrought Iron Ingot>]]);
 recipes.addShaped(<malisisdoors:rustyHatch>, [[<ore:ingotWroughtIron>, null], [<ore:ingotWroughtIron>, <malisisdoors:item.rustyHandle>], [<ore:ingotWroughtIron>, null]]);
 

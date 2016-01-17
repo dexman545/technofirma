@@ -12,7 +12,7 @@ recipes.remove(<BuildCraft|Energy:engineBlock>);
 recipes.remove(<BuildCraft|Energy:engineBlock:1>);
 recipes.remove(<BuildCraft|Energy:engineBlock:2>);
 
-recipes.remove(<BuildCraft|Transport:item.buildcraftPipe.pipeitemsobsidian>);
+recipes.remove(<BuildCraft|Transport:item.buildcraftPipe.pipeitemsobsidian:*>);
 
 recipes.remove(<BuildCraft|Factory:autoWorkbenchBlock>);
 recipes.remove(<BuildCraft|Factory:blockHopper>);

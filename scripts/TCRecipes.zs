@@ -8,7 +8,7 @@ mods.thaumcraft.Crucible.addRecipe("THAUMIUM", <Thaumcraft:ItemResource:2>, <ter
 
 mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:ItemResource:1>);
 mods.thaumcraft.Crucible.addRecipe("NITOR", <Thaumcraft:ItemResource:1>, <terrafirmacraft:OilLamp:*>, "ignis 5, aer 5, potentia 5");
-mods.thaumcraft.Crucible.addRecipe("ALUMENTUM", <Thaumcraft:blockCustomPlant:1>, <Thaumcraft:blockCustomPlant>, "ordo 2, permutatio 12");
+mods.thaumcraft.Crucible.addRecipe("NITOR", <Thaumcraft:blockCustomPlant:1>, <Thaumcraft:blockCustomPlant>, "ordo 2, permutatio 12");
 
 mods.thaumcraft.Crucible.addRecipe("CRUCIBLE", <Thaumcraft:ItemResource:14>, <Thaumcraft:ItemShard:6>, "ignis 5");
 

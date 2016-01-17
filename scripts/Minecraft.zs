@@ -45,6 +45,8 @@ recipes.removeShaped(<minecraft:iron_ingot> * 9, [[<ore:blockIron>]]);
 recipes.removeShaped(<minecraft:minecart>, [[<ore:ingotSteel>, null, <ore:ingotSteel>], [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]]);
 recipes.removeShaped(<minecraft:snow>);
 recipes.removeShaped(<minecraft:wool>, [[<ore:fiberFlax>, <yegamolchattels:flax_fiber>], [<ore:fiberFlax>, <yegamolchattels:flax_fiber>]]);
+recipes.addShaped(<minecraft:ladder> * 4, [[<ore:woodLumber>, null, <ore:woodLumber>], [<ore:woodLumber>, <ore:woodLumber>, <ore:woodLumber>], [<ore:woodLumber>, null, <ore:woodLumber>]]);
+recipes.addShaped(<minecraft:map>, [[<minecraft:paper>, <ore:gemCharcoal>, <minecraft:paper>], [<ore:gemCharcoal>, <contenttweaker:needleOfBone>, <ore:gemCharcoal>], [<minecraft:paper>, <ore:gemCharcoal>, <minecraft:paper>]]);
 
 // ================================================================================
 //#MARKER ADD

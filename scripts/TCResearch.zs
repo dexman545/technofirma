@@ -1,3 +1,6 @@
+mods.thaumcraft.Research.orphanResearch("ENTROPICPROCESSING");
+mods.thaumcraft.Research.removeResearch("ENTROPICPROCESSING");
+
 mods.thaumcraft.Research.orphanResearch("PUREIRON");
 mods.thaumcraft.Research.removeResearch("PUREIRON");
 

@@ -10,12 +10,8 @@ Integrate more of Mekanism into pack
 uranium (cells) do damage in inventories when not in radiation suits
 Fix Recipes
 	more auto processing of ingots in arc furnace
-	Robit
-		electrical chest
 	Fix alumentum
 		attempt to craft thaumium and alumentum is produced
-	leather boots infusion for traveler 
-	mundane belt recipe
 	add a way to obtain dyes from flowers
 		barrel recipe
 	add barrel concrete recipe
@@ -35,9 +31,14 @@ Fire particles from torches light things on fire
 weather2 rain puts out torches/forges/fires
 Add botania and botania TFC
 Item wieghts
-	gold
+	gold ore
 	lead ore
 Add sideways logs (felled trees) to world gen
+Add witching gatchets
+	too many things, canceled
+Add multiblock infor for
+	log piles?
+	crucible?
 Add WAILA blood magic addon?
 charcoal as graphite replacement?
 Add forestry
@@ -52,6 +53,8 @@ Add more tech mods
 chunkloaders
 add rusticam melius
 make ice indestructable except with ice saw
+void metal anvil
+	void metal tools made on it
 bound chisel
 bound shovel AoE
 	needs fixing

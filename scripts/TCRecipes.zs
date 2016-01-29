@@ -1,6 +1,9 @@
 mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:blockWoodenDevice:5>);
 mods.thaumcraft.Infusion.addRecipe("ARCANEBORE", <minecraft:piston>, [<minecraft:gold_ingot>, <minecraft:gold_ingot>, <Thaumcraft:blockWoodenDevice:6>, <Thaumcraft:blockWoodenDevice:6>, <Thaumcraft:ItemShard:3>, <Thaumcraft:ItemShard>, <terrafirmacraft:item.Blue Steel Pick>, <terrafirmacraft:item.Blue Steel Shovel>], "machina 32, motus 16, perfodio 32, potentia 16, vacuos 16", <Thaumcraft:blockWoodenDevice:5>, 5);
 
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:BootsTraveller>);
+mods.thaumcraft.Infusion.addRecipe("BOOTSTRAVELLER", <terrafirmacraft:item.bootsCloth>, [<minecraft:fish>, <minecraft:feather>, <Thaumcraft:ItemResource:7>, <Thaumcraft:ItemResource:7>, <Thaumcraft:ItemShard>, <Thaumcraft:ItemShard>], "iter 25, volatus 35", <Thaumcraft:BootsTraveller>, 7);
+
 mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:ItemResource>);
 
 mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:ItemResource:2>);
@@ -12,6 +15,8 @@ mods.thaumcraft.Crucible.addRecipe("NITOR", <Thaumcraft:blockCustomPlant:1>, <Th
 
 mods.thaumcraft.Crucible.addRecipe("CRUCIBLE", <Thaumcraft:ItemResource:14>, <Thaumcraft:ItemShard:6>, "ignis 5");
 
+recipes.remove(<Thaumcraft:ItemBaubleBlanks:2>);
+recipes.addShaped(<Thaumcraft:ItemBaubleBlanks:2>, [[null, <ore:materialLeather>, null], [<ore:materialLeather>, null, <ore:materialLeather>], [<ore:materialLeather>, <Thaumcraft:WandCap:1>, <ore:materialLeather>]]);
 
 mods.thaumcraft.Loot.removeCommonLoot(<Thaumcraft:ItemBaubleBlanks:*>);
 mods.thaumcraft.Loot.removeCommonLoot(<minecraft:potion:*>);

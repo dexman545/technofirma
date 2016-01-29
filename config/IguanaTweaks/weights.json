@@ -177,7 +177,7 @@
 	},
 	{
 		"name": "terrafirmacraft:item.Gold Ingot",
-		"weight": 0.25
+		"weight": 15.21
 	},
 	{
 		"name": "terrafirmacraft:item.HC Black Steel Ingot",
@@ -221,7 +221,7 @@
 	},
 	{
 		"name": "terrafirmacraft:item.Rose Gold Ingot",
-		"weight": 0.25
+		"weight": 15.0
 	},
 	{
 		"name": "terrafirmacraft:item.Silver Ingot",
@@ -389,11 +389,11 @@
 	},
 	{
 		"name": "terrafirmacraft:item.Gold Double Ingot",
-		"weight": 0.5
+		"weight": 30.42
 	},
 	{
 		"name": "terrafirmacraft:item.Gold Sheet",
-		"weight": 0.5
+		"weight": 30.42
 	},
 	{
 		"name": "terrafirmacraft:item.Jug",

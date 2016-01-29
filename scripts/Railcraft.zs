@@ -6,6 +6,8 @@ recipes.remove(<Railcraft:machine.beta:13> * 8);
 
 recipes.remove(<Railcraft:part.rail>);
 
+recipes.remove(<Railcraft:cart.work>);
+
 recipes.remove(<Railcraft:borehead.diamond>);
 recipes.remove(<Railcraft:borehead.steel>);
 recipes.remove(<Railcraft:borehead.iron>);
@@ -118,7 +120,9 @@ recipes.addShaped(<Railcraft:detector:8>, [[<terrafirmacraft:item.ItemStoneBrick
 recipes.addShaped(<Railcraft:detector:16>, [[<ore:stoneSmooth>, <ore:stoneSmooth>, <ore:stoneSmooth>], [<ore:stoneSmooth>, <minecraft:stone_pressure_plate>, <ore:stoneSmooth>], [<ore:stoneSmooth>, <ore:stoneSmooth>, <ore:stoneSmooth>]]);
 
 recipes.addShaped(<Railcraft:machine.alpha:5>, [[null, <minecraft:nether_brick>, null], [<ore:dustRedstone>, <minecraft:cauldron>, <ore:dustRedstone>]]);
-recipes.addShaped(<Railcraft:machine.alpha:8>, [[<ore:craftingPiston>, <ore:ingotRedSteel>, <ore:craftingPiston>], [<ore:ingotBlueSteel>, <BiblioCraft:BiblioWorkbench:6>, <ore:ingotBlackSteel>], [<ore:craftingPiston>, <ore:ingotSteel>, <ore:craftingPiston>]]);
+//recipes.addShaped(<Railcraft:machine.alpha:8>, [[<ore:craftingPiston>, <ore:ingotRedSteel>, <ore:craftingPiston>], [<ore:ingotBlueSteel>, <BiblioCraft:BiblioWorkbench:6>, <ore:ingotBlackSteel>], [<ore:craftingPiston>, <ore:ingotSteel>, <ore:craftingPiston>]]);
+recipes.addShaped(<Railcraft:machine.alpha:8>, [[<BiblioWoodsTFC:item.BiblioTFCItems:23>, <flansmod:enginePiston>, <BiblioWoodsTFC:item.BiblioTFCItems:23>], [<BiblioWoodsTFC:item.BiblioTFCItems:23>, <Eln:Eln.TransparentNode:2372>, <BiblioWoodsTFC:item.BiblioTFCItems:23>], [<BiblioWoodsTFC:item.BiblioTFCItems:23>, <BiblioWoodsTFC:BiblioWoodFancyWorkbench:*>, <BiblioWoodsTFC:item.BiblioTFCItems:23>]]);
+
 recipes.addShaped(<Railcraft:machine.alpha:13>, [[<Eln:Eln.sharedItem:962>, <Railcraft:part.plate:1>, <minecraft:book>], [<Railcraft:part.plate:1>, <BiblioCraft:BiblioWorkbench:*>, <Railcraft:part.plate:1>], [<ore:craftingPiston>, <Railcraft:part.plate:1>, <ore:craftingPiston>]]);
 recipes.addShaped(<Railcraft:machine.alpha:15> * 4, [[<ore:craftingPiston>, <ore:oreDiamond>, <ore:craftingPiston>], [<ore:oreDiamond>, <ore:blockSteel>, <ore:oreDiamond>], [<ore:craftingPiston>, <ore:oreDiamond>, <ore:craftingPiston>]]);
 recipes.addShaped(<Railcraft:machine.beta:5>, [[<terrafirmacraft:item.Fire Brick:1>, <terrafirmacraft:item.Fire Brick:1>, <terrafirmacraft:item.Fire Brick:1>], [<terrafirmacraft:item.Fire Brick:1>, <terrafirmacraft:item.flintAndSteel>, <terrafirmacraft:item.Fire Brick:1>], [<terrafirmacraft:item.Fire Brick:1>, <Eln:Eln.TransparentNode:192>, <terrafirmacraft:item.Fire Brick:1>]]);
@@ -155,6 +159,7 @@ recipes.addShaped(<Railcraft:tool.whistle.tuner>, [[<terrafirmacraft:item.Steel 
 //Coke oven recipes
 //OutputStack, OutputFluid, InputStack, Time in Ticks
 mods.railcraft.CokeOven.addRecipe(<terrafirmacraft:item.coal:1>, <liquid:creosote> * 250, <Thaumcraft:blockMagicalLog>, 3600); 
+mods.railcraft.CokeOven.addRecipe(<ImmersiveEngineering:material:6>, <liquid:creosote> * 350, <terrafirmacraft:item.coal>, 1800); 
 
 //OutputStack
 mods.railcraft.CokeOven.removeRecipe(<minecraft:coal:1>);

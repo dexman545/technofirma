@@ -3,15 +3,15 @@ mouseSensitivity:0.63380283
 fov:0.0
 gamma:0.64788735
 saturation:0.0
-renderDistance:8
+renderDistance:6
 guiScale:3
-particles:0
+particles:2
 bobView:false
 anaglyph3d:false
 advancedOpengl:true
 maxFps:60
 fboEnable:true
-difficulty:0
+difficulty:1
 fancyGraphics:true
 ao:1
 clouds:false
@@ -39,8 +39,8 @@ chatHeightUnfocused:0.44366196
 chatScale:1.0
 chatWidth:1.0
 showInventoryAchievementHint:false
-mipmapLevels:4
-anisotropicFiltering:16
+mipmapLevels:0
+anisotropicFiltering:1
 streamBytesPerPixel:0.5
 streamMicVolume:1.0
 streamSystemVolume:1.0
@@ -89,7 +89,7 @@ key_key.ToolMode:184
 key_key.LockTool:0
 key_key.ToolMode:184
 key_key.LockTool:0
-key_key.PrevChiselMode:49
+key_key.PrevChiselMode:47
 key_ALT Key:56
 key_Boost Key:29
 key_Mode Switch Key:0
@@ -97,19 +97,19 @@ key_Side Inventory Key:46
 key_IC2 Hub Expand Key:45
 key_Down key:29
 key_Inventory key:19
-key_Bomb Key:47
+key_Bomb Key:0
 key_Gun Key:48
 key_Control Switch key:46
 key_Reload key:19
-key_Teams Menu Key:34
-key_Teams Scores Key:35
+key_Teams Menu Key:0
+key_Teams Scores Key:0
 key_Roll Left Key:44
 key_Roll Right Key:45
 key_Gear Up / Down Key:38
-key_Door Open / Close Key:37
+key_Door Open / Close Key:0
 key_Mode Switch Key:0
-key_Debug Key:68
-key_Reload Models Key:67
+key_Debug Key:0
+key_Reload Models Key:0
 key_igwmod.keys.wiki:23
 key_Pneumatic Helmet Options:26
 key_Pneumatic Helmet Hack:35
@@ -122,7 +122,9 @@ key_schematica.key.control:74
 key_schematica.key.layerInc:0
 key_schematica.key.layerDec:0
 key_key.stellarsky.viewmod.description:22
-key_key.sapmanpack.updateKey:22
+key_Toggle Xray:45
+key_Toggle Xray-Gui:65
+key_key.sapmanpack.updateKey:0
 key_Open Wiki:0
 key_Wrench:46
 key_Baubles Inventory:48
@@ -153,6 +155,7 @@ key_Mekanism Armor Mode Switch:56
 key_Mekanism Voice:0
 key_key.materialCosts:56
 key_key.clipboardPaste:210
+key_WorldEdit Reference:0
 key_key.cofh.empower:0
 key_key.cofh.multimode:0
 key_key.betterfoliage.gui:66
@@ -163,10 +166,10 @@ key_railcraft.keybind.loco.whistle:12
 key_key.control:29
 soundCategory_master:0.5033113
 soundCategory_music:0.11971831
-soundCategory_record:0.14084508
-soundCategory_weather:0.1056338
-soundCategory_block:0.35915494
-soundCategory_hostile:0.4084507
+soundCategory_record:0.09154929
+soundCategory_weather:0.06338028
+soundCategory_block:0.32394367
+soundCategory_hostile:0.3309859
 soundCategory_neutral:0.34507042
 soundCategory_player:1.0
-soundCategory_ambient:1.0
+soundCategory_ambient:0.46478873

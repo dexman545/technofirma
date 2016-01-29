@@ -1,52 +1,30 @@
 Fixed Recipes / Recipes Additions/Removals
-	Added use for poor ore
-	Fixed treated wood barrel recipe using only oak planks
-	Buffed rusty ladders
-	Added new map recipe
-	Added new ladder game
-	Removed cheaty flint and steel recipe
-	Removed refined iron from plateIron ore dict
-	Fixed cheaty steel tank walls
-	Added new carpenters slopes/gate recipes using lumber in place of sticks
-	Fixed obsidian pipe exploit
-	Fixed not being able to make silverwood saplings
+	Fixed mundane belt recipe
+	Fixed boots of the traveler
+	Fixed TFC coal to coal coke recipe
+	New rolling machine recipe
+		Now with more balance!
+	Removed Work Cart
+	Fixed reinforced stone recipe
 Fixed physics
 	
 Added mods
-	Presence Footsteps
+	
 Updated mods
-	Mekanism
-	Better Foliage
-	Immersive Engineering
+	
 Removed Mods
-	Better Sleeping
+	
 Config Tweaks
-	Depacified cows
-	Better moon
-	Removed "EA Block of Generalities in Purpose"
-	Renamed vanilla iron to "Processed Iron"
-	Added stone info
-		Some punny puns, info on what type of rock it is,  what metals and minerals spawn in that rock, 
-			and whether or not the rock works as flux, or as a preservative
-		Players can now search for the stone where they are, and find out what ores there are. This can also
-			be seen by searching for the metal/minneral name e.g. "copper"
-		From player lashtear
-	Changed shard spawning mechanics
-		Water is now only in rock salt
-		Order is now in metamorphic
-		Fire is no longer in sedimentry rocks
-		Entropy is now in igneus intrusive rocks
-		Earth is no longer in igneus intrusive
-		Air is now only in igneus intrusive
-	Disabled Carpenter Blocks ownership
-	Made snow harder
-	Disabled sleeping
-		spawn can still be set by right clicking the bed
-	Disabled bunch of chisel stuff
-	Blast furnace should no longer be destroyed by falling blocks
-	Disabled placement of TFC workbench to make it clear that it cannot be used
-	Made gold heavier
+	New vanilla chest name in NEI
+	Renamed blast furnace
+	Added multiblock contruction tool tips for TFC systems
+		Needs more work, only bloomery, forge, oil press, smoking/drying rack, sluice, and blast furnace done
+			still need to do charcoal pit, grill, support beams, etc.?
+		Basially, they are instructions on how to use/build the multiblocks
+	Added a few more jokes
+	Revealed coal blocks in NEI
+	Made nodes rarer
+	Buffed durability of Ye Gamol chisels
+	Fixed some button mappings
 Bug Fixes
-	Coke Oven not showing in NEI
-	Smoker not showing in NEI
-	Rolling Machine not showing in NEI
+	Fixed indirect clients not getting update notifications

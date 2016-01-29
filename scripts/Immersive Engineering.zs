@@ -140,3 +140,26 @@ mods.immersiveengineering.Squeezer.addRecipe(<terrafirmacraft:item.Jute Fibre> *
 //Refinery-RA
 //OutputFluid, InputFluid1, InputFluid2
 mods.immersiveengineering.Refinery.addRecipe(<liquid:fuel>, <liquid:oil>, null);
+
+//Metall Press-RR
+mods.immersiveengineering.MetalPress.removeRecipe(<terrafirmacraft:item.Bismuth Bronze Double Sheet>);
+mods.immersiveengineering.MetalPress.removeRecipe(<terrafirmacraft:item.Bismuth Double Sheet>);
+mods.immersiveengineering.MetalPress.removeRecipe(<terrafirmacraft:item.Black Bronze Double Sheet>);
+mods.immersiveengineering.MetalPress.removeRecipe(<terrafirmacraft:item.Black Steel Double Sheet>);
+mods.immersiveengineering.MetalPress.removeRecipe(<terrafirmacraft:item.Blue Steel Double Sheet>);
+mods.immersiveengineering.MetalPress.removeRecipe(<terrafirmacraft:item.Brass Double Sheet>);
+mods.immersiveengineering.MetalPress.removeRecipe(<terrafirmacraft:item.Bronze Double Sheet>);
+mods.immersiveengineering.MetalPress.removeRecipe(<terrafirmacraft:item.Copper Double Sheet>);
+mods.immersiveengineering.MetalPress.removeRecipe(<terrafirmacraft:item.Gold Double Sheet>);
+mods.immersiveengineering.MetalPress.removeRecipe(<terrafirmacraft:item.Lead Double Sheet>);
+mods.immersiveengineering.MetalPress.removeRecipe(<terrafirmacraft:item.Nickel Double Sheet>);
+mods.immersiveengineering.MetalPress.removeRecipe(<terrafirmacraft:item.Pig Iron Double Sheet>);
+mods.immersiveengineering.MetalPress.removeRecipe(<terrafirmacraft:item.Platinum Double Sheet>);
+mods.immersiveengineering.MetalPress.removeRecipe(<terrafirmacraft:item.Red Steel Double Sheet>);
+mods.immersiveengineering.MetalPress.removeRecipe(<terrafirmacraft:item.Rose Gold Double Sheet>);
+mods.immersiveengineering.MetalPress.removeRecipe(<terrafirmacraft:item.Silver Double Sheet>);
+mods.immersiveengineering.MetalPress.removeRecipe(<terrafirmacraft:item.Steel Double Sheet>);
+mods.immersiveengineering.MetalPress.removeRecipe(<terrafirmacraft:item.Sterling Silver Double Sheet>);
+mods.immersiveengineering.MetalPress.removeRecipe(<terrafirmacraft:item.Tin Double Sheet>);
+mods.immersiveengineering.MetalPress.removeRecipe(<terrafirmacraft:item.Wrought Iron Double Sheet>);
+mods.immersiveengineering.MetalPress.removeRecipe(<terrafirmacraft:item.Zinc Double Sheet>);

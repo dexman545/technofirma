@@ -43,6 +43,35 @@ tungsten.add(<terrafirmacraft:item.Platinum Ingot>);
 <ore:nonTFCingotTin>.add(<Mekanism:Ingot:6>);
 <ore:nonTFCingotTin>.add(<ProjRed|Core:projectred.core.part:53>);
 <ore:nonTFCingotTin>.add(<Railcraft:ingot:2>);
+<ore:ingotThaumium>.add(<Thaumcraft:ItemResource>);
+<ore:noFocus>.add(<Thaumcraft:FocusExcavation>);
+
+/*
+<ore:nonTFC>.addAll(<ore:nonTFCingotBronze>);
+<ore:nonTFC>.addAll(<ore:nonTFCingotCopper>);
+<ore:nonTFC>.addAll(<ore:nonTFCingotTin>);
+<ore:nonTFC>.addAll(<ore:nonTFCingotSteel>);
+<ore:nonTFC>.addAll(<ore:nonTFCingotSilver>);
+<ore:nonTFC>.addAll(<ore:nonTFCingotNickel>);
+<ore:nonTFC>.addAll(<ore:nonTFCingotLead>);
+<ore:nonTFC>.addAll(<ore:oreAmber>);
+<ore:nonTFC>.addAll(<ore:oreCinnabar>);
+<ore:nonTFC>.addAll(<ore:oreElnTungsten>);
+<ore:nonTFC>.addAll(<ore:oreTin>);
+<ore:nonTFC>.addAll(<ore:oreLead>);
+<ore:nonTFC>.addAll(<ore:oreSilver>);
+<ore:nonTFC>.addAll(<ore:oreNickel>);
+<ore:nonTFC>.addAll(<ore:oreCopper>);
+<ore:nonTFC>.addAll(<ore:oreOsmium>);
+<ore:nonTFC>.addAll(<ore:oreInfusedOrder>);
+<ore:nonTFC>.addAll(<ore:oreInfusedFire>);
+<ore:nonTFC>.addAll(<ore:oreInfusedAir>);
+<ore:nonTFC>.addAll(<ore:oreInfusedEntropy>);
+<ore:nonTFC>.addAll(<ore:oreInfusedWater>);
+<ore:nonTFC>.addAll(<ore:oreInfusedEarth>);
+<ore:nonTFC>.add(<ImmersiveEngineering:ore:1>);
+<ore:nonTFC>.add(<IC2:uraniumOre>);
+*/
 
 //Blocks and gems
 val sand = <ore:blockSand>;

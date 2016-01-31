@@ -1,3 +1,6 @@
+mods.thaumcraft.Research.orphanResearch("FOCUSEXCAVATION");
+mods.thaumcraft.Research.removeResearch("FOCUSEXCAVATION");
+
 mods.thaumcraft.Research.orphanResearch("ENTROPICPROCESSING");
 mods.thaumcraft.Research.removeResearch("ENTROPICPROCESSING");
 

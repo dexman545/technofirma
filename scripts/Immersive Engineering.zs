@@ -1,5 +1,8 @@
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<ImmersiveEngineering:storage:6>);
+recipes.remove(<ImmersiveEngineering:storage:5>);
+recipes.remove(<ImmersiveEngineering:storage:1>);
 recipes.remove(<ImmersiveEngineering:woodenDevice:4>);
 recipes.remove(<ImmersiveEngineering:metalDevice:11>);
 recipes.remove(<ImmersiveEngineering:stoneDecoration:2>);
@@ -163,3 +166,4 @@ mods.immersiveengineering.MetalPress.removeRecipe(<terrafirmacraft:item.Sterling
 mods.immersiveengineering.MetalPress.removeRecipe(<terrafirmacraft:item.Tin Double Sheet>);
 mods.immersiveengineering.MetalPress.removeRecipe(<terrafirmacraft:item.Wrought Iron Double Sheet>);
 mods.immersiveengineering.MetalPress.removeRecipe(<terrafirmacraft:item.Zinc Double Sheet>);
+

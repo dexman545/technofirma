@@ -1,5 +1,6 @@
 import mods.nei.NEI;
- 
+import minetweaker.item.IItemStack;
+
 NEI.hide(<minecraft:stone>);
 NEI.hide(<minecraft:grass>);
 NEI.hide(<minecraft:dirt:*>);
@@ -432,7 +433,7 @@ NEI.addEntry(<terrafirmacraft:StoneSed:7>.withTag({display: {Name: "Chalk", Lore
 NEI.hide(<terrafirmacraft:StoneIgIn:*>);
 //public static final String[] STONE_IGIN = {"Granite", "Diorite", "Gabbro"};
 NEI.addEntry(<terrafirmacraft:StoneIgIn:0>.withTag({display: {Name: "Granite", Lore: ["Don't take it for granite!", "Igneous intrusive", "Metals: Gold, Lead, Silver, Tin, Uranium", "Minerals: Cryolite (redstone)", "Shards: Entropy, Air"]}}));
-NEI.addEntry(<terrafirmacraft:StoneIgIn:1>.withTag({display: {Name: "Diorite", Lore: ["You might die, alright.", "We're gonna light it up, like its Diorite!", "Igneous intrusive", "Metals: Tin, Gold", "Shards: Entropy, Air"]}}));
+NEI.addEntry(<terrafirmacraft:StoneIgIn:1>.withTag({display: {Name: "Diorite", Lore: ["We're gonna mine it up, like its Diorite!", "Igneous intrusive", "Metals: Tin, Gold", "Shards: Entropy, Air"]}}));
 NEI.addEntry(<terrafirmacraft:StoneIgIn:2>.withTag({display: {Name: "Gabbro", Lore: ["Igneous intrusive", "Metals: Tin, Nickel, Gold", "Minerals: Kimberlite", "Shards: Entropy, Air"]}}));
 
 NEI.hide(<terrafirmacraft:StoneIgEx:*>);
@@ -475,6 +476,14 @@ NEI.addEntry(<terrafirmacraft:Hopper>.withTag({display: {Name: "TFC Hopper", Lor
 NEI.hide(<terrafirmacraft:item.SluiceItem>);
 NEI.addEntry(<terrafirmacraft:item.SluiceItem>.withTag({display: {Name: "Sluice", Lore: ["What da sluice?!", "Technically a multiblock", "Construction:", "-Find water source", "-dig a 1 wide hole from water source until the water no longer flows", "-dig 3 blocks beyond this point", "-in the 2 blocks closest to the end of the water, dig 1 block down (final level one block below water)", "-at furthest point, dig 2 blocks down (1 block below what you just dug)", "-face with the water stream", "-place sluice on block closest to the end of the stream", "Usage:", "-SLUICE CAN BE OVERWORKED", "-Drop sand/gravel in water stream or fill sluice from filled gold pans", "-wait", "-When overworked, move sluice to new chunk"]}}));
 
+NEI.hide(<Railcraft:cube:9>);
+NEI.hide(<Railcraft:cube:11>);
+NEI.hide(<Railcraft:cube:10>);
+NEI.hide(<IC2:blockMetal:*>);
+NEI.hide(<Mekanism:BasicBlock:*>);
+NEI.hide(<ImmersiveEngineering:storage:*>);
+NEI.addEntry(<ImmersiveEngineering:storage:7>.withTag({display: {Name: "Block of Steel"}}));
+
 <CarpentersBlocks:blockCarpentersBlock>.displayName = "Wooden Construction Frame";
 <minecraft:iron_ingot>.displayName = "Processed Iron";
 <minecraft:quartz_block>.displayName = "Albino Block of Jet";
@@ -482,5 +491,78 @@ NEI.addEntry(<terrafirmacraft:item.SluiceItem>.withTag({display: {Name: "Sluice"
 //<Eln:Eln.ghostBlock>.displayName = "EA Block of Generalities in Purpose";
 <minecraft:gold_ingot>.displayName = "Refined Gold";
 <BuildCraft|Core:diamondGearItem>.displayName = "Blue Steel Gear";
+
+for item in <ore:nonTFC>.items {
+    NEI.hide(item);
+}
+
+for item in <ore:nonTFCingotBronze>.items {
+    NEI.hide(item);
+}
+for item in <ore:nonTFCingotCopper>.items {
+    NEI.hide(item);
+}
+for item in <ore:nonTFCingotTin>.items {
+    NEI.hide(item);
+}
+for item in <ore:nonTFCingotSteel>.items {
+    NEI.hide(item);
+}
+for item in <ore:nonTFCingotSilver>.items {
+    NEI.hide(item);
+}
+for item in <ore:nonTFCingotNickel>.items {
+    NEI.hide(item);
+}
+for item in <ore:nonTFCingotLead>.items {
+    NEI.hide(item);
+}
+for item in <ore:oreAmber>.items {
+    NEI.hide(item);
+}
+for item in <ore:oreCinnabar>.items {
+    NEI.hide(item);
+}
+for item in <ore:oreElnTungsten>.items {
+    NEI.hide(item);
+}
+for item in <ore:oreTin>.items {
+    NEI.hide(item);
+}
+for item in <ore:oreLead>.items {
+    NEI.hide(item);
+}
+for item in <ore:oreSilver>.items {
+    NEI.hide(item);
+}
+for item in <ore:oreNickel>.items {
+    NEI.hide(item);
+}
+for item in <ore:oreCopper>.items {
+    NEI.hide(item);
+}
+for item in <ore:oreOsmium>.items {
+    NEI.hide(item);
+}
+for item in <ore:oreInfusedOrder>.items {
+    NEI.hide(item);
+}
+for item in <ore:oreInfusedFire>.items {
+    NEI.hide(item);
+}
+for item in <ore:oreInfusedAir>.items {
+    NEI.hide(item);
+}
+for item in <ore:oreInfusedEntropy>.items {
+    NEI.hide(item);
+}
+for item in <ore:oreInfusedWater>.items {
+    NEI.hide(item);
+}
+for item in <ore:oreInfusedEarth>.items {
+    NEI.hide(item);
+}
+NEI.hide(<ImmersiveEngineering:ore:1>);
+NEI.hide(<IC2:uraniumOre>);
 
 NEI.hide(<BuildCraft|Transport:pipeFacade>);

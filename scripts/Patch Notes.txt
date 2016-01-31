@@ -1,19 +1,28 @@
 Fixed Recipes / Recipes Additions/Removals
 	Fixed mundane belt recipe
+		Now uses TFC leather
+		Uses gold wand cap in place of gold ingots, didn't feel like adding a belt buckel at this time :/
 	Fixed boots of the traveler
+		Required vanilla leather boots, now needs the TFC version
+		Still uses MC fish
+		Increased instability
 	Fixed TFC coal to coal coke recipe
 	New rolling machine recipe
 		Now with more balance!
 	Removed Work Cart
 	Fixed reinforced stone recipe
+	Made blank slates cheaper
 Fixed physics
 	
 Added mods
-	
+	Bookshelp API
+		Dependency for Better Boat
 Updated mods
-	
+	autooredictionary converter
+	Better Foliage
+	Bibliocraft
 Removed Mods
-	
+	SAPManPack
 Config Tweaks
 	New vanilla chest name in NEI
 	Renamed blast furnace
@@ -26,5 +35,14 @@ Config Tweaks
 	Made nodes rarer
 	Buffed durability of Ye Gamol chisels
 	Fixed some button mappings
+	Buffed wither boss
+	Changed TFC crucible from physics group "Bookcase" to "Plants"
+		Fixes the crucible crushing the forge
+	Temporarily removed wand focus of excavation due to bugs
+		All excavation foci will become TFC normal emeralds
+	Set alumentum to become thaumium, somewhat fixes issue where aattempt to make thaumium in crucible resulted in alumentum
+	Set RC coal coke to become IE coal coke
+		it looks better
+	Began hiding more useless items from NEI
 Bug Fixes
-	Fixed indirect clients not getting update notifications
+	Fixed indirect clients not getting update notifications (I think)

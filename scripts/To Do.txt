@@ -25,6 +25,7 @@ Fix Recipes
 		wait for IC2 TFC support for some time
 	Thaumic steel tool recipes
 	nerf charcoal, boost coal
+	mcaerate for silver dust
 Add witchery
 	wait for Modtweaker to add support
 Fire particles from torches light things on fire

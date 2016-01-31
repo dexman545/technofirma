@@ -2,6 +2,10 @@
 //#MARKER REMOVE
 recipes.remove(<Railcraft:anvil>);
 
+recipes.remove(<Railcraft:cube:11>);
+recipes.remove(<Railcraft:cube:10>);
+recipes.remove(<Railcraft:cube:9>);
+
 recipes.remove(<Railcraft:machine.beta:13> * 8);
 
 recipes.remove(<Railcraft:part.rail>);

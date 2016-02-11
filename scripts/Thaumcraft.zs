@@ -38,3 +38,5 @@ recipes.addShaped(<Thaumcraft:ItemThaumometer>, [[null, <ore:anyShard>, null], [
 recipes.addShaped(<Thaumcraft:ItemResource:9>, [[<Thaumcraft:ItemResearchNotes>, <Thaumcraft:ItemResearchNotes>, <ore:itemKnife>]]);
 
 furnace.addRecipe(<Thaumcraft:ItemResource:3>, <terrafirmacraft:item.Ore:27>);
+
+<Thaumcraft:blockMagicalLog:*>.maxStackSize=15;

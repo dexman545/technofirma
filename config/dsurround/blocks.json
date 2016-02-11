@@ -1,0 +1,26 @@
+		{
+			"blocks":[
+				"terrafirmacraft:FreshWaterStationary",
+				"terrafirmacraft:SaltWaterStationary"
+			],
+			"effects":[
+				{
+					"effect":"steam",
+					"chance":10
+				},
+				{
+					"effect":"bubble",
+					"chance":1800
+				}
+				
+			],
+			"chance":10,
+			"sounds":[
+				{
+					"sound":"dsurround:waterdrops",
+					"volume":0.3,
+					"pitch":1.0,
+					"variable":false
+				}
+			]
+		}

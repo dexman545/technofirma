@@ -10,8 +10,6 @@ Integrate more of Mekanism into pack
 uranium (cells) do damage in inventories when not in radiation suits
 Fix Recipes
 	more auto processing of ingots in arc furnace
-	Fix alumentum
-		attempt to craft thaumium and alumentum is produced
 	add a way to obtain dyes from flowers
 		barrel recipe
 	add barrel concrete recipe
@@ -26,33 +24,28 @@ Fix Recipes
 	Thaumic steel tool recipes
 	nerf charcoal, boost coal
 	mcaerate for silver dust
+	Void seed using vanilla seeds
 Add witchery
 	wait for Modtweaker to add support
-Fire particles from torches light things on fire
 weather2 rain puts out torches/forges/fires
 Add botania and botania TFC
 Item wieghts
 	gold ore
 	lead ore
 Add sideways logs (felled trees) to world gen
-Add witching gatchets
-	too many things, canceled
-Add multiblock infor for
-	log piles?
-	crucible?
+Finish adding TFC biomes for Dynamic Thingymod
 Add WAILA blood magic addon?
 charcoal as graphite replacement?
 Add forestry
+Add villages
 increase bound tool speed
 physics
 	foundations
 Add Lore Expansion
-	written material
-make foundations neccary
+	written material, story line, what has changed with the mods between this version and last, patch notes, what has changed about mods
 make torches catch things on fire
 Add more tech mods
 chunkloaders
-add rusticam melius
 make ice indestructable except with ice saw
 void metal anvil
 	void metal tools made on it
@@ -68,9 +61,6 @@ Bloodmagic
 			headcrumbs code can be used
 		boost wither health/damage
 	finish recipes
-Skeletor boss mob
-	normal javeling skele, with buffed health/damage
-	drops wither skulls/skele skulls
 Bug Fixes
 	evil chickens
 	hurricane can't pick up ships

@@ -159,7 +159,7 @@ recipes.removeShaped(<Eln:Eln.E-Coal Leggings>);
 
 // ================================================================================
 //#MARKER ADD SHAPELESS
-recipes.addShapeless(<Eln:Eln.sharedItem:4096> * 4, [<ore:logWood>,<ore:itemHammer>]);
+recipes.addShapeless(<Eln:Eln.sharedItem:4096> * 4, [<ore:logWood>, <ore:itemHammer>.transformDamage(4)]); 
 //recipes.addShapeless(<Eln:Eln.sharedItem:4097>, [<Eln:Eln.sharedItem:4096>, <terrafirmacraft:item.Powder:9>]);
 recipes.addShapeless( <Eln:Eln.SixNode:6656> * 1, [<Eln:Eln.sharedItem:7696>, <Eln:Eln.SixNode:6912>]);
 recipes.addShapeless( <Eln:Eln.SixNode:6657> * 1, [<Eln:Eln.sharedItem:7696>, <Eln:Eln.SixNode:6912>, rubber]);

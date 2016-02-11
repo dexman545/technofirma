@@ -11,18 +11,36 @@ Fixed Recipes / Recipes Additions/Removals
 		Now with more balance!
 	Removed Work Cart
 	Fixed reinforced stone recipe
+	Fixes inability to make thaumium
+		Set alumentum to become thaumium, somewhat fixes issue where aattempt to make thaumium in crucible resulted in alumentum
 	Made blank slates cheaper
+	Fixed hammer being consumed when crafting resin from logs
+		Patch from Geech6
+	Fixed some BC recipes using only one type of fancy workbench
+	Fixed IC2 macerator recipe
 Fixed physics
 	
 Added mods
 	Bookshelp API
 		Dependency for Better Boat
+	Buildcraft Compat
+	Dynamic Surroundings
 Updated mods
 	autooredictionary converter
 	Better Foliage
 	Bibliocraft
+	SciAPI
+	Stellar Sky
+	Hardcore Darkness
+	Buildcraft
+	Logistics Pipes
+	Modtweaker 2
+	MrTJPCore
+	Project: Red
 Removed Mods
 	SAPManPack
+	Better Rain
+		has become Dynamic Surroundings
 Config Tweaks
 	New vanilla chest name in NEI
 	Renamed blast furnace
@@ -40,9 +58,13 @@ Config Tweaks
 		Fixes the crucible crushing the forge
 	Temporarily removed wand focus of excavation due to bugs
 		All excavation foci will become TFC normal emeralds
-	Set alumentum to become thaumium, somewhat fixes issue where aattempt to make thaumium in crucible resulted in alumentum
 	Set RC coal coke to become IE coal coke
 		it looks better
 	Began hiding more useless items from NEI
+	Unified resin
+	Unfied rubber
+	Limited max stack size for greatwood and silverwood
+	Increased stars
+	Decreased lag due to snowfall
 Bug Fixes
 	Fixed indirect clients not getting update notifications (I think)

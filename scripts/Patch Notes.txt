@@ -1,4 +1,4 @@
-Fixed Recipes / Recipes Additions/Removals
+Fixed Recipes / Recipe Additions/Removals
 	Fixed mundane belt recipe
 		Now uses TFC leather
 		Uses gold wand cap in place of gold ingots, didn't feel like adding a belt buckel at this time :/
@@ -18,6 +18,7 @@ Fixed Recipes / Recipes Additions/Removals
 		Patch from Geech6
 	Fixed some BC recipes using only one type of fancy workbench
 	Fixed IC2 macerator recipe
+	Fixed IC2 Compressor recipe
 Fixed physics
 	
 Added mods
@@ -25,6 +26,7 @@ Added mods
 		Dependency for Better Boat
 	Buildcraft Compat
 	Dynamic Surroundings
+	Peaceful Surface
 Updated mods
 	autooredictionary converter
 	Better Foliage
@@ -36,7 +38,11 @@ Updated mods
 	Logistics Pipes
 	Modtweaker 2
 	MrTJPCore
+	Cofh Core
 	Project: Red
+	Farseek
+	Streams
+	Technofirma
 Removed Mods
 	SAPManPack
 	Better Rain
@@ -56,8 +62,6 @@ Config Tweaks
 	Buffed wither boss
 	Changed TFC crucible from physics group "Bookcase" to "Plants"
 		Fixes the crucible crushing the forge
-	Temporarily removed wand focus of excavation due to bugs
-		All excavation foci will become TFC normal emeralds
 	Set RC coal coke to become IE coal coke
 		it looks better
 	Began hiding more useless items from NEI
@@ -66,5 +70,11 @@ Config Tweaks
 	Limited max stack size for greatwood and silverwood
 	Increased stars
 	Decreased lag due to snowfall
+	Updated launch.bat
+	Fixed server having incorrect Immersive Engineering version
+	Monsters should no longer spawn on the surface at night, and will only appear in enclosed spaces
+	Seperated out NEI scripts, hopefully makes them work
 Bug Fixes
 	Fixed indirect clients not getting update notifications (I think)
+	Fixed a possible issue of chickens not spawning
+	Amber ore dropping alumentum

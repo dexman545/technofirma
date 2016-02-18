@@ -8,3 +8,4 @@ recipes.remove(<IC2:blockMetal:1>);
 recipes.remove(<IC2:blockMetal>);
 
 recipes.addShaped(<IC2:blockMachine:3>, [[<ore:itemMace>, <ore:itemMace>, <ore:itemMace>], [<ore:stoneCobble>, <IC2:blockMachine>, <ImmersiveEngineering:metalDevice>], [null, <ore:circuitBasic>, null]]);
+recipes.addShaped(<IC2:blockMachine:5>, [[<ore:stoneBricks>, null, <ore:stoneBricks>], [<ore:stoneBricks>, <IC2:blockMachine>, <ore:stoneBricks>], [<ore:stoneBricks>, <ore:circuitBasic>, <ore:stoneBricks>]]);

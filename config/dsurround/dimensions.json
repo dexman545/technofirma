@@ -3,6 +3,8 @@
         {
 	    "dimId":0,
 	    "weather":true,
+		"cloudHeight":300,
+		"skyHeight":500,
 	    "haze":true,
 	    "aurora":true,
 	    "seaLevel":130

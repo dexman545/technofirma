@@ -20,11 +20,16 @@ Fix Recipes
 				reenable sapling drops and disable their placement?
 	smelting recipes for pottery
 	IC2 Classic recipes
-		wait for IC2 TFC support for some time
 	Thaumic steel tool recipes
 	nerf charcoal, boost coal
 	mcaerate for silver dust
 	Void seed using vanilla seeds
+	Primal charm
+	robes using wool blocks
+	primal core staff
+		blaze core
+	Focus of hells
+		magma cream
 Add witchery
 	wait for Modtweaker to add support
 weather2 rain puts out torches/forges/fires
@@ -67,4 +72,3 @@ Bug Fixes
 	stone bricks and creepers
 	can work/weld tooltip on thaumic steel not working
 	make tool racks flamnable
-	fix flickering on technofirma lanterns only showing when lantern is off

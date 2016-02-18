@@ -74,6 +74,7 @@ Config Tweaks
 	Fixed server having incorrect Immersive Engineering version
 	Monsters should no longer spawn on the surface at night, and will only appear in enclosed spaces
 	Seperated out NEI scripts, hopefully makes them work
+	Ice can only be mined with an ice saw now
 Bug Fixes
 	Fixed indirect clients not getting update notifications (I think)
 	Fixed a possible issue of chickens not spawning

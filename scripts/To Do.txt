@@ -30,6 +30,15 @@ Fix Recipes
 		blaze core
 	Focus of hells
 		magma cream
+	rubber recipe with saltpeter broken, won't except IC2 resin
+Add Exoctic Birds
+	Needs Just Another Spawner to get working
+	every tree you chop down shall have a woodpecker (or other bird) spawn, and have a chance of attack you.?
+	You know PZ's Boars, right?
+		Well, I've removed Pigs, and I'll be removing Sheep and Cows.
+			And replacing them with Mouflon and Aurochs
+		Re: The Tool -> Especially if it's a low damage tool so that taming animals becomes dangerous.
+		I wonder if it's possible to check, at the time of death, whether it can successfully pathfind to the player.
 Add witchery
 	wait for Modtweaker to add support
 weather2 rain puts out torches/forges/fires

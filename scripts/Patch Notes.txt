@@ -1,80 +1,19 @@
 Fixed Recipes / Recipe Additions/Removals
-	Fixed mundane belt recipe
-		Now uses TFC leather
-		Uses gold wand cap in place of gold ingots, didn't feel like adding a belt buckel at this time :/
-	Fixed boots of the traveler
-		Required vanilla leather boots, now needs the TFC version
-		Still uses MC fish
-		Increased instability
-	Fixed TFC coal to coal coke recipe
-	New rolling machine recipe
-		Now with more balance!
-	Removed Work Cart
-	Fixed reinforced stone recipe
-	Fixes inability to make thaumium
-		Set alumentum to become thaumium, somewhat fixes issue where aattempt to make thaumium in crucible resulted in alumentum
-	Made blank slates cheaper
-	Fixed hammer being consumed when crafting resin from logs
-		Patch from Geech6
-	Fixed some BC recipes using only one type of fancy workbench
-	Fixed IC2 macerator recipe
-	Fixed IC2 Compressor recipe
+	
 Fixed physics
 	
 Added mods
-	Bookshelp API
-		Dependency for Better Boat
-	Buildcraft Compat
-	Dynamic Surroundings
-	Peaceful Surface
+	Just Another Spawner
+	Exotic Brids
+	Project: Zulu
+		Many thanks to Lunarius_Haberdash for helping me get the above mods working with TFC
+	Tweaked Inventory Tweaks
 Updated mods
-	autooredictionary converter
-	Better Foliage
-	Bibliocraft
 	SciAPI
-	Stellar Sky
-	Hardcore Darkness
-	Buildcraft
-	Logistics Pipes
-	Modtweaker 2
-	MrTJPCore
-	Cofh Core
-	Project: Red
-	Farseek
-	Streams
-	Technofirma
+	StellarSky
 Removed Mods
-	SAPManPack
-	Better Rain
-		has become Dynamic Surroundings
+	Inventory Tweaks
 Config Tweaks
-	New vanilla chest name in NEI
-	Renamed blast furnace
-	Added multiblock contruction tool tips for TFC systems
-		Needs more work, only bloomery, forge, oil press, smoking/drying rack, sluice, and blast furnace done
-			still need to do charcoal pit, grill, support beams, etc.?
-		Basially, they are instructions on how to use/build the multiblocks
-	Added a few more jokes
-	Revealed coal blocks in NEI
-	Made nodes rarer
-	Buffed durability of Ye Gamol chisels
-	Fixed some button mappings
-	Buffed wither boss
-	Changed TFC crucible from physics group "Bookcase" to "Plants"
-		Fixes the crucible crushing the forge
-	Set RC coal coke to become IE coal coke
-		it looks better
-	Began hiding more useless items from NEI
-	Unified resin
-	Unfied rubber
-	Limited max stack size for greatwood and silverwood
-	Increased stars
-	Decreased lag due to snowfall
-	Updated launch.bat
-	Fixed server having incorrect Immersive Engineering version
-	Monsters should no longer spawn on the surface at night, and will only appear in enclosed spaces
-	Seperated out NEI scripts, hopefully makes them work
+	
 Bug Fixes
-	Fixed indirect clients not getting update notifications (I think)
-	Fixed a possible issue of chickens not spawning
-	Amber ore dropping alumentum
+	

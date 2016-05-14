@@ -30,6 +30,7 @@ recipes.removeShaped(<Thaumcraft:WandCap:5>);
 // ================================================================================
 //#MARKER ADD SHAPELESS
 recipes.addShapeless(<Thaumcraft:ItemResource:13> * 4, [<minecraft:paper>, <minecraft:paper>, <Thaumcraft:ItemInkwell>, <minecraft:paper>, <minecraft:paper>]);
+recipes.addShapeless(<terrafirmacraft:item.dyePowder>, [<lwstfc:item.Bladder:*>, <terrafirmacraft:item.Wooden Bucket Salt Water>, <terrafirmacraft:item.Ore:24>]);
 
 // ================================================================================
 //#MARKER ADD SHAPED

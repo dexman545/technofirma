@@ -32,6 +32,8 @@ val isheet = <terrafirmacraft:item.Wrought Iron Sheet>;
 val anycoal = <ore:anyCoal>;
 val cC = <terrafirmacraft:item.Black Steel Ingot>;
 
+resin.add(<IC2:item.itemHarz>);
+
 // ================================================================================
 //#MARKER REMOVE
 recipes.remove(<Eln:eln.EnergyConverterElnToOtherHVUBlock>);

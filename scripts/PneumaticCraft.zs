@@ -12,8 +12,30 @@ recipes.remove(<PneumaticCraft:pcbBlueprint>);
 recipes.remove(<PneumaticCraft:stoneBase>);
 recipes.remove(<PneumaticCraft:uvLightBox>);
 recipes.remove(<PneumaticCraft:omnidirectionalHopper>);
-
 mods.pneumaticcraft.Pressure.removeRecipe([<PneumaticCraft:etchacidBucket>]);
+
+recipes.remove(<PneumaticCraft:programmingPuzzle:1> * 4);
+recipes.remove(<PneumaticCraft:programmingPuzzle:2> * 4);
+recipes.remove(<PneumaticCraft:programmingPuzzle:3> * 4);
+recipes.remove(<PneumaticCraft:programmingPuzzle:4> * 4);
+recipes.remove(<PneumaticCraft:programmingPuzzle:5> * 4);
+recipes.remove(<PneumaticCraft:programmingPuzzle:6> * 4);
+recipes.remove(<PneumaticCraft:programmingPuzzle:8> * 4);
+recipes.remove(<PneumaticCraft:programmingPuzzle:9> * 4);
+recipes.remove(<PneumaticCraft:programmingPuzzle:10> * 4);
+recipes.remove(<PneumaticCraft:programmingPuzzle:11> * 4);
+recipes.remove(<PneumaticCraft:programmingPuzzle:12> * 4);
+recipes.remove(<PneumaticCraft:programmingPuzzle:14> * 4);
+recipes.remove(<PneumaticCraft:programmingPuzzle:15> * 4);
+recipes.remove(<PneumaticCraft:heatFrame>);
+recipes.remove(<PneumaticCraft:pressureGauge>);
+recipes.remove(<PneumaticCraft:machineUpgrade:8>);
+recipes.remove(<PneumaticCraft:machineUpgrade:5>);
+recipes.remove(<PneumaticCraft:machineUpgrade:5>);
+recipes.remove(<PneumaticCraft:machineUpgrade:2>);
+recipes.remove(<PneumaticCraft:machineUpgrade:1>);
+recipes.remove(<PneumaticCraft:chargingStation>);
+
 
 // ================================================================================
 //#MARKER REMOVE SHAPELESS
@@ -45,3 +67,24 @@ recipes.addShaped(<PneumaticCraft:pcbBlueprint>, [[<ore:ingotIronCompressed>, <E
 recipes.addShaped(<PneumaticCraft:stoneBase>, [[<terrafirmacraft:StoneIgEx:*>, null, <terrafirmacraft:StoneIgEx:*>], [<terrafirmacraft:StoneIgEx:*>, <PneumaticCraft:pressureTube:*>, <ore:stone>]]);
 recipes.addShaped(<PneumaticCraft:uvLightBox>, [[<Eln:Eln.SixNode:4100>, <Eln:Eln.SixNode:4100>, <Eln:Eln.SixNode:4100>], [<ore:ingotIronCompressed>, <PneumaticCraft:pcbBlueprint>, <PneumaticCraft:pressureTube>], [<ore:ingotIronCompressed>, <ore:ingotIronCompressed>, <ore:ingotIronCompressed>]]);
 recipes.addShaped(<PneumaticCraft:ingotIronCompressed> * 6, [[<ore:ingotWroughtIron>, <ore:ingotWroughtIron>, <ore:ingotWroughtIron>], [<ore:ingotWroughtIron>, <minecraft:tnt>, <ore:ingotWroughtIron>], [<ore:ingotWroughtIron>, <ore:ingotWroughtIron>, <ore:ingotWroughtIron>]]);
+recipes.addShaped(<PneumaticCraft:programmingPuzzle:1> * 32, [[<PneumaticCraft:plastic:1>, <PneumaticCraft:plastic:1>, <PneumaticCraft:plastic:1>], [<PneumaticCraft:plastic:1>, <PneumaticCraft:printedCircuitBoard>, <PneumaticCraft:plastic:1>], [<PneumaticCraft:plastic:1>, <PneumaticCraft:plastic:1>, <PneumaticCraft:plastic:1>]]);
+recipes.addShaped(<PneumaticCraft:programmingPuzzle:2> * 32, [[<PneumaticCraft:plastic:2>, <PneumaticCraft:plastic:2>, <PneumaticCraft:plastic:2>], [<PneumaticCraft:plastic:2>, <PneumaticCraft:printedCircuitBoard>, <PneumaticCraft:plastic:2>], [<PneumaticCraft:plastic:2>, <PneumaticCraft:plastic:2>, <PneumaticCraft:plastic:2>]]);
+recipes.addShaped(<PneumaticCraft:programmingPuzzle:3> * 32, [[<PneumaticCraft:plastic:3>, <PneumaticCraft:plastic:3>, <PneumaticCraft:plastic:3>], [<PneumaticCraft:plastic:3>, <PneumaticCraft:printedCircuitBoard>, <PneumaticCraft:plastic:3>], [<PneumaticCraft:plastic:3>, <PneumaticCraft:plastic:3>, <PneumaticCraft:plastic:3>]]);
+recipes.addShaped(<PneumaticCraft:programmingPuzzle:4> * 32, [[<PneumaticCraft:plastic:4>, <PneumaticCraft:plastic:4>, <PneumaticCraft:plastic:4>], [<PneumaticCraft:plastic:4>, <PneumaticCraft:printedCircuitBoard>, <PneumaticCraft:plastic:4>], [<PneumaticCraft:plastic:4>, <PneumaticCraft:plastic:4>, <PneumaticCraft:plastic:4>]]);
+recipes.addShaped(<PneumaticCraft:programmingPuzzle:5> * 32, [[<PneumaticCraft:plastic:5>, <PneumaticCraft:plastic:5>, <PneumaticCraft:plastic:5>], [<PneumaticCraft:plastic:5>, <PneumaticCraft:printedCircuitBoard>, <PneumaticCraft:plastic:5>], [<PneumaticCraft:plastic:5>, <PneumaticCraft:plastic:5>, <PneumaticCraft:plastic:5>]]);
+recipes.addShaped(<PneumaticCraft:programmingPuzzle:6> * 32, [[<PneumaticCraft:plastic:6>, <PneumaticCraft:plastic:6>, <PneumaticCraft:plastic:6>], [<PneumaticCraft:plastic:6>, <PneumaticCraft:printedCircuitBoard>, <PneumaticCraft:plastic:6>], [<PneumaticCraft:plastic:6>, <PneumaticCraft:plastic:6>, <PneumaticCraft:plastic:6>]]);
+recipes.addShaped(<PneumaticCraft:programmingPuzzle:8> * 32, [[<PneumaticCraft:plastic:8>, <PneumaticCraft:plastic:8>, <PneumaticCraft:plastic:8>], [<PneumaticCraft:plastic:8>, <PneumaticCraft:printedCircuitBoard>, <PneumaticCraft:plastic:8>], [<PneumaticCraft:plastic:8>, <PneumaticCraft:plastic:8>, <PneumaticCraft:plastic:8>]]);
+recipes.addShaped(<PneumaticCraft:programmingPuzzle:9> * 32, [[<PneumaticCraft:plastic:9>, <PneumaticCraft:plastic:9>, <PneumaticCraft:plastic:9>], [<PneumaticCraft:plastic:9>, <PneumaticCraft:printedCircuitBoard>, <PneumaticCraft:plastic:9>], [<PneumaticCraft:plastic:9>, <PneumaticCraft:plastic:9>, <PneumaticCraft:plastic:9>]]);
+recipes.addShaped(<PneumaticCraft:programmingPuzzle:10> * 32, [[<PneumaticCraft:plastic:10>, <PneumaticCraft:plastic:10>, <PneumaticCraft:plastic:10>], [<PneumaticCraft:plastic:10>, <PneumaticCraft:printedCircuitBoard>, <PneumaticCraft:plastic:10>], [<PneumaticCraft:plastic:10>, <PneumaticCraft:plastic:10>, <PneumaticCraft:plastic:10>]]);
+recipes.addShaped(<PneumaticCraft:programmingPuzzle:11> * 32, [[<PneumaticCraft:plastic:11>, <PneumaticCraft:plastic:11>, <PneumaticCraft:plastic:11>], [<PneumaticCraft:plastic:11>, <PneumaticCraft:printedCircuitBoard>, <PneumaticCraft:plastic:11>], [<PneumaticCraft:plastic:11>, <PneumaticCraft:plastic:11>, <PneumaticCraft:plastic:11>]]);
+recipes.addShaped(<PneumaticCraft:programmingPuzzle:12> * 32, [[<PneumaticCraft:plastic:12>, <PneumaticCraft:plastic:12>, <PneumaticCraft:plastic:12>], [<PneumaticCraft:plastic:12>, <PneumaticCraft:printedCircuitBoard>, <PneumaticCraft:plastic:12>], [<PneumaticCraft:plastic:12>, <PneumaticCraft:plastic:12>, <PneumaticCraft:plastic:12>]]);
+recipes.addShaped(<PneumaticCraft:programmingPuzzle:14> * 32, [[<PneumaticCraft:plastic:14>, <PneumaticCraft:plastic:14>, <PneumaticCraft:plastic:14>], [<PneumaticCraft:plastic:14>, <PneumaticCraft:printedCircuitBoard>, <PneumaticCraft:plastic:14>], [<PneumaticCraft:plastic:14>, <PneumaticCraft:plastic:14>, <PneumaticCraft:plastic:14>]]);
+recipes.addShaped(<PneumaticCraft:programmingPuzzle:15> * 32, [[<PneumaticCraft:plastic:15>, <PneumaticCraft:plastic:15>, <PneumaticCraft:plastic:15>], [<PneumaticCraft:plastic:15>, <PneumaticCraft:printedCircuitBoard>, <PneumaticCraft:plastic:15>], [<PneumaticCraft:plastic:15>, <PneumaticCraft:plastic:15>, <PneumaticCraft:plastic:15>]]);
+recipes.addShaped(<PneumaticCraft:heatFrame>, [[<ore:ingotIronCompressed>, <ore:ingotIronCompressed>, <PneumaticCraft:ingotIronCompressed>], [<ore:ingotIronCompressed>, <ore:stoneCobble>, <PneumaticCraft:ingotIronCompressed>], [<ore:ingotIronCompressed>, <ore:ingotIronCompressed>, <ore:ingotIronCompressed>]]);
+recipes.addShaped(<PneumaticCraft:pressureGauge>, [[null, <ore:ingotGold>, null], [<ore:ingotGold>, <ore:ingotIronCompressed>, <ore:ingotGold>], [null, <ore:ingotGold>, null]]);
+recipes.addShaped(<PneumaticCraft:machineUpgrade:8>, [[<ore:dustLapis>, <terrafirmacraft:item.arrow>, <ore:dustLapis>], [<terrafirmacraft:item.arrow>, <terrafirmacraft:item.bow>, <terrafirmacraft:item.arrow>], [<ore:dustLapis>, <terrafirmacraft:item.arrow>, <ore:dustLapis>]]);
+recipes.addShaped(<PneumaticCraft:machineUpgrade:5>, [[<ore:dustLapis>, <ore:seedSugarcane>, <ore:dustLapis>], [null, <ore:bucketWater>, null], [<ore:dustLapis>, null, <ore:dustLapis>]]);
+recipes.addShaped(<PneumaticCraft:machineUpgrade:2>, [[<ore:dustLapis>, <minecraft:redstone>, <ore:dustLapis>], [<minecraft:redstone>, <minecraft:clock>, <minecraft:redstone>], [<ore:dustLapis>, <minecraft:redstone>, <ore:dustLapis>]]);
+recipes.addShaped(<PneumaticCraft:machineUpgrade:1>, [[<ore:dustLapis>, <ore:gemQuartz>, <ore:dustLapis>], [<ore:gemQuartz>, <minecraft:dispenser>, <ore:gemQuartz>], [<ore:dustLapis>, <ore:gemQuartz>, <ore:dustLapis>]]);
+recipes.addShaped(<PneumaticCraft:chargingStation>, [[null, null, <PneumaticCraft:pressureTube>], [<ore:stoneBricks>, <ore:stoneBricks>, <ore:stoneBricks>], [<minecraft:stone_slab:3>, <minecraft:stone_slab:3>, <minecraft:stone_slab:3>]]);
+recipes.addShaped(<PneumaticCraft:etchacidBucket>, [[<minecraft:spider_eye>, <PneumaticCraft:plastic:2>, <minecraft:rotten_flesh>], [<minecraft:gunpowder>, <ore:bucketFreshWater>, <minecraft:gunpowder>], [<minecraft:rotten_flesh>, <PneumaticCraft:plastic:2>, <minecraft:spider_eye>]]);

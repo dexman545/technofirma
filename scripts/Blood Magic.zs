@@ -37,6 +37,10 @@ recipes.remove(<AWWayofTime:blockTeleposer>);
 recipes.remove(<AWWayofTime:largeBloodStoneBrick>);
 recipes.remove(<AWWayofTime:emptySocket>);
 recipes.remove(<AWWayofTime:Altar>);
+recipes.remove(<AWWayofTime:AlchemicalWizardrytile.blockSpellParadigm:3>);
+recipes.remove(<AWWayofTime:AlchemicalWizardrytile.blockSpellParadigm:2>);
+recipes.remove(<AWWayofTime:AlchemicalWizardrytile.blockSpellParadigm:1>);
+recipes.remove(<AWWayofTime:AlchemicalWizardrytile.blockSpellParadigm>);
 
 recipes.addShapeless(<AWWayofTime:itemKeyOfDiablo>, [<ore:ingotGold>, <AWWayofTime:weakBloodShard>, <ore:ingotGold>, <ore:gemChipped>, <ore:ingotGold>, <AWWayofTime:weakBloodShard>, <ore:ingotGold>]);
 recipes.addShaped(<AWWayofTime:speedRune>, [[<ore:stone>, <AWWayofTime:blankSlate>, <ore:stone>], [<terrafirmacraft:item.Seeds Sugarcane>, <AWWayofTime:AlchemicalWizardrybloodRune>, <ore:seedSugarcane>], [<ore:stone>, <AWWayofTime:blankSlate>, <ore:stone>]]);
@@ -63,10 +67,11 @@ recipes.addShaped(<AWWayofTime:bloodMagicBaseItems:9>, [[null, <ore:stone>, <ore
 recipes.addShaped(<AWWayofTime:bloodMagicBaseItems:8>, [[<ore:ingotSteel>, <terrafirmacraft:item.Gold Ingot>, <terrafirmacraft:item.Steel Ingot>], [<AWWayofTime:reinforcedSlate>, <AWWayofTime:reinforcedSlate>, <AWWayofTime:reinforcedSlate>], [<terrafirmacraft:item.Steel Ingot>, <terrafirmacraft:item.Gold Ingot>, <ore:ingotSteel>]]);
 recipes.addShaped(<AWWayofTime:bloodMagicBaseItems:4>, [[null, <ore:ingotSteel>, <AWWayofTime:reinforcedSlate>], [<ore:ingotSteel>, <AWWayofTime:reinforcedSlate>, <ore:ingotSteel>], [<AWWayofTime:reinforcedSlate>, <ore:ingotSteel>, null]]);
 recipes.addShaped(<AWWayofTime:blockCrucible>, [[<terrafirmacraft:item.Steel Ingot>, null, <terrafirmacraft:item.Steel Ingot>], [<ore:itemRock>, <terrafirmacraft:item.Steel Ingot>, <ore:itemRock>], [<ore:stone>, <ore:stone>, <ore:stone>]]);
-recipes.addShaped(<AWWayofTime:blockCrystalBelljar>, [[<minecraft:glass>, <minecraft:glass>, <minecraft:glass>], [<minecraft:glass>, <AWWayofTime:bloodMagicBaseAlchemyItems:4>, <minecraft:glass>], [<terrafirmacraft:item.SinglePlank>, <terrafirmacraft:item.SinglePlank>, <terrafirmacraft:item.SinglePlank>]]);
+recipes.addShaped(<AWWayofTime:blockCrystalBelljar>, [[<minecraft:glass>, <minecraft:glass>, <minecraft:glass>], [<minecraft:glass>, <AWWayofTime:bloodMagicBaseAlchemyItems:4>, <minecraft:glass>], [<ore:woodLumber>, <ore:woodLumber>, <ore:woodLumber>]]);
 recipes.addShaped(<AWWayofTime:blockAlchemicCalcinator>, [[<AWWayofTime:bloodMagicBaseItems:15>, <minecraft:glass>, <AWWayofTime:bloodMagicBaseItems:15>], [<minecraft:glass>, <AWWayofTime:bloodMagicBaseAlchemyItems:3>, <minecraft:glass>], [<ore:stoneCobble>, <ore:stoneCobble>, <ore:stoneCobble>]]);
 recipes.addShaped(<AWWayofTime:blockReagentConduit>, [[<ore:ingotSteel>, <ore:materialString>, <ore:ingotSteel>], [<ore:materialString>, <AWWayofTime:bloodMagicBaseAlchemyItems:4>, <ore:materialString>], [<ore:ingotSteel>, <ore:materialString>, <ore:ingotSteel>]]);
 recipes.addShaped(<AWWayofTime:AlchemicalWizardrytile.blockSpellEffect:3>, [[<AWWayofTime:bloodMagicBaseItems:4>, <terrafirmacraft:item.Gold Ingot>, <AWWayofTime:bloodMagicBaseItems:4>], [<AWWayofTime:bloodMagicBaseItems:9>, <AWWayofTime:bloodMagicBaseItems:13>, <AWWayofTime:bloodMagicBaseItems:14>], [<AWWayofTime:bloodMagicBaseItems:4>, <terrafirmacraft:item.Gold Ingot>, <AWWayofTime:bloodMagicBaseItems:4>]]);
+recipes.addShaped(<AWWayofTime:AlchemicalWizardrytile.blockSpellParadigm>, [[<ore:ingotGold>, <AWWayofTime:bloodMagicBaseItems:4>, null], [<AWWayofTime:bloodMagicBaseItems:8>, <AWWayofTime:bloodMagicBaseItems:5>, <AWWayofTime:bloodMagicBaseItems:9>], [<ore:ingotGold>, <AWWayofTime:bloodMagicBaseItems:4>, null]]);
 recipes.addShaped(<AWWayofTime:AlchemicalWizardrytile.blockSpellParadigm:1>, [[<ore:ingotGold>, <AWWayofTime:bloodMagicBaseItems:4>, null], [<AWWayofTime:bloodMagicBaseItems:8>, <AWWayofTime:bloodMagicBaseItems:6>, <AWWayofTime:bloodMagicBaseItems:9>], [<ore:ingotGold>, <AWWayofTime:bloodMagicBaseItems:4>, null]]);
 recipes.addShaped(<AWWayofTime:AlchemicalWizardrytile.blockSpellParadigm:2>, [[<ore:ingotGold>, <AWWayofTime:bloodMagicBaseItems:4>, null], [<AWWayofTime:bloodMagicBaseItems:8>, <AWWayofTime:bloodMagicBaseItems:7>, <AWWayofTime:bloodMagicBaseItems:9>], [<ore:ingotGold>, <AWWayofTime:bloodMagicBaseItems:4>, null]]);
 recipes.addShaped(<AWWayofTime:AlchemicalWizardrytile.blockSpellParadigm:3>, [[<ore:ingotGold>, <AWWayofTime:bloodMagicBaseItems:4>, null], [<AWWayofTime:bloodMagicBaseItems:8>, <AWWayofTime:bloodMagicBaseItems:26>, <AWWayofTime:bloodMagicBaseItems:9>], [<ore:ingotGold>, <AWWayofTime:bloodMagicBaseItems:4>, null]]);
@@ -115,12 +120,12 @@ for i, sand in sandList {
 // Leave the legacy recipe for now
 mods.bloodmagic.Altar.addRecipe(<minecraft:soul_sand>, <props:props:176>, 3, 5000);
 
-mods.bloodmagic.Altar.addRecipe(<AWWayofTime:apprenticeBloodOrb>, <Thaumcraft:ItemResource:6>, 3, 5000);
-mods.bloodmagic.Altar.addRecipe(<AWWayofTime:blankSlate>, <Thaumcraft:blockCosmeticSolid:6>, 1, 3000);
+mods.bloodmagic.Altar.addRecipe(<AWWayofTime:apprenticeBloodOrb>, <Thaumcraft:ItemResource:6>, 2, 5000);
+mods.bloodmagic.Altar.addRecipe(<AWWayofTime:blankSlate>, <Thaumcraft:blockCosmeticSolid:6>, 1, 1000, 5, 5);
 mods.bloodmagic.Altar.addRecipe(<AWWayofTime:daggerOfSacrifice>, <terrafirmacraft:item.Wrought Iron Sword>, 2, 3000);
 mods.bloodmagic.Altar.addRecipe(<AWWayofTime:alchemyFlask>, <terrafirmacraft:item.Glass Bottle>, 2, 2000);
 mods.bloodmagic.Altar.addRecipe(<AWWayofTime:fireScribeTool>, <terrafirmacraft:item.Powder:3>, 3, 1000);
-mods.bloodmagic.Altar.addRecipe(<AWWayofTime:dawnScribeTool>, <Thaumcraft:blockEldritch:4>, 6, 20000);
+mods.bloodmagic.Altar.addRecipe(<AWWayofTime:dawnScribeTool>, <Eln:Eln.sharedItem:260>, 6, 20000);
 
 
 //Blood Orb Shaped Recipes
@@ -170,7 +175,7 @@ mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:voidSigil>,
 //Air Sigil
 recipes.remove(<AWWayofTime:airSigil>);
 mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:airSigil>,
-[[<minecraft:feather>, <Eln:Eln.TransparentNode:3136>, <minecraft:feather>],
+[[<minecraft:feather>, <minecraft:ghast_tear>, <minecraft:feather>],
 [<minecraft:feather>, <AWWayofTime:reinforcedSlate>, <minecraft:feather>],
 [<minecraft:feather>, <AWWayofTime:apprenticeBloodOrb>,<minecraft:feather>]]);
  
@@ -202,9 +207,9 @@ mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:seerSigil>,
 [<ore:blockGlass>, <AWWayofTime:divinationSigil>, <ore:blockGlass>],
 [<ore:blockGlass>, <AWWayofTime:apprenticeBloodOrb>,<ore:blockGlass>]]);
  
-//Ritual Stone
+//Ritual Stone, reverted to default value of output
 recipes.remove(<AWWayofTime:ritualStone>);
-mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:ritualStone>,
+mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:ritualStone> * 4,
 [[<minecraft:obsidian>, <AWWayofTime:reinforcedSlate>, <minecraft:obsidian>],
 [<AWWayofTime:reinforcedSlate>, <AWWayofTime:apprenticeBloodOrb>, <AWWayofTime:reinforcedSlate>],
 [<minecraft:obsidian>, <AWWayofTime:reinforcedSlate>,<minecraft:obsidian>]]);
@@ -222,7 +227,7 @@ mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:blockHomHeart>,
 [[<ore:materialCloth>, <ore:materialCloth>, <ore:materialCloth>],
 [<ore:stone>, <AWWayofTime:AlchemicalWizardrybloodRune>, <ore:stone>],
 [<ore:stone>, <AWWayofTime:apprenticeBloodOrb>,<ore:stone>]]);
- 
+
 //Byrrus
 recipes.remove(<AWWayofTime:bloodMagicIncenseItem:1>);
 mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:bloodMagicIncenseItem:1>,
@@ -331,7 +336,7 @@ mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:bloodMagicBaseItems:11>,
 //Gusty Core
 recipes.remove(<AWWayofTime:bloodMagicBaseItems:12>);
 mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:bloodMagicBaseItems:12>,
-[[<AWWayofTime:aether>, <Eln:Eln.TransparentNode:3136>, <AWWayofTime:aether>],
+[[<AWWayofTime:aether>, <minecraft:ghast_tear>, <AWWayofTime:aether>],
 [<AWWayofTime:weakBloodShard>, <AWWayofTime:bloodMagicBaseItems:1>, <AWWayofTime:weakBloodShard>],
 [<AWWayofTime:aether>, <AWWayofTime:magicianBloodOrb>,<AWWayofTime:aether>]]);
  
@@ -387,15 +392,15 @@ mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:AlchemicalWizardrybloodRune:4>,
 //Sigil of Haste -- Does this work in survival?
 recipes.remove(<AWWayofTime:sigilOfHaste>);
 mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:sigilOfHaste>,
-[[<Eln:Eln.sharedItem:7702>, <terrafirmacraft:item.Sugar>, <Eln:Eln.sharedItem:7702>],
-[<terrafirmacraft:item.Sugar>, <AWWayofTime:demonicSlate>, <terrafirmacraft:item.Sugar>],
+[[<Eln:Eln.sharedItem:7702>, <ore:seedSugarcane>, <Eln:Eln.sharedItem:7702>],
+[<ore:seedSugarcane>, <AWWayofTime:demonicSlate>, <ore:seedSugarcane>],
 [<minecraft:obsidian>, <AWWayofTime:masterBloodOrb>,<minecraft:obsidian>]]);
  
 //Sigil of the Whirlwind
 recipes.remove(<AWWayofTime:sigilOfWind>);
 mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:sigilOfWind>,
 [[<minecraft:feather>, <AWWayofTime:airSigil>, <minecraft:feather>],
-[<Eln:Eln.TransparentNode:3136>, <AWWayofTime:demonicSlate>, <Eln:Eln.TransparentNode:3136>],
+[<minecraft:ghast_tear>, <AWWayofTime:demonicSlate>, <minecraft:ghast_tear>],
 [<minecraft:feather>, <AWWayofTime:masterBloodOrb>,<minecraft:feather>]]);
  
 //Power Core
@@ -434,22 +439,22 @@ mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:itemCompressionSigil>,
 recipes.remove(<AWWayofTime:sigilOfSupression>);
 mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:sigilOfSupression>,
 [[<terrafirmacraft:item.Red Steel Bucket Water>, <AWWayofTime:blockTeleposer>, <terrafirmacraft:item.Blue Steel Bucket Lava>],
-[<terrafirmacraft:item.Red Steel Bucket Water>, <AWWayofTime:voidSigil>, <terrafirmacraft:item.Blue Steel Bucket Lava>],
+[<terrafirmacraft:item.Red Steel Bucket Water>, <AWWayofTime:demonicSlate>, <terrafirmacraft:item.Blue Steel Bucket Lava>],
 [<terrafirmacraft:item.Red Steel Bucket Water>, <AWWayofTime:masterBloodOrb>,<terrafirmacraft:item.Blue Steel Bucket Lava>]]);
  
 //Sigil of Ender Severence
 recipes.remove(<AWWayofTime:sigilOfEnderSeverance>);
 mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:sigilOfEnderSeverance>,
-[[<ore:pearlEnder>, <AWWayofTime:weakBloodShard>, <ore:pearlEnder>],
-[<ore:pearlEnderEye>, <AWWayofTime:demonicSlate>, <ore:pearlEnderEye>],
-[<ore:pearlEnder>, <AWWayofTime:masterBloodOrb>,<ore:pearlEnder>]]);
+[[<minecraft:ender_pearl>, <AWWayofTime:weakBloodShard>, <minecraft:ender_pearl>],
+[<minecraft:ender_eye>, <AWWayofTime:demonicSlate>, <minecraft:ender_eye>],
+[<minecraft:ender_pearl>, <AWWayofTime:masterBloodOrb>,<minecraft:ender_pearl>]]);
  
 //Viridis
 recipes.remove(<AWWayofTime:bloodMagicIncenseItem:3>);
 mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:bloodMagicIncenseItem:3>,
 [[<AWWayofTime:bloodMagicIncenseItem>, <ore:dyeGreen>, <AWWayofTime:magicianBloodOrb>],
 [<ore:dyeGreen>, <minecraft:soul_sand>, null],
-[<ore:dustGunpowder>, <minecraft:spider_eye>, null]]);
+[<minecraft:gunpowder>, <minecraft:spider_eye>, null]]);
  
 //Weak Blood Shard
 recipes.remove(<AWWayofTime:weakBloodShard>);
@@ -506,7 +511,71 @@ mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:blockStabilityGlyph>,
 [[<AWWayofTime:crepitous>, <AWWayofTime:magicales>, <AWWayofTime:crepitous>],
 [<AWWayofTime:bloodMagicBaseItems:27>, <AWWayofTime:AlchemicalWizardrybloodRune>, <AWWayofTime:bloodMagicBaseItems:27>],
 [<AWWayofTime:bloodMagicBaseAlchemyItems:1>, <AWWayofTime:archmageBloodOrb>, <AWWayofTime:bloodMagicBaseAlchemyItems:1>]]);
+
+
  
+//Crystallos
+mods.bloodmagic.Alchemy.removeRecipe(<AWWayofTime:crystallos>);
+mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:crystallos>, [<AWWayofTime:simpleCatalyst>, <tfccellars:Ice>, <tfccellars:Ice>, <tfccellars:Ice>, <tfccellars:Ice>], 2, 500);
+
+//Weak Binding Agent  AWWayofTime:weakBindingAgent
+mods.bloodmagic.Alchemy.removeRecipe(<AWWayofTime:weakBindingAgent>);
+mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:weakBindingAgent>, [<AWWayofTime:simpleCatalyst>, <AWWayofTime:simpleCatalyst>, <terrafirmacraft:item.Clay>], 2, 1000);
+
+//Crepitous
+mods.bloodmagic.Alchemy.removeRecipe(<AWWayofTime:crepitous>);
+mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:crepitous>, [<AWWayofTime:simpleCatalyst>, <minecraft:gunpowder>, <minecraft:gunpowder>], 2, 500);
+
+//Incendium
+mods.bloodmagic.Alchemy.removeRecipe(<AWWayofTime:incendium>);
+mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:incendium>, [<AWWayofTime:simpleCatalyst>, <minecraft:netherrack>, <minecraft:netherrack>], 2, 500);
+
+//Tenebrae
+mods.bloodmagic.Alchemy.removeRecipe(<AWWayofTime:tennebrae>);
+mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:tennebrae>, [<AWWayofTime:simpleCatalyst>, <minecraft:obsidian>, <terrafirmacraft:item.Clay>, <terrafirmacraft:item.coal>, <terrafirmacraft:item.coal>], 2, 500);
+
+//Aquasalus
+mods.bloodmagic.Alchemy.removeRecipe(<AWWayofTime:aquasalus>);
+mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:aquasalus>, [<AWWayofTime:simpleCatalyst>, <minecraft:potion>, <minecraft:potion>, <minecraft:potion>, <terrafirmacraft:item.dyePowder>], 2, 500);
+
+//Offensa
+mods.bloodmagic.Alchemy.removeRecipe(<AWWayofTime:bloodMagicBaseAlchemyItems>);
+mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:bloodMagicBaseAlchemyItems>, [<AWWayofTime:simpleCatalyst>, <terrafirmacraft:item.arrow>, <terrafirmacraft:item.arrow>, <minecraft:flint>, <AWWayofTime:incendium>], 3, 1000);
+
+//Virtus
+mods.bloodmagic.Alchemy.removeRecipe(<AWWayofTime:bloodMagicBaseAlchemyItems:6>);
+mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:bloodMagicBaseAlchemyItems:6>, [<AWWayofTime:bloodMagicBaseAlchemyItems:3>, <minecraft:redstone>, <minecraft:redstone>, <minecraft:gunpowder>, <terrafirmacraft:item.coal>], 3, 2000);
+
+//Reductus
+mods.bloodmagic.Alchemy.removeRecipe(<AWWayofTime:bloodMagicBaseAlchemyItems:7>);
+mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:bloodMagicBaseAlchemyItems:7>, [<AWWayofTime:bloodMagicBaseAlchemyItems:3>, <terrafirmacraft:item.Seeds Carrot>, <minecraft:redstone>, <minecraft:soul_sand>, <terrafirmacraft:item.Gold Ingot>], 3, 2000);
+
+//Potentia
+mods.bloodmagic.Alchemy.removeRecipe(<AWWayofTime:bloodMagicBaseAlchemyItems:8>);
+mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:bloodMagicBaseAlchemyItems:8>, [<AWWayofTime:bloodMagicBaseAlchemyItems:3>, <minecraft:glowstone_dust>, <terrafirmacraft:item.Powder:6>, <terrafirmacraft:item.Powder:6>, <terrafirmacraft:item.Ore:24>], 3, 2000);
+
+
+//Simple Catalyst
+mods.bloodmagic.Alchemy.removeRecipe(<AWWayofTime:simpleCatalyst>);
+mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:simpleCatalyst>, [<terrafirmacraft:item.Reeds>, <minecraft:redstone>, <minecraft:gunpowder>, <minecraft:glowstone_dust>, <minecraft:redstone>], 1, 200);
+
+//Nether Wart - needed for alchemy
+mods.bloodmagic.Alchemy.addRecipe(<minecraft:nether_wart>, [<AWWayofTime:simpleCatalyst>, <minecraft:redstone>, <minecraft:glowstone_dust>, <minecraft:soul_sand>, <minecraft:soul_sand>], 2, 500);
+
+//Coal  converting to TFC
+mods.bloodmagic.Alchemy.addRecipe(<terrafirmacraft:item.coal>, [<terrafirmacraft:item.coal:1>, <terrafirmacraft:item.coal:1>, <terrafirmacraft:item.coal:1>, <terrafirmacraft:item.coal:1>, <terrafirmacraft:item.coal:1>], 1, 200);
+
+//Gunpowder  converting to use TFC Coal and sand
+mods.bloodmagic.Alchemy.removeRecipe(<minecraft:gunpowder>);
+mods.bloodmagic.Alchemy.addRecipe(<minecraft:gunpowder>, [<terrafirmacraft:item.coal>, <minecraft:gunpowder>, <minecraft:sand>], 1, 100);
+
+//Beacon
+recipes.addShaped(<minecraft:beacon>, [[<ore:blockGlassColorless>, <ore:blockGlassColorless>, <ore:blockGlassColorless>], [<minecraft:glass>, <ore:blockUranium>, <ore:blockGlassColorless>], [<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>]]);
+
+//Water Bottle
+recipes.addShapeless(<minecraft:potion>, [<terrafirmacraft:item.Glass Bottle>, <terrafirmacraft:item.Wooden Bucket Water>]);
+
+
 //Removed and not Replaced
  
 //Sigil of the Blood Lamp

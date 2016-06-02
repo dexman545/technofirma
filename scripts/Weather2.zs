@@ -3,7 +3,7 @@
 recipes.remove(<weather2:WeatherDeflector>);
 recipes.remove(<weather2:WeatherMachine>);
 
-recipes.remove(<minecraft:glowstone_dust>);
+
 
 // ================================================================================
 //#MARKER REMOVE SHAPELESS

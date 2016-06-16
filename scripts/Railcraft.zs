@@ -186,6 +186,71 @@ mods.railcraft.Rolling.addShaped(<terrafirmacraft:item. Sheet> * 1, [
 [null, null, null]
 ]);
 */
+mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Bismuth Sheet> * 1, [
+[null, null, null],
+[<terrafirmacraft:item.Bismuth Ingot>, <terrafirmacraft:item.Bismuth Ingot>, null],
+[null, null, null]
+]);
+
+mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Wrought Iron Sheet> * 1, [
+[null, null, null],
+[<terrafirmacraft:item.Wrought Iron Ingot>, <terrafirmacraft:item.Wrought Iron Ingot>, null],
+[null, null, null]
+]);
+
+mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Rose Gold Sheet> * 1, [
+[null, null, null],
+[<terrafirmacraft:item.Rose Gold Ingot>, <terrafirmacraft:item.Rose Gold Ingot>, null],
+[null, null, null]
+]);
+
+mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Steel Sheet> * 1, [
+[null, null, null],
+[<terrafirmacraft:item.Steel Ingot>, <terrafirmacraft:item.Steel Ingot>, null],
+[null, null, null]
+]);
+
+mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Tin Sheet> * 1, [
+[null, null, null],
+[<terrafirmacraft:item.Tin Ingot>, <terrafirmacraft:item.Tin Ingot>, null],
+[null, null, null]
+]);
+
+mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Zinc Sheet> * 1, [
+[null, null, null],
+[<terrafirmacraft:item.Zinc Ingot>, <terrafirmacraft:item.Zinc Ingot>, null],
+[null, null, null]
+]);
+
+mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Nickel Sheet> * 1, [
+[null, null, null],
+[<terrafirmacraft:item.Nickel Ingot>, <terrafirmacraft:item.Nickel Ingot>, null],
+[null, null, null]
+]);
+
+mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Pig Iron Sheet> * 1, [
+[null, null, null],
+[<terrafirmacraft:item.Pig Iron Ingot>, <terrafirmacraft:item.Pig Iron Ingot>, null],
+[null, null, null]
+]);
+
+mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Platinum Sheet> * 1, [
+[null, null, null],
+[<terrafirmacraft:item.Platinum Ingot>, <terrafirmacraft:item.Platinum Ingot>, null],
+[null, null, null]
+]);
+
+mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Silver Sheet> * 1, [
+[null, null, null],
+[<terrafirmacraft:item.Silver Ingot>, <terrafirmacraft:item.Silver Ingot>, null],
+[null, null, null]
+]);
+
+mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Sterling Silver Sheet> * 1, [
+[null, null, null],
+[<terrafirmacraft:item.Sterling Silver Ingot>, <terrafirmacraft:item.Sterling Silver Ingot>, null],
+[null, null, null]
+]);
 
 mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Bismuth Bronze Sheet> * 1, [
 [null, null, null],

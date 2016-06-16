@@ -88,3 +88,39 @@ recipes.addShaped(<PneumaticCraft:machineUpgrade:2>, [[<ore:dustLapis>, <minecra
 recipes.addShaped(<PneumaticCraft:machineUpgrade:1>, [[<ore:dustLapis>, <ore:gemQuartz>, <ore:dustLapis>], [<ore:gemQuartz>, <minecraft:dispenser>, <ore:gemQuartz>], [<ore:dustLapis>, <ore:gemQuartz>, <ore:dustLapis>]]);
 recipes.addShaped(<PneumaticCraft:chargingStation>, [[null, null, <PneumaticCraft:pressureTube>], [<ore:stoneBricks>, <ore:stoneBricks>, <ore:stoneBricks>], [<minecraft:stone_slab:3>, <minecraft:stone_slab:3>, <minecraft:stone_slab:3>]]);
 recipes.addShaped(<PneumaticCraft:etchacidBucket>, [[<minecraft:spider_eye>, <PneumaticCraft:plastic:2>, <minecraft:rotten_flesh>], [<minecraft:gunpowder>, <ore:bucketFreshWater>, <minecraft:gunpowder>], [<minecraft:rotten_flesh>, <PneumaticCraft:plastic:2>, <minecraft:spider_eye>]]);
+
+
+//Pressure Chamber
+//InputArray, PressureRequired, OutputArray, asBlock
+//5 nugget - 2 normal
+mods.pneumaticcraft.Pressure.addRecipe([<terrafirmacraft:item.Small Ore> * 5], 3, [<terrafirmacraft:item.Ore> * 2], true);
+mods.pneumaticcraft.Pressure.addRecipe([<terrafirmacraft:item.Small Ore:1> * 5], 3, [<terrafirmacraft:item.Ore:1> * 2], true);
+mods.pneumaticcraft.Pressure.addRecipe([<terrafirmacraft:item.Small Ore:2> * 5], 3, [<terrafirmacraft:item.Ore:2> * 2], true);
+mods.pneumaticcraft.Pressure.addRecipe([<terrafirmacraft:item.Small Ore:3> * 5], 3, [<terrafirmacraft:item.Ore:3> * 2], true);
+mods.pneumaticcraft.Pressure.addRecipe([<terrafirmacraft:item.Small Ore:4> * 5], 3, [<terrafirmacraft:item.Ore:4> * 2], true);
+mods.pneumaticcraft.Pressure.addRecipe([<terrafirmacraft:item.Small Ore:5> * 5], 3, [<terrafirmacraft:item.Ore:5> * 2], true);
+mods.pneumaticcraft.Pressure.addRecipe([<terrafirmacraft:item.Small Ore:6> * 5], 3, [<terrafirmacraft:item.Ore:6> * 2], true);
+mods.pneumaticcraft.Pressure.addRecipe([<terrafirmacraft:item.Small Ore:7> * 5], 3, [<terrafirmacraft:item.Ore:7> * 2], true);
+mods.pneumaticcraft.Pressure.addRecipe([<terrafirmacraft:item.Small Ore:8> * 5], 3, [<terrafirmacraft:item.Ore:8> * 2], true);
+mods.pneumaticcraft.Pressure.addRecipe([<terrafirmacraft:item.Small Ore:9> * 5], 3, [<terrafirmacraft:item.Ore:9> * 2], true);
+mods.pneumaticcraft.Pressure.addRecipe([<terrafirmacraft:item.Small Ore:10> * 5], 3, [<terrafirmacraft:item.Ore:10> * 2], true);
+mods.pneumaticcraft.Pressure.addRecipe([<terrafirmacraft:item.Small Ore:11> * 5], 3, [<terrafirmacraft:item.Ore:11> * 2], true);
+mods.pneumaticcraft.Pressure.addRecipe([<terrafirmacraft:item.Small Ore:12> * 5], 3, [<terrafirmacraft:item.Ore:12> * 2], true);
+mods.pneumaticcraft.Pressure.addRecipe([<terrafirmacraft:item.Small Ore:13> * 5], 3, [<terrafirmacraft:item.Ore:13> * 2], true);
+
+//5 poor - 3 normal
+
+mods.pneumaticcraft.Pressure.addRecipe([<terrafirmacraft:item.Ore:49> * 5], 3, [<terrafirmacraft:item.Ore> * 3], true);
+mods.pneumaticcraft.Pressure.addRecipe([<terrafirmacraft:item.Ore:50> * 5], 3, [<terrafirmacraft:item.Ore:1> * 3], true);
+mods.pneumaticcraft.Pressure.addRecipe([<terrafirmacraft:item.Ore:51> * 5], 3, [<terrafirmacraft:item.Ore:2> * 3], true);
+mods.pneumaticcraft.Pressure.addRecipe([<terrafirmacraft:item.Ore:52> * 5], 3, [<terrafirmacraft:item.Ore:3> * 3], true);
+mods.pneumaticcraft.Pressure.addRecipe([<terrafirmacraft:item.Ore:53> * 5], 3, [<terrafirmacraft:item.Ore:4> * 3], true);
+mods.pneumaticcraft.Pressure.addRecipe([<terrafirmacraft:item.Ore:54> * 5], 3, [<terrafirmacraft:item.Ore:5> * 3], true);
+mods.pneumaticcraft.Pressure.addRecipe([<terrafirmacraft:item.Ore:55> * 5], 3, [<terrafirmacraft:item.Ore:6> * 3], true);
+mods.pneumaticcraft.Pressure.addRecipe([<terrafirmacraft:item.Ore:56> * 5], 3, [<terrafirmacraft:item.Ore:7> * 3], true);
+mods.pneumaticcraft.Pressure.addRecipe([<terrafirmacraft:item.Ore:57> * 5], 3, [<terrafirmacraft:item.Ore:8> * 3], true);
+mods.pneumaticcraft.Pressure.addRecipe([<terrafirmacraft:item.Ore:58> * 5], 3, [<terrafirmacraft:item.Ore:9> * 3], true);
+mods.pneumaticcraft.Pressure.addRecipe([<terrafirmacraft:item.Ore:59> * 5], 3, [<terrafirmacraft:item.Ore:10> * 3], true);
+mods.pneumaticcraft.Pressure.addRecipe([<terrafirmacraft:item.Ore:60> * 5], 3, [<terrafirmacraft:item.Ore:11> * 3], true);
+mods.pneumaticcraft.Pressure.addRecipe([<terrafirmacraft:item.Ore:61> * 5], 3, [<terrafirmacraft:item.Ore:12> * 3], true);
+mods.pneumaticcraft.Pressure.addRecipe([<terrafirmacraft:item.Ore:62> * 5], 3, [<terrafirmacraft:item.Ore:13> * 3], true);

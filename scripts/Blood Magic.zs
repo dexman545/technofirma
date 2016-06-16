@@ -563,17 +563,21 @@ mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:simpleCatalyst>, [<terrafirmacraf
 mods.bloodmagic.Alchemy.addRecipe(<minecraft:nether_wart>, [<AWWayofTime:simpleCatalyst>, <minecraft:redstone>, <minecraft:glowstone_dust>, <minecraft:soul_sand>, <minecraft:soul_sand>], 2, 500);
 
 //Coal  converting to TFC
-mods.bloodmagic.Alchemy.addRecipe(<terrafirmacraft:item.coal>, [<terrafirmacraft:item.coal:1>, <terrafirmacraft:item.coal:1>, <terrafirmacraft:item.coal:1>, <terrafirmacraft:item.coal:1>, <terrafirmacraft:item.coal:1>], 1, 200);
+mods.bloodmagic.Alchemy.addRecipe(<terrafirmacraft:item.coal> * 5, [<terrafirmacraft:item.coal:1>, <terrafirmacraft:item.coal:1>, <terrafirmacraft:item.coal:1>, <terrafirmacraft:item.coal:1>, <terrafirmacraft:item.coal:1>], 1, 200);
 
 //Gunpowder  converting to use TFC Coal and sand
 mods.bloodmagic.Alchemy.removeRecipe(<minecraft:gunpowder>);
-mods.bloodmagic.Alchemy.addRecipe(<minecraft:gunpowder>, [<terrafirmacraft:item.coal>, <minecraft:gunpowder>, <minecraft:sand>], 1, 100);
+mods.bloodmagic.Alchemy.addRecipe(<minecraft:gunpowder> * 2, [<terrafirmacraft:item.coal>, <minecraft:gunpowder>, <minecraft:sand>], 1, 100);
 
 //Beacon
 recipes.addShaped(<minecraft:beacon>, [[<ore:blockGlassColorless>, <ore:blockGlassColorless>, <ore:blockGlassColorless>], [<minecraft:glass>, <ore:blockUranium>, <ore:blockGlassColorless>], [<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>]]);
 
 //Water Bottle
 recipes.addShapeless(<minecraft:potion>, [<terrafirmacraft:item.Glass Bottle>, <terrafirmacraft:item.Wooden Bucket Water>]);
+
+//Shards
+recipes.addShapeless(<AWWayofTime:bloodMagicBaseItems:29>, [<minecraft:soul_sand>, <AWWayofTime:demonBloodShard>, <AWWayofTime:bloodMagicBaseItems:27>]);
+recipes.addShapeless(<AWWayofTime:bloodMagicBaseItems:28>, [<AWWayofTime:bucketLife>, <AWWayofTime:demonBloodShard>, <AWWayofTime:bloodMagicBaseItems:27>]);
 
 
 //Removed and not Replaced

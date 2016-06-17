@@ -33,6 +33,8 @@ recipes.remove(<BuildCraft|Transport:pipeWaterproof>);
 
 recipes.remove(<BuildCraft|Core:diamondGearItem>);
 
+recipes.remove(<BuildCraft|Transport:item.buildcraftPipe.pipestructurecobblestone>);
+
 // ================================================================================
 //#MARKER REMOVE SHAPELESS
 
@@ -73,3 +75,4 @@ recipes.addShaped(<BuildCraft|Transport:pipeWaterproof>, [[<ore:itemRubber>, <or
 
 recipes.addShaped(<BuildCraft|Core:diamondGearItem>, [[null, <ore:plateBlueSteel>, null], [<ore:plateBlueSteel>, <ore:gearGold>, <ore:plateBlueSteel>], [null, <ore:plateBlueSteel>, null]]);
 
+recipes.addShaped(<BuildCraft|Transport:item.buildcraftPipe.pipestructurecobblestone>, [[<ore:stoneCobble>, <ore:blockGravel>, <ore:stoneCobble>]]);

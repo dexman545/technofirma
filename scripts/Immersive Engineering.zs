@@ -29,6 +29,9 @@ recipes.remove(<ImmersiveEngineering:metalDecoration:2>);
 
 recipes.addShaped(<ImmersiveEngineering:stoneDecoration:6> * 8, [[<terrafirmacraft:FireBrick>, <terrafirmacraft:FireBrick>, <terrafirmacraft:FireBrick>], [<terrafirmacraft:FireBrick>, <ore:plateSteel>, <terrafirmacraft:FireBrick>], [<terrafirmacraft:FireBrick>, <terrafirmacraft:FireBrick>, <terrafirmacraft:FireBrick>]]);
 
+//repair for drill heads
+recipes.addShapeless(<ImmersiveEngineering:drillhead>, [<ImmersiveEngineering:drillhead>, <terrafirmacraft:item.Steel Ingot>]);
+recipes.addShapeless(<ImmersiveEngineering:drillhead:1>, [<ImmersiveEngineering:drillhead:1>, <terrafirmacraft:item.Wrought Iron Ingot>]);
 
 //Crusher-RR
 //mods.immersiveengineering.Crusher.removeRecipe(<>);

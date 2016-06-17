@@ -73,7 +73,6 @@ recipes.addShaped(<ImmersiveEngineering:stoneDecoration> * 6, [[<ore:lumpClay>, 
 
 // ================================================================================
 //#MARKER ADD SHAPED
-recipes.addShaped(<ImmersiveEngineering:woodenDevice:4>, [[<ImmersiveEngineering:woodenDecoration>, <ImmersiveEngineering:woodenDecoration>, <ImmersiveEngineering:woodenDecoration>], [<ImmersiveEngineering:woodenDecoration>, <ore:blockSteel>, <ImmersiveEngineering:woodenDecoration>], [<ImmersiveEngineering:woodenDecoration>, <ImmersiveEngineering:woodenDecoration>, <ImmersiveEngineering:woodenDecoration>]]);
 recipes.addShaped(<ImmersiveEngineering:metalDevice:11> * 8, [[<ore:materialLeather>, <ore:materialLeather>, <ore:materialLeather>], [<ore:ingotIron>, <Eln:Eln.sharedItem:640>, <ore:ingotIron>]]);
 recipes.addShaped(<ImmersiveEngineering:woodenDevice>, [[<ImmersiveEngineering:woodenDecoration:1>], [<ImmersiveEngineering:woodenDecoration:1>], [<ore:stoneBricks>]]);
 recipes.addShaped(<ImmersiveEngineering:seed>, [[<terrafirmacraft:item.Seeds Jute>, <ore:seedFlax>]]);
@@ -83,28 +82,75 @@ recipes.addShaped(<ImmersiveEngineering:storage:7> *3, [[<ore:ingotSteel>, <ore:
 
 
 //Crusher-RA
-//mods.immersiveengineering.Crusher.addRecipe(<>, <>, 8000, <>, 0.5);
+//mods.immersiveengineering.Crusher.addRecipe(OutputStack1, InputStack, Energy, OutputStack2, OutputStack2Chance //Chance in Decimals);
 mods.immersiveengineering.Crusher.addRecipe(<minecraft:sand>, <ore:blockDirt>, 8000, null, 0);
 mods.immersiveengineering.Crusher.addRecipe(<Eln:Eln.sharedItem:8>, <terrafirmacraft:item.coal>, 8000, null, 0);
-mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Ore:3>, <ore:oreRichIron>, 8000, <terrafirmacraft:item.Small Ore:3>, 1.0);
-mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Ore>, <ore:oreRichCopper>, 8000, <terrafirmacraft:item.Ore:49>, 1.0);
-mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Ore:1>, <ore:oreRichGold>, 8000, <terrafirmacraft:item.Ore:50>, 1.0);
-mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Ore:2>, <ore:oreRichPlatinum>, 8000, <terrafirmacraft:item.Ore:51>, 1.0);
-mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Ore:4>, <ore:oreRichSilver>, 8000, <terrafirmacraft:item.Ore:53>, 1.0);
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Ore>, <terrafirmacraft:item.Ore:35>, 8000, <terrafirmacraft:item.Ore:49>, 0.667);
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Ore:1>, <terrafirmacraft:item.Ore:36>, 8000, <terrafirmacraft:item.Ore:50>, 0.667);
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Ore:2>, <terrafirmacraft:item.Ore:37>, 8000, <terrafirmacraft:item.Ore:51>, 0.667);
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Ore:3>, <terrafirmacraft:item.Ore:38>, 8000, <terrafirmacraft:item.Ore:52>, 0.667);
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Ore:4>, <terrafirmacraft:item.Ore:39>, 8000, <terrafirmacraft:item.Ore:53>, 0.667);
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Ore:5>, <terrafirmacraft:item.Ore:40>, 8000, <terrafirmacraft:item.Ore:54>, 0.667);
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Ore:6>, <terrafirmacraft:item.Ore:41>, 8000, <terrafirmacraft:item.Ore:55>, 0.667);
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Ore:7>, <terrafirmacraft:item.Ore:42>, 8000, <terrafirmacraft:item.Ore:56>, 0.667);
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Ore:8>, <terrafirmacraft:item.Ore:43>, 8000, <terrafirmacraft:item.Ore:57>, 0.667);
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Ore:9>, <terrafirmacraft:item.Ore:44>, 8000, <terrafirmacraft:item.Ore:58>, 0.667);
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Ore:10>, <terrafirmacraft:item.Ore:45>, 8000, <terrafirmacraft:item.Ore:59>, 0.667);
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Ore:11>, <terrafirmacraft:item.Ore:46>, 8000, <terrafirmacraft:item.Ore:60>, 0.667);
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Ore:12>, <terrafirmacraft:item.Ore:47>, 8000, <terrafirmacraft:item.Ore:61>, 0.667);
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Ore:13>, <terrafirmacraft:item.Ore:48>, 8000, <terrafirmacraft:item.Ore:62>, 0.667);
 mods.immersiveengineering.Crusher.addRecipe(<Mekanism:OtherDust>, <ore:gemDiamond>, 8000, <terrafirmacraft:item.Powder:2>, 1.0);
 mods.immersiveengineering.Crusher.addRecipe(<minecraft:redstone> * 32, <ore:oreRedstone>, 6000, null, 0.5);
+mods.immersiveengineering.Crusher.removeRecipe(<terrafirmacraft:item.Powder:2>);
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Powder:6> * 16, <ore:oreLapis>, 6000, null, 0.5);
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Powder:1> * 8, <terrafirmacraft:item.Ore:16>, 6000, null, 0.5);
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Powder:2> * 8, <terrafirmacraft:item.Ore:20>, 6000, null, 0.5);
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Powder:5> * 16, <terrafirmacraft:item.Ore:3>, 6000, null, 0.5);
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Powder:7> * 16, <terrafirmacraft:item.Ore:11>, 6000, null, 0.5);
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Powder:8> * 16, <terrafirmacraft:item.Ore:9>, 6000, null, 0.5);
 
 //Arc Furnace-RA
 //OutputStack, InputStack, SlagOutput, Time in Ticks, Energy per Tick, AdditiveArray
 //mods.immersiveengineering.ArcFurnace.addRecipe(<>, <>, <>, 934,  128, [<>]);
-mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Wrought Iron Ingot>, <ore:oreNormalIron>, <ImmersiveEngineering:material:13>, 934,  12, [<ore:oreNormalIron>, <ore:oreNormalIron>, <ore:oreNormalIron>]);
-mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Copper Ingot>, <ore:oreNormalCopper>, <ImmersiveEngineering:material:13>, 934,  12, [<ore:oreNormalCopper>, <ore:oreNormalCopper>, <ore:oreNormalCopper>]);
-mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Steel Ingot>, <minecraft:iron_ingot>, <ImmersiveEngineering:material:13>, 934,  12, [<ore:dustCoke>]);
-mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Steel Ingot>, <ore:dustIron>, <ImmersiveEngineering:material:13>, 934,  12, [<ore:dustCoke>]);
-mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Gold Ingot>, <ore:oreNormalGold>, <ImmersiveEngineering:material:13>, 934,  12, [<ore:oreNormalGold>, <ore:oreNormalGold>, <ore:oreNormalGold>]);
-mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Platinum Ingot>, <ore:oreNormalPlatinum>, <ImmersiveEngineering:material:13>, 934,  12, [<ore:oreNormalPlatinum>, <ore:oreNormalPlatinum>, <ore:oreNormalPlatinum>]);
-mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Silver Ingot>, <ore:oreNormalSilver>, <ImmersiveEngineering:material:13>, 934,  12, [<ore:oreNormalSilver>, <ore:oreNormalSilver>, <ore:oreNormalSilver>]);
-mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Steel Ingot>, <ore:oreNormalIron>, <ImmersiveEngineering:material:13>, 934,  12, [<ore:dustCoke>, <ore:oreNormalIron>, <ore:oreNormalIron>, <ore:oreNormalIron>]);
+
+//Non-Alloys
+mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Wrought Iron Ingot>, <ore:oreNormalIron>, <ImmersiveEngineering:material:13>, 900,  12, [<ore:oreNormalIron>, <ore:oreNormalIron>, <ore:oreNormalIron>]);
+mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Copper Ingot>, <ore:oreNormalCopper>, <ImmersiveEngineering:material:13>, 900,  12, [<ore:oreNormalCopper>, <ore:oreNormalCopper>, <ore:oreNormalCopper>]);
+mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Steel Ingot>, <minecraft:iron_ingot>, <ImmersiveEngineering:material:13>, 900,  12, [<ore:dustCoke>]);
+mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Steel Ingot>, <ore:dustIron>, <ImmersiveEngineering:material:13>, 900,  12, [<ore:dustCoke>]);
+mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Gold Ingot>, <ore:oreNormalGold>, <ImmersiveEngineering:material:13>, 900,  12, [<ore:oreNormalGold>, <ore:oreNormalGold>, <ore:oreNormalGold>]);
+mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Platinum Ingot>, <ore:oreNormalPlatinum>, <ImmersiveEngineering:material:13>, 900,  12, [<ore:oreNormalPlatinum>, <ore:oreNormalPlatinum>, <ore:oreNormalPlatinum>]);
+mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Silver Ingot>, <ore:oreNormalSilver>, <ImmersiveEngineering:material:13>, 900,  12, [<ore:oreNormalSilver>, <ore:oreNormalSilver>, <ore:oreNormalSilver>]);
+mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Steel Ingot>, <ore:oreNormalIron>, <ImmersiveEngineering:material:13>, 900,  12, [<ore:dustCoke>, <ore:oreNormalIron>, <ore:oreNormalIron>, <ore:oreNormalIron>]);
+mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Tin Ingot>, <terrafirmacraft:item.Ore:5>, <ImmersiveEngineering:material:13>, 900,  12, [<terrafirmacraft:item.Ore:5>, <terrafirmacraft:item.Ore:5>, <terrafirmacraft:item.Ore:5>]);
+mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Lead Ingot>, <terrafirmacraft:item.Ore:6>, <ImmersiveEngineering:material:13>, 900,  12, [<terrafirmacraft:item.Ore:6>, <terrafirmacraft:item.Ore:6>, <terrafirmacraft:item.Ore:6>]);
+mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Bismuth Ingot>, <terrafirmacraft:item.Ore:7>, <ImmersiveEngineering:material:13>, 900,  12, [<terrafirmacraft:item.Ore:7>, <terrafirmacraft:item.Ore:7>, <terrafirmacraft:item.Ore:7>]);
+mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Nickel Ingot>, <terrafirmacraft:item.Ore:8>, <ImmersiveEngineering:material:13>, 900,  12, [<terrafirmacraft:item.Ore:8>, <terrafirmacraft:item.Ore:8>, <terrafirmacraft:item.Ore:8>]);
+mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Zinc Ingot>, <terrafirmacraft:item.Ore:12>, <ImmersiveEngineering:material:13>, 900,  12, [<terrafirmacraft:item.Ore:12>, <terrafirmacraft:item.Ore:12>, <terrafirmacraft:item.Ore:12>]);
+mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Wrought Iron Ingot>, <ore:oreRichIron>, <ImmersiveEngineering:material:13>, 900,  12, [<ore:oreRichIron>, <ore:oreRichIron>]);
+mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Copper Ingot>, <ore:oreRichCopper>, <ImmersiveEngineering:material:13>, 900,  12, [<ore:oreRichCopper>, <ore:oreRichCopper>]);
+mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Gold Ingot>, <ore:oreRichGold>, <ImmersiveEngineering:material:13>, 900,  12, [<ore:oreRichGold>, <ore:oreRichGold>]);
+mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Platinum Ingot>, <ore:oreRichPlatinum>, <ImmersiveEngineering:material:13>, 900,  12, [<ore:oreRichPlatinum>, <ore:oreRichPlatinum>]);
+mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Silver Ingot>, <ore:oreRichSilver>, <ImmersiveEngineering:material:13>, 900,  12, [<ore:oreRichSilver>, <ore:oreRichSilver>]);
+mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Tin Ingot>, <terrafirmacraft:item.Ore:40>, <ImmersiveEngineering:material:13>, 900,  12, [<terrafirmacraft:item.Ore:40>, <terrafirmacraft:item.Ore:40>]);
+mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Lead Ingot>, <terrafirmacraft:item.Ore:41>, <ImmersiveEngineering:material:13>, 900,  12, [<terrafirmacraft:item.Ore:41>, <terrafirmacraft:item.Ore:41>]);
+mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Bismuth Ingot>, <terrafirmacraft:item.Ore:42>, <ImmersiveEngineering:material:13>, 900,  12, [<terrafirmacraft:item.Ore:42>, <terrafirmacraft:item.Ore:42>]);
+mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Nickel Ingot>, <terrafirmacraft:item.Ore:43>, <ImmersiveEngineering:material:13>, 900,  12, [<terrafirmacraft:item.Ore:43>, <terrafirmacraft:item.Ore:43>]);
+mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Zinc Ingot>, <terrafirmacraft:item.Ore:47>, <ImmersiveEngineering:material:13>, 900,  12, [<terrafirmacraft:item.Ore:47>, <terrafirmacraft:item.Ore:47>]);
+
+//Alloys
+mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Bismuth Bronze Ingot> * 4, <ore:ingotBismuth>, null, 900,  48, [<ore:ingotCopper>, <ore:ingotZinc>,<ore:ingotCopper>]);
+mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Black Bronze Ingot> * 4, <ore:ingotCopper>, null, 900,  48, [<ore:ingotCopper>, <ore:ingotGold>,<ore:ingotSilver>]);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<terrafirmacraft:item.Brass Ingot>);
+mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Brass Ingot> * 5, <ore:ingotZinc>, null, 900,  60, [<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>]);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<IC2:item.itemIngotBronze>);
+mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Bronze Ingot> * 5, <ore:ingotTin>, null, 900,  60, [<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>]);
+mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Rose Gold Ingot> * 4, <ore:ingotGold>, null, 900,  48, [<ore:ingotCopper>, <ore:ingotGold>,<ore:ingotGold>]);
+mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Sterling Silver Ingot> * 5, <ore:ingotSilver>, null, 900,  60, [<ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotCopper>, <ore:ingotCopper>]);
+mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Black Steel Ingot> * 5, <ore:ingotSteel>, null, 900,  60, [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotNickel>, <ore:ingotBlackBronze>]);
+mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Blue Steel Ingot> * 5, <ore:ingotSteel>, null, 900,  60, [<ore:ingotBlackSteel>, <ore:ingotBismuthBronze>, <ore:ingotSterlingSilver>, <ore:ingotBlackSteel>]);
+mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Red Steel Ingot> * 5, <ore:ingotSteel>, null, 900,  60, [<ore:ingotBlackSteel>, <ore:ingotRoseGold>, <ore:ingotBrass>, <ore:ingotBlackSteel>]);
+
 mods.immersiveengineering.ArcFurnace.addRecipe(<chisel:glass:7>, <ore:blockSand>, null, 400,  5, []);
 
 //Fermenter-RA

@@ -46,6 +46,9 @@ key_schematica.key.printerToggle:0:NONE
 key_schematica.key.moveHere:0:NONE
 key_key.pickItem:-98:SHIFT
 key_key.stellarapi.focusgui.description:22:NONE
+key_bbw.key.mode:50:NONE
+key_bbw.key.fluidmode:33:NONE
+key_key.gotosleep:36:NONE
 key_key.jei.toggleOverlay:24:CONTROL
 key_key.jei.focusSearch:0:CONTROL
 key_key.jei.showRecipe:19:NONE

@@ -1,3 +1,0 @@
-#BetterFps Config
-#Sun Oct 04 17:27:50 EDT 2015
-algorithm=libgdx

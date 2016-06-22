@@ -1,0 +1,115 @@
+{
+    "images":
+    {
+        "Menu Background":
+        {
+            "image" : "technofirma:textures/mBackground1.png",
+            "posX" : -250,
+            "posY" : -10,
+            "width" : 500,
+            "height" : 250,
+			"alignment" : "button"
+        },
+		
+		"title":
+        {
+            "image" : "technofirma:textures/TECHNOFIRMA1.png",
+            "posX" : -165,
+            "posY" : 0,
+            "width" : 329,
+            "height" : 54,
+            "alignment" : "top_center"
+        }
+    },
+    
+    "buttons":
+    {
+      
+    },
+    
+    "labels":
+    {
+       "Darkserver":
+        {
+            "text" : "Made with the Help of DarkserverUK!",
+            "posX" : -80,
+            "posY" : 100,
+            "color" : -1,
+            "alignment" : "button"
+        },
+		
+		"Author":
+        {
+            "text" : "Made By: Deximus-Maximus [kev12east]",
+            "posX" : -80,
+            "posY" : 60,
+            "color" : -1,
+            "alignment" : "button"
+        },
+		
+		"Made with":
+        {
+            "text" : "With the aid of: lashtear, Beavelguy, ",
+            "posX" : -80,
+            "posY" : 70,
+            "color" : -1,
+            "alignment" : "button"
+        },
+		
+		"2 - Made With":
+        {
+            "text" : "BigBear91, resonate01, Spy420, Poring, ",
+            "posX" : -80,
+            "posY" : 80,
+            "color" : -1,
+            "alignment" : "button"
+        },
+		
+		"3 - Made With":
+        {
+            "text" : "landstryder, and others!!",
+            "posX" : -80,
+            "posY" : 90,
+            "color" : -1,
+            "alignment" : "button"
+        },
+		
+		"Music":
+        {
+            "text" : "Music by Adrian Von Ziegler",
+            "posX" : -80,
+            "posY" : 120,
+            "color" : -1,
+            "alignment" : "button",
+			"hoverText" : "Click to View Permissions",
+			"action" : 
+			{
+				"type" : "openLink",
+				"link" : "http://pastebin.com/WCe5awVB"
+			}
+        }
+    },
+    
+	"alignments":
+    {
+        "left":
+        {
+            "factorWidth" : 0,
+            "factorHeight" : 0.2
+        }
+    },
+	
+    "other":
+    {
+        "background":
+        {
+            "image" : "",
+            "slideshow":
+            {
+                "images" : ["technofirma:textures/panorama4.png","technofirma:textures/panorama1.png","technofirma:textures/panorama2.png","technofirma:textures/panorama3.png","technofirma:textures/panorama5.png","technofirma:textures/panorama6.png","technofirma:textures/panorama7.png","technofirma:textures/panorama8.png","technofirma:textures/panorama9.png","technofirma:textures/panorama10.png","technofirma:textures/panorama11.png","technofirma:textures/panorama12.png","technofirma:textures/panorama13.png"],
+                "displayDuration" : 100,
+                "fadeDuration" : 40
+            }
+        }
+    }
+}

@@ -1,0 +1,8775 @@
+var colorpalette={
+  "version": 5.2,
+  "name": "JourneyMap Color Palette",
+  "generated": "Generated using JourneyMap 5.2.3 Unlimited for 1.9.4 on Mon Jun 20 20:54:50 EDT 2016",
+  "description": [
+    "This file can be used to keep map colors consistent when changing resource packs.",
+    "Edit at your own risk. You can view it using the colorpalette.html file.",
+    "To use this palette with a single world, place colorpalette.json in: .minecraft/journeymap/data/*/worldname/",
+    "To use this palette with all worlds, edit and set \"permanent\": true, then place colorpalette.json in: .minecraft/journeymap/",
+    "For more information, go to: http://journeymap.info/Color_Palette"
+  ],
+  "permanent": false,
+  "resourcePacks": "Matmos.Default.zip:zip, PF.Resources.zip:zip",
+  "modNames": "Auto Ore Dictionary Converter:1.9.4-1.0, Better Foliage:2.0.12b, BetterBedrockGen:5.0.0, BetterFonts:1.4.0, BetterMinecraftChat:2.0.5, Block Drops:1.0.1, Blood Magic: Alchemical Wizardry:1.9.4-2.0.1-43, Chameleon:1.9-2.1.4, Chisels \u0026 Bits:10.5, Chunk Animator:1.2, Crafting Tweaks:5.0.6, CreativeCore:1.4.0, Creeper Awareness:2.0.1, Custom Backgrounds:1.0, Custom Main Menu:2.0, Cyclops Core:0.6.3, Default Options:5.0.3, Dynamic Lights Burning Entity Module:1.0.7, Dynamic Lights Creeper Module:1.0.6, Dynamic Lights Entity Light Module:1.0.1, Dynamic Lights EntityItem Module:1.1.0, Dynamic Lights Fiery Arrows Light Module:1.0.1, Dynamic Lights Flood Light:1.0.3, Dynamic Lights Mob Equipment Light Module:1.1.0, Dynamic Lights OtherPlayers Light Module:1.0.9, Dynamic Lights Player Light Module:1.1.3, Dynamic Lights:1.4.2, EXCore:1.5.3, Enchiridion:3.1.4, Extra Bit Manipulation:1.9-2.1.2, Forestry:5.0.12.149, Forge Mod Loader:8.0.99.99, Hardcore Darkness:1.8, HelpFixer:1.3.14, I Can See Everything:1.0.0.0, Integrated Dynamics:0.3.10, Inventory Tweaks:1.61-dev-53-0736dc3, ItemPhysic:1.3.0, JourneyMap:1.9.4-5.2.3, Just Enough Items:3.6.3.212, Just Enough Resources:0.4.6.36, Loading Profiler:1.1, LunatriusCore:1.1.2.35, MCMultiPart:1.2.0, MattDahEpic Core:1.9.4-1.0, MineTweaker 3:3.0.9, Minecraft Coder Pack:9.19, Minecraft Flight Simulator:4.1.0, Minecraft Forge:12.17.0.1968, ModPack Basic Tools:1.0.0, ModPack Utilities:1.0.0, MoreOverlays:1.3, Neat:GRADLE:VERSION-GRADLE:BUILD, NoMoreRecipeConflict:0.4, Nomadic Tents:5.01, OpenComputers (Core):1.6.0.2-beta.3, OpenComputers:1.6.0.2-beta.3, Parachute Mod:1.4.3, Photoptics:0.4.1.1, RebornCore:2.5.3.44, Resource Loader:1.5, Roots:0.1, Schematica:1.7.8.147, Shield Hider:1.0.1, Stellar API:0.4.3.2b, Stellar Sky:0.4.4.1, Storage Drawers:1.9-3.1.7, TechReborn:1.3.2.120, Tomb Many Graves:1.9.4-2.1.1, Waila Harvestability:1.1.7, Waila:1.7.0, What Are We Looking At:2.2.1.188, reborncore-MCMultiPart:2.5.3.44",
+  "blockColors": [
+    {
+      "uid": "bloodmagic:BlockAlchemyArray",
+      "name": "\u0026r\u0026fAlchemy Array",
+      "color": "#fefefe",
+      "alpha": 0.0,
+      "meta": 0
+    },
+    {
+      "uid": "bloodmagic:BlockAlchemyTable",
+      "name": "Alchemy Table",
+      "color": "#ffffff",
+      "alpha": 1.0,
+      "meta": 0,
+      "variants": [
+        {
+          "color": "#707070",
+          "alpha": 0.0,
+          "meta": 0
+        }
+      ]
+    },
+    {
+      "uid": "bloodmagic:BlockAltar",
+      "name": "Blood Altar",
+      "color": "#ffffff",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "bloodmagic:BlockBloodLight",
+      "name": "Blood Light",
+      "color": "#7c007c",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "bloodmagic:BlockBloodRune",
+      "name": "Blank Rune",
+      "color": "#4e4e4d",
+      "alpha": 1.0,
+      "meta": 0,
+      "variants": [
+        {
+          "name": "Speed Rune",
+          "color": "#555a5b",
+          "meta": 1
+        },
+        {
+          "name": "Efficiency Rune",
+          "color": "#584d52",
+          "meta": 2
+        },
+        {
+          "name": "Rune of Sacrifice",
+          "color": "#524847",
+          "meta": 3
+        },
+        {
+          "name": "Rune of Self Sacrifice",
+          "color": "#5f5b43",
+          "meta": 4
+        },
+        {
+          "name": "Displacement Rune",
+          "color": "#4c4e5c",
+          "meta": 5
+        },
+        {
+          "name": "Rune of Capacity",
+          "color": "#5f5346",
+          "meta": 6
+        },
+        {
+          "name": "Rune of Augmented Capacity",
+          "color": "#564241",
+          "meta": 7
+        },
+        {
+          "name": "Rune of the Orb",
+          "color": "#485655",
+          "meta": 8
+        },
+        {
+          "name": "Acceleration Rune",
+          "color": "#485d67",
+          "meta": 9
+        },
+        {
+          "name": "Charging Rune",
+          "color": "#4f5852",
+          "meta": 10
+        }
+      ]
+    },
+    {
+      "uid": "bloodmagic:BlockBloodStoneBrick",
+      "name": "Large Bloodstone Brick",
+      "color": "#78241f",
+      "alpha": 1.0,
+      "meta": 0,
+      "variants": [
+        {
+          "name": "Bloodstone Brick",
+          "color": "#76241f",
+          "meta": 1
+        }
+      ]
+    },
+    {
+      "uid": "bloodmagic:BlockBloodTank",
+      "name": "Blood Tank",
+      "color": "#7c007c",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "bloodmagic:BlockCrystal",
+      "name": "Crystal Cluster",
+      "color": "#7a4181",
+      "alpha": 1.0,
+      "meta": 0,
+      "variants": [
+        {
+          "name": "Crystal Cluster Brick",
+          "color": "#7a4281",
+          "meta": 1
+        }
+      ]
+    },
+    {
+      "uid": "bloodmagic:BlockDemonCrucible",
+      "name": "Demon Crucible",
+      "color": "#ffffff",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "bloodmagic:BlockDemonCrystal",
+      "name": "Steadfast Will Crystal Cluster",
+      "color": "#ffffff",
+      "alpha": 1.0,
+      "meta": 4
+    },
+    {
+      "uid": "bloodmagic:BlockDemonCrystallizer",
+      "name": "Demon Crystallizer",
+      "color": "#ffffff",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "bloodmagic:BlockDemonPylon",
+      "name": "Demon Pylon",
+      "color": "#ffffff",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "bloodmagic:BlockDimensionalPortal",
+      "name": "Dimensional Portal",
+      "color": "#7c007c",
+      "alpha": 1.0,
+      "meta": 2,
+      "variants": [
+        {
+          "color": "#710201",
+          "meta": 1
+        }
+      ]
+    },
+    {
+      "uid": "bloodmagic:BlockIncenseAltar",
+      "name": "Incense Altar",
+      "color": "#ffffff",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "bloodmagic:BlockInputRoutingNode",
+      "name": "Input Routing Node",
+      "color": "#ffffff",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "bloodmagic:BlockItemRoutingNode",
+      "name": "Routing Node",
+      "color": "#ffffff",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "bloodmagic:BlockLifeEssence",
+      "name": "Life Essence",
+      "color": "#6e0204",
+      "alpha": 0.3,
+      "meta": 15
+    },
+    {
+      "uid": "bloodmagic:BlockMasterRoutingNode",
+      "name": "Master Routing Node",
+      "color": "#ffffff",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "bloodmagic:BlockOutputRoutingNode",
+      "name": "Output Routing Node",
+      "color": "#ffffff",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "bloodmagic:BlockPath",
+      "name": "Tiled Stone Path",
+      "color": "#676361",
+      "alpha": 1.0,
+      "meta": 3,
+      "variants": [
+        {
+          "name": "Wooden Path",
+          "color": "#36251e",
+          "meta": 0
+        },
+        {
+          "name": "Tiled Wooden Path",
+          "color": "#37261e",
+          "meta": 1
+        },
+        {
+          "name": "Stone Brick Path",
+          "color": "#5f5a58",
+          "meta": 2
+        },
+        {
+          "name": "Worn Stone Brick Path",
+          "color": "#5c5553",
+          "meta": 4
+        },
+        {
+          "name": "Tiled Worn Stone Path",
+          "color": "#625b59",
+          "meta": 5
+        },
+        {
+          "name": "Tiled Obsidian Path",
+          "color": "#1b141d",
+          "meta": 7
+        }
+      ]
+    },
+    {
+      "uid": "bloodmagic:BlockPedestal",
+      "name": "Pedestal",
+      "color": "#7c007c",
+      "alpha": 1.0,
+      "meta": 1
+    },
+    {
+      "uid": "bloodmagic:BlockPhantom",
+      "name": "Phantom Block",
+      "color": "#666665",
+      "alpha": 0.4509804,
+      "meta": 0
+    },
+    {
+      "uid": "bloodmagic:BlockRitualController",
+      "name": "Master Ritual Stone",
+      "color": "#454544",
+      "alpha": 1.0,
+      "meta": 0,
+      "variants": [
+        {
+          "name": "Imperfect Ritual Stone",
+          "color": "#484447",
+          "meta": 1
+        }
+      ]
+    },
+    {
+      "uid": "bloodmagic:BlockRitualStone",
+      "name": "Ritual Stone",
+      "color": "#474747",
+      "alpha": 1.0,
+      "meta": 0,
+      "variants": [
+        {
+          "name": "Ritual Stone of Water",
+          "color": "#4a5053",
+          "meta": 1
+        },
+        {
+          "name": "Ritual Stone of Fire",
+          "color": "#574b48",
+          "meta": 2
+        },
+        {
+          "name": "Ritual Stone of Earth",
+          "color": "#51564d",
+          "meta": 3
+        },
+        {
+          "name": "Ritual Stone of Air",
+          "color": "#5b5b53",
+          "meta": 4
+        },
+        {
+          "name": "Ritual Stone of Dusk",
+          "color": "#535354",
+          "meta": 5
+        },
+        {
+          "name": "Ritual Stone of Dawn",
+          "color": "#58504b",
+          "meta": 6
+        }
+      ]
+    },
+    {
+      "uid": "bloodmagic:BlockSoulForge",
+      "name": "Hellfire Forge",
+      "color": "#ffffff",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "bloodmagic:BlockSpectral",
+      "name": "Spectral",
+      "color": "#202020",
+      "alpha": 0.0,
+      "meta": 0
+    },
+    {
+      "uid": "bloodmagic:BlockTeleposer",
+      "name": "Teleposer",
+      "color": "#625d43",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "chiselsandbits:bittank",
+      "name": "Chiseled Fluid Bit Tank",
+      "color": "#665131",
+      "alpha": 1.0,
+      "meta": 3
+    },
+    {
+      "uid": "chiselsandbits:chiseled_clay",
+      "name": "Chiseled Clay",
+      "color": "#7d7d7d",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "chiselsandbits:chiseled_cloth",
+      "name": "Chiseled Cloth",
+      "color": "#7d7d7d",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "chiselsandbits:chiseled_fluid",
+      "name": "Chiseled Fluid",
+      "color": "#7d7d7d",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "chiselsandbits:chiseled_glass",
+      "name": "Chiseled Glass",
+      "color": "#7d7d7d",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "chiselsandbits:chiseled_grass",
+      "name": "Chiseled Grass",
+      "color": "#7d7d7d",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "chiselsandbits:chiseled_ground",
+      "name": "Chiseled Ground",
+      "color": "#7d7d7d",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "chiselsandbits:chiseled_ice",
+      "name": "Chiseled Ice",
+      "color": "#7d7d7d",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "chiselsandbits:chiseled_iron",
+      "name": "Chiseled Metal",
+      "color": "#7d7d7d",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "chiselsandbits:chiseled_leaves",
+      "name": "Chiseled Leaves",
+      "color": "#7d7d7d",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "chiselsandbits:chiseled_packedIce",
+      "name": "Chiseled Packed Ice",
+      "color": "#7d7d7d",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "chiselsandbits:chiseled_rock",
+      "name": "Chiseled Rock",
+      "color": "#7d7d7d",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "chiselsandbits:chiseled_sand",
+      "name": "Chiseled Sand",
+      "color": "#7d7d7d",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "chiselsandbits:chiseled_snow",
+      "name": "Chiseled Snow",
+      "color": "#7d7d7d",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "chiselsandbits:chiseled_wood",
+      "name": "Chiseled Wood",
+      "color": "#7d7d7d",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "forestry:alveary.fan",
+      "name": "Alveary Fan",
+      "color": "#503b1a",
+      "alpha": 1.0,
+      "meta": 0,
+      "variants": [
+        {
+          "color": "#523d20",
+          "meta": 0
+        }
+      ]
+    },
+    {
+      "uid": "forestry:alveary.heater",
+      "name": "Alveary Heater",
+      "color": "#543e1a",
+      "alpha": 1.0,
+      "meta": 0,
+      "variants": [
+        {
+          "color": "#614017",
+          "meta": 0
+        }
+      ]
+    },
+    {
+      "uid": "forestry:alveary.hygro",
+      "name": "Alveary Hygroregulator",
+      "color": "#563f1b",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "forestry:alveary.plain",
+      "name": "Alveary",
+      "color": "#825d24",
+      "alpha": 1.0,
+      "meta": 0,
+      "variants": [
+        {
+          "color": "#8f6729",
+          "meta": 0
+        },
+        {
+          "color": "#9f722d",
+          "meta": 0
+        }
+      ]
+    },
+    {
+      "uid": "forestry:alveary.sieve",
+      "name": "Alveary Sieve",
+      "color": "#7a5928",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "forestry:alveary.stabiliser",
+      "name": "Alveary Stabiliser",
+      "color": "#735121",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "forestry:alveary.swarmer",
+      "name": "Alveary Swarmer",
+      "color": "#916728",
+      "alpha": 1.0,
+      "meta": 0,
+      "variants": [
+        {
+          "color": "#956a2a",
+          "meta": 0
+        }
+      ]
+    },
+    {
+      "uid": "forestry:analyzer",
+      "name": "Analyzer",
+      "color": "#7c007c",
+      "alpha": 0.0,
+      "meta": 5
+    },
+    {
+      "uid": "forestry:apiary",
+      "name": "Apiary",
+      "color": "#7c007c",
+      "alpha": 1.0,
+      "meta": 1,
+      "variants": [
+        {
+          "color": "#8c662c",
+          "meta": 5
+        }
+      ]
+    },
+    {
+      "uid": "forestry:bee_chest",
+      "name": "Apiarist\u0027s Chest",
+      "color": "#7c007c",
+      "alpha": 0.0,
+      "meta": 5
+    },
+    {
+      "uid": "forestry:bee_house",
+      "name": "Bee House",
+      "color": "#7c007c",
+      "alpha": 1.0,
+      "meta": 1,
+      "variants": [
+        {
+          "color": "#957537",
+          "meta": 5
+        }
+      ]
+    },
+    {
+      "uid": "forestry:beehives",
+      "name": "Modest Hive",
+      "color": "#a78a07",
+      "alpha": 1.0,
+      "meta": 2,
+      "variants": [
+        {
+          "name": "Forest Hive",
+          "color": "#b0b197",
+          "meta": 0
+        },
+        {
+          "name": "Meadows Hive",
+          "color": "#6e280c",
+          "meta": 1
+        },
+        {
+          "name": "Tropical Hive",
+          "color": "#534716",
+          "meta": 3
+        },
+        {
+          "name": "Ender Hive",
+          "color": "#18081c",
+          "meta": 4
+        },
+        {
+          "name": "Wintry Hive",
+          "color": "#d3f7f7",
+          "meta": 5
+        },
+        {
+          "name": "Marshy Hive",
+          "color": "#384716",
+          "meta": 6
+        },
+        {
+          "name": "Swarm Hive",
+          "color": "#342008",
+          "meta": 7
+        }
+      ]
+    },
+    {
+      "uid": "forestry:bogEarth",
+      "name": "Peat",
+      "color": "#0b0603",
+      "alpha": 1.0,
+      "meta": 3,
+      "variants": [
+        {
+          "name": "Bog Earth",
+          "color": "#221b17",
+          "meta": 2
+        }
+      ]
+    },
+    {
+      "uid": "forestry:bottler",
+      "name": "Bottler",
+      "color": "#7c007c",
+      "alpha": 0.0,
+      "meta": 5
+    },
+    {
+      "uid": "forestry:butterfly_chest",
+      "name": "Lepidopterist\u0027s Chest",
+      "color": "#7c007c",
+      "alpha": 0.0,
+      "meta": 5
+    },
+    {
+      "uid": "forestry:carpenter",
+      "name": "Carpenter",
+      "color": "#7c007c",
+      "alpha": 0.0,
+      "meta": 5
+    },
+    {
+      "uid": "forestry:centrifuge",
+      "name": "Centrifuge",
+      "color": "#7c007c",
+      "alpha": 0.0,
+      "meta": 5
+    },
+    {
+      "uid": "forestry:cocoon",
+      "name": "Cocoon",
+      "color": "#7c007c",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "forestry:cocoon.solid",
+      "name": "SolidCocoon",
+      "color": "#7c007c",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "forestry:doors.acacia",
+      "name": "ArbDoor",
+      "color": "#82986d",
+      "alpha": 1.0,
+      "meta": 7,
+      "variants": [
+        {
+          "color": "#889d75",
+          "meta": 11
+        }
+      ]
+    },
+    {
+      "uid": "forestry:doors.balsa",
+      "name": "ArbDoor",
+      "color": "#978f87",
+      "alpha": 1.0,
+      "meta": 11,
+      "variants": [
+        {
+          "color": "#958d84",
+          "meta": 7
+        }
+      ]
+    },
+    {
+      "uid": "forestry:doors.baobab",
+      "name": "ArbDoor",
+      "color": "#686f48",
+      "alpha": 1.0,
+      "meta": 7,
+      "variants": [
+        {
+          "color": "#6f764d",
+          "meta": 11
+        }
+      ]
+    },
+    {
+      "uid": "forestry:doors.cherry",
+      "name": "ArbDoor",
+      "color": "#a0752e",
+      "alpha": 1.0,
+      "meta": 7,
+      "variants": [
+        {
+          "color": "#a1752e",
+          "meta": 11
+        }
+      ]
+    },
+    {
+      "uid": "forestry:doors.chestnut",
+      "name": "ArbDoor",
+      "color": "#938948",
+      "alpha": 1.0,
+      "meta": 7,
+      "variants": [
+        {
+          "color": "#93894e",
+          "meta": 11
+        }
+      ]
+    },
+    {
+      "uid": "forestry:doors.citrus",
+      "name": "ArbDoor",
+      "color": "#858f1e",
+      "alpha": 1.0,
+      "meta": 7,
+      "variants": [
+        {
+          "color": "#808a1b",
+          "meta": 11
+        }
+      ]
+    },
+    {
+      "uid": "forestry:doors.cocobolo",
+      "name": "ArbDoor",
+      "color": "#430a01",
+      "alpha": 1.0,
+      "meta": 7,
+      "variants": [
+        {
+          "color": "#330701",
+          "meta": 11
+        }
+      ]
+    },
+    {
+      "uid": "forestry:doors.ebony",
+      "name": "ArbDoor",
+      "color": "#655526",
+      "alpha": 1.0,
+      "meta": 7,
+      "variants": [
+        {
+          "color": "#6a5a25",
+          "meta": 11
+        }
+      ]
+    },
+    {
+      "uid": "forestry:doors.giganteum",
+      "name": "ArbDoor",
+      "color": "#504038",
+      "alpha": 1.0,
+      "meta": 7,
+      "variants": [
+        {
+          "color": "#4e4539",
+          "meta": 11
+        }
+      ]
+    },
+    {
+      "uid": "forestry:doors.greenheart",
+      "name": "ArbDoor",
+      "color": "#3b5e45",
+      "alpha": 1.0,
+      "meta": 7,
+      "variants": [
+        {
+          "color": "#3a5f45",
+          "meta": 11
+        }
+      ]
+    },
+    {
+      "uid": "forestry:doors.ipe",
+      "name": "ArbDoor",
+      "color": "#50301c",
+      "alpha": 1.0,
+      "meta": 7,
+      "variants": [
+        {
+          "color": "#543520",
+          "meta": 11
+        }
+      ]
+    },
+    {
+      "uid": "forestry:doors.kapok",
+      "name": "ArbDoor",
+      "color": "#605a2c",
+      "alpha": 1.0,
+      "meta": 11,
+      "variants": [
+        {
+          "color": "#5f5a2f",
+          "meta": 7
+        }
+      ]
+    },
+    {
+      "uid": "forestry:doors.larch",
+      "name": "ArbDoor",
+      "color": "#b98777",
+      "alpha": 1.0,
+      "meta": 7,
+      "variants": [
+        {
+          "color": "#bd9080",
+          "meta": 11
+        }
+      ]
+    },
+    {
+      "uid": "forestry:doors.lime",
+      "name": "ArbDoor",
+      "color": "#b89368",
+      "alpha": 1.0,
+      "meta": 11,
+      "variants": [
+        {
+          "color": "#b89469",
+          "meta": 7
+        }
+      ]
+    },
+    {
+      "uid": "forestry:doors.mahoe",
+      "name": "ArbDoor",
+      "color": "#60798b",
+      "alpha": 1.0,
+      "meta": 7,
+      "variants": [
+        {
+          "color": "#678194",
+          "meta": 11
+        }
+      ]
+    },
+    {
+      "uid": "forestry:doors.mahogany",
+      "name": "ArbDoor",
+      "color": "#5b3530",
+      "alpha": 1.0,
+      "meta": 7,
+      "variants": [
+        {
+          "color": "#62403c",
+          "meta": 11
+        }
+      ]
+    },
+    {
+      "uid": "forestry:doors.maple",
+      "name": "ArbDoor",
+      "color": "#865420",
+      "alpha": 1.0,
+      "meta": 11,
+      "variants": [
+        {
+          "color": "#945d23",
+          "meta": 7
+        }
+      ]
+    },
+    {
+      "uid": "forestry:doors.padauk",
+      "name": "ArbDoor",
+      "color": "#904e28",
+      "alpha": 1.0,
+      "meta": 11
+    },
+    {
+      "uid": "forestry:doors.palm",
+      "name": "ArbDoor",
+      "color": "#b77134",
+      "alpha": 1.0,
+      "meta": 7,
+      "variants": [
+        {
+          "color": "#be7d39",
+          "meta": 11
+        }
+      ]
+    },
+    {
+      "uid": "forestry:doors.papaya",
+      "name": "ArbDoor",
+      "color": "#d3c475",
+      "alpha": 1.0,
+      "meta": 11,
+      "variants": [
+        {
+          "color": "#d7c670",
+          "meta": 7
+        }
+      ]
+    },
+    {
+      "uid": "forestry:doors.pine",
+      "name": "ArbDoor",
+      "color": "#9d7b37",
+      "alpha": 1.0,
+      "meta": 11,
+      "variants": [
+        {
+          "color": "#a6823b",
+          "meta": 7
+        }
+      ]
+    },
+    {
+      "uid": "forestry:doors.plum",
+      "name": "ArbDoor",
+      "color": "#9f5a71",
+      "alpha": 1.0,
+      "meta": 7,
+      "variants": [
+        {
+          "color": "#a15c73",
+          "meta": 11
+        }
+      ]
+    },
+    {
+      "uid": "forestry:doors.poplar",
+      "name": "ArbDoor",
+      "color": "#b4b356",
+      "alpha": 1.0,
+      "meta": 7,
+      "variants": [
+        {
+          "color": "#b9b85b",
+          "meta": 11
+        }
+      ]
+    },
+    {
+      "uid": "forestry:doors.sequoia",
+      "name": "ArbDoor",
+      "color": "#7b564e",
+      "alpha": 1.0,
+      "meta": 7,
+      "variants": [
+        {
+          "color": "#79534e",
+          "meta": 11
+        }
+      ]
+    },
+    {
+      "uid": "forestry:doors.teak",
+      "name": "ArbDoor",
+      "color": "#6d6858",
+      "alpha": 1.0,
+      "meta": 11,
+      "variants": [
+        {
+          "color": "#6e6857",
+          "meta": 7
+        }
+      ]
+    },
+    {
+      "uid": "forestry:doors.walnut",
+      "name": "ArbDoor",
+      "color": "#514032",
+      "alpha": 1.0,
+      "meta": 7,
+      "variants": [
+        {
+          "color": "#4f3f32",
+          "meta": 11
+        }
+      ]
+    },
+    {
+      "uid": "forestry:doors.wenge",
+      "name": "ArbDoor",
+      "color": "#474137",
+      "alpha": 1.0,
+      "meta": 7,
+      "variants": [
+        {
+          "color": "#443f35",
+          "meta": 11
+        }
+      ]
+    },
+    {
+      "uid": "forestry:doors.willow",
+      "name": "ArbDoor",
+      "color": "#818246",
+      "alpha": 1.0,
+      "meta": 7,
+      "variants": [
+        {
+          "color": "#838448",
+          "meta": 11
+        }
+      ]
+    },
+    {
+      "uid": "forestry:doors.zebrawood",
+      "name": "ArbDoor",
+      "color": "#8d7046",
+      "alpha": 1.0,
+      "meta": 7,
+      "variants": [
+        {
+          "color": "#957549",
+          "meta": 11
+        }
+      ]
+    },
+    {
+      "uid": "forestry:engine_biogas",
+      "name": "Biogas Engine",
+      "color": "#7c007c",
+      "alpha": 0.0,
+      "meta": 5
+    },
+    {
+      "uid": "forestry:engine_clockwork",
+      "name": "Clockwork Engine",
+      "color": "#7c007c",
+      "alpha": 0.0,
+      "meta": 5
+    },
+    {
+      "uid": "forestry:engine_peat",
+      "name": "Peat-fired Engine",
+      "color": "#7c007c",
+      "alpha": 0.0,
+      "meta": 5
+    },
+    {
+      "uid": "forestry:escritoire",
+      "name": "Escritoire",
+      "color": "#7c007c",
+      "alpha": 0.0,
+      "meta": 5
+    },
+    {
+      "uid": "forestry:fabricator",
+      "name": "Thermionic Fabricator",
+      "color": "#7c007c",
+      "alpha": 1.0,
+      "meta": 1,
+      "variants": [
+        {
+          "color": "#797a77",
+          "meta": 5
+        }
+      ]
+    },
+    {
+      "uid": "forestry:fence.gates.acacia",
+      "name": "ForestryFenceGate",
+      "color": "#87a078",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.balsa",
+      "name": "ForestryFenceGate",
+      "color": "#9f988f",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.baobab",
+      "name": "ForestryFenceGate",
+      "color": "#767e52",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.cherry",
+      "name": "ForestryFenceGate",
+      "color": "#9f722d",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.chestnut",
+      "name": "ForestryFenceGate",
+      "color": "#9b8e4b",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.citrus",
+      "name": "ForestryFenceGate",
+      "color": "#8b951a",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.cocobolo",
+      "name": "ForestryFenceGate",
+      "color": "#580c01",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.ebony",
+      "name": "ForestryFenceGate",
+      "color": "#312d28",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.fireproof.acacia",
+      "name": "ForestryFenceGate",
+      "color": "#87a078",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.fireproof.balsa",
+      "name": "ForestryFenceGate",
+      "color": "#9f988f",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.fireproof.baobab",
+      "name": "ForestryFenceGate",
+      "color": "#767e52",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.fireproof.cherry",
+      "name": "ForestryFenceGate",
+      "color": "#9f722d",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.fireproof.chestnut",
+      "name": "ForestryFenceGate",
+      "color": "#9b8e4b",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.fireproof.citrus",
+      "name": "ForestryFenceGate",
+      "color": "#8b951a",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.fireproof.cocobolo",
+      "name": "ForestryFenceGate",
+      "color": "#580c01",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.fireproof.ebony",
+      "name": "ForestryFenceGate",
+      "color": "#312d28",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.fireproof.giganteum",
+      "name": "ForestryFenceGate",
+      "color": "#542620",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.fireproof.greenheart",
+      "name": "ForestryFenceGate",
+      "color": "#40664b",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.fireproof.ipe",
+      "name": "ForestryFenceGate",
+      "color": "#522f20",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.fireproof.kapok",
+      "name": "ForestryFenceGate",
+      "color": "#645e2d",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.fireproof.larch",
+      "name": "ForestryFenceGate",
+      "color": "#c38c7b",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.fireproof.lime",
+      "name": "ForestryFenceGate",
+      "color": "#b99163",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.fireproof.mahoe",
+      "name": "ForestryFenceGate",
+      "color": "#6e879a",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.fireproof.mahogany",
+      "name": "ForestryFenceGate",
+      "color": "#603630",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.fireproof.maple",
+      "name": "ForestryFenceGate",
+      "color": "#9a6126",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.fireproof.padauk",
+      "name": "ForestryFenceGate",
+      "color": "#9c552c",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.fireproof.palm",
+      "name": "ForestryFenceGate",
+      "color": "#b9703c",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.fireproof.papaya",
+      "name": "ForestryFenceGate",
+      "color": "#d2be59",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.fireproof.pine",
+      "name": "ForestryFenceGate",
+      "color": "#b48e42",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.fireproof.plum",
+      "name": "ForestryFenceGate",
+      "color": "#9d596f",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.fireproof.poplar",
+      "name": "ForestryFenceGate",
+      "color": "#c2c268",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.fireproof.sequoia",
+      "name": "ForestryFenceGate",
+      "color": "#7b4d49",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.fireproof.teak",
+      "name": "ForestryFenceGate",
+      "color": "#6e695a",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.fireproof.walnut",
+      "name": "ForestryFenceGate",
+      "color": "#544336",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.fireproof.wenge",
+      "name": "ForestryFenceGate",
+      "color": "#4c463d",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.fireproof.willow",
+      "name": "ForestryFenceGate",
+      "color": "#93934c",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.fireproof.zebrawood",
+      "name": "ForestryFenceGate",
+      "color": "#a07d4c",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.giganteum",
+      "name": "ForestryFenceGate",
+      "color": "#542620",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.greenheart",
+      "name": "ForestryFenceGate",
+      "color": "#40664b",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.ipe",
+      "name": "ForestryFenceGate",
+      "color": "#522f20",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.kapok",
+      "name": "ForestryFenceGate",
+      "color": "#645e2d",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.larch",
+      "name": "ForestryFenceGate",
+      "color": "#c38c7b",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.lime",
+      "name": "ForestryFenceGate",
+      "color": "#b99163",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.mahoe",
+      "name": "ForestryFenceGate",
+      "color": "#6e879a",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.mahogany",
+      "name": "ForestryFenceGate",
+      "color": "#603630",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.maple",
+      "name": "ForestryFenceGate",
+      "color": "#9a6126",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.padauk",
+      "name": "ForestryFenceGate",
+      "color": "#9c552c",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.palm",
+      "name": "ForestryFenceGate",
+      "color": "#b9703c",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.papaya",
+      "name": "ForestryFenceGate",
+      "color": "#d2be59",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.pine",
+      "name": "ForestryFenceGate",
+      "color": "#b48e42",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.plum",
+      "name": "ForestryFenceGate",
+      "color": "#9d596f",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.poplar",
+      "name": "ForestryFenceGate",
+      "color": "#c2c268",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.sequoia",
+      "name": "ForestryFenceGate",
+      "color": "#7b4d49",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.teak",
+      "name": "ForestryFenceGate",
+      "color": "#6e695a",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.vanilla.fireproof.acacia",
+      "name": "ForestryFenceGate",
+      "color": "#a95b33",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.vanilla.fireproof.birch",
+      "name": "ForestryFenceGate",
+      "color": "#c3b37b",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.vanilla.fireproof.dark_oak",
+      "name": "ForestryFenceGate",
+      "color": "#3d2712",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.vanilla.fireproof.jungle",
+      "name": "ForestryFenceGate",
+      "color": "#9a6e4d",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.vanilla.fireproof.oak",
+      "name": "ForestryFenceGate",
+      "color": "#9c7f4e",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.vanilla.fireproof.spruce",
+      "name": "ForestryFenceGate",
+      "color": "#674d2e",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.walnut",
+      "name": "ForestryFenceGate",
+      "color": "#544336",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.wenge",
+      "name": "ForestryFenceGate",
+      "color": "#4c463d",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.willow",
+      "name": "ForestryFenceGate",
+      "color": "#93934c",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.zebrawood",
+      "name": "ForestryFenceGate",
+      "color": "#a07d4c",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fences.0",
+      "name": "",
+      "color": "#544336",
+      "alpha": 0.4,
+      "meta": 13,
+      "variants": [
+        {
+          "color": "#c38c7b",
+          "meta": 0
+        },
+        {
+          "color": "#6e695a",
+          "meta": 1
+        },
+        {
+          "color": "#87a078",
+          "meta": 2
+        },
+        {
+          "color": "#b99163",
+          "meta": 3
+        },
+        {
+          "color": "#9b8e4b",
+          "meta": 4
+        },
+        {
+          "color": "#4c463d",
+          "meta": 5
+        },
+        {
+          "color": "#767e52",
+          "meta": 6
+        },
+        {
+          "color": "#7b4d49",
+          "meta": 7
+        },
+        {
+          "color": "#645e2d",
+          "meta": 8
+        },
+        {
+          "color": "#312d28",
+          "meta": 9
+        },
+        {
+          "color": "#603630",
+          "meta": 10
+        },
+        {
+          "color": "#9f988f",
+          "meta": 11
+        },
+        {
+          "color": "#93934c",
+          "meta": 12
+        },
+        {
+          "color": "#40664b",
+          "meta": 14
+        },
+        {
+          "color": "#9f722d",
+          "meta": 15
+        }
+      ]
+    },
+    {
+      "uid": "forestry:fences.1",
+      "name": "",
+      "color": "#b9703c",
+      "alpha": 0.4,
+      "meta": 2,
+      "variants": [
+        {
+          "color": "#6e879a",
+          "meta": 0
+        },
+        {
+          "color": "#c2c268",
+          "meta": 1
+        },
+        {
+          "color": "#d2be59",
+          "meta": 3
+        },
+        {
+          "color": "#b48e42",
+          "meta": 4
+        },
+        {
+          "color": "#9d596f",
+          "meta": 5
+        },
+        {
+          "color": "#9a6126",
+          "meta": 6
+        },
+        {
+          "color": "#8b951a",
+          "meta": 7
+        },
+        {
+          "color": "#542620",
+          "meta": 8
+        },
+        {
+          "color": "#522f20",
+          "meta": 9
+        },
+        {
+          "color": "#9c552c",
+          "meta": 10
+        },
+        {
+          "color": "#580c01",
+          "meta": 11
+        },
+        {
+          "color": "#a07d4c",
+          "meta": 12
+        }
+      ]
+    },
+    {
+      "uid": "forestry:fences.fireproof.0",
+      "name": "",
+      "color": "#544336",
+      "alpha": 0.4,
+      "meta": 13,
+      "variants": [
+        {
+          "color": "#c38c7b",
+          "meta": 0
+        },
+        {
+          "color": "#6e695a",
+          "meta": 1
+        },
+        {
+          "color": "#87a078",
+          "meta": 2
+        },
+        {
+          "color": "#b99163",
+          "meta": 3
+        },
+        {
+          "color": "#9b8e4b",
+          "meta": 4
+        },
+        {
+          "color": "#4c463d",
+          "meta": 5
+        },
+        {
+          "color": "#767e52",
+          "meta": 6
+        },
+        {
+          "color": "#7b4d49",
+          "meta": 7
+        },
+        {
+          "color": "#645e2d",
+          "meta": 8
+        },
+        {
+          "color": "#312d28",
+          "meta": 9
+        },
+        {
+          "color": "#603630",
+          "meta": 10
+        },
+        {
+          "color": "#9f988f",
+          "meta": 11
+        },
+        {
+          "color": "#93934c",
+          "meta": 12
+        },
+        {
+          "color": "#40664b",
+          "meta": 14
+        },
+        {
+          "color": "#9f722d",
+          "meta": 15
+        }
+      ]
+    },
+    {
+      "uid": "forestry:fences.fireproof.1",
+      "name": "",
+      "color": "#b9703c",
+      "alpha": 0.4,
+      "meta": 2,
+      "variants": [
+        {
+          "color": "#6e879a",
+          "meta": 0
+        },
+        {
+          "color": "#c2c268",
+          "meta": 1
+        },
+        {
+          "color": "#d2be59",
+          "meta": 3
+        },
+        {
+          "color": "#b48e42",
+          "meta": 4
+        },
+        {
+          "color": "#9d596f",
+          "meta": 5
+        },
+        {
+          "color": "#9a6126",
+          "meta": 6
+        },
+        {
+          "color": "#8b951a",
+          "meta": 7
+        },
+        {
+          "color": "#542620",
+          "meta": 8
+        },
+        {
+          "color": "#522f20",
+          "meta": 9
+        },
+        {
+          "color": "#9c552c",
+          "meta": 10
+        },
+        {
+          "color": "#580c01",
+          "meta": 11
+        },
+        {
+          "color": "#a07d4c",
+          "meta": 12
+        }
+      ]
+    },
+    {
+      "uid": "forestry:fences.vanilla.fireproof.0",
+      "name": "",
+      "color": "#674d2e",
+      "alpha": 0.4,
+      "meta": 1,
+      "variants": [
+        {
+          "color": "#9c7f4e",
+          "meta": 0
+        },
+        {
+          "color": "#c3b37b",
+          "meta": 2
+        },
+        {
+          "color": "#9a6e4d",
+          "meta": 3
+        },
+        {
+          "color": "#a95b33",
+          "meta": 4
+        },
+        {
+          "color": "#3d2712",
+          "meta": 5
+        }
+      ]
+    },
+    {
+      "uid": "forestry:fermenter",
+      "name": "Fermenter",
+      "color": "#7c007c",
+      "alpha": 0.0,
+      "meta": 5
+    },
+    {
+      "uid": "forestry:fluid.bio.ethanol",
+      "name": "Ethanol",
+      "color": "#ff6e00",
+      "alpha": 0.3,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fluid.biomass",
+      "name": "Biomass",
+      "color": "#638328",
+      "alpha": 0.3,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fluid.for.honey",
+      "name": "Honey",
+      "color": "#ffad1e",
+      "alpha": 0.3,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fluid.glass",
+      "name": "Liquid Glass",
+      "color": "#a3a3a3",
+      "alpha": 0.7019608,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fluid.ice",
+      "name": "Crushed Ice",
+      "color": "#aff2ff",
+      "alpha": 0.3,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fluid.juice",
+      "name": "Fruit Juice",
+      "color": "#a7c971",
+      "alpha": 0.3,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fluid.milk",
+      "name": "Milk",
+      "color": "#ffffff",
+      "alpha": 0.3,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fluid.seed.oil",
+      "name": "Seed Oil",
+      "color": "#ffffa8",
+      "alpha": 0.3,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fluid.short.mead",
+      "name": "Short Mead",
+      "color": "#ef9800",
+      "alpha": 0.3,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:greenhouse.door",
+      "name": "Greenhouse Door",
+      "color": "#667f33",
+      "alpha": 0.48235294,
+      "meta": 11
+    },
+    {
+      "uid": "forestry:greenhouse.sprinkler",
+      "name": "Greenhouse Sprinkler",
+      "color": "#7c007c",
+      "alpha": 1.0,
+      "meta": 0,
+      "variants": [
+        {
+          "color": "#667f33",
+          "alpha": 0.48235294,
+          "meta": 0
+        }
+      ]
+    },
+    {
+      "uid": "forestry:humus",
+      "name": "Humus",
+      "color": "#221002",
+      "alpha": 1.0,
+      "meta": 3
+    },
+    {
+      "uid": "forestry:logs.0",
+      "name": "",
+      "color": "#737252",
+      "alpha": 1.0,
+      "meta": 14,
+      "variants": [
+        {
+          "color": "#614c51",
+          "meta": 12
+        },
+        {
+          "color": "#353229",
+          "meta": 13
+        },
+        {
+          "color": "#716558",
+          "meta": 15
+        }
+      ]
+    },
+    {
+      "uid": "forestry:logs.1",
+      "name": "",
+      "color": "#5e5a3c",
+      "alpha": 1.0,
+      "meta": 12,
+      "variants": [
+        {
+          "color": "#6a5e51",
+          "meta": 13
+        },
+        {
+          "color": "#c8824f",
+          "meta": 14
+        },
+        {
+          "color": "#92400c",
+          "meta": 15
+        }
+      ]
+    },
+    {
+      "uid": "forestry:logs.2",
+      "name": "",
+      "color": "#8f7c6c",
+      "alpha": 1.0,
+      "meta": 14,
+      "variants": [
+        {
+          "color": "#52584f",
+          "meta": 12
+        },
+        {
+          "color": "#9f8051",
+          "meta": 13
+        },
+        {
+          "color": "#827b75",
+          "meta": 15
+        }
+      ]
+    },
+    {
+      "uid": "forestry:logs.3",
+      "name": "",
+      "color": "#601200",
+      "alpha": 1.0,
+      "meta": 15,
+      "variants": [
+        {
+          "color": "#a19a95",
+          "meta": 12
+        },
+        {
+          "color": "#90927a",
+          "meta": 13
+        },
+        {
+          "color": "#796652",
+          "meta": 14
+        }
+      ]
+    },
+    {
+      "uid": "forestry:logs.4",
+      "name": "",
+      "color": "#a47f41",
+      "alpha": 1.0,
+      "meta": 15,
+      "variants": [
+        {
+          "color": "#616248",
+          "meta": 12
+        },
+        {
+          "color": "#8ca687",
+          "meta": 13
+        },
+        {
+          "color": "#886f43",
+          "meta": 14
+        }
+      ]
+    },
+    {
+      "uid": "forestry:logs.5",
+      "name": "",
+      "color": "#5b4b39",
+      "alpha": 1.0,
+      "meta": 15,
+      "variants": [
+        {
+          "color": "#735649",
+          "meta": 12
+        },
+        {
+          "color": "#a77752",
+          "meta": 13
+        },
+        {
+          "color": "#8a8781",
+          "meta": 14
+        }
+      ]
+    },
+    {
+      "uid": "forestry:logs.6",
+      "name": "",
+      "color": "#c29444",
+      "alpha": 1.0,
+      "meta": 14,
+      "variants": [
+        {
+          "color": "#985923",
+          "meta": 12
+        },
+        {
+          "color": "#4b2c1d",
+          "meta": 13
+        },
+        {
+          "color": "#68563d",
+          "meta": 15
+        }
+      ]
+    },
+    {
+      "uid": "forestry:logs.7",
+      "name": "",
+      "color": "#9d816c",
+      "alpha": 1.0,
+      "meta": 12
+    },
+    {
+      "uid": "forestry:logs.fireproof.0",
+      "name": "",
+      "color": "#737252",
+      "alpha": 1.0,
+      "meta": 14,
+      "variants": [
+        {
+          "color": "#614c51",
+          "meta": 12
+        },
+        {
+          "color": "#353229",
+          "meta": 13
+        },
+        {
+          "color": "#716558",
+          "meta": 15
+        }
+      ]
+    },
+    {
+      "uid": "forestry:logs.fireproof.1",
+      "name": "",
+      "color": "#5e5a3c",
+      "alpha": 1.0,
+      "meta": 12,
+      "variants": [
+        {
+          "color": "#6a5e51",
+          "meta": 13
+        },
+        {
+          "color": "#c8824f",
+          "meta": 14
+        },
+        {
+          "color": "#92400c",
+          "meta": 15
+        }
+      ]
+    },
+    {
+      "uid": "forestry:logs.fireproof.2",
+      "name": "",
+      "color": "#8f7c6c",
+      "alpha": 1.0,
+      "meta": 14,
+      "variants": [
+        {
+          "color": "#52584f",
+          "meta": 12
+        },
+        {
+          "color": "#9f8051",
+          "meta": 13
+        },
+        {
+          "color": "#827b75",
+          "meta": 15
+        }
+      ]
+    },
+    {
+      "uid": "forestry:logs.fireproof.3",
+      "name": "",
+      "color": "#601200",
+      "alpha": 1.0,
+      "meta": 15,
+      "variants": [
+        {
+          "color": "#a19a95",
+          "meta": 12
+        },
+        {
+          "color": "#90927a",
+          "meta": 13
+        },
+        {
+          "color": "#796652",
+          "meta": 14
+        }
+      ]
+    },
+    {
+      "uid": "forestry:logs.fireproof.4",
+      "name": "",
+      "color": "#a47f41",
+      "alpha": 1.0,
+      "meta": 15,
+      "variants": [
+        {
+          "color": "#616248",
+          "meta": 12
+        },
+        {
+          "color": "#8ca687",
+          "meta": 13
+        },
+        {
+          "color": "#886f43",
+          "meta": 14
+        }
+      ]
+    },
+    {
+      "uid": "forestry:logs.fireproof.5",
+      "name": "",
+      "color": "#5b4b39",
+      "alpha": 1.0,
+      "meta": 15,
+      "variants": [
+        {
+          "color": "#735649",
+          "meta": 12
+        },
+        {
+          "color": "#a77752",
+          "meta": 13
+        },
+        {
+          "color": "#8a8781",
+          "meta": 14
+        }
+      ]
+    },
+    {
+      "uid": "forestry:logs.fireproof.6",
+      "name": "",
+      "color": "#c29444",
+      "alpha": 1.0,
+      "meta": 14,
+      "variants": [
+        {
+          "color": "#985923",
+          "meta": 12
+        },
+        {
+          "color": "#4b2c1d",
+          "meta": 13
+        },
+        {
+          "color": "#68563d",
+          "meta": 15
+        }
+      ]
+    },
+    {
+      "uid": "forestry:logs.fireproof.7",
+      "name": "",
+      "color": "#9d816c",
+      "alpha": 1.0,
+      "meta": 12
+    },
+    {
+      "uid": "forestry:logs.vanilla.fireproof.0",
+      "name": "",
+      "color": "#2d1c0c",
+      "alpha": 1.0,
+      "meta": 13,
+      "variants": [
+        {
+          "color": "#665131",
+          "meta": 12
+        },
+        {
+          "color": "#cecec9",
+          "meta": 14
+        },
+        {
+          "color": "#57431a",
+          "meta": 15
+        }
+      ]
+    },
+    {
+      "uid": "forestry:logs.vanilla.fireproof.1",
+      "name": "",
+      "color": "#342817",
+      "alpha": 1.0,
+      "meta": 13,
+      "variants": [
+        {
+          "color": "#696359",
+          "meta": 12
+        }
+      ]
+    },
+    {
+      "uid": "forestry:mailbox",
+      "name": "Mailbox",
+      "color": "#7c007c",
+      "alpha": 1.0,
+      "meta": 1,
+      "variants": [
+        {
+          "color": "#445b8f",
+          "meta": 5
+        }
+      ]
+    },
+    {
+      "uid": "forestry:moistener",
+      "name": "Moistener",
+      "color": "#7c007c",
+      "alpha": 0.0,
+      "meta": 5
+    },
+    {
+      "uid": "forestry:mushroom",
+      "name": "Mushroom",
+      "color": "#8a6953",
+      "alpha": 1.0,
+      "meta": 4,
+      "variants": [
+        {
+          "color": "#c33538",
+          "meta": 5
+        }
+      ]
+    },
+    {
+      "uid": "forestry:pile_ash",
+      "name": "",
+      "color": "#6c6c6c",
+      "alpha": 1.0,
+      "meta": 0,
+      "variants": [
+        {
+          "color": "#7c007c",
+          "alpha": 0.0,
+          "meta": 8
+        }
+      ]
+    },
+    {
+      "uid": "forestry:pile_dirt",
+      "name": "",
+      "color": "#7c007c",
+      "alpha": 0.0,
+      "meta": 8,
+      "variants": [
+        {
+          "color": "#61492f",
+          "alpha": 1.0,
+          "meta": 0
+        }
+      ]
+    },
+    {
+      "uid": "forestry:pile_wood",
+      "name": "",
+      "color": "#7c007c",
+      "alpha": 0.0,
+      "meta": 8,
+      "variants": [
+        {
+          "color": "#665131",
+          "alpha": 1.0,
+          "meta": 0
+        }
+      ]
+    },
+    {
+      "uid": "forestry:planks.0",
+      "name": "",
+      "color": "#544336",
+      "alpha": 1.0,
+      "meta": 13,
+      "variants": [
+        {
+          "color": "#c38c7b",
+          "meta": 0
+        },
+        {
+          "color": "#6e695a",
+          "meta": 1
+        },
+        {
+          "color": "#87a078",
+          "meta": 2
+        },
+        {
+          "color": "#b99163",
+          "meta": 3
+        },
+        {
+          "color": "#9b8e4b",
+          "meta": 4
+        },
+        {
+          "color": "#4c463d",
+          "meta": 5
+        },
+        {
+          "color": "#767e52",
+          "meta": 6
+        },
+        {
+          "color": "#7b4d49",
+          "meta": 7
+        },
+        {
+          "color": "#645e2d",
+          "meta": 8
+        },
+        {
+          "color": "#312d28",
+          "meta": 9
+        },
+        {
+          "color": "#603630",
+          "meta": 10
+        },
+        {
+          "color": "#9f988f",
+          "meta": 11
+        },
+        {
+          "color": "#93934c",
+          "meta": 12
+        },
+        {
+          "color": "#40664b",
+          "meta": 14
+        },
+        {
+          "color": "#9f722d",
+          "meta": 15
+        }
+      ]
+    },
+    {
+      "uid": "forestry:planks.1",
+      "name": "",
+      "color": "#b9703c",
+      "alpha": 1.0,
+      "meta": 2,
+      "variants": [
+        {
+          "color": "#6e879a",
+          "meta": 0
+        },
+        {
+          "color": "#c2c268",
+          "meta": 1
+        },
+        {
+          "color": "#d2be59",
+          "meta": 3
+        },
+        {
+          "color": "#b48e42",
+          "meta": 4
+        },
+        {
+          "color": "#9d596f",
+          "meta": 5
+        },
+        {
+          "color": "#9a6126",
+          "meta": 6
+        },
+        {
+          "color": "#8b951a",
+          "meta": 7
+        },
+        {
+          "color": "#542620",
+          "meta": 8
+        },
+        {
+          "color": "#522f20",
+          "meta": 9
+        },
+        {
+          "color": "#9c552c",
+          "meta": 10
+        },
+        {
+          "color": "#580c01",
+          "meta": 11
+        },
+        {
+          "color": "#a07d4c",
+          "meta": 12
+        }
+      ]
+    },
+    {
+      "uid": "forestry:planks.fireproof.0",
+      "name": "",
+      "color": "#544336",
+      "alpha": 1.0,
+      "meta": 13,
+      "variants": [
+        {
+          "color": "#c38c7b",
+          "meta": 0
+        },
+        {
+          "color": "#6e695a",
+          "meta": 1
+        },
+        {
+          "color": "#87a078",
+          "meta": 2
+        },
+        {
+          "color": "#b99163",
+          "meta": 3
+        },
+        {
+          "color": "#9b8e4b",
+          "meta": 4
+        },
+        {
+          "color": "#4c463d",
+          "meta": 5
+        },
+        {
+          "color": "#767e52",
+          "meta": 6
+        },
+        {
+          "color": "#7b4d49",
+          "meta": 7
+        },
+        {
+          "color": "#645e2d",
+          "meta": 8
+        },
+        {
+          "color": "#312d28",
+          "meta": 9
+        },
+        {
+          "color": "#603630",
+          "meta": 10
+        },
+        {
+          "color": "#9f988f",
+          "meta": 11
+        },
+        {
+          "color": "#93934c",
+          "meta": 12
+        },
+        {
+          "color": "#40664b",
+          "meta": 14
+        },
+        {
+          "color": "#9f722d",
+          "meta": 15
+        }
+      ]
+    },
+    {
+      "uid": "forestry:planks.fireproof.1",
+      "name": "",
+      "color": "#b9703c",
+      "alpha": 1.0,
+      "meta": 2,
+      "variants": [
+        {
+          "color": "#6e879a",
+          "meta": 0
+        },
+        {
+          "color": "#c2c268",
+          "meta": 1
+        },
+        {
+          "color": "#d2be59",
+          "meta": 3
+        },
+        {
+          "color": "#b48e42",
+          "meta": 4
+        },
+        {
+          "color": "#9d596f",
+          "meta": 5
+        },
+        {
+          "color": "#9a6126",
+          "meta": 6
+        },
+        {
+          "color": "#8b951a",
+          "meta": 7
+        },
+        {
+          "color": "#542620",
+          "meta": 8
+        },
+        {
+          "color": "#522f20",
+          "meta": 9
+        },
+        {
+          "color": "#9c552c",
+          "meta": 10
+        },
+        {
+          "color": "#580c01",
+          "meta": 11
+        },
+        {
+          "color": "#a07d4c",
+          "meta": 12
+        }
+      ]
+    },
+    {
+      "uid": "forestry:planks.vanilla.fireproof.0",
+      "name": "",
+      "color": "#674d2e",
+      "alpha": 1.0,
+      "meta": 1,
+      "variants": [
+        {
+          "color": "#9c7f4e",
+          "meta": 0
+        },
+        {
+          "color": "#c3b37b",
+          "meta": 2
+        },
+        {
+          "color": "#9a6e4d",
+          "meta": 3
+        },
+        {
+          "color": "#a95b33",
+          "meta": 4
+        },
+        {
+          "color": "#3d2712",
+          "meta": 5
+        }
+      ]
+    },
+    {
+      "uid": "forestry:pods.cocoa",
+      "name": "FruitPod",
+      "color": "#8a8c40",
+      "alpha": 1.0,
+      "meta": 3,
+      "variants": [
+        {
+          "color": "#896b33",
+          "meta": 7
+        },
+        {
+          "color": "#91501e",
+          "meta": 11
+        }
+      ]
+    },
+    {
+      "uid": "forestry:pods.dates",
+      "name": "FruitPod",
+      "color": "#ae7d24",
+      "alpha": 1.0,
+      "meta": 7,
+      "variants": [
+        {
+          "color": "#b5a842",
+          "meta": 3
+        },
+        {
+          "color": "#6e2320",
+          "meta": 11
+        }
+      ]
+    },
+    {
+      "uid": "forestry:pods.papaya",
+      "name": "FruitPod",
+      "color": "#9f8d0f",
+      "alpha": 1.0,
+      "meta": 11,
+      "variants": [
+        {
+          "color": "#93b642",
+          "meta": 3
+        },
+        {
+          "color": "#87943c",
+          "meta": 7
+        }
+      ]
+    },
+    {
+      "uid": "forestry:rainmaker",
+      "name": "Rainmaker",
+      "color": "#7c007c",
+      "alpha": 0.0,
+      "meta": 5
+    },
+    {
+      "uid": "forestry:raintank",
+      "name": "Raintank",
+      "color": "#7c007c",
+      "alpha": 1.0,
+      "meta": 1,
+      "variants": [
+        {
+          "color": "#61646d",
+          "meta": 5
+        }
+      ]
+    },
+    {
+      "uid": "forestry:resourceStorage",
+      "name": "Block of Tin",
+      "color": "#a7cfe0",
+      "alpha": 1.0,
+      "meta": 2,
+      "variants": [
+        {
+          "name": "Block of Apatite",
+          "color": "#529ac8",
+          "meta": 0
+        },
+        {
+          "name": "Block of Copper",
+          "color": "#a76e3a",
+          "meta": 1
+        },
+        {
+          "name": "Block of Bronze",
+          "color": "#9c8032",
+          "meta": 3
+        }
+      ]
+    },
+    {
+      "uid": "forestry:resources",
+      "name": "Tin Ore",
+      "color": "#8e8d8c",
+      "alpha": 1.0,
+      "meta": 2,
+      "variants": [
+        {
+          "name": "Apatite Ore",
+          "color": "#72818a",
+          "meta": 0
+        },
+        {
+          "name": "Copper Ore",
+          "color": "#868374",
+          "meta": 1
+        }
+      ]
+    },
+    {
+      "uid": "forestry:saplingGE",
+      "name": "Sapling",
+      "color": "#726d30",
+      "alpha": 1.0,
+      "meta": 0,
+      "variants": [
+        {
+          "color": "#273822",
+          "meta": 0
+        },
+        {
+          "color": "#305612",
+          "meta": 0
+        },
+        {
+          "color": "#333a21",
+          "meta": 0
+        },
+        {
+          "color": "#38561c",
+          "meta": 0
+        },
+        {
+          "color": "#3e615e",
+          "alpha": 0.99607843,
+          "meta": 0
+        },
+        {
+          "color": "#3f533c",
+          "meta": 0
+        },
+        {
+          "color": "#416b31",
+          "meta": 0
+        },
+        {
+          "color": "#476625",
+          "meta": 0
+        },
+        {
+          "color": "#4d784e",
+          "meta": 0
+        },
+        {
+          "color": "#4f4a28",
+          "meta": 0
+        },
+        {
+          "color": "#505e3b",
+          "meta": 0
+        },
+        {
+          "color": "#546143",
+          "meta": 0
+        },
+        {
+          "color": "#566e52",
+          "meta": 0
+        },
+        {
+          "color": "#57673d",
+          "meta": 0
+        },
+        {
+          "color": "#587f35",
+          "meta": 0
+        },
+        {
+          "color": "#5b6a3d",
+          "meta": 0
+        },
+        {
+          "color": "#5b7346",
+          "meta": 0
+        },
+        {
+          "color": "#5e703d",
+          "meta": 0
+        },
+        {
+          "color": "#5f482b",
+          "meta": 0
+        },
+        {
+          "color": "#61764a",
+          "meta": 0
+        },
+        {
+          "color": "#627b44",
+          "meta": 0
+        },
+        {
+          "color": "#726b2e",
+          "meta": 0
+        },
+        {
+          "color": "#727314",
+          "meta": 0
+        },
+        {
+          "color": "#748238",
+          "meta": 0
+        },
+        {
+          "color": "#766435",
+          "meta": 0
+        },
+        {
+          "color": "#769654",
+          "meta": 0
+        },
+        {
+          "color": "#776d3d",
+          "meta": 0
+        },
+        {
+          "color": "#79998d",
+          "meta": 0
+        },
+        {
+          "color": "#7e6108",
+          "meta": 0
+        },
+        {
+          "color": "#823852",
+          "meta": 0
+        },
+        {
+          "color": "#848372",
+          "meta": 0
+        },
+        {
+          "color": "#887632",
+          "meta": 0
+        },
+        {
+          "color": "#968e4f",
+          "meta": 0
+        },
+        {
+          "color": "#c1935b",
+          "meta": 0
+        }
+      ]
+    },
+    {
+      "uid": "forestry:slabs.0",
+      "name": "Baobab Wood Slab.name",
+      "color": "#767e52",
+      "alpha": 1.0,
+      "meta": 14,
+      "variants": [
+        {
+          "name": "Larch Wood Slab.name",
+          "color": "#c38c7b",
+          "meta": 8
+        },
+        {
+          "name": "Teak Wood Slab.name",
+          "color": "#6e695a",
+          "meta": 9
+        },
+        {
+          "name": "Desert Acacia Wood Slab.name",
+          "color": "#87a078",
+          "meta": 10
+        },
+        {
+          "name": "Lime Wood Slab.name",
+          "color": "#b99163",
+          "meta": 11
+        },
+        {
+          "name": "Chestnut Wood Slab.name",
+          "color": "#9b8e4b",
+          "meta": 12
+        },
+        {
+          "name": "Wenge Wood Slab.name",
+          "color": "#4c463d",
+          "meta": 13
+        },
+        {
+          "name": "Sequoia Wood Slab.name",
+          "color": "#7b4d49",
+          "meta": 15
+        }
+      ]
+    },
+    {
+      "uid": "forestry:slabs.1",
+      "name": "Walnut Wood Slab.name",
+      "color": "#544336",
+      "alpha": 1.0,
+      "meta": 13,
+      "variants": [
+        {
+          "name": "Kapok Wood Slab.name",
+          "color": "#645e2d",
+          "meta": 8
+        },
+        {
+          "name": "Ebony Wood Slab.name",
+          "color": "#312d28",
+          "meta": 9
+        },
+        {
+          "name": "Mahogany Wood Slab.name",
+          "color": "#603630",
+          "meta": 10
+        },
+        {
+          "name": "Balsa Wood Slab.name",
+          "color": "#9f988f",
+          "meta": 11
+        },
+        {
+          "name": "Willow Wood Slab.name",
+          "color": "#93934c",
+          "meta": 12
+        },
+        {
+          "name": "Greenheart Wood Slab.name",
+          "color": "#40664b",
+          "meta": 14
+        },
+        {
+          "name": "Cherry Wood Slab.name",
+          "color": "#9f722d",
+          "meta": 15
+        }
+      ]
+    },
+    {
+      "uid": "forestry:slabs.2",
+      "name": "Palm Wood Slab.name",
+      "color": "#b9703c",
+      "alpha": 1.0,
+      "meta": 10,
+      "variants": [
+        {
+          "name": "Mahoe Wood Slab.name",
+          "color": "#6e879a",
+          "meta": 8
+        },
+        {
+          "name": "Poplar Wood Slab.name",
+          "color": "#c2c268",
+          "meta": 9
+        },
+        {
+          "name": "Papaya Wood Slab.name",
+          "color": "#d2be59",
+          "meta": 11
+        },
+        {
+          "name": "Pine Wood Slab.name",
+          "color": "#b48e42",
+          "meta": 12
+        },
+        {
+          "name": "Plum Wood Slab.name",
+          "color": "#9d596f",
+          "meta": 13
+        },
+        {
+          "name": "Maple Wood Slab.name",
+          "color": "#9a6126",
+          "meta": 14
+        },
+        {
+          "name": "Citrus Wood Slab.name",
+          "color": "#8b951a",
+          "meta": 15
+        }
+      ]
+    },
+    {
+      "uid": "forestry:slabs.3",
+      "name": "Zebrawood Wood Slab.name",
+      "color": "#a07d4c",
+      "alpha": 1.0,
+      "meta": 12,
+      "variants": [
+        {
+          "name": "Giant Sequoia Wood Slab.name",
+          "color": "#542620",
+          "meta": 8
+        },
+        {
+          "name": "Ipe Wood Slab.name",
+          "color": "#522f20",
+          "meta": 9
+        },
+        {
+          "name": "Padauk Wood Slab.name",
+          "color": "#9c552c",
+          "meta": 10
+        },
+        {
+          "name": "Cocobolo Wood Slab.name",
+          "color": "#580c01",
+          "meta": 11
+        }
+      ]
+    },
+    {
+      "uid": "forestry:slabs.double.0",
+      "name": "Baobab Wood Slab.name",
+      "color": "#767e52",
+      "alpha": 1.0,
+      "meta": 6,
+      "variants": [
+        {
+          "name": "Larch Wood Slab.name",
+          "color": "#c38c7b",
+          "meta": 0
+        },
+        {
+          "name": "Teak Wood Slab.name",
+          "color": "#6e695a",
+          "meta": 1
+        },
+        {
+          "name": "Desert Acacia Wood Slab.name",
+          "color": "#87a078",
+          "meta": 2
+        },
+        {
+          "name": "Lime Wood Slab.name",
+          "color": "#b99163",
+          "meta": 3
+        },
+        {
+          "name": "Chestnut Wood Slab.name",
+          "color": "#9b8e4b",
+          "meta": 4
+        },
+        {
+          "name": "Wenge Wood Slab.name",
+          "color": "#4c463d",
+          "meta": 5
+        },
+        {
+          "name": "Sequoia Wood Slab.name",
+          "color": "#7b4d49",
+          "meta": 7
+        }
+      ]
+    },
+    {
+      "uid": "forestry:slabs.double.1",
+      "name": "Walnut Wood Slab.name",
+      "color": "#544336",
+      "alpha": 1.0,
+      "meta": 5,
+      "variants": [
+        {
+          "name": "Kapok Wood Slab.name",
+          "color": "#645e2d",
+          "meta": 0
+        },
+        {
+          "name": "Ebony Wood Slab.name",
+          "color": "#312d28",
+          "meta": 1
+        },
+        {
+          "name": "Mahogany Wood Slab.name",
+          "color": "#603630",
+          "meta": 2
+        },
+        {
+          "name": "Balsa Wood Slab.name",
+          "color": "#9f988f",
+          "meta": 3
+        },
+        {
+          "name": "Willow Wood Slab.name",
+          "color": "#93934c",
+          "meta": 4
+        },
+        {
+          "name": "Greenheart Wood Slab.name",
+          "color": "#40664b",
+          "meta": 6
+        },
+        {
+          "name": "Cherry Wood Slab.name",
+          "color": "#9f722d",
+          "meta": 7
+        }
+      ]
+    },
+    {
+      "uid": "forestry:slabs.double.2",
+      "name": "Palm Wood Slab.name",
+      "color": "#b9703c",
+      "alpha": 1.0,
+      "meta": 2,
+      "variants": [
+        {
+          "name": "Mahoe Wood Slab.name",
+          "color": "#6e879a",
+          "meta": 0
+        },
+        {
+          "name": "Poplar Wood Slab.name",
+          "color": "#c2c268",
+          "meta": 1
+        },
+        {
+          "name": "Papaya Wood Slab.name",
+          "color": "#d2be59",
+          "meta": 3
+        },
+        {
+          "name": "Pine Wood Slab.name",
+          "color": "#b48e42",
+          "meta": 4
+        },
+        {
+          "name": "Plum Wood Slab.name",
+          "color": "#9d596f",
+          "meta": 5
+        },
+        {
+          "name": "Maple Wood Slab.name",
+          "color": "#9a6126",
+          "meta": 6
+        },
+        {
+          "name": "Citrus Wood Slab.name",
+          "color": "#8b951a",
+          "meta": 7
+        }
+      ]
+    },
+    {
+      "uid": "forestry:slabs.double.3",
+      "name": "Zebrawood Wood Slab.name",
+      "color": "#a07d4c",
+      "alpha": 1.0,
+      "meta": 4,
+      "variants": [
+        {
+          "name": "Giant Sequoia Wood Slab.name",
+          "color": "#542620",
+          "meta": 0
+        },
+        {
+          "name": "Ipe Wood Slab.name",
+          "color": "#522f20",
+          "meta": 1
+        },
+        {
+          "name": "Padauk Wood Slab.name",
+          "color": "#9c552c",
+          "meta": 2
+        },
+        {
+          "name": "Cocobolo Wood Slab.name",
+          "color": "#580c01",
+          "meta": 3
+        }
+      ]
+    },
+    {
+      "uid": "forestry:slabs.double.fireproof.0",
+      "name": "Baobab Wood Slab (Fireproof).name",
+      "color": "#767e52",
+      "alpha": 1.0,
+      "meta": 6,
+      "variants": [
+        {
+          "name": "Larch Wood Slab (Fireproof).name",
+          "color": "#c38c7b",
+          "meta": 0
+        },
+        {
+          "name": "Teak Wood Slab (Fireproof).name",
+          "color": "#6e695a",
+          "meta": 1
+        },
+        {
+          "name": "Desert Acacia Wood Slab (Fireproof).name",
+          "color": "#87a078",
+          "meta": 2
+        },
+        {
+          "name": "Lime Wood Slab (Fireproof).name",
+          "color": "#b99163",
+          "meta": 3
+        },
+        {
+          "name": "Chestnut Wood Slab (Fireproof).name",
+          "color": "#9b8e4b",
+          "meta": 4
+        },
+        {
+          "name": "Wenge Wood Slab (Fireproof).name",
+          "color": "#4c463d",
+          "meta": 5
+        },
+        {
+          "name": "Sequoia Wood Slab (Fireproof).name",
+          "color": "#7b4d49",
+          "meta": 7
+        }
+      ]
+    },
+    {
+      "uid": "forestry:slabs.double.fireproof.1",
+      "name": "Walnut Wood Slab (Fireproof).name",
+      "color": "#544336",
+      "alpha": 1.0,
+      "meta": 5,
+      "variants": [
+        {
+          "name": "Kapok Wood Slab (Fireproof).name",
+          "color": "#645e2d",
+          "meta": 0
+        },
+        {
+          "name": "Ebony Wood Slab (Fireproof).name",
+          "color": "#312d28",
+          "meta": 1
+        },
+        {
+          "name": "Mahogany Wood Slab (Fireproof).name",
+          "color": "#603630",
+          "meta": 2
+        },
+        {
+          "name": "Balsa Wood Slab (Fireproof).name",
+          "color": "#9f988f",
+          "meta": 3
+        },
+        {
+          "name": "Willow Wood Slab (Fireproof).name",
+          "color": "#93934c",
+          "meta": 4
+        },
+        {
+          "name": "Greenheart Wood Slab (Fireproof).name",
+          "color": "#40664b",
+          "meta": 6
+        },
+        {
+          "name": "Cherry Wood Slab (Fireproof).name",
+          "color": "#9f722d",
+          "meta": 7
+        }
+      ]
+    },
+    {
+      "uid": "forestry:slabs.double.fireproof.2",
+      "name": "Palm Wood Slab (Fireproof).name",
+      "color": "#b9703c",
+      "alpha": 1.0,
+      "meta": 2,
+      "variants": [
+        {
+          "name": "Mahoe Wood Slab (Fireproof).name",
+          "color": "#6e879a",
+          "meta": 0
+        },
+        {
+          "name": "Poplar Wood Slab (Fireproof).name",
+          "color": "#c2c268",
+          "meta": 1
+        },
+        {
+          "name": "Papaya Wood Slab (Fireproof).name",
+          "color": "#d2be59",
+          "meta": 3
+        },
+        {
+          "name": "Pine Wood Slab (Fireproof).name",
+          "color": "#b48e42",
+          "meta": 4
+        },
+        {
+          "name": "Plum Wood Slab (Fireproof).name",
+          "color": "#9d596f",
+          "meta": 5
+        },
+        {
+          "name": "Maple Wood Slab (Fireproof).name",
+          "color": "#9a6126",
+          "meta": 6
+        },
+        {
+          "name": "Citrus Wood Slab (Fireproof).name",
+          "color": "#8b951a",
+          "meta": 7
+        }
+      ]
+    },
+    {
+      "uid": "forestry:slabs.double.fireproof.3",
+      "name": "Zebrawood Wood Slab (Fireproof).name",
+      "color": "#a07d4c",
+      "alpha": 1.0,
+      "meta": 4,
+      "variants": [
+        {
+          "name": "Giant Sequoia Wood Slab (Fireproof).name",
+          "color": "#542620",
+          "meta": 0
+        },
+        {
+          "name": "Ipe Wood Slab (Fireproof).name",
+          "color": "#522f20",
+          "meta": 1
+        },
+        {
+          "name": "Padauk Wood Slab (Fireproof).name",
+          "color": "#9c552c",
+          "meta": 2
+        },
+        {
+          "name": "Cocobolo Wood Slab (Fireproof).name",
+          "color": "#580c01",
+          "meta": 3
+        }
+      ]
+    },
+    {
+      "uid": "forestry:slabs.fireproof.0",
+      "name": "Baobab Wood Slab (Fireproof).name",
+      "color": "#767e52",
+      "alpha": 1.0,
+      "meta": 14,
+      "variants": [
+        {
+          "name": "Larch Wood Slab (Fireproof).name",
+          "color": "#c38c7b",
+          "meta": 8
+        },
+        {
+          "name": "Teak Wood Slab (Fireproof).name",
+          "color": "#6e695a",
+          "meta": 9
+        },
+        {
+          "name": "Desert Acacia Wood Slab (Fireproof).name",
+          "color": "#87a078",
+          "meta": 10
+        },
+        {
+          "name": "Lime Wood Slab (Fireproof).name",
+          "color": "#b99163",
+          "meta": 11
+        },
+        {
+          "name": "Chestnut Wood Slab (Fireproof).name",
+          "color": "#9b8e4b",
+          "meta": 12
+        },
+        {
+          "name": "Wenge Wood Slab (Fireproof).name",
+          "color": "#4c463d",
+          "meta": 13
+        },
+        {
+          "name": "Sequoia Wood Slab (Fireproof).name",
+          "color": "#7b4d49",
+          "meta": 15
+        }
+      ]
+    },
+    {
+      "uid": "forestry:slabs.fireproof.1",
+      "name": "Walnut Wood Slab (Fireproof).name",
+      "color": "#544336",
+      "alpha": 1.0,
+      "meta": 13,
+      "variants": [
+        {
+          "name": "Kapok Wood Slab (Fireproof).name",
+          "color": "#645e2d",
+          "meta": 8
+        },
+        {
+          "name": "Ebony Wood Slab (Fireproof).name",
+          "color": "#312d28",
+          "meta": 9
+        },
+        {
+          "name": "Mahogany Wood Slab (Fireproof).name",
+          "color": "#603630",
+          "meta": 10
+        },
+        {
+          "name": "Balsa Wood Slab (Fireproof).name",
+          "color": "#9f988f",
+          "meta": 11
+        },
+        {
+          "name": "Willow Wood Slab (Fireproof).name",
+          "color": "#93934c",
+          "meta": 12
+        },
+        {
+          "name": "Greenheart Wood Slab (Fireproof).name",
+          "color": "#40664b",
+          "meta": 14
+        },
+        {
+          "name": "Cherry Wood Slab (Fireproof).name",
+          "color": "#9f722d",
+          "meta": 15
+        }
+      ]
+    },
+    {
+      "uid": "forestry:slabs.fireproof.2",
+      "name": "Palm Wood Slab (Fireproof).name",
+      "color": "#b9703c",
+      "alpha": 1.0,
+      "meta": 10,
+      "variants": [
+        {
+          "name": "Mahoe Wood Slab (Fireproof).name",
+          "color": "#6e879a",
+          "meta": 8
+        },
+        {
+          "name": "Poplar Wood Slab (Fireproof).name",
+          "color": "#c2c268",
+          "meta": 9
+        },
+        {
+          "name": "Papaya Wood Slab (Fireproof).name",
+          "color": "#d2be59",
+          "meta": 11
+        },
+        {
+          "name": "Pine Wood Slab (Fireproof).name",
+          "color": "#b48e42",
+          "meta": 12
+        },
+        {
+          "name": "Plum Wood Slab (Fireproof).name",
+          "color": "#9d596f",
+          "meta": 13
+        },
+        {
+          "name": "Maple Wood Slab (Fireproof).name",
+          "color": "#9a6126",
+          "meta": 14
+        },
+        {
+          "name": "Citrus Wood Slab (Fireproof).name",
+          "color": "#8b951a",
+          "meta": 15
+        }
+      ]
+    },
+    {
+      "uid": "forestry:slabs.fireproof.3",
+      "name": "Zebrawood Wood Slab (Fireproof).name",
+      "color": "#a07d4c",
+      "alpha": 1.0,
+      "meta": 12,
+      "variants": [
+        {
+          "name": "Giant Sequoia Wood Slab (Fireproof).name",
+          "color": "#542620",
+          "meta": 8
+        },
+        {
+          "name": "Ipe Wood Slab (Fireproof).name",
+          "color": "#522f20",
+          "meta": 9
+        },
+        {
+          "name": "Padauk Wood Slab (Fireproof).name",
+          "color": "#9c552c",
+          "meta": 10
+        },
+        {
+          "name": "Cocobolo Wood Slab (Fireproof).name",
+          "color": "#580c01",
+          "meta": 11
+        }
+      ]
+    },
+    {
+      "uid": "forestry:slabs.vanilla.double.fireproof.0",
+      "name": "Spruce Wood Slab (Fireproof).name",
+      "color": "#674d2e",
+      "alpha": 1.0,
+      "meta": 1,
+      "variants": [
+        {
+          "name": "Oak Wood Slab (Fireproof).name",
+          "color": "#9c7f4e",
+          "meta": 0
+        },
+        {
+          "name": "Birch Wood Slab (Fireproof).name",
+          "color": "#c3b37b",
+          "meta": 2
+        },
+        {
+          "name": "Jungle Wood Slab (Fireproof).name",
+          "color": "#9a6e4d",
+          "meta": 3
+        },
+        {
+          "name": "Acacia Wood Slab (Fireproof).name",
+          "color": "#a95b33",
+          "meta": 4
+        },
+        {
+          "name": "Dark Oak Wood Slab (Fireproof).name",
+          "color": "#3d2712",
+          "meta": 5
+        }
+      ]
+    },
+    {
+      "uid": "forestry:slabs.vanilla.fireproof.0",
+      "name": "Spruce Wood Slab (Fireproof).name",
+      "color": "#674d2e",
+      "alpha": 1.0,
+      "meta": 9,
+      "variants": [
+        {
+          "name": "Oak Wood Slab (Fireproof).name",
+          "color": "#9c7f4e",
+          "meta": 8
+        },
+        {
+          "name": "Birch Wood Slab (Fireproof).name",
+          "color": "#c3b37b",
+          "meta": 10
+        },
+        {
+          "name": "Jungle Wood Slab (Fireproof).name",
+          "color": "#9a6e4d",
+          "meta": 11
+        },
+        {
+          "name": "Acacia Wood Slab (Fireproof).name",
+          "color": "#a95b33",
+          "meta": 12
+        },
+        {
+          "name": "Dark Oak Wood Slab (Fireproof).name",
+          "color": "#3d2712",
+          "meta": 13
+        }
+      ]
+    },
+    {
+      "uid": "forestry:squeezer",
+      "name": "Squeezer",
+      "color": "#7c007c",
+      "alpha": 0.0,
+      "meta": 5
+    },
+    {
+      "uid": "forestry:stairs.acacia",
+      "name": "ForestryStairs",
+      "color": "#87a078",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.balsa",
+      "name": "ForestryStairs",
+      "color": "#9f988f",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.baobab",
+      "name": "ForestryStairs",
+      "color": "#767e52",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.cherry",
+      "name": "ForestryStairs",
+      "color": "#9f722d",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.chestnut",
+      "name": "ForestryStairs",
+      "color": "#9b8e4b",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.citrus",
+      "name": "ForestryStairs",
+      "color": "#8b951a",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.cocobolo",
+      "name": "ForestryStairs",
+      "color": "#580c01",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.ebony",
+      "name": "ForestryStairs",
+      "color": "#312d28",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.fireproof.acacia",
+      "name": "ForestryStairs",
+      "color": "#87a078",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.fireproof.balsa",
+      "name": "ForestryStairs",
+      "color": "#9f988f",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.fireproof.baobab",
+      "name": "ForestryStairs",
+      "color": "#767e52",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.fireproof.cherry",
+      "name": "ForestryStairs",
+      "color": "#9f722d",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.fireproof.chestnut",
+      "name": "ForestryStairs",
+      "color": "#9b8e4b",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.fireproof.citrus",
+      "name": "ForestryStairs",
+      "color": "#8b951a",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.fireproof.cocobolo",
+      "name": "ForestryStairs",
+      "color": "#580c01",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.fireproof.ebony",
+      "name": "ForestryStairs",
+      "color": "#312d28",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.fireproof.giganteum",
+      "name": "ForestryStairs",
+      "color": "#542620",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.fireproof.greenheart",
+      "name": "ForestryStairs",
+      "color": "#40664b",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.fireproof.ipe",
+      "name": "ForestryStairs",
+      "color": "#522f20",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.fireproof.kapok",
+      "name": "ForestryStairs",
+      "color": "#645e2d",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.fireproof.larch",
+      "name": "ForestryStairs",
+      "color": "#c38c7b",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.fireproof.lime",
+      "name": "ForestryStairs",
+      "color": "#b99163",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.fireproof.mahoe",
+      "name": "ForestryStairs",
+      "color": "#6e879a",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.fireproof.mahogany",
+      "name": "ForestryStairs",
+      "color": "#603630",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.fireproof.maple",
+      "name": "ForestryStairs",
+      "color": "#9a6126",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.fireproof.padauk",
+      "name": "ForestryStairs",
+      "color": "#9c552c",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.fireproof.palm",
+      "name": "ForestryStairs",
+      "color": "#b9703c",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.fireproof.papaya",
+      "name": "ForestryStairs",
+      "color": "#d2be59",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.fireproof.pine",
+      "name": "ForestryStairs",
+      "color": "#b48e42",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.fireproof.plum",
+      "name": "ForestryStairs",
+      "color": "#9d596f",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.fireproof.poplar",
+      "name": "ForestryStairs",
+      "color": "#c2c268",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.fireproof.sequoia",
+      "name": "ForestryStairs",
+      "color": "#7b4d49",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.fireproof.teak",
+      "name": "ForestryStairs",
+      "color": "#6e695a",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.fireproof.walnut",
+      "name": "ForestryStairs",
+      "color": "#544336",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.fireproof.wenge",
+      "name": "ForestryStairs",
+      "color": "#4c463d",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.fireproof.willow",
+      "name": "ForestryStairs",
+      "color": "#93934c",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.fireproof.zebrawood",
+      "name": "ForestryStairs",
+      "color": "#a07d4c",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.giganteum",
+      "name": "ForestryStairs",
+      "color": "#542620",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.greenheart",
+      "name": "ForestryStairs",
+      "color": "#40664b",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.ipe",
+      "name": "ForestryStairs",
+      "color": "#522f20",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.kapok",
+      "name": "ForestryStairs",
+      "color": "#645e2d",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.larch",
+      "name": "ForestryStairs",
+      "color": "#c38c7b",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.lime",
+      "name": "ForestryStairs",
+      "color": "#b99163",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.mahoe",
+      "name": "ForestryStairs",
+      "color": "#6e879a",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.mahogany",
+      "name": "ForestryStairs",
+      "color": "#603630",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.maple",
+      "name": "ForestryStairs",
+      "color": "#9a6126",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.padauk",
+      "name": "ForestryStairs",
+      "color": "#9c552c",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.palm",
+      "name": "ForestryStairs",
+      "color": "#b9703c",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.papaya",
+      "name": "ForestryStairs",
+      "color": "#d2be59",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.pine",
+      "name": "ForestryStairs",
+      "color": "#b48e42",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.plum",
+      "name": "ForestryStairs",
+      "color": "#9d596f",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.poplar",
+      "name": "ForestryStairs",
+      "color": "#c2c268",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.sequoia",
+      "name": "ForestryStairs",
+      "color": "#7b4d49",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.teak",
+      "name": "ForestryStairs",
+      "color": "#6e695a",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.vanilla.fireproof.acacia",
+      "name": "ForestryStairs",
+      "color": "#a95b33",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.vanilla.fireproof.birch",
+      "name": "ForestryStairs",
+      "color": "#c3b37b",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.vanilla.fireproof.dark_oak",
+      "name": "ForestryStairs",
+      "color": "#3d2712",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.vanilla.fireproof.jungle",
+      "name": "ForestryStairs",
+      "color": "#9a6e4d",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.vanilla.fireproof.oak",
+      "name": "ForestryStairs",
+      "color": "#9c7f4e",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.vanilla.fireproof.spruce",
+      "name": "ForestryStairs",
+      "color": "#674d2e",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.walnut",
+      "name": "ForestryStairs",
+      "color": "#544336",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.wenge",
+      "name": "ForestryStairs",
+      "color": "#4c463d",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.willow",
+      "name": "ForestryStairs",
+      "color": "#93934c",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.zebrawood",
+      "name": "ForestryStairs",
+      "color": "#a07d4c",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stamp_collector",
+      "name": "Stamp Collector",
+      "color": "#7c007c",
+      "alpha": 1.0,
+      "meta": 1,
+      "variants": [
+        {
+          "color": "#5d719e",
+          "meta": 5
+        }
+      ]
+    },
+    {
+      "uid": "forestry:still",
+      "name": "Still",
+      "color": "#7c007c",
+      "alpha": 0.0,
+      "meta": 5
+    },
+    {
+      "uid": "forestry:trade_station",
+      "name": "Trade Station",
+      "color": "#7c007c",
+      "alpha": 1.0,
+      "meta": 1,
+      "variants": [
+        {
+          "color": "#445b8f",
+          "meta": 5
+        }
+      ]
+    },
+    {
+      "uid": "forestry:tree_chest",
+      "name": "Arborist\u0027s Chest",
+      "color": "#7c007c",
+      "alpha": 0.0,
+      "meta": 5
+    },
+    {
+      "uid": "forestry:worktable",
+      "name": "Worktable",
+      "color": "#7c007c",
+      "alpha": 1.0,
+      "meta": 1,
+      "variants": [
+        {
+          "color": "#968a55",
+          "meta": 5
+        }
+      ]
+    },
+    {
+      "uid": "integrateddynamics:blockMenrilResin",
+      "name": "Menril Resin",
+      "color": "#8bb9a6",
+      "alpha": 0.3,
+      "meta": 15
+    },
+    {
+      "uid": "integrateddynamics:cable",
+      "name": "Cable",
+      "color": "#8e856f",
+      "alpha": 0.4,
+      "meta": 0
+    },
+    {
+      "uid": "integrateddynamics:coalGenerator",
+      "name": "Generator",
+      "color": "#b2e7d4",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "integrateddynamics:creativeEnergyBattery",
+      "name": "Creative Energy Battery",
+      "color": "#ef9bf7",
+      "alpha": 1.0,
+      "meta": 3
+    },
+    {
+      "uid": "integrateddynamics:crystalizedMenrilBlock",
+      "name": "Block of Crystalized Menril",
+      "color": "#99dcc1",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "integrateddynamics:crystalizedMenrilBrick",
+      "name": "Crystalized Menril Brick",
+      "color": "#a1ddc5",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "integrateddynamics:dryingBasin",
+      "name": "Drying Basin",
+      "color": "#4a3a24",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "integrateddynamics:energyBattery",
+      "name": "Energy Battery",
+      "color": "#a7a7a7",
+      "alpha": 0.0,
+      "meta": 12,
+      "variants": [
+        {
+          "color": "#c6f4e6",
+          "alpha": 1.0,
+          "meta": 13
+        },
+        {
+          "color": "#cbf5e9",
+          "alpha": 1.0,
+          "meta": 14
+        },
+        {
+          "color": "#caf5e9",
+          "alpha": 1.0,
+          "meta": 15
+        }
+      ]
+    },
+    {
+      "uid": "integrateddynamics:logicProgrammer",
+      "name": "Logic Programmer",
+      "color": "#a6e7cf",
+      "alpha": 0.4,
+      "meta": 3
+    },
+    {
+      "uid": "integrateddynamics:materializer",
+      "name": "Materializer",
+      "color": "#b0e1d0",
+      "alpha": 1.0,
+      "meta": 3
+    },
+    {
+      "uid": "integrateddynamics:menrilLeaves",
+      "name": "Menril Leaves",
+      "color": "#92c5af",
+      "alpha": 1.0,
+      "meta": 3
+    },
+    {
+      "uid": "integrateddynamics:menrilLog",
+      "name": "Menril Log",
+      "color": "#6db195",
+      "alpha": 1.0,
+      "meta": 3
+    },
+    {
+      "uid": "integrateddynamics:menrilPlanks",
+      "name": "Menril Plank",
+      "color": "#9fd2bc",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "integrateddynamics:menrilSapling",
+      "name": "Menril Sapling",
+      "color": "#7c007c",
+      "alpha": 1.0,
+      "meta": 11
+    },
+    {
+      "uid": "integrateddynamics:part_audioReaderBlock",
+      "name": "Ignored",
+      "color": "#7c007c",
+      "alpha": 0.4,
+      "meta": 0
+    },
+    {
+      "uid": "integrateddynamics:part_audioWriterBlock",
+      "name": "IgnoredStatus",
+      "color": "#7c007c",
+      "alpha": 0.4,
+      "meta": 0
+    },
+    {
+      "uid": "integrateddynamics:part_blockReaderBlock",
+      "name": "Ignored",
+      "color": "#7c007c",
+      "alpha": 0.4,
+      "meta": 0
+    },
+    {
+      "uid": "integrateddynamics:part_displayPanelBlock",
+      "name": "IgnoredStatus",
+      "color": "#7c007c",
+      "alpha": 0.4,
+      "meta": 0
+    },
+    {
+      "uid": "integrateddynamics:part_dynamicLightPanelBlock",
+      "name": "IgnoredStatus",
+      "color": "#7c007c",
+      "alpha": 0.4,
+      "meta": 0
+    },
+    {
+      "uid": "integrateddynamics:part_effectWriterBlock",
+      "name": "IgnoredStatus",
+      "color": "#7c007c",
+      "alpha": 0.4,
+      "meta": 0
+    },
+    {
+      "uid": "integrateddynamics:part_entityReaderBlock",
+      "name": "Ignored",
+      "color": "#7c007c",
+      "alpha": 0.4,
+      "meta": 0
+    },
+    {
+      "uid": "integrateddynamics:part_extradimensionalReaderBlock",
+      "name": "Ignored",
+      "color": "#7c007c",
+      "alpha": 0.4,
+      "meta": 0
+    },
+    {
+      "uid": "integrateddynamics:part_fluidReaderBlock",
+      "name": "Ignored",
+      "color": "#7c007c",
+      "alpha": 0.4,
+      "meta": 0
+    },
+    {
+      "uid": "integrateddynamics:part_inventoryReaderBlock",
+      "name": "Ignored",
+      "color": "#7c007c",
+      "alpha": 0.4,
+      "meta": 0
+    },
+    {
+      "uid": "integrateddynamics:part_inventoryWriterBlock",
+      "name": "IgnoredStatus",
+      "color": "#7c007c",
+      "alpha": 0.4,
+      "meta": 0
+    },
+    {
+      "uid": "integrateddynamics:part_machineReaderBlock",
+      "name": "Ignored",
+      "color": "#7c007c",
+      "alpha": 0.4,
+      "meta": 0
+    },
+    {
+      "uid": "integrateddynamics:part_networkReaderBlock",
+      "name": "Ignored",
+      "color": "#7c007c",
+      "alpha": 0.4,
+      "meta": 0
+    },
+    {
+      "uid": "integrateddynamics:part_redstoneReaderBlock",
+      "name": "Ignored",
+      "color": "#7c007c",
+      "alpha": 0.4,
+      "meta": 0
+    },
+    {
+      "uid": "integrateddynamics:part_redstoneWriterBlock",
+      "name": "IgnoredStatus",
+      "color": "#7c007c",
+      "alpha": 0.4,
+      "meta": 0
+    },
+    {
+      "uid": "integrateddynamics:part_staticLightPanelBlock",
+      "name": "Ignored",
+      "color": "#7c007c",
+      "alpha": 0.4,
+      "meta": 0
+    },
+    {
+      "uid": "integrateddynamics:part_worldReaderBlock",
+      "name": "Ignored",
+      "color": "#7c007c",
+      "alpha": 0.4,
+      "meta": 0
+    },
+    {
+      "uid": "integrateddynamics:proxy",
+      "name": "Proxy",
+      "color": "#b0e1d0",
+      "alpha": 1.0,
+      "meta": 3
+    },
+    {
+      "uid": "integrateddynamics:squeezer",
+      "name": "Squeezer",
+      "color": "#404040",
+      "alpha": 1.0,
+      "meta": 13
+    },
+    {
+      "uid": "integrateddynamics:variablestore",
+      "name": "Variable Store",
+      "color": "#afe8d3",
+      "alpha": 1.0,
+      "meta": 3
+    },
+    {
+      "uid": "mcmultipart:multipart",
+      "name": "MultipartContainer",
+      "color": "#7d7d7d",
+      "alpha": 1.0,
+      "meta": 1
+    },
+    {
+      "uid": "minecraft:acacia_door",
+      "name": "Acacia Door",
+      "color": "#9b5836",
+      "alpha": 1.0,
+      "meta": 7,
+      "variants": [
+        {
+          "color": "#a05c3a",
+          "meta": 11
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:acacia_fence",
+      "name": "Acacia Fence",
+      "color": "#a95b33",
+      "alpha": 0.4,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:acacia_fence_gate",
+      "name": "Acacia Fence Gate",
+      "color": "#a95b33",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "minecraft:acacia_stairs",
+      "name": "Acacia Wood Stairs",
+      "color": "#a95b33",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "minecraft:activator_rail",
+      "name": "Activator Rail",
+      "color": "#8d5146",
+      "alpha": 1.0,
+      "meta": 13,
+      "variants": [
+        {
+          "color": "#685347",
+          "meta": 5
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:anvil",
+      "name": "Anvil",
+      "color": "#404040",
+      "alpha": 1.0,
+      "meta": 11
+    },
+    {
+      "uid": "minecraft:beacon",
+      "name": "Beacon",
+      "color": "#daf0f4",
+      "alpha": 0.4,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:bed",
+      "name": "Bed",
+      "color": "#8e1616",
+      "alpha": 1.0,
+      "meta": 3,
+      "variants": [
+        {
+          "color": "#af7474",
+          "meta": 15
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:bedrock",
+      "name": "Bedrock",
+      "color": "#535353",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:beetroots",
+      "name": "Beetroots",
+      "color": "#507135",
+      "alpha": 1.0,
+      "meta": 3,
+      "variants": [
+        {
+          "color": "#01ab10",
+          "meta": 0
+        },
+        {
+          "color": "#01bb0f",
+          "meta": 1
+        },
+        {
+          "color": "#00be10",
+          "meta": 2
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:birch_door",
+      "name": "Birch Door",
+      "color": "#ccc28e",
+      "alpha": 1.0,
+      "meta": 7,
+      "variants": [
+        {
+          "color": "#dad2af",
+          "meta": 11
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:birch_fence",
+      "name": "Birch Fence",
+      "color": "#c3b37b",
+      "alpha": 0.4,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:birch_fence_gate",
+      "name": "Birch Fence Gate",
+      "color": "#c3b37b",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "minecraft:birch_stairs",
+      "name": "Birch Wood Stairs",
+      "color": "#c3b37b",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "minecraft:bookshelf",
+      "name": "Bookshelf",
+      "color": "#6b5839",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:brewing_stand",
+      "name": "Brewing Stand",
+      "color": "#7c6751",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "minecraft:brick_block",
+      "name": "Bricks",
+      "color": "#926356",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:brick_stairs",
+      "name": "Brick Stairs",
+      "color": "#926356",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "minecraft:brown_mushroom",
+      "name": "Mushroom",
+      "color": "#8a6953",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:brown_mushroom_block",
+      "name": "Mushroom",
+      "color": "#8d6a53",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "minecraft:cactus",
+      "name": "Cactus",
+      "color": "#0d6618",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "minecraft:cake",
+      "name": "Cake",
+      "color": "#bc8d71",
+      "alpha": 1.0,
+      "meta": 6
+    },
+    {
+      "uid": "minecraft:carpet",
+      "name": "Carpet",
+      "color": "#dddddd",
+      "alpha": 1.0,
+      "meta": 0,
+      "variants": [
+        {
+          "name": "Orange Carpet",
+          "color": "#db7d3e",
+          "meta": 1
+        },
+        {
+          "name": "Magenta Carpet",
+          "color": "#b350bc",
+          "meta": 2
+        },
+        {
+          "name": "Light Blue Carpet",
+          "color": "#6a8ac9",
+          "meta": 3
+        },
+        {
+          "name": "Yellow Carpet",
+          "color": "#b1a627",
+          "meta": 4
+        },
+        {
+          "name": "Lime Carpet",
+          "color": "#41ae38",
+          "meta": 5
+        },
+        {
+          "name": "Pink Carpet",
+          "color": "#d08499",
+          "meta": 6
+        },
+        {
+          "name": "Gray Carpet",
+          "color": "#404040",
+          "meta": 7
+        },
+        {
+          "name": "Light Gray Carpet",
+          "color": "#9aa1a1",
+          "meta": 8
+        },
+        {
+          "name": "Cyan Carpet",
+          "color": "#2e6e89",
+          "meta": 9
+        },
+        {
+          "name": "Purple Carpet",
+          "color": "#7e3db5",
+          "meta": 10
+        },
+        {
+          "name": "Blue Carpet",
+          "color": "#2e388d",
+          "meta": 11
+        },
+        {
+          "name": "Brown Carpet",
+          "color": "#4f321f",
+          "meta": 12
+        },
+        {
+          "name": "Green Carpet",
+          "color": "#35461b",
+          "meta": 13
+        },
+        {
+          "name": "Red Carpet",
+          "color": "#963430",
+          "meta": 14
+        },
+        {
+          "name": "Black Carpet",
+          "color": "#191616",
+          "meta": 15
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:carrots",
+      "name": "Carrots",
+      "color": "#01bb0f",
+      "alpha": 1.0,
+      "meta": 3,
+      "variants": [
+        {
+          "color": "#01ab10",
+          "meta": 1
+        },
+        {
+          "color": "#00be10",
+          "meta": 6
+        },
+        {
+          "color": "#158002",
+          "meta": 7
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:cauldron",
+      "name": "Cauldron",
+      "color": "#3e3e3e",
+      "alpha": 1.0,
+      "meta": 3
+    },
+    {
+      "uid": "minecraft:chain_command_block",
+      "name": "Chain Command Block",
+      "color": "#7f968d",
+      "alpha": 1.0,
+      "meta": 13
+    },
+    {
+      "uid": "minecraft:chest",
+      "name": "Chest",
+      "color": "#9c7f4e",
+      "alpha": 0.0,
+      "meta": 5
+    },
+    {
+      "uid": "minecraft:chorus_flower",
+      "name": "Chorus Flower",
+      "color": "#856785",
+      "alpha": 1.0,
+      "meta": 4,
+      "variants": [
+        {
+          "color": "#623f60",
+          "meta": 5
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:chorus_plant",
+      "name": "Chorus Plant",
+      "color": "#603b60",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:clay",
+      "name": "Clay",
+      "color": "#9ea4b0",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:coal_block",
+      "name": "Block of Coal",
+      "color": "#121212",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:coal_ore",
+      "name": "Coal Ore",
+      "color": "#737373",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:cobblestone",
+      "name": "Cobblestone",
+      "color": "#7a7a7a",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:cobblestone_wall",
+      "name": "Cobblestone Wall",
+      "color": "#7a7a7a",
+      "alpha": 1.0,
+      "meta": 0,
+      "variants": [
+        {
+          "name": "Mossy Cobblestone Wall",
+          "color": "#677967",
+          "meta": 1
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:cocoa",
+      "name": "Cocoa",
+      "color": "#8a8c40",
+      "alpha": 1.0,
+      "meta": 3,
+      "variants": [
+        {
+          "color": "#896b33",
+          "meta": 7
+        },
+        {
+          "color": "#91501e",
+          "meta": 11
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:command_block",
+      "name": "Command Block",
+      "color": "#a47f6c",
+      "alpha": 1.0,
+      "meta": 13
+    },
+    {
+      "uid": "minecraft:crafting_table",
+      "name": "Crafting Table",
+      "color": "#735f3f",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:dark_oak_door",
+      "name": "Dark Oak Door",
+      "color": "#412c17",
+      "alpha": 1.0,
+      "meta": 7,
+      "variants": [
+        {
+          "color": "#452f19",
+          "meta": 11
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:dark_oak_fence",
+      "name": "Dark Oak Fence",
+      "color": "#3d2712",
+      "alpha": 0.4,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:dark_oak_fence_gate",
+      "name": "Dark Oak Fence Gate",
+      "color": "#3d2712",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "minecraft:dark_oak_stairs",
+      "name": "Dark Oak Wood Stairs",
+      "color": "#3d2712",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "minecraft:daylight_detector",
+      "name": "Daylight Sensor",
+      "color": "#82745e",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "minecraft:daylight_detector_inverted",
+      "name": "Daylight Sensor",
+      "color": "#6a6d70",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "minecraft:deadbush",
+      "name": "Dead Bush",
+      "color": "#7b4f19",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:detector_rail",
+      "name": "Detector Rail",
+      "color": "#786559",
+      "alpha": 1.0,
+      "meta": 5,
+      "variants": [
+        {
+          "color": "#895c50",
+          "meta": 13
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:diamond_block",
+      "name": "Block of Diamond",
+      "color": "#61dbd5",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:diamond_ore",
+      "name": "Diamond Ore",
+      "color": "#818c8f",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:dirt",
+      "name": "Podzol",
+      "color": "#7a5739",
+      "alpha": 1.0,
+      "meta": 2,
+      "variants": [
+        {
+          "name": "Coarse Dirt",
+          "color": "#77553b",
+          "meta": 1
+        },
+        {
+          "color": "#866043",
+          "meta": 2
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:dispenser",
+      "name": "Dispenser",
+      "color": "#606060",
+      "alpha": 1.0,
+      "meta": 9,
+      "variants": [
+        {
+          "color": "#747474",
+          "meta": 13
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:double_plant",
+      "name": "Sunflower",
+      "color": "#7d7d7d",
+      "alpha": 1.0,
+      "meta": 11,
+      "variants": [
+        {
+          "color": "#733d07",
+          "meta": 11
+        },
+        {
+          "color": "#84858d",
+          "meta": 11
+        },
+        {
+          "color": "#929292",
+          "meta": 11
+        },
+        {
+          "color": "#94948c",
+          "meta": 11
+        },
+        {
+          "color": "#eac521",
+          "meta": 11
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:double_stone_slab",
+      "name": "Stone Slab",
+      "color": "#a6a6a6",
+      "alpha": 1.0,
+      "meta": 0,
+      "variants": [
+        {
+          "color": "#d8d19d",
+          "meta": 1
+        },
+        {
+          "color": "#9f9f9f",
+          "meta": 8
+        },
+        {
+          "color": "#dad29e",
+          "meta": 9
+        },
+        {
+          "color": "#9c7f4e",
+          "meta": 10
+        },
+        {
+          "color": "#926356",
+          "meta": 12
+        },
+        {
+          "color": "#7a7a7a",
+          "meta": 13
+        },
+        {
+          "color": "#2c161a",
+          "meta": 14
+        },
+        {
+          "color": "#ece9e2",
+          "meta": 15
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:double_stone_slab2",
+      "name": "Red Sandstone Slab",
+      "color": "#a5541d",
+      "alpha": 1.0,
+      "meta": 0,
+      "variants": [
+        {
+          "color": "#a6551d",
+          "meta": 8
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:double_wooden_slab",
+      "name": "Wood Slab",
+      "color": "#674d2e",
+      "alpha": 1.0,
+      "meta": 1,
+      "variants": [
+        {
+          "color": "#9c7f4e",
+          "meta": 0
+        },
+        {
+          "color": "#c3b37b",
+          "meta": 2
+        },
+        {
+          "color": "#9a6e4d",
+          "meta": 3
+        },
+        {
+          "color": "#a95b33",
+          "meta": 4
+        },
+        {
+          "color": "#3d2712",
+          "meta": 5
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:dragon_egg",
+      "name": "Dragon Egg",
+      "color": "#0c090f",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:dropper",
+      "name": "Dropper",
+      "color": "#606060",
+      "alpha": 1.0,
+      "meta": 9,
+      "variants": [
+        {
+          "color": "#747474",
+          "meta": 13
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:emerald_block",
+      "name": "Block of Emerald",
+      "color": "#51d975",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:emerald_ore",
+      "name": "Emerald Ore",
+      "color": "#6d8074",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:enchanting_table",
+      "name": "Enchantment Table",
+      "color": "#12101b",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:end_bricks",
+      "name": "End Stone Bricks",
+      "color": "#e1e6aa",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:end_gateway",
+      "name": "EndGateway",
+      "color": "#7c007c",
+      "alpha": 0.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:end_portal",
+      "name": "EndPortal",
+      "color": "#7c007c",
+      "alpha": 0.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:end_portal_frame",
+      "name": "End Portal",
+      "color": "#93a07b",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "minecraft:end_rod",
+      "name": "End Rod",
+      "color": "#dcc5cd",
+      "alpha": 1.0,
+      "meta": 5
+    },
+    {
+      "uid": "minecraft:end_stone",
+      "name": "End Stone",
+      "color": "#dddfa5",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:ender_chest",
+      "name": "Ender Chest",
+      "color": "#14121d",
+      "alpha": 0.0,
+      "meta": 5
+    },
+    {
+      "uid": "minecraft:farmland",
+      "name": "Farmland",
+      "color": "#866043",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "minecraft:fence",
+      "name": "Oak Fence",
+      "color": "#9c7f4e",
+      "alpha": 0.4,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:fence_gate",
+      "name": "Oak Fence Gate",
+      "color": "#9c7f4e",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "minecraft:fire",
+      "name": "Fire",
+      "color": "#d18629",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "minecraft:flower_pot",
+      "name": "Flower Pot",
+      "color": "#764133",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "minecraft:flowing_lava",
+      "name": "Lava",
+      "color": "#d1530f",
+      "alpha": 0.0,
+      "meta": 15
+    },
+    {
+      "uid": "minecraft:flowing_water",
+      "name": "Water",
+      "color": "#2e43f4",
+      "alpha": 0.3,
+      "meta": 15
+    },
+    {
+      "uid": "minecraft:frosted_ice",
+      "name": "Frosted Ice",
+      "color": "#7dadff",
+      "alpha": 0.8,
+      "meta": 0,
+      "variants": [
+        {
+          "color": "#84b2ff",
+          "meta": 1
+        },
+        {
+          "color": "#89b5ff",
+          "meta": 2
+        },
+        {
+          "color": "#93bcff",
+          "meta": 3
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:furnace",
+      "name": "Furnace",
+      "color": "#4e4e4e",
+      "alpha": 1.0,
+      "meta": 5
+    },
+    {
+      "uid": "minecraft:glass",
+      "name": "Glass",
+      "color": "#daf0f4",
+      "alpha": 0.4,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:glass_pane",
+      "name": "Glass Pane",
+      "color": "#daf0f4",
+      "alpha": 0.4,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:glowstone",
+      "name": "Glowstone",
+      "color": "#8f7645",
+      "alpha": 0.4,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:gold_block",
+      "name": "Block of Gold",
+      "color": "#f9ec4e",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:gold_ore",
+      "name": "Gold Ore",
+      "color": "#8f8b7c",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:golden_rail",
+      "name": "Powered Rail",
+      "color": "#846c48",
+      "alpha": 1.0,
+      "meta": 5,
+      "variants": [
+        {
+          "color": "#9a6846",
+          "meta": 13
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:grass",
+      "name": "Grass Block",
+      "color": "#866043",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:grass_path",
+      "name": "Grass Path",
+      "color": "#866043",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:gravel",
+      "name": "Gravel",
+      "color": "#7e7c7a",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:hardened_clay",
+      "name": "Hardened Clay",
+      "color": "#965c42",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:hay_block",
+      "name": "Hay Bale",
+      "color": "#9d7412",
+      "alpha": 1.0,
+      "meta": 8
+    },
+    {
+      "uid": "minecraft:heavy_weighted_pressure_plate",
+      "name": "Weighted Pressure Plate (Heavy)",
+      "color": "#dbdbdb",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "minecraft:hopper",
+      "name": "Hopper",
+      "color": "#3e3e3e",
+      "alpha": 1.0,
+      "meta": 13
+    },
+    {
+      "uid": "minecraft:ice",
+      "name": "Ice",
+      "color": "#7dadff",
+      "alpha": 0.8,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:iron_bars",
+      "name": "Iron Bars",
+      "color": "#6d6c6a",
+      "alpha": 0.4,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:iron_block",
+      "name": "Block of Iron",
+      "color": "#dbdbdb",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:iron_door",
+      "name": "Iron Door",
+      "color": "#a3a3a3",
+      "alpha": 1.0,
+      "meta": 7,
+      "variants": [
+        {
+          "color": "#bababa",
+          "meta": 11
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:iron_ore",
+      "name": "Iron Ore",
+      "color": "#87827e",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:iron_trapdoor",
+      "name": "Iron Trapdoor",
+      "color": "#c7c7c7",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "minecraft:jukebox",
+      "name": "Jukebox",
+      "color": "#644332",
+      "alpha": 1.0,
+      "meta": 1
+    },
+    {
+      "uid": "minecraft:jungle_door",
+      "name": "Jungle Door",
+      "color": "#9c7354",
+      "alpha": 1.0,
+      "meta": 11,
+      "variants": [
+        {
+          "color": "#966d4e",
+          "meta": 7
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:jungle_fence",
+      "name": "Jungle Fence",
+      "color": "#9a6e4d",
+      "alpha": 0.4,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:jungle_fence_gate",
+      "name": "Jungle Fence Gate",
+      "color": "#9a6e4d",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "minecraft:jungle_stairs",
+      "name": "Jungle Wood Stairs",
+      "color": "#9a6e4d",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "minecraft:ladder",
+      "name": "Ladder",
+      "color": "#795f34",
+      "alpha": 1.0,
+      "meta": 5
+    },
+    {
+      "uid": "minecraft:lapis_block",
+      "name": "Lapis Lazuli Block",
+      "color": "#264389",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:lapis_ore",
+      "name": "Lapis Lazuli Ore",
+      "color": "#667086",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:lava",
+      "name": "Lava",
+      "color": "#d1530f",
+      "alpha": 0.0,
+      "meta": 15
+    },
+    {
+      "uid": "minecraft:leaves",
+      "name": "Birch Leaves",
+      "color": "#878787",
+      "alpha": 1.0,
+      "meta": 14,
+      "variants": [
+        {
+          "name": "Spruce Leaves",
+          "color": "#747474",
+          "meta": 13
+        },
+        {
+          "name": "Jungle Leaves",
+          "color": "#918e86",
+          "meta": 15
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:leaves2",
+      "name": "Dark Oak Leaves",
+      "color": "#878787",
+      "alpha": 1.0,
+      "meta": 13
+    },
+    {
+      "uid": "minecraft:lever",
+      "name": "Lever",
+      "color": "#7a7a7a",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "minecraft:light_weighted_pressure_plate",
+      "name": "Weighted Pressure Plate (Light)",
+      "color": "#f9ec4e",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "minecraft:lit_furnace",
+      "name": "Furnace",
+      "color": "#7d6655",
+      "alpha": 1.0,
+      "meta": 5
+    },
+    {
+      "uid": "minecraft:lit_pumpkin",
+      "name": "Jack o\u0027Lantern",
+      "color": "#b9851c",
+      "alpha": 1.0,
+      "meta": 3
+    },
+    {
+      "uid": "minecraft:lit_redstone_lamp",
+      "name": "Redstone Lamp",
+      "color": "#775937",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:lit_redstone_ore",
+      "name": "Redstone Ore",
+      "color": "#846b6b",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:log",
+      "name": "Oak Wood",
+      "color": "#2d1c0c",
+      "alpha": 1.0,
+      "meta": 13,
+      "variants": [
+        {
+          "color": "#665131",
+          "meta": 12
+        },
+        {
+          "color": "#cecec9",
+          "meta": 14
+        },
+        {
+          "color": "#57431a",
+          "meta": 15
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:log2",
+      "name": "Oak Wood",
+      "color": "#342817",
+      "alpha": 1.0,
+      "meta": 13,
+      "variants": [
+        {
+          "color": "#696359",
+          "meta": 12
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:melon_block",
+      "name": "Melon",
+      "color": "#8d9124",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:melon_stem",
+      "name": "Pumpkin Stem",
+      "color": "#999999",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "minecraft:mob_spawner",
+      "name": "Monster Spawner",
+      "color": "#1a2731",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:monster_egg",
+      "name": "Stone Monster Egg",
+      "color": "#7d7d7d",
+      "alpha": 1.0,
+      "meta": 0,
+      "variants": [
+        {
+          "name": "Stone Brick Monster Egg",
+          "color": "#7a7a7a",
+          "meta": 2
+        },
+        {
+          "name": "Mossy Stone Brick Monster Egg",
+          "color": "#72776a",
+          "meta": 3
+        },
+        {
+          "name": "Chiseled Stone Brick Monster Egg",
+          "color": "#767676",
+          "meta": 5
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:mossy_cobblestone",
+      "name": "Moss Stone",
+      "color": "#677967",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:mycelium",
+      "name": "Mycelium",
+      "color": "#866043",
+      "alpha": 1.0,
+      "meta": 0,
+      "variants": [
+        {
+          "color": "#715849",
+          "meta": 0
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:nether_brick",
+      "name": "Nether Brick",
+      "color": "#2c161a",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:nether_brick_fence",
+      "name": "Nether Brick Fence",
+      "color": "#2c161a",
+      "alpha": 0.4,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:nether_brick_stairs",
+      "name": "Nether Brick Stairs",
+      "color": "#2c161a",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "minecraft:nether_wart",
+      "name": "Nether Wart",
+      "color": "#6a0e1e",
+      "alpha": 1.0,
+      "meta": 0,
+      "variants": [
+        {
+          "color": "#6c0f16",
+          "meta": 2
+        },
+        {
+          "color": "#6f1211",
+          "meta": 3
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:netherrack",
+      "name": "Netherrack",
+      "color": "#6f3634",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:noteblock",
+      "name": "Note Block",
+      "color": "#644332",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:oak_stairs",
+      "name": "Oak Wood Stairs",
+      "color": "#9c7f4e",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "minecraft:obsidian",
+      "name": "Obsidian",
+      "color": "#14121d",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:packed_ice",
+      "name": "Packed Ice",
+      "color": "#a5c2f5",
+      "alpha": 0.8,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:piston",
+      "name": "Piston",
+      "color": "#6a665f",
+      "alpha": 1.0,
+      "meta": 13
+    },
+    {
+      "uid": "minecraft:piston_extension",
+      "name": "PistonMoving",
+      "color": "#7c007c",
+      "alpha": 0.0,
+      "meta": 13
+    },
+    {
+      "uid": "minecraft:piston_head",
+      "name": "Piston",
+      "color": "#998159",
+      "alpha": 1.0,
+      "meta": 5,
+      "variants": [
+        {
+          "color": "#8d9263",
+          "meta": 13
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:planks",
+      "name": "Spruce Wood Planks",
+      "color": "#674d2e",
+      "alpha": 1.0,
+      "meta": 1,
+      "variants": [
+        {
+          "name": "Oak Wood Planks",
+          "color": "#9c7f4e",
+          "meta": 0
+        },
+        {
+          "name": "Birch Wood Planks",
+          "color": "#c3b37b",
+          "meta": 2
+        },
+        {
+          "name": "Jungle Wood Planks",
+          "color": "#9a6e4d",
+          "meta": 3
+        },
+        {
+          "name": "Acacia Wood Planks",
+          "color": "#a95b33",
+          "meta": 4
+        },
+        {
+          "name": "Dark Oak Wood Planks",
+          "color": "#3d2712",
+          "meta": 5
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:portal",
+      "name": "Portal",
+      "color": "#560abe",
+      "alpha": 0.74509805,
+      "meta": 2
+    },
+    {
+      "uid": "minecraft:potatoes",
+      "name": "Potatoes",
+      "color": "#22aa24",
+      "alpha": 1.0,
+      "meta": 7,
+      "variants": [
+        {
+          "color": "#01ab10",
+          "meta": 1
+        },
+        {
+          "color": "#01bb0f",
+          "meta": 3
+        },
+        {
+          "color": "#00be10",
+          "meta": 6
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:powered_comparator",
+      "name": "Redstone Comparator",
+      "color": "#9c9695",
+      "alpha": 1.0,
+      "meta": 7,
+      "variants": [
+        {
+          "color": "#a59594",
+          "meta": 15
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:powered_repeater",
+      "name": "Redstone Repeater",
+      "color": "#a09393",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "minecraft:prismarine",
+      "name": "Prismarine Bricks",
+      "color": "#63a08f",
+      "alpha": 1.0,
+      "meta": 1,
+      "variants": [
+        {
+          "name": "Prismarine",
+          "color": "#69a894",
+          "meta": 0
+        },
+        {
+          "name": "Dark Prismarine",
+          "color": "#3b574b",
+          "meta": 2
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:pumpkin",
+      "name": "Pumpkin",
+      "color": "#8e4c0c",
+      "alpha": 1.0,
+      "meta": 3
+    },
+    {
+      "uid": "minecraft:pumpkin_stem",
+      "name": "Pumpkin Stem",
+      "color": "#999999",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "minecraft:purpur_block",
+      "name": "Purpur Block",
+      "color": "#a679a6",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:purpur_double_slab",
+      "name": "Purpur Slab",
+      "color": "#a679a6",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:purpur_pillar",
+      "name": "Purpur Pillar",
+      "color": "#aa7eaa",
+      "alpha": 1.0,
+      "meta": 8
+    },
+    {
+      "uid": "minecraft:purpur_slab",
+      "name": "Purpur Slab",
+      "color": "#a679a6",
+      "alpha": 1.0,
+      "meta": 8
+    },
+    {
+      "uid": "minecraft:purpur_stairs",
+      "name": "Purpur Stairs",
+      "color": "#a679a6",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "minecraft:quartz_block",
+      "name": "Block of Quartz",
+      "color": "#ece9e2",
+      "alpha": 1.0,
+      "meta": 0,
+      "variants": [
+        {
+          "name": "Chiseled Quartz Block",
+          "color": "#e7e4dc",
+          "meta": 1
+        },
+        {
+          "color": "#e7e3db",
+          "meta": 4
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:quartz_ore",
+      "name": "Nether Quartz Ore",
+      "color": "#7d544f",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:quartz_stairs",
+      "name": "Quartz Stairs",
+      "color": "#ece9e2",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "minecraft:rail",
+      "name": "Rail",
+      "color": "#796c58",
+      "alpha": 1.0,
+      "meta": 5,
+      "variants": [
+        {
+          "color": "#786b56",
+          "meta": 9
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:red_flower",
+      "name": "White Tulip",
+      "color": "#b0b0b0",
+      "alpha": 1.0,
+      "meta": 6,
+      "variants": [
+        {
+          "name": "Blue Orchid",
+          "color": "#1e7eb6",
+          "meta": 1
+        },
+        {
+          "name": "Allium",
+          "color": "#8549b6",
+          "meta": 2
+        },
+        {
+          "name": "Azure Bluet",
+          "color": "#9da1a7",
+          "meta": 3
+        },
+        {
+          "name": "Red Tulip",
+          "color": "#980406",
+          "meta": 4
+        },
+        {
+          "name": "Orange Tulip",
+          "color": "#a3581a",
+          "meta": 5
+        },
+        {
+          "name": "Pink Tulip",
+          "color": "#b09ab0",
+          "meta": 7
+        },
+        {
+          "name": "Oxeye Daisy",
+          "color": "#b3b3b3",
+          "meta": 8
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:red_mushroom",
+      "name": "Mushroom",
+      "color": "#c33538",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:red_mushroom_block",
+      "name": "Mushroom",
+      "color": "#b62524",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "minecraft:red_sandstone",
+      "name": "Smooth Red Sandstone",
+      "color": "#a8551e",
+      "alpha": 1.0,
+      "meta": 2,
+      "variants": [
+        {
+          "name": "Red Sandstone",
+          "color": "#a5541d",
+          "meta": 0
+        },
+        {
+          "name": "Chiseled Red Sandstone",
+          "color": "#a2521b",
+          "meta": 1
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:red_sandstone_stairs",
+      "name": "Red Sandstone Stairs",
+      "color": "#a5541d",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "minecraft:redstone_block",
+      "name": "Block of Redstone",
+      "color": "#ab1b09",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:redstone_lamp",
+      "name": "Redstone Lamp",
+      "color": "#462b1a",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:redstone_ore",
+      "name": "Redstone Ore",
+      "color": "#846b6b",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:redstone_wire",
+      "name": "Redstone Dust",
+      "color": "#f0f0f0",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "minecraft:reeds",
+      "name": "Sugar cane",
+      "color": "#94c065",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "minecraft:repeating_command_block",
+      "name": "Repeating Command Block",
+      "color": "#7969a2",
+      "alpha": 1.0,
+      "meta": 13
+    },
+    {
+      "uid": "minecraft:sand",
+      "name": "Red Sand",
+      "color": "#a95821",
+      "alpha": 1.0,
+      "meta": 1,
+      "variants": [
+        {
+          "name": "Sand",
+          "color": "#dbd3a0",
+          "meta": 0
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:sandstone",
+      "name": "Sandstone",
+      "color": "#d8d19d",
+      "alpha": 1.0,
+      "meta": 0,
+      "variants": [
+        {
+          "name": "Chiseled Sandstone",
+          "color": "#d7d09a",
+          "meta": 1
+        },
+        {
+          "name": "Smooth Sandstone",
+          "color": "#dbd3a1",
+          "meta": 2
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:sandstone_stairs",
+      "name": "Sandstone Stairs",
+      "color": "#d8d19d",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "minecraft:sapling",
+      "name": "Oak Sapling",
+      "color": "#476625",
+      "alpha": 1.0,
+      "meta": 8,
+      "variants": [
+        {
+          "color": "#333a21",
+          "meta": 9
+        },
+        {
+          "color": "#769654",
+          "meta": 10
+        },
+        {
+          "color": "#305612",
+          "meta": 11
+        },
+        {
+          "color": "#727314",
+          "meta": 12
+        },
+        {
+          "color": "#38561c",
+          "meta": 13
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:sea_lantern",
+      "name": "Sea Lantern",
+      "color": "#abc7bd",
+      "alpha": 0.4,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:skull",
+      "name": "Skull",
+      "color": "#544033",
+      "alpha": 0.0,
+      "meta": 13
+    },
+    {
+      "uid": "minecraft:slime",
+      "name": "Slime Block",
+      "color": "#78c865",
+      "alpha": 0.7372549,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:snow",
+      "name": "Snow",
+      "color": "#effbfb",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:snow_layer",
+      "name": "Snow",
+      "color": "#effbfb",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "minecraft:soul_sand",
+      "name": "Soul Sand",
+      "color": "#544033",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:sponge",
+      "name": "Sponge",
+      "color": "#c2c354",
+      "alpha": 1.0,
+      "meta": 0,
+      "variants": [
+        {
+          "name": "Wet Sponge",
+          "color": "#a09e3f",
+          "meta": 1
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:spruce_door",
+      "name": "Spruce Door",
+      "color": "#614b31",
+      "alpha": 1.0,
+      "meta": 7,
+      "variants": [
+        {
+          "color": "#604a31",
+          "meta": 11
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:spruce_fence",
+      "name": "Spruce Fence",
+      "color": "#674d2e",
+      "alpha": 0.4,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:spruce_fence_gate",
+      "name": "Spruce Fence Gate",
+      "color": "#674d2e",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "minecraft:spruce_stairs",
+      "name": "Spruce Wood Stairs",
+      "color": "#674d2e",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "minecraft:stained_glass",
+      "name": "White Stained Glass",
+      "color": "#ffffff",
+      "alpha": 0.4,
+      "meta": 0,
+      "variants": [
+        {
+          "name": "Orange Stained Glass",
+          "color": "#d87f33",
+          "meta": 1
+        },
+        {
+          "name": "Magenta Stained Glass",
+          "color": "#b24cd8",
+          "meta": 2
+        },
+        {
+          "name": "Light Blue Stained Glass",
+          "color": "#6699d8",
+          "meta": 3
+        },
+        {
+          "name": "Yellow Stained Glass",
+          "color": "#e5e533",
+          "meta": 4
+        },
+        {
+          "name": "Lime Stained Glass",
+          "color": "#7fcc19",
+          "meta": 5
+        },
+        {
+          "name": "Pink Stained Glass",
+          "color": "#f27fa5",
+          "meta": 6
+        },
+        {
+          "name": "Gray Stained Glass",
+          "color": "#4c4c4c",
+          "meta": 7
+        },
+        {
+          "name": "Light Gray Stained Glass",
+          "color": "#999999",
+          "meta": 8
+        },
+        {
+          "name": "Cyan Stained Glass",
+          "color": "#4c7f99",
+          "meta": 9
+        },
+        {
+          "name": "Purple Stained Glass",
+          "color": "#7f3fb2",
+          "meta": 10
+        },
+        {
+          "name": "Blue Stained Glass",
+          "color": "#334cb2",
+          "meta": 11
+        },
+        {
+          "name": "Brown Stained Glass",
+          "color": "#664c33",
+          "meta": 12
+        },
+        {
+          "name": "Green Stained Glass",
+          "color": "#667f33",
+          "meta": 13
+        },
+        {
+          "name": "Red Stained Glass",
+          "color": "#993333",
+          "meta": 14
+        },
+        {
+          "name": "Black Stained Glass",
+          "color": "#191919",
+          "meta": 15
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:stained_glass_pane",
+      "name": "White Stained Glass Pane",
+      "color": "#ffffff",
+      "alpha": 0.4,
+      "meta": 0,
+      "variants": [
+        {
+          "name": "Orange Stained Glass Pane",
+          "color": "#d87f33",
+          "meta": 1
+        },
+        {
+          "name": "Magenta Stained Glass Pane",
+          "color": "#b24cd8",
+          "meta": 2
+        },
+        {
+          "name": "Light Blue Stained Glass Pane",
+          "color": "#6699d8",
+          "meta": 3
+        },
+        {
+          "name": "Yellow Stained Glass Pane",
+          "color": "#e5e533",
+          "meta": 4
+        },
+        {
+          "name": "Lime Stained Glass Pane",
+          "color": "#7fcc19",
+          "meta": 5
+        },
+        {
+          "name": "Pink Stained Glass Pane",
+          "color": "#f27fa5",
+          "meta": 6
+        },
+        {
+          "name": "Gray Stained Glass Pane",
+          "color": "#4c4c4c",
+          "meta": 7
+        },
+        {
+          "name": "Light Gray Stained Glass Pane",
+          "color": "#999999",
+          "meta": 8
+        },
+        {
+          "name": "Cyan Stained Glass Pane",
+          "color": "#4c7f99",
+          "meta": 9
+        },
+        {
+          "name": "Purple Stained Glass Pane",
+          "color": "#7f3fb2",
+          "meta": 10
+        },
+        {
+          "name": "Blue Stained Glass Pane",
+          "color": "#334cb2",
+          "meta": 11
+        },
+        {
+          "name": "Brown Stained Glass Pane",
+          "color": "#664c33",
+          "meta": 12
+        },
+        {
+          "name": "Green Stained Glass Pane",
+          "color": "#667f33",
+          "meta": 13
+        },
+        {
+          "name": "Red Stained Glass Pane",
+          "color": "#993333",
+          "meta": 14
+        },
+        {
+          "name": "Black Stained Glass Pane",
+          "color": "#191919",
+          "meta": 15
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:stained_hardened_clay",
+      "name": "Purple Stained Clay",
+      "color": "#764656",
+      "alpha": 1.0,
+      "meta": 10,
+      "variants": [
+        {
+          "name": "White Stained Clay",
+          "color": "#d1b2a1",
+          "meta": 0
+        },
+        {
+          "name": "Orange Stained Clay",
+          "color": "#a15325",
+          "meta": 1
+        },
+        {
+          "name": "Magenta Stained Clay",
+          "color": "#95586c",
+          "meta": 2
+        },
+        {
+          "name": "Light Blue Stained Clay",
+          "color": "#716c89",
+          "meta": 3
+        },
+        {
+          "name": "Yellow Stained Clay",
+          "color": "#ba8523",
+          "meta": 4
+        },
+        {
+          "name": "Lime Stained Clay",
+          "color": "#677534",
+          "meta": 5
+        },
+        {
+          "name": "Pink Stained Clay",
+          "color": "#a14e4e",
+          "meta": 6
+        },
+        {
+          "name": "Gray Stained Clay",
+          "color": "#392a23",
+          "meta": 7
+        },
+        {
+          "name": "Light Gray Stained Clay",
+          "color": "#876a61",
+          "meta": 8
+        },
+        {
+          "name": "Cyan Stained Clay",
+          "color": "#565b5b",
+          "meta": 9
+        },
+        {
+          "name": "Blue Stained Clay",
+          "color": "#4a3b5b",
+          "meta": 11
+        },
+        {
+          "name": "Brown Stained Clay",
+          "color": "#4d3323",
+          "meta": 12
+        },
+        {
+          "name": "Green Stained Clay",
+          "color": "#4c532a",
+          "meta": 13
+        },
+        {
+          "name": "Red Stained Clay",
+          "color": "#8f3d2e",
+          "meta": 14
+        },
+        {
+          "name": "Black Stained Clay",
+          "color": "#251610",
+          "meta": 15
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:standing_banner",
+      "name": "BannerStanding",
+      "color": "#9c7f4e",
+      "alpha": 0.0,
+      "meta": 15
+    },
+    {
+      "uid": "minecraft:standing_sign",
+      "name": "Sign",
+      "color": "#9c7f4e",
+      "alpha": 0.0,
+      "meta": 15
+    },
+    {
+      "uid": "minecraft:sticky_piston",
+      "name": "Sticky Piston",
+      "color": "#6a665f",
+      "alpha": 1.0,
+      "meta": 13
+    },
+    {
+      "uid": "minecraft:stone",
+      "name": "Stone",
+      "color": "#7d7d7d",
+      "alpha": 1.0,
+      "meta": 0,
+      "variants": [
+        {
+          "name": "Granite",
+          "color": "#997162",
+          "meta": 1
+        },
+        {
+          "name": "Polished Granite",
+          "color": "#9f7262",
+          "meta": 2
+        },
+        {
+          "name": "Diorite",
+          "color": "#b3b3b6",
+          "meta": 3
+        },
+        {
+          "name": "Polished Diorite",
+          "color": "#b7b7b9",
+          "meta": 4
+        },
+        {
+          "name": "Andesite",
+          "color": "#828383",
+          "meta": 5
+        },
+        {
+          "name": "Polished Andesite",
+          "color": "#858586",
+          "meta": 6
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:stone_brick_stairs",
+      "name": "Stone Brick Stairs",
+      "color": "#7a7a7a",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "minecraft:stone_button",
+      "name": "Button",
+      "color": "#7d7d7d",
+      "alpha": 1.0,
+      "meta": 13
+    },
+    {
+      "uid": "minecraft:stone_pressure_plate",
+      "name": "Stone Pressure Plate",
+      "color": "#7d7d7d",
+      "alpha": 1.0,
+      "meta": 1
+    },
+    {
+      "uid": "minecraft:stone_slab",
+      "name": "Stone Slab",
+      "color": "#a6a6a6",
+      "alpha": 1.0,
+      "meta": 8,
+      "variants": [
+        {
+          "color": "#d8d19d",
+          "meta": 9
+        },
+        {
+          "color": "#9c7f4e",
+          "meta": 10
+        },
+        {
+          "color": "#926356",
+          "meta": 12
+        },
+        {
+          "color": "#7a7a7a",
+          "meta": 13
+        },
+        {
+          "color": "#2c161a",
+          "meta": 14
+        },
+        {
+          "color": "#ece9e2",
+          "meta": 15
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:stone_slab2",
+      "name": "Red Sandstone Slab",
+      "color": "#a5541d",
+      "alpha": 1.0,
+      "meta": 8
+    },
+    {
+      "uid": "minecraft:stone_stairs",
+      "name": "Cobblestone Stairs",
+      "color": "#7a7a7a",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "minecraft:stonebrick",
+      "name": "Stone Bricks",
+      "color": "#7a7a7a",
+      "alpha": 1.0,
+      "meta": 0,
+      "variants": [
+        {
+          "name": "Mossy Stone Bricks",
+          "color": "#72776a",
+          "meta": 1
+        },
+        {
+          "name": "Chiseled Stone Bricks",
+          "color": "#767676",
+          "meta": 3
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:structure_block",
+      "name": "Structure Block",
+      "color": "#3f2f33",
+      "alpha": 1.0,
+      "meta": 1,
+      "variants": [
+        {
+          "color": "#46363a",
+          "meta": 0
+        },
+        {
+          "color": "#453539",
+          "meta": 2
+        },
+        {
+          "color": "#4c3d41",
+          "meta": 3
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:tnt",
+      "name": "TNT",
+      "color": "#a95c47",
+      "alpha": 1.0,
+      "meta": 1
+    },
+    {
+      "uid": "minecraft:trapdoor",
+      "name": "Wooden Trapdoor",
+      "color": "#7e5d2d",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "minecraft:trapped_chest",
+      "name": "Trapped Chest",
+      "color": "#9c7f4e",
+      "alpha": 0.0,
+      "meta": 5
+    },
+    {
+      "uid": "minecraft:tripwire",
+      "name": "Tripwire",
+      "color": "#818181",
+      "alpha": 0.6509804,
+      "meta": 13
+    },
+    {
+      "uid": "minecraft:tripwire_hook",
+      "name": "Tripwire Hook",
+      "color": "#9c7f4e",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "minecraft:unpowered_comparator",
+      "name": "Redstone Comparator",
+      "color": "#9c9695",
+      "alpha": 1.0,
+      "meta": 7,
+      "variants": [
+        {
+          "color": "#a59594",
+          "meta": 15
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:unpowered_repeater",
+      "name": "Redstone Repeater",
+      "color": "#979393",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "minecraft:vine",
+      "name": "Vines",
+      "color": "#6f6f6f",
+      "alpha": 0.2,
+      "meta": 15
+    },
+    {
+      "uid": "minecraft:wall_banner",
+      "name": "White Banner",
+      "color": "#9c7f4e",
+      "alpha": 0.0,
+      "meta": 5
+    },
+    {
+      "uid": "minecraft:wall_sign",
+      "name": "Sign",
+      "color": "#9c7f4e",
+      "alpha": 0.0,
+      "meta": 5
+    },
+    {
+      "uid": "minecraft:water",
+      "name": "Water",
+      "color": "#2e43f4",
+      "alpha": 0.3,
+      "meta": 15
+    },
+    {
+      "uid": "minecraft:waterlily",
+      "name": "Lily Pad",
+      "color": "#767676",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:web",
+      "name": "Cobweb",
+      "color": "#dcdcdc",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:wheat",
+      "name": "Crops",
+      "color": "#427b07",
+      "alpha": 1.0,
+      "meta": 5,
+      "variants": [
+        {
+          "color": "#00b312",
+          "meta": 0
+        },
+        {
+          "color": "#12ac0f",
+          "meta": 1
+        },
+        {
+          "color": "#1c890b",
+          "meta": 2
+        },
+        {
+          "color": "#258b08",
+          "meta": 3
+        },
+        {
+          "color": "#2e8007",
+          "meta": 4
+        },
+        {
+          "color": "#507607",
+          "meta": 6
+        },
+        {
+          "color": "#566607",
+          "meta": 7
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:wooden_button",
+      "name": "Button",
+      "color": "#9c7f4e",
+      "alpha": 1.0,
+      "meta": 13
+    },
+    {
+      "uid": "minecraft:wooden_door",
+      "name": "Oak Door",
+      "color": "#866532",
+      "alpha": 1.0,
+      "meta": 7,
+      "variants": [
+        {
+          "color": "#866733",
+          "meta": 11
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:wooden_pressure_plate",
+      "name": "Wooden Pressure Plate",
+      "color": "#9c7f4e",
+      "alpha": 1.0,
+      "meta": 1
+    },
+    {
+      "uid": "minecraft:wooden_slab",
+      "name": "Oak Wood Slab",
+      "color": "#674d2e",
+      "alpha": 1.0,
+      "meta": 9,
+      "variants": [
+        {
+          "color": "#9c7f4e",
+          "meta": 8
+        },
+        {
+          "color": "#c3b37b",
+          "meta": 10
+        },
+        {
+          "color": "#9a6e4d",
+          "meta": 11
+        },
+        {
+          "color": "#a95b33",
+          "meta": 12
+        },
+        {
+          "color": "#3d2712",
+          "meta": 13
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:wool",
+      "name": "Wool",
+      "color": "#dddddd",
+      "alpha": 1.0,
+      "meta": 0,
+      "variants": [
+        {
+          "name": "Orange Wool",
+          "color": "#db7d3e",
+          "meta": 1
+        },
+        {
+          "name": "Magenta Wool",
+          "color": "#b350bc",
+          "meta": 2
+        },
+        {
+          "name": "Light Blue Wool",
+          "color": "#6a8ac9",
+          "meta": 3
+        },
+        {
+          "name": "Yellow Wool",
+          "color": "#b1a627",
+          "meta": 4
+        },
+        {
+          "name": "Lime Wool",
+          "color": "#41ae38",
+          "meta": 5
+        },
+        {
+          "name": "Pink Wool",
+          "color": "#d08499",
+          "meta": 6
+        },
+        {
+          "name": "Gray Wool",
+          "color": "#404040",
+          "meta": 7
+        },
+        {
+          "name": "Light Gray Wool",
+          "color": "#9aa1a1",
+          "meta": 8
+        },
+        {
+          "name": "Cyan Wool",
+          "color": "#2e6e89",
+          "meta": 9
+        },
+        {
+          "name": "Purple Wool",
+          "color": "#7e3db5",
+          "meta": 10
+        },
+        {
+          "name": "Blue Wool",
+          "color": "#2e388d",
+          "meta": 11
+        },
+        {
+          "name": "Brown Wool",
+          "color": "#4f321f",
+          "meta": 12
+        },
+        {
+          "name": "Green Wool",
+          "color": "#35461b",
+          "meta": 13
+        },
+        {
+          "name": "Red Wool",
+          "color": "#963430",
+          "meta": 14
+        },
+        {
+          "name": "Black Wool",
+          "color": "#191616",
+          "meta": 15
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:yellow_flower",
+      "name": "Dandelion",
+      "color": "#afb401",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "opencomputers:accessPoint",
+      "name": "§cAccess Point§7",
+      "color": "#252529",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "opencomputers:adapter",
+      "name": "Adapter",
+      "color": "#242424",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "opencomputers:assembler",
+      "name": "Electronics Assembler",
+      "color": "#444444",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "opencomputers:cable",
+      "name": "Cable",
+      "color": "#444444",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "opencomputers:capacitor",
+      "name": "Capacitor",
+      "color": "#2f422f",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "opencomputers:case1",
+      "name": "Computer Case (Tier 1)",
+      "color": "#444444",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "opencomputers:case2",
+      "name": "Computer Case (Tier 2)",
+      "color": "#444444",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "opencomputers:case3",
+      "name": "Computer Case (Tier 3)",
+      "color": "#444444",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "opencomputers:caseCreative",
+      "name": "Computer Case (Creative)",
+      "color": "#444444",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "opencomputers:chameliumBlock",
+      "name": "Block of Chamelium",
+      "color": "#444444",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "opencomputers:charger",
+      "name": "Charger",
+      "color": "#232323",
+      "alpha": 1.0,
+      "meta": 3
+    },
+    {
+      "uid": "opencomputers:disassembler",
+      "name": "Disassembler",
+      "color": "#1c1c1c",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "opencomputers:diskDrive",
+      "name": "Disk Drive",
+      "color": "#2b2c2b",
+      "alpha": 1.0,
+      "meta": 3
+    },
+    {
+      "uid": "opencomputers:endstone",
+      "name": "End Stone",
+      "color": "#dddfa5",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "opencomputers:geolyzer",
+      "name": "Geolyzer",
+      "color": "#262626",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "opencomputers:hologram1",
+      "name": "Hologram Projector (Tier 1)",
+      "color": "#444444",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "opencomputers:hologram2",
+      "name": "Hologram Projector (Tier 2)",
+      "color": "#444444",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "opencomputers:keyboard",
+      "name": "Keyboard",
+      "color": "#444444",
+      "alpha": 1.0,
+      "meta": 11
+    },
+    {
+      "uid": "opencomputers:microcontroller",
+      "name": "Microcontroller",
+      "color": "#313232",
+      "alpha": 1.0,
+      "meta": 3
+    },
+    {
+      "uid": "opencomputers:motionSensor",
+      "name": "Motion Sensor",
+      "color": "#3e5a5b",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "opencomputers:netSplitter",
+      "name": "Net Splitter",
+      "color": "#444444",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "opencomputers:powerConverter",
+      "name": "Power Converter",
+      "color": "#2b2b2b",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "opencomputers:powerDistributor",
+      "name": "Power Distributor",
+      "color": "#292924",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "opencomputers:print",
+      "name": "3D Print",
+      "color": "#444444",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "opencomputers:printer",
+      "name": "3D Printer",
+      "color": "#444444",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "opencomputers:rack",
+      "name": "Rack",
+      "color": "#444444",
+      "alpha": 1.0,
+      "meta": 3
+    },
+    {
+      "uid": "opencomputers:raid",
+      "name": "Raid",
+      "color": "#262726",
+      "alpha": 1.0,
+      "meta": 3
+    },
+    {
+      "uid": "opencomputers:redstone",
+      "name": "Redstone I/O",
+      "color": "#5c322d",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "opencomputers:relay",
+      "name": "Relay",
+      "color": "#252529",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "opencomputers:robot",
+      "name": "Robot.name",
+      "color": "#444444",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "opencomputers:robotAfterimage",
+      "name": "Robot",
+      "color": "#444444",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "opencomputers:screen1",
+      "name": "Screen (Tier 1)",
+      "color": "#444444",
+      "alpha": 1.0,
+      "meta": 11
+    },
+    {
+      "uid": "opencomputers:screen2",
+      "name": "Screen (Tier 2)",
+      "color": "#444444",
+      "alpha": 1.0,
+      "meta": 11
+    },
+    {
+      "uid": "opencomputers:screen3",
+      "name": "Screen (Tier 3)",
+      "color": "#444444",
+      "alpha": 1.0,
+      "meta": 11
+    },
+    {
+      "uid": "opencomputers:switch",
+      "name": "§cSwitch§7",
+      "color": "#252529",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "opencomputers:transposer",
+      "name": "Transposer",
+      "color": "#444444",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "opencomputers:waypoint",
+      "name": "Waypoint",
+      "color": "#181818",
+      "alpha": 1.0,
+      "meta": 3
+    },
+    {
+      "uid": "reborncore-mcmultipart:multipart",
+      "name": "MultipartContainer",
+      "color": "#7d7d7d",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "roots:altar",
+      "name": "Casting Altar",
+      "color": "#575b56",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "roots:brazier",
+      "name": "Incense Brazier",
+      "color": "#345d4b",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "roots:druidChalice",
+      "name": "Druidic Chalice [WIP]",
+      "color": "#7c007c",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "roots:flareOrchid",
+      "name": "Flare Orchid",
+      "color": "#d06d27",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "roots:imbuer",
+      "name": "Imbuer",
+      "color": "#665840",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "roots:midnightBloom",
+      "name": "Midnight Bloom",
+      "color": "#262656",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "roots:mortar",
+      "name": "Mortar",
+      "color": "#302e31",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "roots:radiantDaisy",
+      "name": "Radiant Daisy",
+      "color": "#b4ccaf",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "roots:standingStoneAccelerator",
+      "name": "StandingStoneAccelerator",
+      "color": "#484e4b",
+      "alpha": 1.0,
+      "meta": 0,
+      "variants": [
+        {
+          "color": "#4b514e",
+          "meta": 1
+        }
+      ]
+    },
+    {
+      "uid": "roots:standingStoneEntangler",
+      "name": "StandingStoneEntangler",
+      "color": "#484e4b",
+      "alpha": 1.0,
+      "meta": 0,
+      "variants": [
+        {
+          "color": "#4a504d",
+          "meta": 1
+        }
+      ]
+    },
+    {
+      "uid": "roots:standingStoneGrower",
+      "name": "StandingStoneGrower",
+      "color": "#484e4b",
+      "alpha": 1.0,
+      "meta": 0,
+      "variants": [
+        {
+          "color": "#4a504e",
+          "meta": 1
+        }
+      ]
+    },
+    {
+      "uid": "roots:standingStoneHealer",
+      "name": "StandingStoneHealer",
+      "color": "#484e4b",
+      "alpha": 1.0,
+      "meta": 0,
+      "variants": [
+        {
+          "color": "#4b504e",
+          "meta": 1
+        }
+      ]
+    },
+    {
+      "uid": "roots:standingStoneIgniter",
+      "name": "StandingStoneIgniter",
+      "color": "#484e4b",
+      "alpha": 1.0,
+      "meta": 0,
+      "variants": [
+        {
+          "color": "#4b504e",
+          "meta": 1
+        }
+      ]
+    },
+    {
+      "uid": "roots:standingStoneRepulsor",
+      "name": "StandingStoneRepulsor",
+      "color": "#484e4b",
+      "alpha": 1.0,
+      "meta": 0,
+      "variants": [
+        {
+          "color": "#4b504e",
+          "meta": 1
+        }
+      ]
+    },
+    {
+      "uid": "roots:standingStoneT1",
+      "name": "Mundane Standing Stone",
+      "color": "#4b504e",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "roots:standingStoneT2",
+      "name": "Attuned Standing Stone",
+      "color": "#484e4b",
+      "alpha": 1.0,
+      "meta": 0,
+      "variants": [
+        {
+          "color": "#4a504d",
+          "meta": 1
+        }
+      ]
+    },
+    {
+      "uid": "roots:standingStoneVacuum",
+      "name": "StandingStoneVacuum",
+      "color": "#484e4b",
+      "alpha": 1.0,
+      "meta": 0,
+      "variants": [
+        {
+          "color": "#4a504d",
+          "meta": 1
+        }
+      ]
+    },
+    {
+      "uid": "storagedrawers:basicDrawers",
+      "name": "Half Drawers 1x2",
+      "color": "#b7a773",
+      "alpha": 1.0,
+      "meta": 3,
+      "variants": [
+        {
+          "name": "Basic Drawer",
+          "color": "#3c2612",
+          "meta": 0
+        },
+        {
+          "name": "Basic Drawer",
+          "color": "#654c2e",
+          "meta": 0
+        },
+        {
+          "name": "Basic Drawer",
+          "color": "#986d4c",
+          "meta": 0
+        },
+        {
+          "name": "Basic Drawer",
+          "color": "#9a7d4d",
+          "meta": 0
+        },
+        {
+          "name": "Basic Drawer",
+          "color": "#a55932",
+          "meta": 0
+        },
+        {
+          "name": "Basic Drawer",
+          "color": "#bfaf78",
+          "meta": 0
+        },
+        {
+          "color": "#382411",
+          "meta": 3
+        },
+        {
+          "color": "#5f472b",
+          "meta": 3
+        },
+        {
+          "color": "#8f6647",
+          "meta": 3
+        },
+        {
+          "color": "#907548",
+          "meta": 3
+        },
+        {
+          "color": "#9f5530",
+          "meta": 3
+        },
+        {
+          "name": "Half Drawers 2x2",
+          "color": "#352210",
+          "meta": 4
+        },
+        {
+          "name": "Half Drawers 2x2",
+          "color": "#5a442a",
+          "meta": 4
+        },
+        {
+          "name": "Half Drawers 2x2",
+          "color": "#886043",
+          "meta": 4
+        },
+        {
+          "name": "Half Drawers 2x2",
+          "color": "#8a6f45",
+          "meta": 4
+        },
+        {
+          "name": "Half Drawers 2x2",
+          "color": "#99522e",
+          "meta": 4
+        },
+        {
+          "name": "Half Drawers 2x2",
+          "color": "#b1a06f",
+          "meta": 4
+        }
+      ]
+    },
+    {
+      "uid": "storagedrawers:compDrawers",
+      "name": "Compacting Drawer",
+      "color": "#5e5e5e",
+      "alpha": 1.0,
+      "meta": 0,
+      "variants": [
+        {
+          "color": "#676767",
+          "meta": 0
+        },
+        {
+          "color": "#707070",
+          "meta": 0
+        }
+      ]
+    },
+    {
+      "uid": "storagedrawers:controller",
+      "name": "Drawer Controller",
+      "color": "#6c6c6c",
+      "alpha": 1.0,
+      "meta": 5
+    },
+    {
+      "uid": "storagedrawers:controllerSlave",
+      "name": "Controller Slave",
+      "color": "#787878",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "storagedrawers:customDrawers",
+      "name": "Framed Half Drawers 2x2",
+      "color": "#544028",
+      "alpha": 1.0,
+      "meta": 4
+    },
+    {
+      "uid": "storagedrawers:framingTable",
+      "name": "Framing Table",
+      "color": "#ae8e58",
+      "alpha": 1.0,
+      "meta": 13
+    },
+    {
+      "uid": "storagedrawers:trim",
+      "name": "Spruce Trim",
+      "color": "#694f2f",
+      "alpha": 1.0,
+      "meta": 1,
+      "variants": [
+        {
+          "name": "Oak Trim",
+          "color": "#9f8250",
+          "meta": 0
+        },
+        {
+          "name": "Birch Trim",
+          "color": "#c5b57c",
+          "meta": 2
+        },
+        {
+          "name": "Jungle Trim",
+          "color": "#9d714e",
+          "meta": 3
+        },
+        {
+          "name": "Acacia Trim",
+          "color": "#ab5c33",
+          "meta": 4
+        },
+        {
+          "name": "Dark Oak Trim",
+          "color": "#3e2812",
+          "meta": 5
+        }
+      ]
+    },
+    {
+      "uid": "techreborn:aesu",
+      "name": "AESU",
+      "color": "#7889a1",
+      "alpha": 1.0,
+      "meta": 4,
+      "variants": [
+        {
+          "color": "#9eb3c7",
+          "meta": 5
+        }
+      ]
+    },
+    {
+      "uid": "techreborn:alloySmelter",
+      "name": "Electric Alloy Furnace",
+      "color": "#b5c2c5",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "techreborn:alloyfurnace",
+      "name": "Iron Alloy Furnace",
+      "color": "#c6c6c6",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "techreborn:assemblymachine",
+      "name": "Assembling Machine",
+      "color": "#b5c2c5",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "techreborn:batBox",
+      "name": "Battery Box",
+      "color": "#54452c",
+      "alpha": 1.0,
+      "meta": 5,
+      "variants": [
+        {
+          "color": "#52432c",
+          "meta": 4
+        }
+      ]
+    },
+    {
+      "uid": "techreborn:blastFurnace",
+      "name": "Industrial Blast Furnace",
+      "color": "#abbdc4",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "techreborn:chargebench",
+      "name": "Charge Bench",
+      "color": "#96bfa7",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "techreborn:chemicalreactor",
+      "name": "Chemical Reactor",
+      "color": "#b5c2c5",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "techreborn:chunkloader",
+      "name": "Industrial Chunkloader",
+      "color": "#abb7b9",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "techreborn:computercube",
+      "name": "TechReborn Computer Cube",
+      "color": "#627377",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "techreborn:dieselgenerator",
+      "name": "Diesel Generator",
+      "color": "#b5c2c5",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "techreborn:distillationtower",
+      "name": "Distillation Tower",
+      "color": "#abbdc4",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "techreborn:distributor",
+      "name": "Distributor",
+      "color": "#7c007c",
+      "alpha": 0.0,
+      "meta": 0
+    },
+    {
+      "uid": "techreborn:dragoneggenergsiphon",
+      "name": "Dragon Egg Energy Siphon",
+      "color": "#6f7678",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "techreborn:electriccraftingtable",
+      "name": "Electric Autocrafting Table",
+      "color": "#b5c2c5",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "techreborn:fusioncoil",
+      "name": "Fusion Coil",
+      "color": "#d6c9d3",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "techreborn:fusioncontrolcomputer",
+      "name": "Fusion Reactor",
+      "color": "#b5c2c5",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "techreborn:gasturbine",
+      "name": "Gas Turbine",
+      "color": "#b5c2c5",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "techreborn:grinder",
+      "name": "Industrial Grinder",
+      "color": "#b5c2c5",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "techreborn:heatgenerator",
+      "name": "Heat Generator",
+      "color": "#737a7c",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "techreborn:hvt",
+      "name": "HV Transformer",
+      "color": "#c1a6a4",
+      "alpha": 1.0,
+      "meta": 4,
+      "variants": [
+        {
+          "color": "#ac928a",
+          "meta": 5
+        }
+      ]
+    },
+    {
+      "uid": "techreborn:idsu",
+      "name": "IDSU",
+      "color": "#79929b",
+      "alpha": 1.0,
+      "meta": 4,
+      "variants": [
+        {
+          "color": "#9dbdbf",
+          "alpha": 0.99607843,
+          "meta": 5
+        }
+      ]
+    },
+    {
+      "uid": "techreborn:implosioncompressor",
+      "name": "Implosion Compressor",
+      "color": "#abbdc4",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "techreborn:industrialSawmill",
+      "name": "Saw Mill",
+      "color": "#abbdc4",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "techreborn:industrialelectrolyzer",
+      "name": "Industrial Electrolyzer",
+      "color": "#7c007c",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "techreborn:ironFence",
+      "name": "Iron Fence",
+      "color": "#dbdbdb",
+      "alpha": 0.4,
+      "meta": 0
+    },
+    {
+      "uid": "techreborn:ironfurnace",
+      "name": "Iron Furnace",
+      "color": "#c6c6c6",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "techreborn:lesu",
+      "name": "LESU",
+      "color": "#6b7da1",
+      "alpha": 1.0,
+      "meta": 4,
+      "variants": [
+        {
+          "color": "#91a3bb",
+          "meta": 5
+        }
+      ]
+    },
+    {
+      "uid": "techreborn:lesustorage",
+      "name": "LESU Block",
+      "color": "#6d84aa",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "techreborn:lightningrod",
+      "name": "Lightning Rod",
+      "color": "#96a4ae",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "techreborn:lvt",
+      "name": "LV Transformer",
+      "color": "#5c482b",
+      "alpha": 1.0,
+      "meta": 5,
+      "variants": [
+        {
+          "color": "#54452c",
+          "meta": 4
+        }
+      ]
+    },
+    {
+      "uid": "techreborn:machinecasing",
+      "name": "Standard Machine Casing",
+      "color": "#7c007c",
+      "alpha": 1.0,
+      "meta": 3,
+      "variants": [
+        {
+          "color": "#bdcce2",
+          "meta": 0
+        },
+        {
+          "name": "Reinforced Machine Casing",
+          "color": "#8b9eaf",
+          "meta": 1
+        },
+        {
+          "name": "Advanced Machine Casing",
+          "color": "#d7cce0",
+          "meta": 2
+        }
+      ]
+    },
+    {
+      "uid": "techreborn:magicenergyconverter",
+      "name": "Magic Energy Converter",
+      "color": "#a4b4b6",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "techreborn:magicrnergyabsorber",
+      "name": "Magic Energy Absorber",
+      "color": "#abb4af",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "techreborn:matterfabricator",
+      "name": "Matter Fabricator",
+      "color": "#79a8ae",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "techreborn:mfe",
+      "name": "MFE",
+      "color": "#c6d2cf",
+      "alpha": 1.0,
+      "meta": 5,
+      "variants": [
+        {
+          "color": "#90979b",
+          "meta": 4
+        }
+      ]
+    },
+    {
+      "uid": "techreborn:mfsu",
+      "name": "MFSU",
+      "color": "#c1a6a4",
+      "alpha": 1.0,
+      "meta": 5,
+      "variants": [
+        {
+          "color": "#977e81",
+          "meta": 4
+        }
+      ]
+    },
+    {
+      "uid": "techreborn:mvt",
+      "name": "MV Transformer",
+      "color": "#c6d2cf",
+      "alpha": 1.0,
+      "meta": 4,
+      "variants": [
+        {
+          "color": "#b1b4ab",
+          "meta": 5
+        }
+      ]
+    },
+    {
+      "uid": "techreborn:nuke",
+      "name": "Nuke",
+      "color": "#404500",
+      "alpha": 1.0,
+      "meta": 1,
+      "variants": [
+        {
+          "color": "#bf806f",
+          "meta": 0
+        }
+      ]
+    },
+    {
+      "uid": "techreborn:plasmagenerator",
+      "name": "Plasma Generator",
+      "color": "#8d92a3",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "techreborn:playerDetector",
+      "name": "Player Detector (You)",
+      "color": "#6169ae",
+      "alpha": 1.0,
+      "meta": 2,
+      "variants": [
+        {
+          "name": "Player Detector (All)",
+          "color": "#73a86e",
+          "meta": 0
+        },
+        {
+          "name": "Player Detector (Others)",
+          "color": "#9e696e",
+          "meta": 1
+        }
+      ]
+    },
+    {
+      "uid": "techreborn:pump",
+      "name": "Pump",
+      "color": "#7c007c",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "techreborn:recycler",
+      "name": "Recycler",
+      "color": "#b5c2c5",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "techreborn:reinforcedglass",
+      "name": "Reinforced Glass",
+      "color": "#6b5d4c",
+      "alpha": 0.4,
+      "meta": 0
+    },
+    {
+      "uid": "techreborn:rollingmachine",
+      "name": "Rolling Machine",
+      "color": "#b5c2c5",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "techreborn:rubberLeaves",
+      "name": "Rubber Leaves",
+      "color": "#173b08",
+      "alpha": 1.0,
+      "meta": 3
+    },
+    {
+      "uid": "techreborn:rubberLog",
+      "name": "Rubber Wood",
+      "color": "#b9944c",
+      "alpha": 1.0,
+      "meta": 6
+    },
+    {
+      "uid": "techreborn:rubberPlanks",
+      "name": "Rubber Wood Planks",
+      "color": "#a58533",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "techreborn:rubberSapling",
+      "name": "Rubber Sapling",
+      "color": "#7c007c",
+      "alpha": 1.0,
+      "meta": 13,
+      "variants": [
+        {
+          "color": "#434718",
+          "meta": 8
+        }
+      ]
+    },
+    {
+      "uid": "techreborn:scrapboxinator",
+      "name": "Scrapbox-inator",
+      "color": "#b5c2c5",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "techreborn:semifluidgenerator",
+      "name": "Semifluid Generator",
+      "color": "#afb5b6",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "techreborn:supercondensator",
+      "name": "Supercondensator",
+      "color": "#a6b2b8",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "techreborn:techreborn.centrifuge",
+      "name": "Industrial Centrifuge",
+      "color": "#7e8789",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "techreborn:techreborn.compressor",
+      "name": "Compressor",
+      "color": "#b5c2c5",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "techreborn:techreborn.digitalChest",
+      "name": "Digital Chest",
+      "color": "#a6b0b3",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "techreborn:techreborn.electricfurnace",
+      "name": "Electric Furnace",
+      "color": "#b5c2c5",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "techreborn:techreborn.extractor",
+      "name": "Extractor",
+      "color": "#b5c2c5",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "techreborn:techreborn.generator",
+      "name": "Generator",
+      "color": "#b5c2c5",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "techreborn:techreborn.grinder",
+      "name": "Grinder",
+      "color": "#b5c2c5",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "techreborn:techreborn.machineFrame",
+      "name": "Advanced Machine Block",
+      "color": "#b6847e",
+      "alpha": 1.0,
+      "meta": 1,
+      "variants": [
+        {
+          "name": "Machine Block",
+          "color": "#c4ceda",
+          "meta": 0
+        },
+        {
+          "name": "Highly Advanced Machine Block",
+          "color": "#94bcbb",
+          "meta": 2
+        }
+      ]
+    },
+    {
+      "uid": "techreborn:techreborn.ore",
+      "name": "Iridium Ore",
+      "color": "#8f8f8f",
+      "alpha": 1.0,
+      "meta": 1,
+      "variants": [
+        {
+          "name": "Galena Ore",
+          "color": "#7f7e80",
+          "meta": 0
+        },
+        {
+          "name": "Ruby Ore",
+          "color": "#826d6c",
+          "meta": 2
+        },
+        {
+          "name": "Sapphire Ore",
+          "color": "#6e7480",
+          "meta": 3
+        },
+        {
+          "name": "Bauxite Ore",
+          "color": "#766967",
+          "meta": 4
+        },
+        {
+          "name": "Pyrite Ore",
+          "color": "#824e3e",
+          "meta": 5
+        },
+        {
+          "name": "Cinnabar Ore",
+          "color": "#872928",
+          "meta": 6
+        },
+        {
+          "name": "Sphalerite Ore",
+          "color": "#914c35",
+          "meta": 7
+        },
+        {
+          "name": "Tungsten Ore",
+          "color": "#c3c593",
+          "meta": 8
+        },
+        {
+          "name": "Sheldonite Ore",
+          "color": "#e2e4a1",
+          "meta": 9
+        },
+        {
+          "name": "Peridot Ore",
+          "color": "#c8de9f",
+          "meta": 10
+        },
+        {
+          "name": "Sodalite Ore",
+          "color": "#adb8ab",
+          "meta": 11
+        },
+        {
+          "name": "Lead Ore",
+          "color": "#706d72",
+          "meta": 12
+        },
+        {
+          "name": "Silver Ore",
+          "color": "#86888a",
+          "meta": 13
+        }
+      ]
+    },
+    {
+      "uid": "techreborn:techreborn.ore2",
+      "name": "Tin Ore",
+      "color": "#878889",
+      "alpha": 1.0,
+      "meta": 1,
+      "variants": [
+        {
+          "name": "Copper Ore",
+          "color": "#7d8280",
+          "meta": 0
+        }
+      ]
+    },
+    {
+      "uid": "techreborn:techreborn.quantumChest",
+      "name": "Quantum Chest",
+      "color": "#a6b0b3",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "techreborn:techreborn.quantumTank",
+      "name": "Quantum Tank",
+      "color": "#868d8f",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "techreborn:techreborn.solarpanel",
+      "name": "Solar Panel",
+      "color": "#919a9e",
+      "alpha": 1.0,
+      "meta": 1
+    },
+    {
+      "uid": "techreborn:techreborn.storage",
+      "name": "Block of Zinc",
+      "color": "#c2bec2",
+      "alpha": 1.0,
+      "meta": 8,
+      "variants": [
+        {
+          "name": "Block of Silver",
+          "color": "#d4e7f2",
+          "meta": 0
+        },
+        {
+          "name": "Block of Aluminium",
+          "color": "#d0d1d1",
+          "meta": 1
+        },
+        {
+          "name": "Block of Titanium",
+          "color": "#7f756b",
+          "meta": 2
+        },
+        {
+          "name": "Block of Chrome",
+          "color": "#cce2e4",
+          "meta": 3
+        },
+        {
+          "name": "Block of Steel",
+          "color": "#6f7377",
+          "meta": 4
+        },
+        {
+          "name": "Block of Brass",
+          "color": "#f2a400",
+          "meta": 5
+        },
+        {
+          "name": "Block of Lead",
+          "color": "#494c6d",
+          "meta": 6
+        },
+        {
+          "name": "Block of Electrum",
+          "color": "#ddd173",
+          "meta": 7
+        },
+        {
+          "name": "Block of Platinum",
+          "color": "#94bfce",
+          "meta": 9
+        },
+        {
+          "name": "Block of Tungsten",
+          "color": "#3f3a36",
+          "meta": 10
+        },
+        {
+          "name": "Block of Nickel",
+          "color": "#c5c4ac",
+          "meta": 11
+        },
+        {
+          "name": "Block of Invar",
+          "color": "#c3c3bd",
+          "meta": 12
+        },
+        {
+          "name": "Block of Iridium",
+          "color": "#f0f0f0",
+          "meta": 13
+        }
+      ]
+    },
+    {
+      "uid": "techreborn:techreborn.storage2",
+      "name": "Iridium Reinforced Stone",
+      "color": "#b0b0b0",
+      "alpha": 1.0,
+      "meta": 2,
+      "variants": [
+        {
+          "name": "Block of Tungstensteel",
+          "color": "#142140",
+          "meta": 0
+        },
+        {
+          "name": "Iridium Reinforced Tungstensteel Block",
+          "color": "#8e8b89",
+          "meta": 1
+        },
+        {
+          "name": "Block of Ruby",
+          "color": "#951d1f",
+          "meta": 3
+        },
+        {
+          "name": "Block of Sapphire",
+          "color": "#295697",
+          "meta": 4
+        },
+        {
+          "name": "Block of Peridot",
+          "color": "#639927",
+          "meta": 5
+        },
+        {
+          "name": "Block of Yellow Garnet",
+          "color": "#ac9d58",
+          "meta": 6
+        },
+        {
+          "name": "Block of Red Garnet",
+          "color": "#b55b53",
+          "meta": 7
+        },
+        {
+          "name": "Block of Copper",
+          "color": "#c66f00",
+          "meta": 8
+        },
+        {
+          "name": "Block of Tin",
+          "color": "#dbdfe5",
+          "meta": 9
+        },
+        {
+          "name": "Block of Refined Iron",
+          "color": "#c6d2e0",
+          "meta": 10
+        }
+      ]
+    },
+    {
+      "uid": "techreborn:techreborn.thermalGenerator",
+      "name": "Thermal Generator",
+      "color": "#868d8f",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "techreborn:techreborn.watermill",
+      "name": "Water Mill",
+      "color": "#919a9e",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "techreborn:techreborn.windmill",
+      "name": "Wind Mill",
+      "color": "#919a9e",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "techreborn:techreborn_techreborn.berylium",
+      "name": "Beryllium Source",
+      "color": "#011900",
+      "alpha": 0.3,
+      "meta": 15
+    },
+    {
+      "uid": "techreborn:techreborn_techreborn.calcium",
+      "name": "Calcium Source",
+      "color": "#8c513f",
+      "alpha": 0.3,
+      "meta": 15
+    },
+    {
+      "uid": "techreborn:techreborn_techreborn.calciumcarbonate",
+      "name": "Calciumcarbonate Source",
+      "color": "#702300",
+      "alpha": 0.3,
+      "meta": 15
+    },
+    {
+      "uid": "techreborn:techreborn_techreborn.carbon",
+      "name": "FluidTechReborn",
+      "color": "#7c007c",
+      "alpha": 0.3,
+      "meta": 15
+    },
+    {
+      "uid": "techreborn:techreborn_techreborn.carbonfiber",
+      "name": "FluidTechReborn",
+      "color": "#7c007c",
+      "alpha": 0.3,
+      "meta": 15
+    },
+    {
+      "uid": "techreborn:techreborn_techreborn.chlorite",
+      "name": "Chlorite Source",
+      "color": "#246e6e",
+      "alpha": 0.3,
+      "meta": 15
+    },
+    {
+      "uid": "techreborn:techreborn_techreborn.deuterium",
+      "name": "Deuterium Source",
+      "color": "#f8fe0d",
+      "alpha": 0.3,
+      "meta": 15
+    },
+    {
+      "uid": "techreborn:techreborn_techreborn.diesel",
+      "name": "FluidTechReborn",
+      "color": "#7c007c",
+      "alpha": 0.3,
+      "meta": 15
+    },
+    {
+      "uid": "techreborn:techreborn_techreborn.glyceryl",
+      "name": "Glyceryl Source",
+      "color": "#00483f",
+      "alpha": 0.3,
+      "meta": 15
+    },
+    {
+      "uid": "techreborn:techreborn_techreborn.helium",
+      "name": "Helium Source",
+      "color": "#ffff65",
+      "alpha": 0.3,
+      "meta": 15
+    },
+    {
+      "uid": "techreborn:techreborn_techreborn.helium3",
+      "name": "Helium3 Source",
+      "color": "#ffff71",
+      "alpha": 0.3,
+      "meta": 15
+    },
+    {
+      "uid": "techreborn:techreborn_techreborn.heliumplasma",
+      "name": "Heliumplasma Source",
+      "color": "#fffbb7",
+      "alpha": 0.3,
+      "meta": 15
+    },
+    {
+      "uid": "techreborn:techreborn_techreborn.hydrogen",
+      "name": "Hydrogen Source",
+      "color": "#000f54",
+      "alpha": 0.3,
+      "meta": 15
+    },
+    {
+      "uid": "techreborn:techreborn_techreborn.lithium",
+      "name": "Lithium Source",
+      "color": "#5599d4",
+      "alpha": 0.3,
+      "meta": 15
+    },
+    {
+      "uid": "techreborn:techreborn_techreborn.mercury",
+      "name": "Mercury Source",
+      "color": "#bebebe",
+      "alpha": 0.3,
+      "meta": 15
+    },
+    {
+      "uid": "techreborn:techreborn_techreborn.methane",
+      "name": "Methane Source",
+      "color": "#c60a75",
+      "alpha": 0.3,
+      "meta": 15
+    },
+    {
+      "uid": "techreborn:techreborn_techreborn.nitrocarbon",
+      "name": "FluidTechReborn",
+      "color": "#7c007c",
+      "alpha": 0.3,
+      "meta": 15
+    },
+    {
+      "uid": "techreborn:techreborn_techreborn.nitrocoalfuel",
+      "name": "Nitrocoalfuel Source",
+      "color": "#001e18",
+      "alpha": 0.3,
+      "meta": 15
+    },
+    {
+      "uid": "techreborn:techreborn_techreborn.nitrodiesel",
+      "name": "FluidTechReborn",
+      "color": "#7c007c",
+      "alpha": 0.3,
+      "meta": 15
+    },
+    {
+      "uid": "techreborn:techreborn_techreborn.nitrofuel",
+      "name": "Nitrofuel Source",
+      "color": "#d8ee00",
+      "alpha": 0.3,
+      "meta": 15
+    },
+    {
+      "uid": "techreborn:techreborn_techreborn.nitrogen",
+      "name": "Nitrogen Source",
+      "color": "#1ebdac",
+      "alpha": 0.3,
+      "meta": 15
+    },
+    {
+      "uid": "techreborn:techreborn_techreborn.nitrogendioxide",
+      "name": "Nitrogendioxide Source",
+      "color": "#76f6e9",
+      "alpha": 0.3,
+      "meta": 15
+    },
+    {
+      "uid": "techreborn:techreborn_techreborn.oil",
+      "name": "FluidTechReborn",
+      "color": "#7c007c",
+      "alpha": 0.3,
+      "meta": 15
+    },
+    {
+      "uid": "techreborn:techreborn_techreborn.potassium",
+      "name": "Potassium Source",
+      "color": "#8faeae",
+      "alpha": 0.3,
+      "meta": 15
+    },
+    {
+      "uid": "techreborn:techreborn_techreborn.silicon",
+      "name": "Silicon Source",
+      "color": "#14001e",
+      "alpha": 0.3,
+      "meta": 15
+    },
+    {
+      "uid": "techreborn:techreborn_techreborn.sodium",
+      "name": "Sodium Source",
+      "color": "#00209b",
+      "alpha": 0.3,
+      "meta": 15
+    },
+    {
+      "uid": "techreborn:techreborn_techreborn.sodiumpersulfate",
+      "name": "Sodiumpersulfate Source",
+      "color": "#005656",
+      "alpha": 0.3,
+      "meta": 15
+    },
+    {
+      "uid": "techreborn:techreborn_techreborn.sodiumsulfide",
+      "name": "FluidTechReborn",
+      "color": "#7c007c",
+      "alpha": 0.3,
+      "meta": 15
+    },
+    {
+      "uid": "techreborn:techreborn_techreborn.sulfur",
+      "name": "FluidTechReborn",
+      "color": "#7c007c",
+      "alpha": 0.3,
+      "meta": 15
+    },
+    {
+      "uid": "techreborn:techreborn_techreborn.sulfuricacid",
+      "name": "FluidTechReborn",
+      "color": "#7c007c",
+      "alpha": 0.3,
+      "meta": 15
+    },
+    {
+      "uid": "techreborn:techreborn_techreborn.tritium",
+      "name": "Tritium Source",
+      "color": "#ea1010",
+      "alpha": 0.3,
+      "meta": 15
+    },
+    {
+      "uid": "techreborn:techreborn_techreborn.wolframium",
+      "name": "Wolframium Source",
+      "color": "#000009",
+      "alpha": 0.3,
+      "meta": 15
+    },
+    {
+      "uid": "techreborn:vacuumfreezer",
+      "name": "Vacuum Freezer",
+      "color": "#b5c2c5",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "tombmanygraves:DEATH_BLOCK",
+      "name": "Player Grave",
+      "color": "#7c007c",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "yurtmod:bed_door_0",
+      "name": "Bedouin Door (Red)",
+      "color": "#745031",
+      "alpha": 1.0,
+      "meta": 1,
+      "variants": [
+        {
+          "color": "#5d482d",
+          "meta": 0
+        }
+      ]
+    },
+    {
+      "uid": "yurtmod:bed_door_1",
+      "name": "Bedouin Door (Blue)",
+      "color": "#5d482d",
+      "alpha": 1.0,
+      "meta": 0,
+      "variants": [
+        {
+          "color": "#67553b",
+          "meta": 1
+        }
+      ]
+    },
+    {
+      "uid": "yurtmod:bed_door_2",
+      "name": "Bedouin Door (Green)",
+      "color": "#65562e",
+      "alpha": 1.0,
+      "meta": 1,
+      "variants": [
+        {
+          "color": "#5d482d",
+          "meta": 0
+        }
+      ]
+    },
+    {
+      "uid": "yurtmod:bed_roof",
+      "name": "Bedouin Roof",
+      "color": "#856133",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "yurtmod:bed_wall",
+      "name": "Bedouin Wall",
+      "color": "#916e39",
+      "alpha": 1.0,
+      "meta": 0,
+      "variants": [
+        {
+          "color": "#917648",
+          "meta": 1
+        },
+        {
+          "color": "#927349",
+          "meta": 2
+        },
+        {
+          "color": "#836035",
+          "meta": 3
+        }
+      ]
+    },
+    {
+      "uid": "yurtmod:frame_bed_roof",
+      "name": "Bedouin Frame Block (Roof)",
+      "color": "#7b412a",
+      "alpha": 1.0,
+      "meta": 2,
+      "variants": [
+        {
+          "color": "#63301c",
+          "meta": 0
+        },
+        {
+          "color": "#753d27",
+          "meta": 1
+        },
+        {
+          "color": "#7c422b",
+          "meta": 3
+        }
+      ]
+    },
+    {
+      "uid": "yurtmod:frame_bed_wall",
+      "name": "Bedouin Frame Block (Wall)",
+      "color": "#7b412a",
+      "alpha": 1.0,
+      "meta": 2,
+      "variants": [
+        {
+          "color": "#63301c",
+          "meta": 0
+        },
+        {
+          "color": "#753d27",
+          "meta": 1
+        },
+        {
+          "color": "#7c422b",
+          "meta": 3
+        }
+      ]
+    },
+    {
+      "uid": "yurtmod:frame_tepee_wall",
+      "name": "Tepee Frame Block (Wall)",
+      "color": "#7b412a",
+      "alpha": 1.0,
+      "meta": 2,
+      "variants": [
+        {
+          "color": "#63301c",
+          "meta": 0
+        },
+        {
+          "color": "#753d27",
+          "meta": 1
+        },
+        {
+          "color": "#7c422b",
+          "meta": 3
+        }
+      ]
+    },
+    {
+      "uid": "yurtmod:frame_yurt_roof",
+      "name": "Yurt Frame Block (Roof)",
+      "color": "#7b412a",
+      "alpha": 1.0,
+      "meta": 2,
+      "variants": [
+        {
+          "color": "#63301c",
+          "meta": 0
+        },
+        {
+          "color": "#753d27",
+          "meta": 1
+        },
+        {
+          "color": "#7c422b",
+          "meta": 3
+        }
+      ]
+    },
+    {
+      "uid": "yurtmod:frame_yurt_wall",
+      "name": "Yurt Frame Block (Wall)",
+      "color": "#7b412a",
+      "alpha": 1.0,
+      "meta": 2,
+      "variants": [
+        {
+          "color": "#63301c",
+          "meta": 0
+        },
+        {
+          "color": "#753d27",
+          "meta": 1
+        },
+        {
+          "color": "#7c422b",
+          "meta": 3
+        }
+      ]
+    },
+    {
+      "uid": "yurtmod:indestructible_dirt",
+      "name": "Dirt (Indestructible)",
+      "color": "#866043",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "yurtmod:tepee_door_0",
+      "name": "Tepee Door (Red)",
+      "color": "#a46149",
+      "alpha": 1.0,
+      "meta": 0,
+      "variants": [
+        {
+          "color": "#b97867",
+          "meta": 1
+        }
+      ]
+    },
+    {
+      "uid": "yurtmod:tepee_door_1",
+      "name": "Tepee Door (Blue)",
+      "color": "#ac7a6c",
+      "alpha": 1.0,
+      "meta": 1,
+      "variants": [
+        {
+          "color": "#a46149",
+          "meta": 0
+        }
+      ]
+    },
+    {
+      "uid": "yurtmod:tepee_door_2",
+      "name": "Tepee Door (Green)",
+      "color": "#ab7b62",
+      "alpha": 1.0,
+      "meta": 1,
+      "variants": [
+        {
+          "color": "#a46149",
+          "meta": 0
+        }
+      ]
+    },
+    {
+      "uid": "yurtmod:tepee_wall",
+      "name": "Tepee Wall (Dreamcatcher)",
+      "color": "#cfab8b",
+      "alpha": 1.0,
+      "meta": 12,
+      "variants": [
+        {
+          "name": "Tepee Wall (Universe)",
+          "color": "#d6b0a7",
+          "meta": 9
+        },
+        {
+          "name": "Tepee Wall (Eagle)",
+          "color": "#a2857f",
+          "meta": 10
+        },
+        {
+          "name": "Tepee Wall (Tri-Force)",
+          "color": "#d7b870",
+          "meta": 11
+        },
+        {
+          "name": "Tepee Wall (Rain)",
+          "color": "#ccb1a9",
+          "meta": 13
+        },
+        {
+          "name": "Tepee Wall (Magic)",
+          "color": "#cfa9a2",
+          "meta": 14
+        }
+      ]
+    },
+    {
+      "uid": "yurtmod:yurt_door_0",
+      "name": "Yurt Door (Red)",
+      "color": "#bf5458",
+      "alpha": 1.0,
+      "meta": 0,
+      "variants": [
+        {
+          "color": "#c0555a",
+          "meta": 1
+        }
+      ]
+    },
+    {
+      "uid": "yurtmod:yurt_door_1",
+      "name": "Yurt Door (Blue)",
+      "color": "#3c608c",
+      "alpha": 1.0,
+      "meta": 1,
+      "variants": [
+        {
+          "color": "#3c5f8a",
+          "meta": 0
+        }
+      ]
+    },
+    {
+      "uid": "yurtmod:yurt_door_2",
+      "name": "Yurt Door (Green)",
+      "color": "#317338",
+      "alpha": 1.0,
+      "meta": 0,
+      "variants": [
+        {
+          "color": "#31733a",
+          "meta": 1
+        }
+      ]
+    },
+    {
+      "uid": "yurtmod:yurt_roof",
+      "name": "Yurt Roof",
+      "color": "#c8d8f7",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "yurtmod:yurt_wall_inner",
+      "name": "Yurt Inner Wall",
+      "color": "#968586",
+      "alpha": 1.0,
+      "meta": 1,
+      "variants": [
+        {
+          "color": "#958586",
+          "meta": 0
+        }
+      ]
+    },
+    {
+      "uid": "yurtmod:yurt_wall_outer",
+      "name": "Yurt Outer Wall",
+      "color": "#b4a0b0",
+      "alpha": 1.0,
+      "meta": 0,
+      "variants": [
+        {
+          "color": "#b8c0d6",
+          "meta": 1
+        }
+      ]
+    }
+  ]
+}

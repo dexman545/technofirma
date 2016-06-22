@@ -1,0 +1,141 @@
+[20:54:30] [Client thread/INFO] [JMLogger] JourneyMap log initialized.
+[20:54:30] [Client thread/INFO] [JourneymapClient] initialize ENTER
+[20:54:31] [Client thread/INFO] [?] Version: JourneyMap 5.2.3 Unlimited, built with Forge 12.17.0.1954
+Forge: 12.17.0.1968
+Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=en_US, locale=en_us
+Unlimited Features: 
+	RadarPlayers : singleplayer = true , multiplayer = true
+	RadarAnimals : singleplayer = true , multiplayer = true
+	RadarMobs : singleplayer = true , multiplayer = true
+	RadarVillagers : singleplayer = true , multiplayer = true
+	MapCaves : singleplayer = true , multiplayer = true
+MiniMapProperties{state=Valid, file=journeymap.minimap.config, configVersion=5.2.3, zoomLevel=0, showPlayers=true, frameAlpha=100, compassFontScale=2, terrainAlpha=100, showBiome=true, entityIconSetName=2D, enabled=true, showPlayerHeading=true, showVillagers=false, sizePercent=30, showLocation=true, textureSmall=true, showMobs=false, showPets=false, showFps=true, preferredMapType=day, showCompass=true, showReticle=true, orientation=North, shape=Square, showSelf=true, locationFormat=xyz, showGrid=true, reticleOrientation=Compass, showCaves=false, showWaypoints=true, showAnimals=false, showMobHeading=true, showWaypointLabels=true, locationFormatVerbose=true, position=Top Right, fontScale=2}
+MiniMapProperties{state=Valid, file=journeymap.minimap2.config, configVersion=5.2.3, zoomLevel=0, showPlayers=false, frameAlpha=100, compassFontScale=1, terrainAlpha=100, showBiome=true, entityIconSetName=2D, enabled=true, showPlayerHeading=false, showVillagers=false, sizePercent=30, showLocation=true, textureSmall=true, showMobs=false, showPets=false, showFps=true, preferredMapType=day, showCompass=true, showReticle=true, orientation=North, shape=Square, showSelf=true, locationFormat=xyz, showGrid=true, reticleOrientation=Compass, showCaves=false, showWaypoints=true, showAnimals=false, showMobHeading=false, showWaypointLabels=true, locationFormatVerbose=true, position=Top Right, fontScale=1}
+FullMapProperties{state=Valid, file=journeymap.fullmap.config, configVersion=5.2.3, zoomLevel=0, showPlayers=false, showSelf=true, locationFormat=xyz, showGrid=false, entityIconSetName=2D, showPlayerHeading=true, showVillagers=false, showCaves=true, showWaypoints=true, showAnimals=false, showMobHeading=false, showWaypointLabels=true, locationFormatVerbose=true, textureSmall=true, showMobs=false, showPets=false, fontScale=2, preferredMapType=day}
+WaypointProperties{state=Valid, file=journeymap.waypoint.config, configVersion=5.2.3, createDeathpoints=true, showName=true, maxDistance=0, autoHideLabel=true, showStaticBeam=false, minDistance=4, boldLabel=false, textureSmall=true, showDistance=true, showRotatingBeam=false, fontScale=2, showTexture=true, managerEnabled=true, beaconEnabled=true}
+WebMapProperties{state=Valid, file=journeymap.webmap.config, configVersion=5.2.3, zoomLevel=0, showPlayers=true, showSelf=true, showGrid=true, entityIconSetName=2D, enabled=false, showVillagers=true, showWaypoints=true, port=8080, showAnimals=true, showMobs=true, showPets=true, googleMapApiDomain=.com, preferredMapType=day}
+CoreProperties{state=Valid, file=journeymap.core.config, configVersion=5.2.3, radarLateralDistance=64, maxPlayersData=32, mapSurfaceAboveCaves=true, mapBathymetry=true, mapCrops=true, maxMobsData=32, optionsManagerViewed=5.2.3, announceMod=true, mapPlantShadows=true, alwaysMapCaves=false, checkUpdates=true, browserPoll=2000, mappingEnabled=true, renderOverlayEventTypeName=ALL, tileHighDisplayQuality=true, cacheVillagersData=2200, logLevel=INFO, maxVillagersData=32, maxAnimalsData=32, mapTransparency=true, renderDistanceSurfaceMax=8, tileRenderType=1, caveIgnoreGlass=true, mapTopography=true, renderDistanceCaveMax=3, radarVerticalDistance=16, mapAntialiasing=true, cachePlayersData=2000, recordCacheStats=false, cacheMobsData=3000, hideSneakingEntities=true, renderDistanceSurfaceMin=5, cachePlayerData=1000, splashViewed=5.2.3, revealShape=Square, renderDistanceCaveMin=3, cacheAnimalsData=3100, themeName=Purist, alwaysMapSurface=true, mapCaveLighting=true, mapPlants=true, renderDelay=2, renderOverlayPreEvent=true, autoMapPoll=2000}
+[20:54:31] [Client thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.2
+[20:54:31] [Client thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
+[20:54:31] [Client thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 0 avg �ms
+[20:54:34] [Client thread/INFO] [JourneymapClient] postInitialize ENTER
+[20:54:34] [Client thread/INFO] [WorldInfoHandler] Registered channel: world_info
+[20:54:34] [Client thread/INFO] [IconSetFileHandler] Initializing icon sets...
+[20:54:34] [Client thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed§8 count §r1§8 avg §r379.7§8ms§r
+[20:54:49] [Client thread/INFO] [ColorManager] Loading blocks and textures...
+[20:54:50] [Client thread/INFO] [BlockMD] Built BlockMD cache (16125) : BlockMD.reset count 1 avg 184.12ms
+[20:54:50] [Client thread/INFO] [ColorHelper_1_8] initBlocksTexture: 2048x2048 loaded in 71.800058ms
+[20:54:50] [Client thread/WARN] [ColorPalette] Existing color palette's mods no longer match current loadout.
+[20:54:50] [Client thread/INFO] [ColorPalette] WAS: Auto Ore Dictionary Converter:1.9.4-1.0, Better Foliage:2.0.12b, BetterBedrockGen:5.0.0, BetterMinecraftChat:2.0.5, Block Drops:1.0.1, Blood Magic: Alchemical Wizardry:1.9.4-2.0.1-43, Chameleon:1.9-2.1.4, Chisels & Bits:10.5, Chunk Animator:1.2, Crafting Tweaks:5.0.6, CreativeCore:1.4.0, Creeper Awareness:2.0.1, Custom Backgrounds:1.0, Custom Main Menu:2.0, Cyclops Core:0.6.3, Default Options:5.0.3, Dynamic Lights Burning Entity Module:1.0.7, Dynamic Lights Creeper Module:1.0.6, Dynamic Lights Entity Light Module:1.0.1, Dynamic Lights EntityItem Module:1.1.0, Dynamic Lights Fiery Arrows Light Module:1.0.1, Dynamic Lights Flood Light:1.0.3, Dynamic Lights Mob Equipment Light Module:1.1.0, Dynamic Lights OtherPlayers Light Module:1.0.9, Dynamic Lights Player Light Module:1.1.3, Dynamic Lights:1.4.2, EXCore:1.5.3, Enchiridion:3.1.4, Extra Bit Manipulation:1.9-2.1.2, Forestry:5.0.12.149, Forge Mod Loader:8.0.99.99, Hardcore Darkness:1.8, HelpFixer:1.3.14, I Can See Everything:1.0.0.0, Integrated Dynamics:0.3.10, Inventory Tweaks:1.61-dev-53-0736dc3, ItemPhysic:1.3.0, JourneyMap:1.9.4-5.2.3, Just Enough Items:3.6.3.212, Just Enough Resources:0.4.6.36, Loading Profiler:1.1, LunatriusCore:1.1.2.35, MCMultiPart:1.2.0, MattDahEpic Core:1.9.4-1.0, MineTweaker 3:3.0.9, Minecraft Coder Pack:9.19, Minecraft Flight Simulator:4.1.0, Minecraft Forge:12.17.0.1965, ModPack Basic Tools:1.0.0, ModPack Utilities:1.0.0, MoreOverlays:1.3, Neat:GRADLE:VERSION-GRADLE:BUILD, NoMoreRecipeConflict:0.4, OpenComputers (Core):1.6.0.2-beta.3, OpenComputers:1.6.0.2-beta.3, Parachute Mod:1.4.3, Photoptics:0.4.1.1, RebornCore:2.5.3.44, Resource Loader:1.5, Schematica:1.7.8.147, Shield Hider:1.0.1, Stellar API:0.4.3.2b, Stellar Sky:0.4.4.1, Storage Drawers:1.9-3.1.7, TechReborn:1.3.2.120, Tomb Many Graves:1.9.4-2.1.1, Waila Harvestability:1.1.7, Waila:1.7.0, What Are We Looking At:2.2.1.188, reborncore-MCMultiPart:2.5.3.44
+NOW: Auto Ore Dictionary Converter:1.9.4-1.0, Better Foliage:2.0.12b, BetterBedrockGen:5.0.0, BetterFonts:1.4.0, BetterMinecraftChat:2.0.5, Block Drops:1.0.1, Blood Magic: Alchemical Wizardry:1.9.4-2.0.1-43, Chameleon:1.9-2.1.4, Chisels & Bits:10.5, Chunk Animator:1.2, Crafting Tweaks:5.0.6, CreativeCore:1.4.0, Creeper Awareness:2.0.1, Custom Backgrounds:1.0, Custom Main Menu:2.0, Cyclops Core:0.6.3, Default Options:5.0.3, Dynamic Lights Burning Entity Module:1.0.7, Dynamic Lights Creeper Module:1.0.6, Dynamic Lights Entity Light Module:1.0.1, Dynamic Lights EntityItem Module:1.1.0, Dynamic Lights Fiery Arrows Light Module:1.0.1, Dynamic Lights Flood Light:1.0.3, Dynamic Lights Mob Equipment Light Module:1.1.0, Dynamic Lights OtherPlayers Light Module:1.0.9, Dynamic Lights Player Light Module:1.1.3, Dynamic Lights:1.4.2, EXCore:1.5.3, Enchiridion:3.1.4, Extra Bit Manipulation:1.9-2.1.2, Forestry:5.0.12.149, Forge Mod Loader:8.0.99.99, Hardcore Darkness:1.8, HelpFixer:1.3.14, I Can See Everything:1.0.0.0, Integrated Dynamics:0.3.10, Inventory Tweaks:1.61-dev-53-0736dc3, ItemPhysic:1.3.0, JourneyMap:1.9.4-5.2.3, Just Enough Items:3.6.3.212, Just Enough Resources:0.4.6.36, Loading Profiler:1.1, LunatriusCore:1.1.2.35, MCMultiPart:1.2.0, MattDahEpic Core:1.9.4-1.0, MineTweaker 3:3.0.9, Minecraft Coder Pack:9.19, Minecraft Flight Simulator:4.1.0, Minecraft Forge:12.17.0.1968, ModPack Basic Tools:1.0.0, ModPack Utilities:1.0.0, MoreOverlays:1.3, Neat:GRADLE:VERSION-GRADLE:BUILD, NoMoreRecipeConflict:0.4, Nomadic Tents:5.01, OpenComputers (Core):1.6.0.2-beta.3, OpenComputers:1.6.0.2-beta.3, Parachute Mod:1.4.3, Photoptics:0.4.1.1, RebornCore:2.5.3.44, Resource Loader:1.5, Roots:0.1, Schematica:1.7.8.147, Shield Hider:1.0.1, Stellar API:0.4.3.2b, Stellar Sky:0.4.4.1, Storage Drawers:1.9-3.1.7, TechReborn:1.3.2.120, Tomb Many Graves:1.9.4-2.1.1, Waila Harvestability:1.1.7, Waila:1.7.0, What Are We Looking At:2.2.1.188, reborncore-MCMultiPart:2.5.3.44
+[20:54:50] [Client thread/WARN] [ColorHelper_1_8] Block is opaque, but texture was completely transparent: bloodmagic:blocks/empty . Using MaterialMapColor instead for: BlockMD [bloodmagic:BlockAlchemyTable:bloodmagic:BlockAlchemyTable[direction=down,invisible=true]] ()
+[20:54:50] [Client thread/WARN] [ColorHelper_1_8] Block is opaque, but texture was completely transparent: bloodmagic:blocks/empty . Using MaterialMapColor instead for: BlockMD [bloodmagic:BlockAlchemyTable:bloodmagic:BlockAlchemyTable[direction=up,invisible=true]] ()
+[20:54:50] [Client thread/WARN] [ColorHelper_1_8] Block is opaque, but texture was completely transparent: bloodmagic:blocks/empty . Using MaterialMapColor instead for: BlockMD [bloodmagic:BlockAlchemyTable:bloodmagic:BlockAlchemyTable[direction=north,invisible=true]] ()
+[20:54:50] [Client thread/WARN] [ColorHelper_1_8] Block is opaque, but texture was completely transparent: bloodmagic:blocks/empty . Using MaterialMapColor instead for: BlockMD [bloodmagic:BlockAlchemyTable:bloodmagic:BlockAlchemyTable[direction=south,invisible=true]] ()
+[20:54:50] [Client thread/WARN] [ColorHelper_1_8] Block is opaque, but texture was completely transparent: bloodmagic:blocks/empty . Using MaterialMapColor instead for: BlockMD [bloodmagic:BlockAlchemyTable:bloodmagic:BlockAlchemyTable[direction=west,invisible=true]] ()
+[20:54:50] [Client thread/WARN] [ColorHelper_1_8] Block is opaque, but texture was completely transparent: bloodmagic:blocks/empty . Using MaterialMapColor instead for: BlockMD [bloodmagic:BlockAlchemyTable:bloodmagic:BlockAlchemyTable[direction=east,invisible=true]] ()
+[20:54:50] [Client thread/WARN] [ColorHelper_1_8] Block is opaque, but texture was completely transparent: cyclopscore:blocks/empty . Using MaterialMapColor instead for: BlockMD [integrateddynamics:energyBattery:integrateddynamics:energyBattery[facing=north,fill=0]] ()
+[20:54:50] [Client thread/WARN] [ColorHelper_1_8] Block is opaque, but texture was completely transparent: cyclopscore:blocks/empty . Using MaterialMapColor instead for: BlockMD [integrateddynamics:energyBattery:integrateddynamics:energyBattery[facing=south,fill=0]] ()
+[20:54:50] [Client thread/WARN] [ColorHelper_1_8] Block is opaque, but texture was completely transparent: cyclopscore:blocks/empty . Using MaterialMapColor instead for: BlockMD [integrateddynamics:energyBattery:integrateddynamics:energyBattery[facing=west,fill=0]] ()
+[20:54:50] [Client thread/WARN] [ColorHelper_1_8] Block is opaque, but texture was completely transparent: cyclopscore:blocks/empty . Using MaterialMapColor instead for: BlockMD [integrateddynamics:energyBattery:integrateddynamics:energyBattery[facing=east,fill=0]] ()
+[20:54:50] [Client thread/INFO] [ColorManager] Initialized 16054 block colors from mods and resource packs in 220ms
+[20:54:50] [Client thread/INFO] [ColorPalette] Color palette file generated with 1453 colors in 98ms for: D:\Downloads\MultiMC\MultiMC\instances\Technofirma 3\minecraft\journeymap\colorpalette.json
+[20:54:50] [Client thread/INFO] [ColorManager] Updated color palette file: D:\Downloads\MultiMC\MultiMC\instances\Technofirma 3\minecraft\journeymap\colorpalette.json
+[20:56:31] [Client thread/INFO] [TopoRenderer] Loading journeymap.topo.config
+[20:56:32] [Client thread/INFO] [WaypointStore] Loaded 0 waypoints from D:\Downloads\MultiMC\MultiMC\instances\Technofirma 3\minecraft\journeymap\data\sp\New World\waypoints
+[20:56:32] [Client thread/INFO] [ColorManager] Blocks and textures are current
+[20:56:32] [Client thread/INFO] [JourneymapClient] Mapping started in D:\Downloads\MultiMC\MultiMC\instances\Technofirma 3\minecraft\journeymap\data\sp\New World\DIM0. Memory: 1492MB total, 537MB free 
+[20:56:32] [Client thread/INFO] [ChatLog] JourneyMap: Press [V]
+[20:57:29] [Client thread/INFO] [ColorManager] Blocks and textures are current
+[21:06:50] [Client thread/INFO] [JourneymapClient] Mapping halted in D:\Downloads\MultiMC\MultiMC\instances\Technofirma 3\minecraft\journeymap\data\sp\New World\DIM0
+[21:06:50] [JM-task-4/WARN] [TaskBatch] TaskBatch thread interrupted: journeymap.client.task.multi.MapPlayerTask$MapPlayerTaskBatch@65dcb847
+[21:06:51] [Client thread/INFO] [TopoRenderer] Loading journeymap.topo.config
+[21:06:51] [Client thread/INFO] [WaypointStore] Loaded 0 waypoints from D:\Downloads\MultiMC\MultiMC\instances\Technofirma 3\minecraft\journeymap\data\sp\New World\waypoints
+[21:06:51] [Client thread/INFO] [ColorManager] Blocks and textures are current
+[21:06:51] [Client thread/INFO] [JourneymapClient] Mapping started in D:\Downloads\MultiMC\MultiMC\instances\Technofirma 3\minecraft\journeymap\data\sp\New World\DIM2. Memory: 1931MB total, 487MB free 
+[21:08:33] [Client thread/INFO] [JourneymapClient] Mapping halted in D:\Downloads\MultiMC\MultiMC\instances\Technofirma 3\minecraft\journeymap\data\sp\New World\DIM2
+[21:08:34] [Client thread/INFO] [TopoRenderer] Loading journeymap.topo.config
+[21:08:34] [Client thread/INFO] [WaypointStore] Loaded 0 waypoints from D:\Downloads\MultiMC\MultiMC\instances\Technofirma 3\minecraft\journeymap\data\sp\New World\waypoints
+[21:08:34] [Client thread/INFO] [ColorManager] Blocks and textures are current
+[21:08:34] [Client thread/INFO] [JourneymapClient] Mapping started in D:\Downloads\MultiMC\MultiMC\instances\Technofirma 3\minecraft\journeymap\data\sp\New World\DIM0. Memory: 1931MB total, 322MB free 
+[21:09:09] [Client thread/INFO] [JourneymapClient] Mapping halted in D:\Downloads\MultiMC\MultiMC\instances\Technofirma 3\minecraft\journeymap\data\sp\New World\DIM0
+[21:09:09] [Client thread/INFO] [TopoRenderer] Loading journeymap.topo.config
+[21:09:09] [Client thread/INFO] [WaypointStore] Loaded 0 waypoints from D:\Downloads\MultiMC\MultiMC\instances\Technofirma 3\minecraft\journeymap\data\sp\New World\waypoints
+[21:09:09] [Client thread/INFO] [ColorManager] Blocks and textures are current
+[21:09:09] [Client thread/INFO] [JourneymapClient] Mapping started in D:\Downloads\MultiMC\MultiMC\instances\Technofirma 3\minecraft\journeymap\data\sp\New World\DIM2. Memory: 2122MB total, 835MB free 
+[21:09:14] [Client thread/INFO] [JourneymapClient] Mapping halted in D:\Downloads\MultiMC\MultiMC\instances\Technofirma 3\minecraft\journeymap\data\sp\New World\DIM2
+[21:09:15] [Client thread/INFO] [TopoRenderer] Loading journeymap.topo.config
+[21:09:15] [Client thread/INFO] [WaypointStore] Loaded 0 waypoints from D:\Downloads\MultiMC\MultiMC\instances\Technofirma 3\minecraft\journeymap\data\sp\New World\waypoints
+[21:09:15] [Client thread/INFO] [ColorManager] Blocks and textures are current
+[21:09:15] [Client thread/INFO] [JourneymapClient] Mapping started in D:\Downloads\MultiMC\MultiMC\instances\Technofirma 3\minecraft\journeymap\data\sp\New World\DIM0. Memory: 2122MB total, 623MB free 
+[21:09:16] [Server thread/INFO] [JourneymapClient] Mapping halted in D:\Downloads\MultiMC\MultiMC\instances\Technofirma 3\minecraft\journeymap\data\sp\New World\DIM0
+[21:09:17] [Client thread/INFO] [TopoRenderer] Loading journeymap.topo.config
+[21:09:17] [Client thread/INFO] [WaypointStore] Loaded 0 waypoints from D:\Downloads\MultiMC\MultiMC\instances\Technofirma 3\minecraft\journeymap\data\sp\New World\waypoints
+[21:09:17] [Client thread/INFO] [ColorManager] Blocks and textures are current
+[21:09:17] [Client thread/INFO] [JourneymapClient] Mapping started in D:\Downloads\MultiMC\MultiMC\instances\Technofirma 3\minecraft\journeymap\data\sp\New World\DIM0. Memory: 2122MB total, 631MB free 
+[21:09:34] [Client thread/INFO] [JourneymapClient] Mapping halted in D:\Downloads\MultiMC\MultiMC\instances\Technofirma 3\minecraft\journeymap\data\sp\New World\DIM0
+[21:09:34] [JM-task-10/WARN] [TaskBatch] TaskBatch thread interrupted: journeymap.client.task.multi.MapPlayerTask$MapPlayerTaskBatch@40b10b4c
+[21:09:34] [Client thread/INFO] [TopoRenderer] Loading journeymap.topo.config
+[21:09:34] [Client thread/INFO] [WaypointStore] Loaded 0 waypoints from D:\Downloads\MultiMC\MultiMC\instances\Technofirma 3\minecraft\journeymap\data\sp\New World\waypoints
+[21:09:34] [Client thread/INFO] [ColorManager] Blocks and textures are current
+[21:09:34] [Client thread/INFO] [JourneymapClient] Mapping started in D:\Downloads\MultiMC\MultiMC\instances\Technofirma 3\minecraft\journeymap\data\sp\New World\DIM2. Memory: 2122MB total, 509MB free 
+[21:09:40] [Client thread/INFO] [JourneymapClient] Mapping halted in D:\Downloads\MultiMC\MultiMC\instances\Technofirma 3\minecraft\journeymap\data\sp\New World\DIM2
+[21:09:40] [JM-task-11/WARN] [TaskBatch] TaskBatch thread interrupted: journeymap.client.task.multi.MapPlayerTask$MapPlayerTaskBatch@4802a6bb
+[21:09:41] [Client thread/INFO] [TopoRenderer] Loading journeymap.topo.config
+[21:09:41] [Client thread/INFO] [WaypointStore] Loaded 0 waypoints from D:\Downloads\MultiMC\MultiMC\instances\Technofirma 3\minecraft\journeymap\data\sp\New World\waypoints
+[21:09:41] [Client thread/INFO] [ColorManager] Blocks and textures are current
+[21:09:41] [Client thread/INFO] [JourneymapClient] Mapping started in D:\Downloads\MultiMC\MultiMC\instances\Technofirma 3\minecraft\journeymap\data\sp\New World\DIM0. Memory: 2122MB total, 336MB free 
+[21:12:22] [Server thread/INFO] [JourneymapClient] Mapping halted in D:\Downloads\MultiMC\MultiMC\instances\Technofirma 3\minecraft\journeymap\data\sp\New World\DIM0
+[21:12:22] [Client thread/INFO] [TopoRenderer] Loading journeymap.topo.config
+[21:12:22] [Client thread/INFO] [WaypointStore] Loaded 0 waypoints from D:\Downloads\MultiMC\MultiMC\instances\Technofirma 3\minecraft\journeymap\data\sp\New World\waypoints
+[21:12:22] [Client thread/INFO] [ColorManager] Blocks and textures are current
+[21:12:22] [Client thread/INFO] [JourneymapClient] Mapping started in D:\Downloads\MultiMC\MultiMC\instances\Technofirma 3\minecraft\journeymap\data\sp\New World\DIM0. Memory: 2381MB total, 882MB free 
+[21:14:03] [Client thread/INFO] [JourneymapClient] Mapping halted in D:\Downloads\MultiMC\MultiMC\instances\Technofirma 3\minecraft\journeymap\data\sp\New World\DIM0
+[21:14:04] [Client thread/INFO] [TopoRenderer] Loading journeymap.topo.config
+[21:14:04] [Client thread/INFO] [WaypointStore] Loaded 0 waypoints from D:\Downloads\MultiMC\MultiMC\instances\Technofirma 3\minecraft\journeymap\data\sp\New World\waypoints
+[21:14:04] [Client thread/INFO] [ColorManager] Blocks and textures are current
+[21:14:04] [Client thread/INFO] [JourneymapClient] Mapping started in D:\Downloads\MultiMC\MultiMC\instances\Technofirma 3\minecraft\journeymap\data\sp\New World\DIM2. Memory: 2381MB total, 639MB free 
+[21:16:46] [Client thread/INFO] [JourneymapClient] Mapping halted in D:\Downloads\MultiMC\MultiMC\instances\Technofirma 3\minecraft\journeymap\data\sp\New World\DIM2
+[21:16:46] [JM-task-16/WARN] [TaskBatch] TaskBatch thread interrupted: journeymap.client.task.multi.MapPlayerTask$MapPlayerTaskBatch@7c29879
+[21:16:46] [Client thread/INFO] [TopoRenderer] Loading journeymap.topo.config
+[21:16:46] [Client thread/INFO] [WaypointStore] Loaded 0 waypoints from D:\Downloads\MultiMC\MultiMC\instances\Technofirma 3\minecraft\journeymap\data\sp\New World\waypoints
+[21:16:46] [Client thread/INFO] [ColorManager] Blocks and textures are current
+[21:16:46] [Client thread/INFO] [JourneymapClient] Mapping started in D:\Downloads\MultiMC\MultiMC\instances\Technofirma 3\minecraft\journeymap\data\sp\New World\DIM0. Memory: 2381MB total, 560MB free 
+[21:21:41] [Server thread/INFO] [JourneymapClient] Mapping halted in D:\Downloads\MultiMC\MultiMC\instances\Technofirma 3\minecraft\journeymap\data\sp\New World\DIM0
+[21:21:41] [Client thread/INFO] [TopoRenderer] Loading journeymap.topo.config
+[21:21:41] [Client thread/INFO] [WaypointStore] Loaded 0 waypoints from D:\Downloads\MultiMC\MultiMC\instances\Technofirma 3\minecraft\journeymap\data\sp\New World\waypoints
+[21:21:41] [Client thread/INFO] [ColorManager] Blocks and textures are current
+[21:21:41] [Client thread/INFO] [JourneymapClient] Mapping started in D:\Downloads\MultiMC\MultiMC\instances\Technofirma 3\minecraft\journeymap\data\sp\New World\DIM0. Memory: 2487MB total, 990MB free 
+[21:21:41] [Client thread/INFO] [WaypointStore] Loaded 0 waypoints from D:\Downloads\MultiMC\MultiMC\instances\Technofirma 3\minecraft\journeymap\data\sp\New World\waypoints
+[21:23:25] [Client thread/INFO] [JourneymapClient] Mapping halted in D:\Downloads\MultiMC\MultiMC\instances\Technofirma 3\minecraft\journeymap\data\sp\New World\DIM0
+[21:23:26] [Client thread/INFO] [TopoRenderer] Loading journeymap.topo.config
+[21:23:26] [Client thread/INFO] [WaypointStore] Loaded 0 waypoints from D:\Downloads\MultiMC\MultiMC\instances\Technofirma 3\minecraft\journeymap\data\sp\New World\waypoints
+[21:23:26] [Client thread/INFO] [ColorManager] Blocks and textures are current
+[21:23:26] [Client thread/INFO] [JourneymapClient] Mapping started in D:\Downloads\MultiMC\MultiMC\instances\Technofirma 3\minecraft\journeymap\data\sp\New World\DIM2. Memory: 2487MB total, 538MB free 
+[21:23:36] [Client thread/INFO] [JourneymapClient] Mapping halted in D:\Downloads\MultiMC\MultiMC\instances\Technofirma 3\minecraft\journeymap\data\sp\New World\DIM2
+[21:23:37] [Client thread/INFO] [TopoRenderer] Loading journeymap.topo.config
+[21:23:37] [Client thread/INFO] [WaypointStore] Loaded 0 waypoints from D:\Downloads\MultiMC\MultiMC\instances\Technofirma 3\minecraft\journeymap\data\sp\New World\waypoints
+[21:23:37] [Client thread/INFO] [ColorManager] Blocks and textures are current
+[21:23:37] [Client thread/INFO] [JourneymapClient] Mapping started in D:\Downloads\MultiMC\MultiMC\instances\Technofirma 3\minecraft\journeymap\data\sp\New World\DIM0. Memory: 2487MB total, 329MB free 
+[21:23:39] [Finalizer/WARN] [TextureImpl] TextureImpl disposed without deleting texture glID: TextureImpl{glid=156, description=null, lastImageUpdate=0, lastBound=0}
+[21:23:39] [Finalizer/WARN] [TextureImpl] TextureImpl disposed without deleting texture glID: TextureImpl{glid=155, description=null, lastImageUpdate=0, lastBound=0}
+[21:23:39] [Finalizer/WARN] [TextureImpl] TextureImpl disposed without deleting texture glID: TextureImpl{glid=154, description=null, lastImageUpdate=0, lastBound=0}
+[21:23:39] [Finalizer/WARN] [TextureImpl] TextureImpl disposed without deleting texture glID: TextureImpl{glid=153, description=null, lastImageUpdate=0, lastBound=0}
+[21:23:39] [Finalizer/WARN] [TextureImpl] TextureImpl disposed without deleting texture glID: TextureImpl{glid=152, description=null, lastImageUpdate=0, lastBound=0}
+[21:23:39] [Finalizer/WARN] [TextureImpl] TextureImpl disposed without deleting texture glID: TextureImpl{glid=167, description=null, lastImageUpdate=0, lastBound=0}
+[21:23:39] [Finalizer/WARN] [TextureImpl] TextureImpl disposed without deleting texture glID: TextureImpl{glid=161, description=null, lastImageUpdate=0, lastBound=0}
+[21:23:39] [Finalizer/WARN] [TextureImpl] TextureImpl disposed without deleting texture glID: TextureImpl{glid=160, description=null, lastImageUpdate=0, lastBound=0}
+[21:23:39] [Finalizer/WARN] [TextureImpl] TextureImpl disposed without deleting texture glID: TextureImpl{glid=159, description=null, lastImageUpdate=0, lastBound=0}
+[21:23:39] [Finalizer/WARN] [TextureImpl] TextureImpl disposed without deleting texture glID: TextureImpl{glid=158, description=null, lastImageUpdate=0, lastBound=0}
+[21:23:39] [Finalizer/WARN] [TextureImpl] TextureImpl disposed without deleting texture glID: TextureImpl{glid=166, description=null, lastImageUpdate=0, lastBound=0}
+[21:23:39] [Finalizer/WARN] [TextureImpl] TextureImpl disposed without deleting texture glID: TextureImpl{glid=165, description=null, lastImageUpdate=0, lastBound=0}
+[21:23:39] [Finalizer/WARN] [TextureImpl] TextureImpl disposed without deleting texture glID: TextureImpl{glid=164, description=null, lastImageUpdate=0, lastBound=0}
+[21:23:39] [Finalizer/WARN] [TextureImpl] TextureImpl disposed without deleting texture glID: TextureImpl{glid=146, description=null, lastImageUpdate=0, lastBound=0}
+[21:23:39] [Finalizer/WARN] [TextureImpl] TextureImpl disposed without deleting texture glID: TextureImpl{glid=150, description=null, lastImageUpdate=0, lastBound=0}
+[21:23:39] [Finalizer/WARN] [TextureImpl] TextureImpl disposed without deleting texture glID: TextureImpl{glid=151, description=null, lastImageUpdate=0, lastBound=0}
+[21:23:57] [Server thread/INFO] [JourneymapClient] Mapping halted in D:\Downloads\MultiMC\MultiMC\instances\Technofirma 3\minecraft\journeymap\data\sp\New World\DIM0
+[21:23:58] [Client thread/INFO] [TopoRenderer] Loading journeymap.topo.config
+[21:23:58] [Client thread/INFO] [WaypointStore] Loaded 0 waypoints from D:\Downloads\MultiMC\MultiMC\instances\Technofirma 3\minecraft\journeymap\data\sp\New World\waypoints
+[21:23:58] [Client thread/INFO] [ColorManager] Blocks and textures are current
+[21:23:58] [Client thread/INFO] [JourneymapClient] Mapping started in D:\Downloads\MultiMC\MultiMC\instances\Technofirma 3\minecraft\journeymap\data\sp\New World\DIM0. Memory: 2576MB total, 1013MB free 
+[21:24:13] [Client thread/INFO] [JourneymapClient] Mapping halted in D:\Downloads\MultiMC\MultiMC\instances\Technofirma 3\minecraft\journeymap\data\sp\New World\DIM0

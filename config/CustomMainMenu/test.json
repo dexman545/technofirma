@@ -1,0 +1,171 @@
+{
+    "images":
+    {
+        "Menu Background":
+        {
+            "image" : "technofirma:textures/mBackground1.png",
+            "posX" : 0,
+            "posY" : 0,
+            "width" : 120,
+            "height" : 195,
+			"alignment" : "left"
+        },
+		
+		"title":
+        {
+            "image" : "technofirma:textures/TECHNOFIRMA1.png",
+            "posX" : -165,
+            "posY" : 0,
+            "width" : 329,
+            "height" : 54,
+            "alignment" : "top_center"
+        }
+    },
+    
+    "buttons":
+    {
+      "quit":
+        {
+            "text" : "menu.quit",
+			"texture" : "technofirma:textures/buttonBG1.png",
+            "posX" : 19,
+            "posY" : 160,
+            "width" : 80,
+            "height" : 22,
+			"imageWidth" : 1023,
+            "imageHeight" : 772,
+			"alignment" : "left",
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+		
+		"credits":
+        {
+            "text" : "Credits",
+			"texture" : "technofirma:textures/buttonBG1.png",
+            "posX" : 19,
+            "posY" : 100,
+            "width" : 80,
+            "height" : 22,
+			"imageWidth" : 1023,
+            "imageHeight" : 772,
+			"alignment" : "left",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "custom.credits"
+            }
+        },
+		
+		"singleplayer":
+        {
+            "text" : "menu.singleplayer",
+			"texture" : "technofirma:textures/buttonBG1.png",
+            "posX" : 19,
+            "posY" : 10,
+            "width" : 80,
+            "height" : 22,
+			"imageWidth" : 1023,
+            "imageHeight" : 772,
+			"alignment" : "left",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+		
+		"multiplayer":
+        {
+            "text" : "menu.multiplayer",
+			"texture" : "technofirma:textures/buttonBG1.png",
+            "posX" : 19,
+            "posY" : 70,
+            "width" : 80,
+            "height" : 22,
+			"imageWidth" : 1023,
+            "imageHeight" : 772,
+			"alignment" : "left",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+		
+		"DSUK":
+        {
+            "text" : "Public Server",
+			"texture" : "technofirma:textures/buttonBG1.png",
+            "posX" : 19,
+            "posY" : 40,
+            "width" : 80,
+            "height" : 22,
+			"imageWidth" : 1023,
+            "imageHeight" : 772,
+			"alignment" : "left",
+            "action" : 
+            {
+                "type" : "connectToServer",
+                "ip" : "mc.darkserver.co.uk:25566"
+            }
+        },
+		
+		"options":
+        {
+            "text" : "menu.options",
+			"texture" : "technofirma:textures/buttonBG1.png",
+            "posX" : 19,
+            "posY" : 130,
+            "width" : 80,
+            "height" : 22,
+			"imageWidth" : 1023,
+            "imageHeight" : 772,
+			"alignment" : "left",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        }
+    },
+    
+    "labels":
+    {
+       
+    },
+    
+	"alignments":
+    {
+        "left":
+        {
+            "factorWidth" : 0,
+            "factorHeight" : 0.2
+        }
+    },
+	
+    "other":
+    {
+		"splash-text":
+        {
+            "posX" : 150,
+            "posY" : 50,
+            "color" : -256,
+            "alignment" : "top_center",
+            "texts" : "file:technofirma:Texts/splash.txt"
+        },
+		
+        "background":
+        {
+            "image" : "",
+            "slideshow":
+            {
+                "images" : ["technofirma:textures/panorama4.png","technofirma:textures/panorama1.png","technofirma:textures/panorama2.png","technofirma:textures/panorama3.png","technofirma:textures/panorama5.png","technofirma:textures/panorama6.png","technofirma:textures/panorama7.png","technofirma:textures/panorama8.png","technofirma:textures/panorama9.png","technofirma:textures/panorama10.png","technofirma:textures/panorama11.png","technofirma:textures/panorama12.png","technofirma:textures/panorama13.png"],
+                "displayDuration" : 100,
+                "fadeDuration" : 40
+            }
+        }
+    }
+}

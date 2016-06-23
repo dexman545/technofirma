@@ -1,0 +1,1339 @@
+Ore entries for <ore:logWood> :
+    <minecraft:log:*>
+    <minecraft:log2:*>
+    <forestry:logs.0:*>
+    <forestry:logs.1:*>
+    <forestry:logs.2:*>
+    <forestry:logs.3:*>
+    <forestry:logs.4:*>
+    <forestry:logs.5:*>
+    <forestry:logs.6:*>
+    <forestry:logs.7:*>
+    <forestry:logs.fireproof.0:*>
+    <forestry:logs.fireproof.1:*>
+    <forestry:logs.fireproof.2:*>
+    <forestry:logs.fireproof.3:*>
+    <forestry:logs.fireproof.4:*>
+    <forestry:logs.fireproof.5:*>
+    <forestry:logs.fireproof.6:*>
+    <forestry:logs.fireproof.7:*>
+    <forestry:logs.vanilla.fireproof.0:*>
+    <forestry:logs.vanilla.fireproof.1:*>
+    <integrateddynamics:menrilLog>
+    <techreborn:rubberLog:*>
+Ore entries for <ore:plankWood> :
+    <minecraft:planks:*>
+    <forestry:planks.0:*>
+    <forestry:planks.1:*>
+    <forestry:planks.fireproof.0:*>
+    <forestry:planks.fireproof.1:*>
+    <forestry:planks.vanilla.fireproof.0:*>
+    <integrateddynamics:menrilPlanks>
+    <techreborn:rubberPlanks:*>
+Ore entries for <ore:slabWood> :
+    <minecraft:wooden_slab:*>
+    <minecraft:wooden_slab>
+    <forestry:slabs.0:*>
+    <forestry:slabs.1:*>
+    <forestry:slabs.2:*>
+    <forestry:slabs.3:*>
+    <forestry:slabs.fireproof.0:*>
+    <forestry:slabs.fireproof.1:*>
+    <forestry:slabs.fireproof.2:*>
+    <forestry:slabs.fireproof.3:*>
+    <forestry:slabs.vanilla.fireproof.0:*>
+Ore entries for <ore:stairWood> :
+    <minecraft:oak_stairs>
+    <minecraft:spruce_stairs>
+    <minecraft:birch_stairs>
+    <minecraft:jungle_stairs>
+    <minecraft:acacia_stairs>
+    <minecraft:dark_oak_stairs>
+    <forestry:stairs.larch:*>
+    <forestry:stairs.teak:*>
+    <forestry:stairs.acacia:*>
+    <forestry:stairs.lime:*>
+    <forestry:stairs.chestnut:*>
+    <forestry:stairs.wenge:*>
+    <forestry:stairs.baobab:*>
+    <forestry:stairs.sequoia:*>
+    <forestry:stairs.kapok:*>
+    <forestry:stairs.ebony:*>
+    <forestry:stairs.mahogany:*>
+    <forestry:stairs.balsa:*>
+    <forestry:stairs.willow:*>
+    <forestry:stairs.walnut:*>
+    <forestry:stairs.greenheart:*>
+    <forestry:stairs.cherry:*>
+    <forestry:stairs.mahoe:*>
+    <forestry:stairs.poplar:*>
+    <forestry:stairs.palm:*>
+    <forestry:stairs.papaya:*>
+    <forestry:stairs.pine:*>
+    <forestry:stairs.plum:*>
+    <forestry:stairs.maple:*>
+    <forestry:stairs.citrus:*>
+    <forestry:stairs.giganteum:*>
+    <forestry:stairs.ipe:*>
+    <forestry:stairs.padauk:*>
+    <forestry:stairs.cocobolo:*>
+    <forestry:stairs.zebrawood:*>
+    <forestry:stairs.fireproof.larch:*>
+    <forestry:stairs.fireproof.teak:*>
+    <forestry:stairs.fireproof.acacia:*>
+    <forestry:stairs.fireproof.lime:*>
+    <forestry:stairs.fireproof.chestnut:*>
+    <forestry:stairs.fireproof.wenge:*>
+    <forestry:stairs.fireproof.baobab:*>
+    <forestry:stairs.fireproof.sequoia:*>
+    <forestry:stairs.fireproof.kapok:*>
+    <forestry:stairs.fireproof.ebony:*>
+    <forestry:stairs.fireproof.mahogany:*>
+    <forestry:stairs.fireproof.balsa:*>
+    <forestry:stairs.fireproof.willow:*>
+    <forestry:stairs.fireproof.walnut:*>
+    <forestry:stairs.fireproof.greenheart:*>
+    <forestry:stairs.fireproof.cherry:*>
+    <forestry:stairs.fireproof.mahoe:*>
+    <forestry:stairs.fireproof.poplar:*>
+    <forestry:stairs.fireproof.palm:*>
+    <forestry:stairs.fireproof.papaya:*>
+    <forestry:stairs.fireproof.pine:*>
+    <forestry:stairs.fireproof.plum:*>
+    <forestry:stairs.fireproof.maple:*>
+    <forestry:stairs.fireproof.citrus:*>
+    <forestry:stairs.fireproof.giganteum:*>
+    <forestry:stairs.fireproof.ipe:*>
+    <forestry:stairs.fireproof.padauk:*>
+    <forestry:stairs.fireproof.cocobolo:*>
+    <forestry:stairs.fireproof.zebrawood:*>
+    <forestry:stairs.vanilla.fireproof.oak:*>
+    <forestry:stairs.vanilla.fireproof.spruce:*>
+    <forestry:stairs.vanilla.fireproof.birch:*>
+    <forestry:stairs.vanilla.fireproof.jungle:*>
+    <forestry:stairs.vanilla.fireproof.acacia:*>
+    <forestry:stairs.vanilla.fireproof.dark_oak:*>
+Ore entries for <ore:stickWood> :
+    <minecraft:stick>
+Ore entries for <ore:treeSapling> :
+    <minecraft:sapling:*>
+    <forestry:sapling:*>
+    <forestry:saplingGE:*>
+    <integrateddynamics:menrilSapling>
+    <techreborn:rubberSapling>
+Ore entries for <ore:treeLeaves> :
+    <minecraft:leaves:*>
+    <minecraft:leaves2:*>
+    <forestry:leaves:*>
+    <forestry:leaves.decorative.0:*>
+    <forestry:leaves.decorative.1:*>
+    <forestry:leaves.decorative.2:*>
+    <integrateddynamics:menrilLeaves>
+    <techreborn:rubberLeaves:*>
+Ore entries for <ore:vine> :
+    <minecraft:vine>
+Ore entries for <ore:oreGold> :
+    <minecraft:gold_ore>
+Ore entries for <ore:oreIron> :
+    <minecraft:iron_ore>
+Ore entries for <ore:oreLapis> :
+    <minecraft:lapis_ore>
+Ore entries for <ore:oreDiamond> :
+    <minecraft:diamond_ore>
+Ore entries for <ore:oreRedstone> :
+    <minecraft:redstone_ore>
+Ore entries for <ore:oreEmerald> :
+    <minecraft:emerald_ore>
+Ore entries for <ore:oreQuartz> :
+    <minecraft:quartz_ore>
+Ore entries for <ore:oreCoal> :
+    <minecraft:coal_ore>
+Ore entries for <ore:ingotIron> :
+    <minecraft:iron_ingot>
+Ore entries for <ore:ingotGold> :
+    <minecraft:gold_ingot>
+Ore entries for <ore:ingotBrick> :
+    <minecraft:brick>
+Ore entries for <ore:ingotBrickNether> :
+    <minecraft:netherbrick>
+Ore entries for <ore:nuggetGold> :
+    <minecraft:gold_nugget>
+Ore entries for <ore:gemDiamond> :
+    <minecraft:diamond>
+Ore entries for <ore:gemEmerald> :
+    <minecraft:emerald>
+Ore entries for <ore:gemQuartz> :
+    <minecraft:quartz>
+Ore entries for <ore:gemPrismarine> :
+    <minecraft:prismarine_shard>
+Ore entries for <ore:dustPrismarine> :
+    <minecraft:prismarine_crystals>
+Ore entries for <ore:dustRedstone> :
+    <minecraft:redstone>
+Ore entries for <ore:dustGlowstone> :
+    <minecraft:glowstone_dust>
+Ore entries for <ore:gemLapis> :
+    <minecraft:dye:4>
+Ore entries for <ore:blockGold> :
+    <minecraft:gold_block>
+Ore entries for <ore:blockIron> :
+    <minecraft:iron_block>
+Ore entries for <ore:blockLapis> :
+    <minecraft:lapis_block>
+    <techreborn:plates:37>
+Ore entries for <ore:blockDiamond> :
+    <minecraft:diamond_block>
+Ore entries for <ore:blockRedstone> :
+    <minecraft:redstone_block>
+Ore entries for <ore:blockEmerald> :
+    <minecraft:emerald_block>
+Ore entries for <ore:blockQuartz> :
+    <minecraft:quartz_block>
+Ore entries for <ore:blockCoal> :
+    <minecraft:coal_block>
+Ore entries for <ore:cropWheat> :
+    <minecraft:wheat>
+Ore entries for <ore:cropPotato> :
+    <minecraft:potato>
+Ore entries for <ore:cropCarrot> :
+    <minecraft:carrot>
+Ore entries for <ore:cropNetherWart> :
+    <minecraft:nether_wart>
+Ore entries for <ore:sugarcane> :
+    <minecraft:reeds>
+Ore entries for <ore:blockCactus> :
+    <minecraft:cactus>
+Ore entries for <ore:dye> :
+    <minecraft:dye:*>
+Ore entries for <ore:paper> :
+    <minecraft:paper>
+Ore entries for <ore:slimeball> :
+    <minecraft:slime_ball>
+Ore entries for <ore:enderpearl> :
+    <minecraft:ender_pearl>
+Ore entries for <ore:bone> :
+    <minecraft:bone>
+Ore entries for <ore:gunpowder> :
+    <minecraft:gunpowder>
+Ore entries for <ore:string> :
+    <minecraft:string>
+Ore entries for <ore:netherStar> :
+    <minecraft:nether_star>
+Ore entries for <ore:leather> :
+    <minecraft:leather>
+Ore entries for <ore:feather> :
+    <minecraft:feather>
+Ore entries for <ore:egg> :
+    <minecraft:egg>
+Ore entries for <ore:record> :
+    <minecraft:record_13>
+    <minecraft:record_cat>
+    <minecraft:record_blocks>
+    <minecraft:record_chirp>
+    <minecraft:record_far>
+    <minecraft:record_mall>
+    <minecraft:record_mellohi>
+    <minecraft:record_stal>
+    <minecraft:record_strad>
+    <minecraft:record_ward>
+    <minecraft:record_11>
+    <minecraft:record_wait>
+Ore entries for <ore:dirt> :
+    <minecraft:dirt>
+Ore entries for <ore:grass> :
+    <minecraft:grass>
+Ore entries for <ore:stone> :
+    <minecraft:stone>
+Ore entries for <ore:cobblestone> :
+    <minecraft:cobblestone>
+Ore entries for <ore:gravel> :
+    <minecraft:gravel>
+Ore entries for <ore:sand> :
+    <minecraft:sand:*>
+Ore entries for <ore:sandstone> :
+    <minecraft:sandstone:*>
+    <minecraft:red_sandstone:*>
+Ore entries for <ore:netherrack> :
+    <minecraft:netherrack>
+Ore entries for <ore:obsidian> :
+    <minecraft:obsidian>
+Ore entries for <ore:glowstone> :
+    <minecraft:glowstone>
+Ore entries for <ore:endstone> :
+    <minecraft:end_stone>
+Ore entries for <ore:torch> :
+    <minecraft:torch>
+Ore entries for <ore:workbench> :
+    <minecraft:crafting_table>
+Ore entries for <ore:blockSlime> :
+    <minecraft:slime>
+Ore entries for <ore:blockPrismarine> :
+    <minecraft:prismarine>
+Ore entries for <ore:blockPrismarineBrick> :
+    <minecraft:prismarine:1>
+Ore entries for <ore:blockPrismarineDark> :
+    <minecraft:prismarine:2>
+Ore entries for <ore:stoneGranite> :
+    <minecraft:stone:1>
+Ore entries for <ore:stoneGranitePolished> :
+    <minecraft:stone:2>
+Ore entries for <ore:stoneDiorite> :
+    <minecraft:stone:3>
+Ore entries for <ore:stoneDioritePolished> :
+    <minecraft:stone:4>
+Ore entries for <ore:stoneAndesite> :
+    <minecraft:stone:5>
+Ore entries for <ore:stoneAndesitePolished> :
+    <minecraft:stone:6>
+Ore entries for <ore:blockGlassColorless> :
+    <minecraft:glass>
+Ore entries for <ore:blockGlass> :
+    <minecraft:glass>
+    <minecraft:stained_glass:*>
+Ore entries for <ore:paneGlassColorless> :
+    <minecraft:glass_pane>
+Ore entries for <ore:paneGlass> :
+    <minecraft:glass_pane>
+    <minecraft:stained_glass_pane:*>
+Ore entries for <ore:chest> :
+    <minecraft:chest>
+    <minecraft:ender_chest>
+    <minecraft:trapped_chest>
+Ore entries for <ore:chestWood> :
+    <minecraft:chest>
+Ore entries for <ore:chestEnder> :
+    <minecraft:ender_chest>
+Ore entries for <ore:chestTrapped> :
+    <minecraft:trapped_chest>
+Ore entries for <ore:dyeBlack> :
+    <minecraft:dye>
+Ore entries for <ore:blockGlassBlack> :
+    <minecraft:stained_glass:15>
+Ore entries for <ore:paneGlassBlack> :
+    <minecraft:stained_glass_pane:15>
+Ore entries for <ore:dyeRed> :
+    <minecraft:dye:1>
+Ore entries for <ore:blockGlassRed> :
+    <minecraft:stained_glass:14>
+Ore entries for <ore:paneGlassRed> :
+    <minecraft:stained_glass_pane:14>
+Ore entries for <ore:dyeGreen> :
+    <minecraft:dye:2>
+Ore entries for <ore:blockGlassGreen> :
+    <minecraft:stained_glass:13>
+Ore entries for <ore:paneGlassGreen> :
+    <minecraft:stained_glass_pane:13>
+Ore entries for <ore:dyeBrown> :
+    <minecraft:dye:3>
+Ore entries for <ore:blockGlassBrown> :
+    <minecraft:stained_glass:12>
+Ore entries for <ore:paneGlassBrown> :
+    <minecraft:stained_glass_pane:12>
+Ore entries for <ore:dyeBlue> :
+    <minecraft:dye:4>
+Ore entries for <ore:blockGlassBlue> :
+    <minecraft:stained_glass:11>
+Ore entries for <ore:paneGlassBlue> :
+    <minecraft:stained_glass_pane:11>
+Ore entries for <ore:dyePurple> :
+    <minecraft:dye:5>
+Ore entries for <ore:blockGlassPurple> :
+    <minecraft:stained_glass:10>
+Ore entries for <ore:paneGlassPurple> :
+    <minecraft:stained_glass_pane:10>
+Ore entries for <ore:dyeCyan> :
+    <minecraft:dye:6>
+Ore entries for <ore:blockGlassCyan> :
+    <minecraft:stained_glass:9>
+Ore entries for <ore:paneGlassCyan> :
+    <minecraft:stained_glass_pane:9>
+Ore entries for <ore:dyeLightGray> :
+    <minecraft:dye:7>
+Ore entries for <ore:blockGlassLightGray> :
+    <minecraft:stained_glass:8>
+Ore entries for <ore:paneGlassLightGray> :
+    <minecraft:stained_glass_pane:8>
+Ore entries for <ore:dyeGray> :
+    <minecraft:dye:8>
+Ore entries for <ore:blockGlassGray> :
+    <minecraft:stained_glass:7>
+Ore entries for <ore:paneGlassGray> :
+    <minecraft:stained_glass_pane:7>
+Ore entries for <ore:dyePink> :
+    <minecraft:dye:9>
+Ore entries for <ore:blockGlassPink> :
+    <minecraft:stained_glass:6>
+Ore entries for <ore:paneGlassPink> :
+    <minecraft:stained_glass_pane:6>
+Ore entries for <ore:dyeLime> :
+    <minecraft:dye:10>
+Ore entries for <ore:blockGlassLime> :
+    <minecraft:stained_glass:5>
+Ore entries for <ore:paneGlassLime> :
+    <minecraft:stained_glass_pane:5>
+Ore entries for <ore:dyeYellow> :
+    <minecraft:dye:11>
+Ore entries for <ore:blockGlassYellow> :
+    <minecraft:stained_glass:4>
+Ore entries for <ore:paneGlassYellow> :
+    <minecraft:stained_glass_pane:4>
+Ore entries for <ore:dyeLightBlue> :
+    <minecraft:dye:12>
+Ore entries for <ore:blockGlassLightBlue> :
+    <minecraft:stained_glass:3>
+Ore entries for <ore:paneGlassLightBlue> :
+    <minecraft:stained_glass_pane:3>
+Ore entries for <ore:dyeMagenta> :
+    <minecraft:dye:13>
+Ore entries for <ore:blockGlassMagenta> :
+    <minecraft:stained_glass:2>
+Ore entries for <ore:paneGlassMagenta> :
+    <minecraft:stained_glass_pane:2>
+Ore entries for <ore:dyeOrange> :
+    <minecraft:dye:14>
+Ore entries for <ore:blockGlassOrange> :
+    <minecraft:stained_glass:1>
+Ore entries for <ore:paneGlassOrange> :
+    <minecraft:stained_glass_pane:1>
+Ore entries for <ore:dyeWhite> :
+    <minecraft:dye:15>
+Ore entries for <ore:blockGlassWhite> :
+    <minecraft:stained_glass>
+Ore entries for <ore:paneGlassWhite> :
+    <minecraft:stained_glass_pane>
+Ore entries for <ore:stair> :
+    <minecraft:oak_stairs>
+    <minecraft:spruce_stairs>
+    <minecraft:birch_stairs>
+    <minecraft:jungle_stairs>
+    <minecraft:acacia_stairs>
+    <minecraft:dark_oak_stairs>
+    <minecraft:sandstone_stairs>
+    <minecraft:red_sandstone_stairs>
+    <minecraft:stone_stairs>
+    <minecraft:brick_stairs>
+    <minecraft:stone_brick_stairs>
+    <minecraft:nether_brick_stairs>
+    <minecraft:quartz_stairs>
+Ore entries for <ore:stairSandstone> :
+    <minecraft:sandstone_stairs>
+    <minecraft:red_sandstone_stairs>
+Ore entries for <ore:stairCobblestone> :
+    <minecraft:stone_stairs>
+Ore entries for <ore:stairBrick> :
+    <minecraft:brick_stairs>
+Ore entries for <ore:stairStoneBrick> :
+    <minecraft:stone_brick_stairs>
+Ore entries for <ore:stairNetherBrick> :
+    <minecraft:nether_brick_stairs>
+Ore entries for <ore:stairQuartz> :
+    <minecraft:quartz_stairs>
+Ore entries for <ore:slab> :
+    <minecraft:wooden_slab>
+    <minecraft:stone_slab>
+    <minecraft:stone_slab2>
+Ore entries for <ore:slabStone> :
+    <minecraft:stone_slab>
+Ore entries for <ore:slabSandstone> :
+    <minecraft:stone_slab:1>
+    <minecraft:stone_slab2>
+Ore entries for <ore:slabCobblestone> :
+    <minecraft:stone_slab:3>
+Ore entries for <ore:slabBrick> :
+    <minecraft:stone_slab:4>
+Ore entries for <ore:slabStoneBrick> :
+    <minecraft:stone_slab:5>
+Ore entries for <ore:slabNetherBrick> :
+    <minecraft:stone_slab:6>
+Ore entries for <ore:slabQuartz> :
+    <minecraft:stone_slab:7>
+Ore entries for <ore:cobblestoneMoss> :
+    <minecraft:mossy_cobblestone>
+Ore entries for <ore:fence> :
+    <minecraft:fence>
+    <minecraft:spruce_fence>
+    <minecraft:birch_fence>
+    <minecraft:jungle_fence>
+    <minecraft:dark_oak_fence>
+    <minecraft:acacia_fence>
+    <minecraft:nether_brick_fence>
+Ore entries for <ore:fenceWood> :
+    <minecraft:fence>
+    <minecraft:spruce_fence>
+    <minecraft:birch_fence>
+    <minecraft:jungle_fence>
+    <minecraft:dark_oak_fence>
+    <minecraft:acacia_fence>
+    <forestry:fences.0:*>
+    <forestry:fences.1:*>
+    <forestry:fences.fireproof.0:*>
+    <forestry:fences.fireproof.1:*>
+    <forestry:fences.vanilla.fireproof.0:*>
+Ore entries for <ore:fenceNETHERBRICK> :
+    <minecraft:nether_brick_fence>
+Ore entries for <ore:fenceGate> :
+    <minecraft:fence_gate>
+    <minecraft:spruce_fence_gate>
+    <minecraft:birch_fence_gate>
+    <minecraft:jungle_fence_gate>
+    <minecraft:dark_oak_fence_gate>
+    <minecraft:acacia_fence_gate>
+Ore entries for <ore:fenceGateWood> :
+    <minecraft:fence_gate>
+    <minecraft:spruce_fence_gate>
+    <minecraft:birch_fence_gate>
+    <minecraft:jungle_fence_gate>
+    <minecraft:dark_oak_fence_gate>
+    <minecraft:acacia_fence_gate>
+    <forestry:fence.gates.larch:*>
+    <forestry:fence.gates.fireproof.larch:*>
+    <forestry:fence.gates.teak:*>
+    <forestry:fence.gates.fireproof.teak:*>
+    <forestry:fence.gates.acacia:*>
+    <forestry:fence.gates.fireproof.acacia:*>
+    <forestry:fence.gates.lime:*>
+    <forestry:fence.gates.fireproof.lime:*>
+    <forestry:fence.gates.chestnut:*>
+    <forestry:fence.gates.fireproof.chestnut:*>
+    <forestry:fence.gates.wenge:*>
+    <forestry:fence.gates.fireproof.wenge:*>
+    <forestry:fence.gates.baobab:*>
+    <forestry:fence.gates.fireproof.baobab:*>
+    <forestry:fence.gates.sequoia:*>
+    <forestry:fence.gates.fireproof.sequoia:*>
+    <forestry:fence.gates.kapok:*>
+    <forestry:fence.gates.fireproof.kapok:*>
+    <forestry:fence.gates.ebony:*>
+    <forestry:fence.gates.fireproof.ebony:*>
+    <forestry:fence.gates.mahogany:*>
+    <forestry:fence.gates.fireproof.mahogany:*>
+    <forestry:fence.gates.balsa:*>
+    <forestry:fence.gates.fireproof.balsa:*>
+    <forestry:fence.gates.willow:*>
+    <forestry:fence.gates.fireproof.willow:*>
+    <forestry:fence.gates.walnut:*>
+    <forestry:fence.gates.fireproof.walnut:*>
+    <forestry:fence.gates.greenheart:*>
+    <forestry:fence.gates.fireproof.greenheart:*>
+    <forestry:fence.gates.cherry:*>
+    <forestry:fence.gates.fireproof.cherry:*>
+    <forestry:fence.gates.mahoe:*>
+    <forestry:fence.gates.fireproof.mahoe:*>
+    <forestry:fence.gates.poplar:*>
+    <forestry:fence.gates.fireproof.poplar:*>
+    <forestry:fence.gates.palm:*>
+    <forestry:fence.gates.fireproof.palm:*>
+    <forestry:fence.gates.papaya:*>
+    <forestry:fence.gates.fireproof.papaya:*>
+    <forestry:fence.gates.pine:*>
+    <forestry:fence.gates.fireproof.pine:*>
+    <forestry:fence.gates.plum:*>
+    <forestry:fence.gates.fireproof.plum:*>
+    <forestry:fence.gates.maple:*>
+    <forestry:fence.gates.fireproof.maple:*>
+    <forestry:fence.gates.citrus:*>
+    <forestry:fence.gates.fireproof.citrus:*>
+    <forestry:fence.gates.giganteum:*>
+    <forestry:fence.gates.fireproof.giganteum:*>
+    <forestry:fence.gates.ipe:*>
+    <forestry:fence.gates.fireproof.ipe:*>
+    <forestry:fence.gates.padauk:*>
+    <forestry:fence.gates.fireproof.padauk:*>
+    <forestry:fence.gates.cocobolo:*>
+    <forestry:fence.gates.fireproof.cocobolo:*>
+    <forestry:fence.gates.zebrawood:*>
+    <forestry:fence.gates.fireproof.zebrawood:*>
+    <forestry:fence.gates.vanilla.fireproof.oak:*>
+    <forestry:fence.gates.vanilla.fireproof.spruce:*>
+    <forestry:fence.gates.vanilla.fireproof.birch:*>
+    <forestry:fence.gates.vanilla.fireproof.jungle:*>
+    <forestry:fence.gates.vanilla.fireproof.acacia:*>
+    <forestry:fence.gates.vanilla.fireproof.dark_oak:*>
+Ore entries for <ore:wall> :
+    <minecraft:cobblestone_wall>
+Ore entries for <ore:wallCobblestone> :
+    <minecraft:cobblestone_wall>
+Ore entries for <ore:wallMoss> :
+    <minecraft:cobblestone_wall:1>
+Ore entries for <ore:gemApatite> :
+    <forestry:apatite>
+Ore entries for <ore:ingotCopper> :
+    <forestry:ingotCopper>
+    <techreborn:ingot:4>
+Ore entries for <ore:ingotTin> :
+    <forestry:ingotTin>
+    <techreborn:ingot:13>
+Ore entries for <ore:ingotBronze> :
+    <forestry:ingotBronze>
+    <techreborn:ingot:2>
+Ore entries for <ore:brickPeat> :
+    <forestry:peat>
+Ore entries for <ore:dustAsh> :
+    <forestry:ash>
+    <techreborn:dust:3>
+Ore entries for <ore:gearBronze> :
+    <forestry:gearBronze>
+Ore entries for <ore:gearCopper> :
+    <forestry:gearCopper>
+Ore entries for <ore:gearTin> :
+    <forestry:gearTin>
+Ore entries for <ore:pulpWood> :
+    <forestry:woodPulp>
+    <techreborn:dust:46>
+Ore entries for <ore:itemBeeswax> :
+    <forestry:beeswax>
+Ore entries for <ore:cropCherry> :
+    <forestry:fruits>
+Ore entries for <ore:cropWalnut> :
+    <forestry:fruits:1>
+Ore entries for <ore:cropChestnut> :
+    <forestry:fruits:2>
+Ore entries for <ore:cropLemon> :
+    <forestry:fruits:3>
+Ore entries for <ore:cropPlum> :
+    <forestry:fruits:4>
+Ore entries for <ore:cropDate> :
+    <forestry:fruits:5>
+Ore entries for <ore:cropPapaya> :
+    <forestry:fruits:6>
+Ore entries for <ore:oreApatite> :
+    <forestry:resources>
+Ore entries for <ore:oreCopper> :
+    <forestry:resources:1>
+    <techreborn:techreborn.ore2>
+Ore entries for <ore:oreTin> :
+    <forestry:resources:2>
+    <techreborn:techreborn.ore2:1>
+Ore entries for <ore:blockApatite> :
+    <forestry:resourceStorage>
+Ore entries for <ore:blockCopper> :
+    <forestry:resourceStorage:1>
+    <techreborn:techreborn.storage2:8>
+Ore entries for <ore:blockTin> :
+    <forestry:resourceStorage:2>
+    <techreborn:techreborn.storage2:9>
+Ore entries for <ore:blockBronze> :
+    <forestry:resourceStorage:3>
+Ore entries for <ore:craftingTableWood> :
+    <minecraft:crafting_table>
+Ore entries for <ore:doorWood> :
+    <forestry:doors.larch:*>
+    <forestry:doors.teak:*>
+    <forestry:doors.acacia:*>
+    <forestry:doors.lime:*>
+    <forestry:doors.chestnut:*>
+    <forestry:doors.wenge:*>
+    <forestry:doors.baobab:*>
+    <forestry:doors.sequoia:*>
+    <forestry:doors.kapok:*>
+    <forestry:doors.ebony:*>
+    <forestry:doors.mahogany:*>
+    <forestry:doors.balsa:*>
+    <forestry:doors.willow:*>
+    <forestry:doors.walnut:*>
+    <forestry:doors.greenheart:*>
+    <forestry:doors.cherry:*>
+    <forestry:doors.mahoe:*>
+    <forestry:doors.poplar:*>
+    <forestry:doors.palm:*>
+    <forestry:doors.papaya:*>
+    <forestry:doors.pine:*>
+    <forestry:doors.plum:*>
+    <forestry:doors.maple:*>
+    <forestry:doors.citrus:*>
+    <forestry:doors.giganteum:*>
+    <forestry:doors.ipe:*>
+    <forestry:doors.padauk:*>
+    <forestry:doors.cocobolo:*>
+    <forestry:doors.zebrawood:*>
+Ore entries for <ore:dropHoney> :
+    <forestry:honeyDrop>
+Ore entries for <ore:itemPollen> :
+    <forestry:pollen>
+Ore entries for <ore:dropHoneydew> :
+    <forestry:honeydew>
+Ore entries for <ore:dropRoyalJelly> :
+    <forestry:royalJelly>
+Ore entries for <ore:beeComb> :
+    <forestry:beeCombs:*>
+Ore entries for <ore:emptiedLetter> :
+    <forestry:letters:3>
+    <forestry:letters:19>
+    <forestry:letters:35>
+Ore entries for <ore:craftingPiston> :
+    <minecraft:piston>
+    <minecraft:sticky_piston>
+Ore entries for <ore:torchRedstoneActive> :
+    <minecraft:redstone_torch>
+Ore entries for <ore:materialEnderPearl> :
+    <minecraft:ender_pearl>
+Ore entries for <ore:nuggetIron> :
+    <opencomputers:material>
+    <techreborn:nuggets:23>
+Ore entries for <ore:chipDiamond> :
+    <opencomputers:material:30>
+Ore entries for <ore:oc:stoneEndstone> :
+    <minecraft:end_stone>
+    <opencomputers:endstone>
+Ore entries for <ore:drawerBasic> :
+    <storagedrawers:basicDrawers:*>
+Ore entries for <ore:oreGalena> :
+    <techreborn:techreborn.ore>
+Ore entries for <ore:oreIridium> :
+    <techreborn:techreborn.ore:1>
+Ore entries for <ore:oreRuby> :
+    <techreborn:techreborn.ore:2>
+Ore entries for <ore:oreSapphire> :
+    <techreborn:techreborn.ore:3>
+Ore entries for <ore:oreBauxite> :
+    <techreborn:techreborn.ore:4>
+Ore entries for <ore:orePyrite> :
+    <techreborn:techreborn.ore:5>
+Ore entries for <ore:oreCinnabar> :
+    <techreborn:techreborn.ore:6>
+Ore entries for <ore:oreSphalerite> :
+    <techreborn:techreborn.ore:7>
+Ore entries for <ore:oreTungston> :
+    <techreborn:techreborn.ore:8>
+Ore entries for <ore:oreSheldonite> :
+    <techreborn:techreborn.ore:9>
+Ore entries for <ore:orePeridot> :
+    <techreborn:techreborn.ore:10>
+Ore entries for <ore:oreSodalite> :
+    <techreborn:techreborn.ore:11>
+Ore entries for <ore:oreLead> :
+    <techreborn:techreborn.ore:12>
+Ore entries for <ore:oreSilver> :
+    <techreborn:techreborn.ore:13>
+Ore entries for <ore:blockSilver> :
+    <techreborn:techreborn.storage>
+Ore entries for <ore:blockAluminum> :
+    <techreborn:techreborn.storage:1>
+Ore entries for <ore:blockTitanium> :
+    <techreborn:techreborn.storage:2>
+Ore entries for <ore:blockChrome> :
+    <techreborn:techreborn.storage:3>
+Ore entries for <ore:blockSteel> :
+    <techreborn:techreborn.storage:4>
+Ore entries for <ore:blockBrass> :
+    <techreborn:techreborn.storage:5>
+Ore entries for <ore:blockLead> :
+    <techreborn:techreborn.storage:6>
+Ore entries for <ore:blockElectrum> :
+    <techreborn:techreborn.storage:7>
+Ore entries for <ore:blockZinc> :
+    <techreborn:techreborn.storage:8>
+Ore entries for <ore:blockPlatinum> :
+    <techreborn:techreborn.storage:9>
+Ore entries for <ore:blockTungsten> :
+    <techreborn:techreborn.storage:10>
+Ore entries for <ore:blockNickel> :
+    <techreborn:techreborn.storage:11>
+Ore entries for <ore:blockInvar> :
+    <techreborn:techreborn.storage:12>
+Ore entries for <ore:blockIridium> :
+    <techreborn:techreborn.storage:13>
+Ore entries for <ore:blockTungstensteel> :
+    <techreborn:techreborn.storage2>
+Ore entries for <ore:blockIridium_reinforced_tungstensteel> :
+    <techreborn:techreborn.storage2:1>
+Ore entries for <ore:blockIridium_reinforced_stone> :
+    <techreborn:techreborn.storage2:2>
+Ore entries for <ore:blockRuby> :
+    <techreborn:techreborn.storage2:3>
+Ore entries for <ore:blockSapphire> :
+    <techreborn:techreborn.storage2:4>
+Ore entries for <ore:blockPeridot> :
+    <techreborn:techreborn.storage2:5>
+Ore entries for <ore:blockYellowGarnet> :
+    <techreborn:techreborn.storage2:6>
+Ore entries for <ore:blockRedGarnet> :
+    <techreborn:techreborn.storage2:7>
+Ore entries for <ore:blockRefinedIron> :
+    <techreborn:techreborn.storage2:10>
+Ore entries for <ore:crafterWood> :
+    <minecraft:crafting_table>
+Ore entries for <ore:machineBasic> :
+    <techreborn:techreborn.machineFrame>
+Ore entries for <ore:saplingRubber> :
+    <techreborn:rubberSapling>
+Ore entries for <ore:logRubber> :
+    <techreborn:rubberLog:*>
+Ore entries for <ore:plankRubber> :
+    <techreborn:rubberPlanks:*>
+Ore entries for <ore:leavesRubber> :
+    <techreborn:rubberLeaves:*>
+Ore entries for <ore:fenceIron> :
+    <techreborn:ironFence>
+Ore entries for <ore:machineBlockBasic> :
+    <techreborn:techreborn.machineFrame>
+Ore entries for <ore:machineBlockAdvanced> :
+    <techreborn:techreborn.machineFrame:1>
+Ore entries for <ore:machineBlockHighlyAdvanced> :
+    <techreborn:techreborn.machineFrame:2>
+Ore entries for <ore:gemRuby> :
+    <techreborn:gem>
+Ore entries for <ore:gemSapphire> :
+    <techreborn:gem:1>
+Ore entries for <ore:gemPeridot> :
+    <techreborn:gem:2>
+Ore entries for <ore:gemRedGarnet> :
+    <techreborn:gem:3>
+Ore entries for <ore:gemYellowGarnet> :
+    <techreborn:gem:4>
+Ore entries for <ore:dustAlmandine> :
+    <techreborn:dust>
+Ore entries for <ore:dustAluminum> :
+    <techreborn:dust:1>
+Ore entries for <ore:dustAluminium> :
+    <techreborn:dust:1>
+Ore entries for <ore:dustAndesite> :
+    <techreborn:dust:61>
+Ore entries for <ore:dustAndradite> :
+    <techreborn:dust:2>
+Ore entries for <ore:dustBasalt> :
+    <techreborn:dust:4>
+Ore entries for <ore:dustBauxite> :
+    <techreborn:dust:5>
+Ore entries for <ore:dustBrass> :
+    <techreborn:dust:6>
+Ore entries for <ore:dustBronze> :
+    <techreborn:dust:7>
+Ore entries for <ore:dustCalcite> :
+    <techreborn:dust:8>
+Ore entries for <ore:dustCharcoal> :
+    <techreborn:dust:9>
+Ore entries for <ore:dustChrome> :
+    <techreborn:dust:10>
+Ore entries for <ore:dustCinnabar> :
+    <techreborn:dust:11>
+Ore entries for <ore:dustClay> :
+    <techreborn:dust:12>
+Ore entries for <ore:dustCoal> :
+    <techreborn:dust:13>
+    <bloodmagic:ItemComponent:21>
+Ore entries for <ore:dustCopper> :
+    <techreborn:dust:14>
+Ore entries for <ore:dustDarkAsh> :
+    <techreborn:dust:15>
+Ore entries for <ore:dustDiamond> :
+    <techreborn:dust:16>
+Ore entries for <ore:dustDiorite> :
+    <techreborn:dust:62>
+Ore entries for <ore:dustElectrum> :
+    <techreborn:dust:17>
+Ore entries for <ore:dustEmerald> :
+    <techreborn:dust:18>
+Ore entries for <ore:dustEnderEye> :
+    <techreborn:dust:19>
+Ore entries for <ore:dustEnderPearl> :
+    <techreborn:dust:20>
+Ore entries for <ore:dustEndstone> :
+    <techreborn:dust:21>
+Ore entries for <ore:dustFlint> :
+    <techreborn:dust:22>
+Ore entries for <ore:dustGalena> :
+    <techreborn:dust:23>
+Ore entries for <ore:dustGold> :
+    <techreborn:dust:24>
+    <bloodmagic:ItemComponent:20>
+Ore entries for <ore:dustGranite> :
+    <techreborn:dust:63>
+Ore entries for <ore:dustGrossular> :
+    <techreborn:dust:25>
+Ore entries for <ore:dustInvar> :
+    <techreborn:dust:26>
+Ore entries for <ore:dustIron> :
+    <techreborn:dust:27>
+    <bloodmagic:ItemComponent:19>
+Ore entries for <ore:dustLapis> :
+    <techreborn:dust:28>
+Ore entries for <ore:dustLazurite> :
+    <techreborn:dust:28>
+Ore entries for <ore:dustLead> :
+    <techreborn:dust:29>
+Ore entries for <ore:dustMagnesium> :
+    <techreborn:dust:30>
+Ore entries for <ore:dustManganese> :
+    <techreborn:dust:31>
+Ore entries for <ore:dustMarble> :
+    <techreborn:dust:32>
+Ore entries for <ore:dustNetherrack> :
+    <techreborn:dust:33>
+Ore entries for <ore:dustNickel> :
+    <techreborn:dust:34>
+Ore entries for <ore:dustObsidian> :
+    <techreborn:dust:35>
+Ore entries for <ore:dustPeridot> :
+    <techreborn:dust:36>
+Ore entries for <ore:dustPhosphorous> :
+    <techreborn:dust:37>
+Ore entries for <ore:dustPlatinum> :
+    <techreborn:dust:38>
+Ore entries for <ore:dustPyrite> :
+    <techreborn:dust:39>
+Ore entries for <ore:dustPyrope> :
+    <techreborn:dust:40>
+Ore entries for <ore:dustRedGarnet> :
+    <techreborn:dust:41>
+Ore entries for <ore:dustRuby> :
+    <techreborn:dust:43>
+Ore entries for <ore:dustSaltpeter> :
+    <techreborn:dust:44>
+Ore entries for <ore:dustSapphire> :
+    <techreborn:dust:45>
+Ore entries for <ore:dustSilver> :
+    <techreborn:dust:47>
+Ore entries for <ore:dustSodalite> :
+    <techreborn:dust:48>
+Ore entries for <ore:dustSpessartine> :
+    <techreborn:dust:49>
+Ore entries for <ore:dustSphalerite> :
+    <techreborn:dust:50>
+Ore entries for <ore:dustSteel> :
+    <techreborn:dust:51>
+Ore entries for <ore:dustSulfur> :
+    <techreborn:dust:52>
+Ore entries for <ore:dustTin> :
+    <techreborn:dust:53>
+Ore entries for <ore:dustTitanium> :
+    <techreborn:dust:54>
+Ore entries for <ore:dustTungsten> :
+    <techreborn:dust:55>
+Ore entries for <ore:dustUvarovite> :
+    <techreborn:dust:56>
+Ore entries for <ore:dustYellowGarnet> :
+    <techreborn:dust:58>
+Ore entries for <ore:dustZinc> :
+    <techreborn:dust:59>
+Ore entries for <ore:dustOlivine> :
+    <techreborn:dust:60>
+Ore entries for <ore:dustWood> :
+    <techreborn:dust:46>
+Ore entries for <ore:ingotAluminum> :
+    <techreborn:ingot>
+Ore entries for <ore:ingotAluminium> :
+    <techreborn:ingot>
+Ore entries for <ore:ingotBrass> :
+    <techreborn:ingot:1>
+Ore entries for <ore:ingotChrome> :
+    <techreborn:ingot:3>
+Ore entries for <ore:ingotElectrum> :
+    <techreborn:ingot:5>
+Ore entries for <ore:ingotInvar> :
+    <techreborn:ingot:6>
+Ore entries for <ore:ingotIridium> :
+    <techreborn:ingot:7>
+Ore entries for <ore:ingotLead> :
+    <techreborn:ingot:8>
+Ore entries for <ore:ingotNickel> :
+    <techreborn:ingot:9>
+Ore entries for <ore:ingotPlatinum> :
+    <techreborn:ingot:10>
+Ore entries for <ore:ingotSilver> :
+    <techreborn:ingot:11>
+Ore entries for <ore:ingotSteel> :
+    <techreborn:ingot:12>
+Ore entries for <ore:ingotTitanium> :
+    <techreborn:ingot:14>
+Ore entries for <ore:ingotTungsten> :
+    <techreborn:ingot:15>
+Ore entries for <ore:ingotTungstensteel> :
+    <techreborn:ingot:17>
+Ore entries for <ore:ingotHotTungstenSteel> :
+    <techreborn:ingot:16>
+Ore entries for <ore:ingotZinc> :
+    <techreborn:ingot:18>
+Ore entries for <ore:ingotRefinedIron> :
+    <techreborn:ingot:19>
+Ore entries for <ore:nuggetAluminum> :
+    <techreborn:nuggets>
+Ore entries for <ore:nuggetAluminium> :
+    <techreborn:nuggets>
+Ore entries for <ore:nuggetBrass> :
+    <techreborn:nuggets:1>
+Ore entries for <ore:nuggetBronze> :
+    <techreborn:nuggets:2>
+Ore entries for <ore:nuggetChrome> :
+    <techreborn:nuggets:3>
+Ore entries for <ore:nuggetCopper> :
+    <techreborn:nuggets:4>
+Ore entries for <ore:nuggetElectrum> :
+    <techreborn:nuggets:5>
+Ore entries for <ore:nuggetInvar> :
+    <techreborn:nuggets:6>
+Ore entries for <ore:nuggetIridium> :
+    <techreborn:nuggets:7>
+Ore entries for <ore:nuggetLead> :
+    <techreborn:nuggets:8>
+Ore entries for <ore:nuggetNickel> :
+    <techreborn:nuggets:9>
+Ore entries for <ore:nuggetPlatinum> :
+    <techreborn:nuggets:10>
+Ore entries for <ore:nuggetSilver> :
+    <techreborn:nuggets:11>
+Ore entries for <ore:nuggetSteel> :
+    <techreborn:nuggets:12>
+Ore entries for <ore:nuggetTin> :
+    <techreborn:nuggets:13>
+Ore entries for <ore:nuggetTitanium> :
+    <techreborn:nuggets:14>
+Ore entries for <ore:nuggetTungsten> :
+    <techreborn:nuggets:15>
+Ore entries for <ore:nuggetTungstensteel> :
+    <techreborn:nuggets:17>
+Ore entries for <ore:nuggetHotTungstenSteel> :
+    <techreborn:nuggets:16>
+Ore entries for <ore:nuggetZinc> :
+    <techreborn:nuggets:18>
+Ore entries for <ore:nuggetRefinedIron> :
+    <techreborn:nuggets:19>
+Ore entries for <ore:plateAluminum> :
+    <techreborn:plates>
+Ore entries for <ore:plateAluminium> :
+    <techreborn:plates>
+Ore entries for <ore:plateBrass> :
+    <techreborn:plates:1>
+Ore entries for <ore:plateBronze> :
+    <techreborn:plates:2>
+Ore entries for <ore:plateChrome> :
+    <techreborn:plates:3>
+Ore entries for <ore:plateCopper> :
+    <techreborn:plates:4>
+Ore entries for <ore:plateDiamond> :
+    <techreborn:plates:31>
+Ore entries for <ore:plateElectrum> :
+    <techreborn:plates:5>
+Ore entries for <ore:plateEmerald> :
+    <techreborn:plates:32>
+Ore entries for <ore:plateGold> :
+    <techreborn:plates:9>
+Ore entries for <ore:plateInvar> :
+    <techreborn:plates:6>
+Ore entries for <ore:plateIridium> :
+    <techreborn:plates:7>
+Ore entries for <ore:plateIron> :
+    <techreborn:plates:8>
+Ore entries for <ore:plateLapis> :
+    <techreborn:plates:33>
+Ore entries for <ore:plateLead> :
+    <techreborn:plates:10>
+Ore entries for <ore:plateMagnalium> :
+    <techreborn:plates:23>
+Ore entries for <ore:plateNickel> :
+    <techreborn:plates:11>
+Ore entries for <ore:plateObsidian> :
+    <techreborn:plates:35>
+Ore entries for <ore:platePeridot> :
+    <techreborn:plates:27>
+Ore entries for <ore:platePlatinum> :
+    <techreborn:plates:12>
+Ore entries for <ore:plateRedGarnet> :
+    <techreborn:plates:28>
+Ore entries for <ore:plateRedstone> :
+    <techreborn:plates:30>
+Ore entries for <ore:plateRuby> :
+    <techreborn:plates:25>
+Ore entries for <ore:plateSapphire> :
+    <techreborn:plates:26>
+Ore entries for <ore:plateSilicon> :
+    <techreborn:plates:24>
+Ore entries for <ore:plateSilver> :
+    <techreborn:plates:13>
+Ore entries for <ore:plateSteel> :
+    <techreborn:plates:14>
+Ore entries for <ore:plateTin> :
+    <techreborn:plates:15>
+Ore entries for <ore:plateTitanium> :
+    <techreborn:plates:16>
+Ore entries for <ore:plateTungsten> :
+    <techreborn:plates:17>
+Ore entries for <ore:plateTungstensteel> :
+    <techreborn:plates:18>
+Ore entries for <ore:plateYellowGarnet> :
+    <techreborn:plates:29>
+Ore entries for <ore:plateZinc> :
+    <techreborn:plates:19>
+Ore entries for <ore:diamondTR> :
+    <techreborn:dust:16>
+    <minecraft:diamond>
+Ore entries for <ore:craftingGrinder> :
+    <techreborn:part:4>
+    <techreborn:part:6>
+Ore entries for <ore:circuitElite> :
+    <techreborn:part:1>
+Ore entries for <ore:circuitData> :
+    <techreborn:part:2>
+Ore entries for <ore:craftingSuperconductor> :
+    <techreborn:part:17>
+Ore entries for <ore:batteryUltimate> :
+    <techreborn:part:4>
+Ore entries for <ore:containerWater> :
+    <techreborn:dynamicCell>.withTag({FluidName: "water", Amount: 1000})
+    <minecraft:water_bucket>
+Ore entries for <ore:materialResin> :
+    <techreborn:part:31>
+Ore entries for <ore:materialRubber> :
+    <techreborn:part:32>
+Ore entries for <ore:circuitBasic> :
+    <techreborn:part:29>
+Ore entries for <ore:circuitAdvanced> :
+    <techreborn:part:30>
+Ore entries for <ore:nuggetDiamond> :
+    <extrabitmanipulation:DiamondNugget>
+Ore entries for <ore:oc:adapter> :
+    <opencomputers:adapter>
+Ore entries for <ore:oc:assembler> :
+    <opencomputers:assembler>
+Ore entries for <ore:oc:cable> :
+    <opencomputers:cable:11250603>
+Ore entries for <ore:oc:capacitor> :
+    <opencomputers:capacitor>
+Ore entries for <ore:oc:case1> :
+    <opencomputers:case1>
+Ore entries for <ore:oc:case3> :
+    <opencomputers:case3>
+Ore entries for <ore:oc:case2> :
+    <opencomputers:case2>
+Ore entries for <ore:oc:chameliumBlock> :
+    <opencomputers:chameliumBlock>
+Ore entries for <ore:oc:charger> :
+    <opencomputers:charger>
+Ore entries for <ore:oc:disassembler> :
+    <opencomputers:disassembler>
+Ore entries for <ore:oc:diskDrive> :
+    <opencomputers:diskDrive>
+Ore entries for <ore:oc:geolyzer> :
+    <opencomputers:geolyzer>
+Ore entries for <ore:oc:hologram1> :
+    <opencomputers:hologram1>
+Ore entries for <ore:oc:hologram2> :
+    <opencomputers:hologram2>
+Ore entries for <ore:oc:keyboard> :
+    <opencomputers:keyboard>
+Ore entries for <ore:oc:motionSensor> :
+    <opencomputers:motionSensor>
+Ore entries for <ore:oc:powerConverter> :
+    <opencomputers:powerConverter>
+Ore entries for <ore:oc:powerDistributor> :
+    <opencomputers:powerDistributor>
+Ore entries for <ore:oc:printer> :
+    <opencomputers:printer>
+Ore entries for <ore:oc:raid> :
+    <opencomputers:raid>
+Ore entries for <ore:oc:redstone> :
+    <opencomputers:redstone>
+Ore entries for <ore:oc:relay> :
+    <opencomputers:relay>
+Ore entries for <ore:oc:screen1> :
+    <opencomputers:screen1>
+Ore entries for <ore:oc:screen3> :
+    <opencomputers:screen3>
+Ore entries for <ore:oc:screen2> :
+    <opencomputers:screen2>
+Ore entries for <ore:oc:rack> :
+    <opencomputers:rack>
+Ore entries for <ore:oc:waypoint> :
+    <opencomputers:waypoint>
+Ore entries for <ore:oc:netSplitter> :
+    <opencomputers:netSplitter>
+Ore entries for <ore:oc:transposer> :
+    <opencomputers:transposer>
+Ore entries for <ore:oc:materialCuttingWire> :
+    <opencomputers:material:1>
+Ore entries for <ore:oc:materialAcid> :
+    <opencomputers:material:2>
+Ore entries for <ore:oc:materialCircuitBoardRaw> :
+    <opencomputers:material:3>
+Ore entries for <ore:oc:materialCircuitBoard> :
+    <opencomputers:material:4>
+Ore entries for <ore:oc:materialCircuitBoardPrinted> :
+    <opencomputers:material:5>
+Ore entries for <ore:oc:materialCard> :
+    <opencomputers:material:6>
+Ore entries for <ore:oc:materialTransistor> :
+    <opencomputers:material:7>
+Ore entries for <ore:oc:circuitChip1> :
+    <opencomputers:material:8>
+Ore entries for <ore:oc:circuitChip2> :
+    <opencomputers:material:9>
+Ore entries for <ore:oc:circuitChip3> :
+    <opencomputers:material:10>
+Ore entries for <ore:oc:materialALU> :
+    <opencomputers:material:11>
+Ore entries for <ore:oc:materialCU> :
+    <opencomputers:material:12>
+Ore entries for <ore:oc:materialDisk> :
+    <opencomputers:material:13>
+Ore entries for <ore:oc:materialInterweb> :
+    <opencomputers:material:14>
+Ore entries for <ore:oc:materialButtonGroup> :
+    <opencomputers:material:15>
+Ore entries for <ore:oc:materialArrowKey> :
+    <opencomputers:material:16>
+Ore entries for <ore:oc:materialNumPad> :
+    <opencomputers:material:17>
+Ore entries for <ore:oc:tabletCase1> :
+    <opencomputers:material:18>
+Ore entries for <ore:oc:tabletCase2> :
+    <opencomputers:material:19>
+Ore entries for <ore:oc:microcontrollerCase1> :
+    <opencomputers:material:21>
+Ore entries for <ore:oc:microcontrollerCase2> :
+    <opencomputers:material:22>
+Ore entries for <ore:oc:droneCase1> :
+    <opencomputers:material:24>
+Ore entries for <ore:oc:droneCase2> :
+    <opencomputers:material:25>
+Ore entries for <ore:oc:inkCartridgeEmpty> :
+    <opencomputers:material:27>
+Ore entries for <ore:oc:inkCartridge> :
+    <opencomputers:material:28>
+Ore entries for <ore:oc:chamelium> :
+    <opencomputers:material:29>
+Ore entries for <ore:oc:analyzer> :
+    <opencomputers:tool>
+Ore entries for <ore:oc:terminal> :
+    <opencomputers:tool:2>
+Ore entries for <ore:oc:texturePicker> :
+    <opencomputers:tool:3>
+Ore entries for <ore:oc:manual> :
+    <opencomputers:tool:4>
+Ore entries for <ore:oc:wrench> :
+    <opencomputers:wrench>
+Ore entries for <ore:oc:hoverBoots> :
+    <opencomputers:hoverBoots>
+Ore entries for <ore:oc:nanomachines> :
+    <opencomputers:tool:5>
+Ore entries for <ore:oc:cpu1> :
+    <opencomputers:component>
+Ore entries for <ore:oc:cpu2> :
+    <opencomputers:component:1>
+Ore entries for <ore:oc:cpu3> :
+    <opencomputers:component:2>
+Ore entries for <ore:oc:componentBus1> :
+    <opencomputers:component:3>
+Ore entries for <ore:oc:componentBus2> :
+    <opencomputers:component:4>
+Ore entries for <ore:oc:componentBus3> :
+    <opencomputers:component:5>
+Ore entries for <ore:oc:ram1> :
+    <opencomputers:component:6>
+Ore entries for <ore:oc:ram2> :
+    <opencomputers:component:7>
+Ore entries for <ore:oc:ram3> :
+    <opencomputers:component:8>
+Ore entries for <ore:oc:ram4> :
+    <opencomputers:component:9>
+Ore entries for <ore:oc:ram5> :
+    <opencomputers:component:10>
+Ore entries for <ore:oc:ram6> :
+    <opencomputers:component:11>
+Ore entries for <ore:oc:server1> :
+    <opencomputers:component:13>
+Ore entries for <ore:oc:server2> :
+    <opencomputers:component:14>
+Ore entries for <ore:oc:server3> :
+    <opencomputers:component:15>
+Ore entries for <ore:oc:apu1> :
+    <opencomputers:component:16>
+Ore entries for <ore:oc:apu2> :
+    <opencomputers:component:17>
+Ore entries for <ore:oc:terminalServer> :
+    <opencomputers:component:19>
+Ore entries for <ore:oc:diskDriveMountable> :
+    <opencomputers:component:20>
+Ore entries for <ore:oc:graphicsCard1> :
+    <opencomputers:card:1>
+Ore entries for <ore:oc:graphicsCard2> :
+    <opencomputers:card:2>
+Ore entries for <ore:oc:graphicsCard3> :
+    <opencomputers:card:3>
+Ore entries for <ore:oc:redstoneCard1> :
+    <opencomputers:card:4>
+Ore entries for <ore:oc:redstoneCard2> :
+    <opencomputers:card:5>
+Ore entries for <ore:oc:lanCard> :
+    <opencomputers:card:6>
+Ore entries for <ore:oc:wlanCard> :
+    <opencomputers:card:7>
+Ore entries for <ore:oc:internetCard> :
+    <opencomputers:card:8>
+Ore entries for <ore:oc:linkedCard> :
+    <opencomputers:card:9>
+Ore entries for <ore:oc:dataCard1> :
+    <opencomputers:card:10>
+Ore entries for <ore:oc:dataCard2> :
+    <opencomputers:card:11>
+Ore entries for <ore:oc:dataCard3> :
+    <opencomputers:card:12>
+Ore entries for <ore:oc:angelUpgrade> :
+    <opencomputers:upgrade>
+Ore entries for <ore:oc:batteryUpgrade1> :
+    <opencomputers:upgrade:1>
+Ore entries for <ore:oc:batteryUpgrade2> :
+    <opencomputers:upgrade:2>
+Ore entries for <ore:oc:batteryUpgrade3> :
+    <opencomputers:upgrade:3>
+Ore entries for <ore:oc:chunkloaderUpgrade> :
+    <opencomputers:upgrade:4>
+Ore entries for <ore:oc:cardContainer1> :
+    <opencomputers:upgrade:5>
+Ore entries for <ore:oc:cardContainer2> :
+    <opencomputers:upgrade:6>
+Ore entries for <ore:oc:cardContainer3> :
+    <opencomputers:upgrade:7>
+Ore entries for <ore:oc:upgradeContainer1> :
+    <opencomputers:upgrade:8>
+Ore entries for <ore:oc:upgradeContainer2> :
+    <opencomputers:upgrade:9>
+Ore entries for <ore:oc:upgradeContainer3> :
+    <opencomputers:upgrade:10>
+Ore entries for <ore:oc:craftingUpgrade> :
+    <opencomputers:upgrade:11>
+Ore entries for <ore:oc:databaseUpgrade1> :
+    <opencomputers:upgrade:12>
+Ore entries for <ore:oc:databaseUpgrade2> :
+    <opencomputers:upgrade:13>
+Ore entries for <ore:oc:databaseUpgrade3> :
+    <opencomputers:upgrade:14>
+Ore entries for <ore:oc:experienceUpgrade> :
+    <opencomputers:upgrade:15>
+Ore entries for <ore:oc:generatorUpgrade> :
+    <opencomputers:upgrade:16>
+Ore entries for <ore:oc:inventoryUpgrade> :
+    <opencomputers:upgrade:17>
+Ore entries for <ore:oc:inventoryControllerUpgrade> :
+    <opencomputers:upgrade:18>
+Ore entries for <ore:oc:navigationUpgrade> :
+    <opencomputers:upgrade:19>
+Ore entries for <ore:oc:pistonUpgrade> :
+    <opencomputers:upgrade:20>
+Ore entries for <ore:oc:signUpgrade> :
+    <opencomputers:upgrade:21>
+Ore entries for <ore:oc:solarGeneratorUpgrade> :
+    <opencomputers:upgrade:22>
+Ore entries for <ore:oc:tankUpgrade> :
+    <opencomputers:upgrade:23>
+Ore entries for <ore:oc:tankControllerUpgrade> :
+    <opencomputers:upgrade:24>
+Ore entries for <ore:oc:tractorBeamUpgrade> :
+    <opencomputers:upgrade:25>
+Ore entries for <ore:oc:leashUpgrade> :
+    <opencomputers:upgrade:26>
+Ore entries for <ore:oc:hoverUpgrade1> :
+    <opencomputers:upgrade:27>
+Ore entries for <ore:oc:hoverUpgrade2> :
+    <opencomputers:upgrade:28>
+Ore entries for <ore:oc:tradingUpgrade> :
+    <opencomputers:upgrade:29>
+Ore entries for <ore:oc:eeprom> :
+    <opencomputers:storage>
+Ore entries for <ore:oc:floppy> :
+    <opencomputers:storage:1>
+Ore entries for <ore:oc:hdd1> :
+    <opencomputers:storage:2>
+Ore entries for <ore:oc:hdd2> :
+    <opencomputers:storage:3>
+Ore entries for <ore:oc:hdd3> :
+    <opencomputers:storage:4>
